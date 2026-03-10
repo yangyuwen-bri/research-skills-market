@@ -1,0 +1,31 @@
+{
+  "name": "geoffrey",
+  "owner": {
+    "name": "Kris Hagel",
+    "email": "kris@krishagel.com"
+  },
+  "metadata": {
+    "description": "Personal AI infrastructure - learning-enabled assistant for work, travel, and personal tasks",
+    "version": "0.24.1"
+  },
+  "pluginRoot": ".",
+  "plugins": [
+    {
+      "name": "geoffrey",
+      "source": "./",
+      "description": "Personal AI infrastructure with learning-enabled assistance for work, travel, and personal tasks",
+      "version": "0.24.1",
+      "category": "productivity",
+      "keywords": [
+        "personal-ai",
+        "learning",
+        "preferences",
+        "assistant",
+        "travel",
+        "productivity",
+        "strategic-planning",
+        "omnifocus"
+      ]
+    }
+  ]
+}

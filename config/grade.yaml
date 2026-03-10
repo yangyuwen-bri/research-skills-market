@@ -1,0 +1,33 @@
+# 评分阈值配置（可按季度调整）
+scoring:
+  weights:
+    code_quality: 0.20
+    docs: 0.10
+    maintainability: 0.20
+    maturity: 0.20
+    usability: 0.20
+    security: 0.10
+
+  levels:
+    direct_use:
+      min_total: 4.3
+      min_security: 4
+    needs_improve:
+      min_total: 3.0
+      max_total: 4.299
+      blocking_security_max: 2
+    reference_only:
+      min_total: 2.0
+      max_total: 2.999
+    reject:
+      max_total: 1.999
+      max_security: 2
+
+  tester:
+    min_pass_rate: 0.80
+    min_cases_per_skill: 3
+    fail_retune_days: 3
+
+status_flow:
+  pass_to_curation: ["可直接用", "需小改"]
+  block_to_archive: ["不推荐"]

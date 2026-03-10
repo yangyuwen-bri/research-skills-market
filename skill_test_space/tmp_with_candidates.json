@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "agent-browser",
+    "name": "Agent Browser",
+    "stars": 258,
+    "downloads": 50665,
+    "source_url": "https://github.com/TheSethRose/agent-browser",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "api-gateway",
+    "name": "API Gateway",
+    "stars": 112,
+    "downloads": 27154,
+    "source_url": "https://github.com/byungkyu/api-gateway",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "find-skills",
+    "name": "Find Skills",
+    "stars": 194,
+    "downloads": 53602,
+    "source_url": "https://github.com/JimLiuxinghai/find-skills",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "free-ride",
+    "name": "Free Ride - Unlimited free AI",
+    "stars": 146,
+    "downloads": 23333,
+    "source_url": "https://github.com/Shaivpidadi/free-ride",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "gog",
+    "name": "Gog",
+    "stars": 517,
+    "downloads": 67055,
+    "source_url": "https://github.com/steipete/gog",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "humanizer",
+    "name": "Humanizer",
+    "stars": 0,
+    "downloads": 194,
+    "source_url": "https://github.com/ActualCWhitlock/humanizer-2",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "nano-banana-pro",
+    "name": "Nano Banana Pro",
+    "stars": 117,
+    "downloads": 26838,
+    "source_url": "https://github.com/steipete/nano-banana-pro",
+    "no_key_skill_text": true,
+    "notes": "keyword match in skill doc"
+  },
+  {
+    "slug": "ontology",
+    "name": "Ontology",
+    "stars": 123,
+    "downloads": 61807,
+    "source_url": "https://github.com/oswalpalash/ontology",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "openai-whisper",
+    "name": "Openai Whisper",
+    "stars": 116,
+    "downloads": 23538,
+    "source_url": "https://github.com/steipete/openai-whisper",
+    "no_key_skill_text": true,
+    "notes": "keyword match in skill doc"
+  },
+  {
+    "slug": "polymarketodds",
+    "name": "Polymarket",
+    "stars": 77,
+    "downloads": 36270,
+    "source_url": "https://github.com/joelchance/polymarketodds",
+    "no_key_skill_text": true,
+    "notes": "keyword match in skill doc"
+  },
+  {
+    "slug": "proactive-agent",
+    "name": "Proactive Agent",
+    "stars": 251,
+    "downloads": 40053,
+    "source_url": "https://github.com/halthelobster/proactive-agent",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "self-improving-agent",
+    "name": "self-improving-agent",
+    "stars": 702,
+    "downloads": 63356,
+    "source_url": "https://github.com/pskoett/self-improving-agent",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "summarize",
+    "name": "Summarize",
+    "stars": 235,
+    "downloads": 52626,
+    "source_url": "https://github.com/steipete/summarize",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "tavily-search",
+    "name": "Tavily Web Search",
+    "stars": 242,
+    "downloads": 59125,
+    "source_url": "https://github.com/arun-8687/tavily-search",
+    "no_key_skill_text": false,
+    "notes": "manual review needed"
+  },
+  {
+    "slug": "weather",
+    "name": "weather",
+    "stars": 2,
+    "downloads": 131,
+    "source_url": "https://github.com/maomaoshuo/maomao-weather",
+    "no_key_skill_text": true,
+    "notes": "keyword match in skill doc"
+  }
+]

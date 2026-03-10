@@ -1,0 +1,5142 @@
+{
+  "entries_total": 723,
+  "entries_with_repo_url": 644,
+  "valid": 74,
+  "invalid": 542,
+  "unknown": 28,
+  "updated_entries": 542,
+  "invalid_items": [
+    {
+      "repo_url": "https://github.com/ide-rea/baidu-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ide-rea/baidu-search",
+      "reason": "",
+      "title": "baidu web search",
+      "source_url": "https://clawhub.ai/skills/baidu-search"
+    },
+    {
+      "repo_url": "https://github.com/ide-rea/baidu-scholar-search-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ide-rea/baidu-scholar-search-skill",
+      "reason": "",
+      "title": "baidu scholar search",
+      "source_url": "https://clawhub.ai/skills/baidu-scholar-search-skill"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/us-stock-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/us-stock-analysis",
+      "reason": "",
+      "title": "Us Stock Analysis",
+      "source_url": "https://clawhub.ai/skills/us-stock-analysis"
+    },
+    {
+      "repo_url": "https://github.com/Michaelgathara/youtube-watcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Michaelgathara/youtube-watcher",
+      "reason": "",
+      "title": "YouTube Watcher",
+      "source_url": "https://clawhub.ai/skills/youtube-watcher"
+    },
+    {
+      "repo_url": "https://github.com/kys42/stock-market-pro",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/kys42/stock-market-pro",
+      "reason": "",
+      "title": "Stock Market Pro",
+      "source_url": "https://clawhub.ai/skills/stock-market-pro"
+    },
+    {
+      "repo_url": "https://github.com/udiedrichsen/stock-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/udiedrichsen/stock-analysis",
+      "reason": "",
+      "title": "Stock Analysis",
+      "source_url": "https://clawhub.ai/skills/stock-analysis"
+    },
+    {
+      "repo_url": "https://github.com/billyutw/web-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/billyutw/web-search",
+      "reason": "",
+      "title": "Web Search",
+      "source_url": "https://clawhub.ai/skills/web-search"
+    },
+    {
+      "repo_url": "https://github.com/steipete/obsidian",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/steipete/obsidian",
+      "reason": "",
+      "title": "Obsidian",
+      "source_url": "https://clawhub.ai/skills/obsidian"
+    },
+    {
+      "repo_url": "https://github.com/bert-builder/tavily",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bert-builder/tavily",
+      "reason": "",
+      "title": "Tavily AI Search",
+      "source_url": "https://clawhub.ai/skills/tavily"
+    },
+    {
+      "repo_url": "https://github.com/byteroverinc/byterover",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/byteroverinc/byterover",
+      "reason": "",
+      "title": "ByteRover",
+      "source_url": "https://clawhub.ai/skills/byterover"
+    },
+    {
+      "repo_url": "https://github.com/mxfeinberg/google-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mxfeinberg/google-search",
+      "reason": "",
+      "title": "google-search",
+      "source_url": "https://clawhub.ai/skills/google-search"
+    },
+    {
+      "repo_url": "https://github.com/arun-8687/gemini-deep-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/arun-8687/gemini-deep-research",
+      "reason": "",
+      "title": "Gemini Deep Research",
+      "source_url": "https://clawhub.ai/skills/gemini-deep-research"
+    },
+    {
+      "repo_url": "https://github.com/kesslerio/academic-deep-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/kesslerio/academic-deep-research",
+      "reason": "",
+      "title": "Academic Deep Research",
+      "source_url": "https://clawhub.ai/skills/academic-deep-research"
+    },
+    {
+      "repo_url": "https://github.com/byungkyu/microsoft-excel",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/byungkyu/microsoft-excel",
+      "reason": "",
+      "title": "Microsoft Excel",
+      "source_url": "https://clawhub.ai/skills/microsoft-excel"
+    },
+    {
+      "repo_url": "https://github.com/byungkyu/google-analytics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/byungkyu/google-analytics",
+      "reason": "",
+      "title": "Google Analytics",
+      "source_url": "https://clawhub.ai/skills/google-analytics"
+    },
+    {
+      "repo_url": "https://github.com/Michael-laffin/pdf-text-extractor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Michael-laffin/pdf-text-extractor",
+      "reason": "",
+      "title": "PDF Text Extractor",
+      "source_url": "https://clawhub.ai/skills/pdf-text-extractor"
+    },
+    {
+      "repo_url": "https://github.com/oyi77/data-analyst",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/oyi77/data-analyst",
+      "reason": "",
+      "title": "Data Analyst",
+      "source_url": "https://clawhub.ai/skills/data-analyst"
+    },
+    {
+      "repo_url": "https://github.com/steipete/notion",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/steipete/notion",
+      "reason": "",
+      "title": "Notion",
+      "source_url": "https://clawhub.ai/skills/notion"
+    },
+    {
+      "repo_url": "https://github.com/Whiteknight07/exa-web-search-free",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Whiteknight07/exa-web-search-free",
+      "reason": "",
+      "title": "Exa Web Search (Free)",
+      "source_url": "https://clawhub.ai/skills/exa-web-search-free"
+    },
+    {
+      "repo_url": "https://github.com/theishangoswami/web-search-exa",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/theishangoswami/web-search-exa",
+      "reason": "",
+      "title": "Web Search by Exa",
+      "source_url": "https://clawhub.ai/skills/web-search-exa"
+    },
+    {
+      "repo_url": "https://github.com/rubenfb23/arxiv-watcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rubenfb23/arxiv-watcher",
+      "reason": "",
+      "title": "ArXiv Watcher",
+      "source_url": "https://clawhub.ai/skills/arxiv-watcher"
+    },
+    {
+      "repo_url": "https://github.com/clawdbot51-oss/supermemory",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/clawdbot51-oss/supermemory",
+      "reason": "",
+      "title": "Supermemory",
+      "source_url": "https://clawhub.ai/skills/supermemory"
+    },
+    {
+      "repo_url": "https://github.com/kys42/stock-info-explorer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/kys42/stock-info-explorer",
+      "reason": "",
+      "title": "Stock Info Explorer",
+      "source_url": "https://clawhub.ai/skills/stock-info-explorer"
+    },
+    {
+      "repo_url": "https://github.com/dowands/reddit-insights",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dowands/reddit-insights",
+      "reason": "",
+      "title": "Reddit Insights",
+      "source_url": "https://clawhub.ai/skills/reddit-insights"
+    },
+    {
+      "repo_url": "https://github.com/halthelobster/para-second-brain",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/halthelobster/para-second-brain",
+      "reason": "",
+      "title": "PARA Second Brain",
+      "source_url": "https://clawhub.ai/skills/para-second-brain"
+    },
+    {
+      "repo_url": "https://github.com/Xejrax/pdf-extract",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Xejrax/pdf-extract",
+      "reason": "",
+      "title": "Pdf Extract",
+      "source_url": "https://clawhub.ai/skills/pdf-extract"
+    },
+    {
+      "repo_url": "https://github.com/javicasper/reddit-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/javicasper/reddit-scraper",
+      "reason": "",
+      "title": "Reddit Scraper",
+      "source_url": "https://clawhub.ai/skills/reddit-scraper"
+    },
+    {
+      "repo_url": "https://github.com/adamkristopher/ga4-analytics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/adamkristopher/ga4-analytics",
+      "reason": "",
+      "title": "GA4 Analytics",
+      "source_url": "https://clawhub.ai/skills/ga4-analytics"
+    },
+    {
+      "repo_url": "https://github.com/christinetyip/second-brain",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/christinetyip/second-brain",
+      "reason": "",
+      "title": "Second Brain: Turn conversations into lasting knowledge",
+      "source_url": "https://clawhub.ai/skills/second-brain"
+    },
+    {
+      "repo_url": "https://github.com/bastos/obsidian-daily",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bastos/obsidian-daily",
+      "reason": "",
+      "title": "Obsidian Daily",
+      "source_url": "https://clawhub.ai/skills/obsidian-daily"
+    },
+    {
+      "repo_url": "https://github.com/zats/last30days",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zats/last30days",
+      "reason": "",
+      "title": "Last 30 Days",
+      "source_url": "https://clawhub.ai/skills/last30days"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/data-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/data-analysis",
+      "reason": "",
+      "title": "Data Analysis",
+      "source_url": "https://clawhub.ai/skills/data-analysis"
+    },
+    {
+      "repo_url": "https://github.com/totaleasy/crypto-self-learning",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/totaleasy/crypto-self-learning",
+      "reason": "",
+      "title": "Crypto Self-Learning",
+      "source_url": "https://clawhub.ai/skills/crypto-self-learning"
+    },
+    {
+      "repo_url": "https://github.com/hiehoo/polymarket-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hiehoo/polymarket-analysis",
+      "reason": "",
+      "title": "Polymarket Analysis",
+      "source_url": "https://clawhub.ai/skills/polymarket-analysis"
+    },
+    {
+      "repo_url": "https://github.com/Dimagious/notion-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Dimagious/notion-skill",
+      "reason": "",
+      "title": "Notion",
+      "source_url": "https://clawhub.ai/skills/notion-skill"
+    },
+    {
+      "repo_url": "https://github.com/Andretuta/polymarket-agent",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Andretuta/polymarket-agent",
+      "reason": "",
+      "title": "Polymarket Agent",
+      "source_url": "https://clawhub.ai/skills/polymarket-agent"
+    },
+    {
+      "repo_url": "https://github.com/gpyAngyoujun/multi-search-engine",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/gpyAngyoujun/multi-search-engine",
+      "reason": "",
+      "title": "Multi Search Engine",
+      "source_url": "https://clawhub.ai/skills/multi-search-engine"
+    },
+    {
+      "repo_url": "https://github.com/dannyshmueli/chart-image",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dannyshmueli/chart-image",
+      "reason": "",
+      "title": "Chart Image",
+      "source_url": "https://clawhub.ai/skills/chart-image"
+    },
+    {
+      "repo_url": "https://github.com/RuslanLanket/obsidian-direct",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/RuslanLanket/obsidian-direct",
+      "reason": "",
+      "title": "Obsidian - read, search, write and edit direct to obsidian vault.",
+      "source_url": "https://clawhub.ai/skills/obsidian-direct"
+    },
+    {
+      "repo_url": "https://github.com/jiacode/deepresearchwork",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jiacode/deepresearchwork",
+      "reason": "",
+      "title": "Deep Research Work From Xian.LaoJ",
+      "source_url": "https://clawhub.ai/skills/deepresearchwork"
+    },
+    {
+      "repo_url": "https://github.com/weird-aftertaste/literature-review",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/weird-aftertaste/literature-review",
+      "reason": "",
+      "title": "Literature Review",
+      "source_url": "https://clawhub.ai/skills/literature-review"
+    },
+    {
+      "repo_url": "https://github.com/nitishgargiitd/research-cog",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nitishgargiitd/research-cog",
+      "reason": "",
+      "title": "research-cog",
+      "source_url": "https://clawhub.ai/skills/research-cog"
+    },
+    {
+      "repo_url": "https://github.com/guogang1024/trend-watcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/guogang1024/trend-watcher",
+      "reason": "",
+      "title": "Trend Watcher",
+      "source_url": "https://clawhub.ai/skills/trend-watcher"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/research-paper-writer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/research-paper-writer",
+      "reason": "",
+      "title": "Research Paper Writer",
+      "source_url": "https://clawhub.ai/skills/research-paper-writer"
+    },
+    {
+      "repo_url": "https://github.com/Amanbhandula/agentarxiv",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Amanbhandula/agentarxiv",
+      "reason": "",
+      "title": "AgentArxiv",
+      "source_url": "https://clawhub.ai/skills/agentarxiv"
+    },
+    {
+      "repo_url": "https://github.com/rpeters511/searxng-bangs",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rpeters511/searxng-bangs",
+      "reason": "",
+      "title": "Privacy-first web search with DuckDuckGo-style bangs (!w, !yt, !gh)",
+      "source_url": "https://clawhub.ai/skills/searxng-bangs"
+    },
+    {
+      "repo_url": "https://github.com/Fadeloo/tiangong-notebooklm-cli",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Fadeloo/tiangong-notebooklm-cli",
+      "reason": "",
+      "title": "NotebookLM CLI",
+      "source_url": "https://clawhub.ai/skills/tiangong-notebooklm-cli"
+    },
+    {
+      "repo_url": "https://github.com/StanleyChanH/tushare-finance",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/StanleyChanH/tushare-finance",
+      "reason": "",
+      "title": "tushare-finance",
+      "source_url": "https://clawhub.ai/skills/tushare-finance"
+    },
+    {
+      "repo_url": "https://github.com/DobrinAlexandru/aubrai-longevity",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DobrinAlexandru/aubrai-longevity",
+      "reason": "",
+      "title": "Aubrai Longevity Research",
+      "source_url": "https://clawhub.ai/skills/aubrai-longevity"
+    },
+    {
+      "repo_url": "https://github.com/theoseo/google-web-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/theoseo/google-web-search",
+      "reason": "",
+      "title": "Google Web Search",
+      "source_url": "https://clawhub.ai/skills/google-web-search"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/backtest-expert",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/backtest-expert",
+      "reason": "",
+      "title": "Backtest Expert",
+      "source_url": "https://clawhub.ai/skills/backtest-expert"
+    },
+    {
+      "repo_url": "https://github.com/jhillin8/newsletter-digest",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jhillin8/newsletter-digest",
+      "reason": "",
+      "title": "Newsletter Digest",
+      "source_url": "https://clawhub.ai/skills/newsletter-digest"
+    },
+    {
+      "repo_url": "https://github.com/capt-marbles/firecrawler",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/capt-marbles/firecrawler",
+      "reason": "",
+      "title": "Firecrawler",
+      "source_url": "https://clawhub.ai/skills/firecrawler"
+    },
+    {
+      "repo_url": "https://github.com/noypearl/yahoo-data-fetcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/noypearl/yahoo-data-fetcher",
+      "reason": "",
+      "title": "yahoo fetch data of stonks",
+      "source_url": "https://clawhub.ai/skills/yahoo-data-fetcher"
+    },
+    {
+      "repo_url": "https://github.com/ChocomintX/xiaohongshutools",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ChocomintX/xiaohongshutools",
+      "reason": "",
+      "title": "小红书",
+      "source_url": "https://clawhub.ai/skills/xiaohongshutools"
+    },
+    {
+      "repo_url": "https://github.com/Ractorrr/arxiv",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Ractorrr/arxiv",
+      "reason": "",
+      "title": "arXiv Research Assistant",
+      "source_url": "https://clawhub.ai/skills/arxiv"
+    },
+    {
+      "repo_url": "https://github.com/emsin44/synth-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/emsin44/synth-data",
+      "reason": "",
+      "title": "Synth Data",
+      "source_url": "https://clawhub.ai/skills/synth-data"
+    },
+    {
+      "repo_url": "https://github.com/therohitdas/video-transcript",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/therohitdas/video-transcript",
+      "reason": "",
+      "title": "Video Transcript",
+      "source_url": "https://clawhub.ai/skills/video-transcript"
+    },
+    {
+      "repo_url": "https://github.com/Shaharsha/tavily-search-pro",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Shaharsha/tavily-search-pro",
+      "reason": "",
+      "title": "Tavily Search Pro",
+      "source_url": "https://clawhub.ai/skills/tavily-search-pro"
+    },
+    {
+      "repo_url": "https://github.com/therohitdas/transcript",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/therohitdas/transcript",
+      "reason": "",
+      "title": "Transcript",
+      "source_url": "https://clawhub.ai/skills/transcript"
+    },
+    {
+      "repo_url": "https://github.com/dylanbaker24/last30days-lite",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dylanbaker24/last30days-lite",
+      "reason": "",
+      "title": "Last 30 Days (Lite)",
+      "source_url": "https://clawhub.ai/skills/last30days-lite"
+    },
+    {
+      "repo_url": "https://github.com/dpaluy/qmd-cli",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dpaluy/qmd-cli",
+      "reason": "",
+      "title": "QMD CLI",
+      "source_url": "https://clawhub.ai/skills/qmd-cli"
+    },
+    {
+      "repo_url": "https://github.com/CamelSprout/duckdb-cli-ai-skills",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/CamelSprout/duckdb-cli-ai-skills",
+      "reason": "",
+      "title": "DuckDB CLI skills",
+      "source_url": "https://clawhub.ai/skills/duckdb-cli-ai-skills"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/cryptocurrency-trader-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/cryptocurrency-trader-skill",
+      "reason": "",
+      "title": "Cryptocurrency Trader",
+      "source_url": "https://clawhub.ai/skills/cryptocurrency-trader-skill"
+    },
+    {
+      "repo_url": "https://github.com/noblepayne/searxng-local-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/noblepayne/searxng-local-search",
+      "reason": "",
+      "title": "Searxng Web Search",
+      "source_url": "https://clawhub.ai/skills/searxng-local-search"
+    },
+    {
+      "repo_url": "https://github.com/guogang1024/research-engine",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/guogang1024/research-engine",
+      "reason": "",
+      "title": "Research-engine",
+      "source_url": "https://clawhub.ai/skills/research-engine"
+    },
+    {
+      "repo_url": "https://github.com/steamb23/naver-news",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/steamb23/naver-news",
+      "reason": "",
+      "title": "Naver news Search",
+      "source_url": "https://clawhub.ai/skills/naver-news"
+    },
+    {
+      "repo_url": "https://github.com/NormallyGaussian/parallel-deep-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/NormallyGaussian/parallel-deep-research",
+      "reason": "",
+      "title": "Parallel Deep Research",
+      "source_url": "https://clawhub.ai/skills/parallel-deep-research"
+    },
+    {
+      "repo_url": "https://github.com/mjaskolski/elicitation",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mjaskolski/elicitation",
+      "reason": "",
+      "title": "Elicitation - how to talk with humans and ask them questions?",
+      "source_url": "https://clawhub.ai/skills/elicitation"
+    },
+    {
+      "repo_url": "https://github.com/EasonAI-5589/mineru",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/EasonAI-5589/mineru",
+      "reason": "",
+      "title": "MinerU PDF Parser",
+      "source_url": "https://clawhub.ai/skills/mineru"
+    },
+    {
+      "repo_url": "https://github.com/gitgoodordietrying/csv-pipeline",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/gitgoodordietrying/csv-pipeline",
+      "reason": "",
+      "title": "CSV Data Pipeline",
+      "source_url": "https://clawhub.ai/skills/csv-pipeline"
+    },
+    {
+      "repo_url": "https://github.com/bheemreddy181/qmd-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bheemreddy181/qmd-search",
+      "reason": "",
+      "title": "qmd Search",
+      "source_url": "https://clawhub.ai/skills/qmd-search"
+    },
+    {
+      "repo_url": "https://github.com/levineam/qmd-external",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/levineam/qmd-external",
+      "reason": "",
+      "title": "qmd External Knowledge Base Search",
+      "source_url": "https://clawhub.ai/skills/qmd-external"
+    },
+    {
+      "repo_url": "https://github.com/jlpJavaWayUp/baidu-scholar-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jlpJavaWayUp/baidu-scholar-search",
+      "reason": "",
+      "title": "baidu scholar search",
+      "source_url": "https://clawhub.ai/skills/baidu-scholar-search"
+    },
+    {
+      "repo_url": "https://github.com/kesslerio/oura-analytics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/kesslerio/oura-analytics",
+      "reason": "",
+      "title": "Oura Ring Analytics",
+      "source_url": "https://clawhub.ai/skills/oura-analytics"
+    },
+    {
+      "repo_url": "https://github.com/bjesuiter/nb",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bjesuiter/nb",
+      "reason": "",
+      "title": "Nb",
+      "source_url": "https://clawhub.ai/skills/nb"
+    },
+    {
+      "repo_url": "https://github.com/zorrong/computer-vision-expert",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zorrong/computer-vision-expert",
+      "reason": "",
+      "title": "Computer Vision Expert",
+      "source_url": "https://clawhub.ai/skills/computer-vision-expert"
+    },
+    {
+      "repo_url": "https://github.com/TheSethRose/notebook",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/TheSethRose/notebook",
+      "reason": "",
+      "title": "Notebook",
+      "source_url": "https://clawhub.ai/skills/notebook"
+    },
+    {
+      "repo_url": "https://github.com/francisbrero/confluence",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/francisbrero/confluence",
+      "reason": "",
+      "title": "Confluence",
+      "source_url": "https://clawhub.ai/skills/confluence"
+    },
+    {
+      "repo_url": "https://github.com/nitishgargiitd/dash-cog",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nitishgargiitd/dash-cog",
+      "reason": "",
+      "title": "dash-cog",
+      "source_url": "https://clawhub.ai/skills/dash-cog"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/institutional-flow-tracker",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/institutional-flow-tracker",
+      "reason": "",
+      "title": "Institutional Flow Tracker",
+      "source_url": "https://clawhub.ai/skills/institutional-flow-tracker"
+    },
+    {
+      "repo_url": "https://github.com/nkapila6/local-rag-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nkapila6/local-rag-search",
+      "reason": "",
+      "title": "Local Rag Search",
+      "source_url": "https://clawhub.ai/skills/local-rag-search"
+    },
+    {
+      "repo_url": "https://github.com/ruhrpotter/oura",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ruhrpotter/oura",
+      "reason": "",
+      "title": "Oura Ring Integration",
+      "source_url": "https://clawhub.ai/skills/oura"
+    },
+    {
+      "repo_url": "https://github.com/dial481/penfield",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dial481/penfield",
+      "reason": "",
+      "title": "Penfield",
+      "source_url": "https://clawhub.ai/skills/penfield"
+    },
+    {
+      "repo_url": "https://github.com/xenofex7/bookstack",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xenofex7/bookstack",
+      "reason": "",
+      "title": "BookStack",
+      "source_url": "https://clawhub.ai/skills/bookstack"
+    },
+    {
+      "repo_url": "https://github.com/alirezarezvani/risk-management-specialist",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/alirezarezvani/risk-management-specialist",
+      "reason": "",
+      "title": "Risk Management Specialist",
+      "source_url": "https://clawhub.ai/skills/risk-management-specialist"
+    },
+    {
+      "repo_url": "https://github.com/drakec48/polymarket-trader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/drakec48/polymarket-trader",
+      "reason": "",
+      "title": "Polymarket Trader",
+      "source_url": "https://clawhub.ai/skills/polymarket-trader"
+    },
+    {
+      "repo_url": "https://github.com/fpsjago/trading-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/fpsjago/trading-research",
+      "reason": "",
+      "title": "Trading Research",
+      "source_url": "https://clawhub.ai/skills/trading-research"
+    },
+    {
+      "repo_url": "https://github.com/garrrikkotua/octolens",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/garrrikkotua/octolens",
+      "reason": "",
+      "title": "Octolens",
+      "source_url": "https://clawhub.ai/skills/octolens"
+    },
+    {
+      "repo_url": "https://github.com/joe-rlo/memory-pipeline",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/joe-rlo/memory-pipeline",
+      "reason": "",
+      "title": "Memory Pipeline",
+      "source_url": "https://clawhub.ai/skills/memory-pipeline"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/pdf-to-structured",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/pdf-to-structured",
+      "reason": "",
+      "title": "Pdf To Structured",
+      "source_url": "https://clawhub.ai/skills/pdf-to-structured"
+    },
+    {
+      "repo_url": "https://github.com/hisxo/withings-health",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hisxo/withings-health",
+      "reason": "",
+      "title": "withings-health",
+      "source_url": "https://clawhub.ai/skills/withings-health"
+    },
+    {
+      "repo_url": "https://github.com/laurentenhoor/moltresearch",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/laurentenhoor/moltresearch",
+      "reason": "",
+      "title": "Molt Research",
+      "source_url": "https://clawhub.ai/skills/moltresearch"
+    },
+    {
+      "repo_url": "https://github.com/byteroverinc/byterover-headless",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/byteroverinc/byterover-headless",
+      "reason": "",
+      "title": "ByteRover - Headless",
+      "source_url": "https://clawhub.ai/skills/byterover-headless"
+    },
+    {
+      "repo_url": "https://github.com/igorhvr/dexter",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/igorhvr/dexter",
+      "reason": "",
+      "title": "dexter",
+      "source_url": "https://clawhub.ai/skills/dexter"
+    },
+    {
+      "repo_url": "https://github.com/manas-io-ai/legaldoc-ai",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/manas-io-ai/legaldoc-ai",
+      "reason": "",
+      "title": "LegalDoc AI",
+      "source_url": "https://clawhub.ai/skills/legaldoc-ai"
+    },
+    {
+      "repo_url": "https://github.com/nimhar/aclawdemy",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nimhar/aclawdemy",
+      "reason": "",
+      "title": "Aclawdemy: A platform for agents to research together",
+      "source_url": "https://clawhub.ai/skills/aclawdemy"
+    },
+    {
+      "repo_url": "https://github.com/xfgong/cuecue-deep-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xfgong/cuecue-deep-research",
+      "reason": "",
+      "title": "CueCue Deep Research",
+      "source_url": "https://clawhub.ai/skills/cuecue-deep-research"
+    },
+    {
+      "repo_url": "https://github.com/addisonhellum/deepthink",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/addisonhellum/deepthink",
+      "reason": "",
+      "title": "DeepThink",
+      "source_url": "https://clawhub.ai/skills/deepthink"
+    },
+    {
+      "repo_url": "https://github.com/TzannetosGiannis/x-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/TzannetosGiannis/x-search",
+      "reason": "",
+      "title": "X Search (x402)",
+      "source_url": "https://clawhub.ai/skills/x-search"
+    },
+    {
+      "repo_url": "https://github.com/bheemreddy181/qmd-local-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bheemreddy181/qmd-local-search",
+      "reason": "",
+      "title": "qmd Local Search",
+      "source_url": "https://clawhub.ai/skills/qmd-local-search"
+    },
+    {
+      "repo_url": "https://github.com/larsderidder/obsidian-tasks",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/larsderidder/obsidian-tasks",
+      "reason": "",
+      "title": "Obsidian Tasks",
+      "source_url": "https://clawhub.ai/skills/obsidian-tasks"
+    },
+    {
+      "repo_url": "https://github.com/refrigerator/readwise",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/refrigerator/readwise",
+      "reason": "",
+      "title": "Readwise & Reader",
+      "source_url": "https://clawhub.ai/skills/readwise"
+    },
+    {
+      "repo_url": "https://github.com/sergical/reflect",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/sergical/reflect",
+      "reason": "",
+      "title": "Reflect Notes",
+      "source_url": "https://clawhub.ai/skills/reflect"
+    },
+    {
+      "repo_url": "https://github.com/xanxustan/intellectia-stock-forecast",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xanxustan/intellectia-stock-forecast",
+      "reason": "",
+      "title": "Stock Forecast",
+      "source_url": "https://clawhub.ai/skills/intellectia-stock-forecast"
+    },
+    {
+      "repo_url": "https://github.com/tristanmanchester/notion-api-automation",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/tristanmanchester/notion-api-automation",
+      "reason": "",
+      "title": "Notion API",
+      "source_url": "https://clawhub.ai/skills/notion-api-automation"
+    },
+    {
+      "repo_url": "https://github.com/Terwox/zotero",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Terwox/zotero",
+      "reason": "",
+      "title": "Zotero",
+      "source_url": "https://clawhub.ai/skills/zotero"
+    },
+    {
+      "repo_url": "https://github.com/bohdanpodvirnyi/strava",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bohdanpodvirnyi/strava",
+      "reason": "",
+      "title": "Strava",
+      "source_url": "https://clawhub.ai/skills/strava"
+    },
+    {
+      "repo_url": "https://github.com/rodrigouroz/whoop-health-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rodrigouroz/whoop-health-analysis",
+      "reason": "",
+      "title": "Whoop",
+      "source_url": "https://clawhub.ai/skills/whoop-health-analysis"
+    },
+    {
+      "repo_url": "https://github.com/emasoudy/graphiti",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/emasoudy/graphiti",
+      "reason": "",
+      "title": "Graphiti",
+      "source_url": "https://clawhub.ai/skills/graphiti"
+    },
+    {
+      "repo_url": "https://github.com/emcmillan80/qmd-markdown-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/emcmillan80/qmd-markdown-search",
+      "reason": "",
+      "title": "QMD - Quick Markdown Search",
+      "source_url": "https://clawhub.ai/skills/qmd-markdown-search"
+    },
+    {
+      "repo_url": "https://github.com/Moikapy/openclaw-notion-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Moikapy/openclaw-notion-skill",
+      "reason": "",
+      "title": "Notion Enhanced",
+      "source_url": "https://clawhub.ai/skills/openclaw-notion-skill"
+    },
+    {
+      "repo_url": "https://github.com/TzannetosGiannis/find-people",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/TzannetosGiannis/find-people",
+      "reason": "",
+      "title": "Find People (x402)",
+      "source_url": "https://clawhub.ai/skills/find-people"
+    },
+    {
+      "repo_url": "https://github.com/SJF-ECNU/paper-recommendation",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/SJF-ECNU/paper-recommendation",
+      "reason": "",
+      "title": "Paper Recommendation",
+      "source_url": "https://clawhub.ai/skills/paper-recommendation"
+    },
+    {
+      "repo_url": "https://github.com/Nastrology/1",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Nastrology/1",
+      "reason": "",
+      "title": "second brain",
+      "source_url": "https://clawhub.ai/skills/1"
+    },
+    {
+      "repo_url": "https://github.com/BrennerSpear/parallel-ai-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/BrennerSpear/parallel-ai-research",
+      "reason": "",
+      "title": "Research",
+      "source_url": "https://clawhub.ai/skills/parallel-ai-research"
+    },
+    {
+      "repo_url": "https://github.com/odrobnik/withings-family",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/odrobnik/withings-family",
+      "reason": "",
+      "title": "Withings Family",
+      "source_url": "https://clawhub.ai/skills/withings-family"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/scrape",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/scrape",
+      "reason": "",
+      "title": "Scrape",
+      "source_url": "https://clawhub.ai/skills/scrape"
+    },
+    {
+      "repo_url": "https://github.com/atyachin/social-sentiment",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/atyachin/social-sentiment",
+      "reason": "",
+      "title": "Social Sentiment",
+      "source_url": "https://clawhub.ai/skills/social-sentiment"
+    },
+    {
+      "repo_url": "https://github.com/TzannetosGiannis/alpha-finder",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/TzannetosGiannis/alpha-finder",
+      "reason": "",
+      "title": "Alpha Finder (x402)",
+      "source_url": "https://clawhub.ai/skills/alpha-finder"
+    },
+    {
+      "repo_url": "https://github.com/Simskii/umea-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Simskii/umea-data",
+      "reason": "",
+      "title": "Umeå Data",
+      "source_url": "https://clawhub.ai/skills/umea-data"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/sql-pro",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/sql-pro",
+      "reason": "",
+      "title": "Sql Pro",
+      "source_url": "https://clawhub.ai/skills/sql-pro"
+    },
+    {
+      "repo_url": "https://github.com/TVDOfficial/sportsbet-advisor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/TVDOfficial/sportsbet-advisor",
+      "reason": "",
+      "title": "Sportsbet Advisor",
+      "source_url": "https://clawhub.ai/skills/sportsbet-advisor"
+    },
+    {
+      "repo_url": "https://github.com/nazimboudeffa/yahoo-finance-forex",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nazimboudeffa/yahoo-finance-forex",
+      "reason": "",
+      "title": "Yahoo Finance FOREX",
+      "source_url": "https://clawhub.ai/skills/yahoo-finance-forex"
+    },
+    {
+      "repo_url": "https://github.com/WdBlink/tushare-base",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/WdBlink/tushare-base",
+      "reason": "",
+      "title": "tushare-base",
+      "source_url": "https://clawhub.ai/skills/tushare-base"
+    },
+    {
+      "repo_url": "https://github.com/Samoppakiks/serper-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Samoppakiks/serper-search",
+      "reason": "",
+      "title": "serper-search",
+      "source_url": "https://clawhub.ai/skills/serper-search"
+    },
+    {
+      "repo_url": "https://github.com/juanpin/yutori-web-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/juanpin/yutori-web-research",
+      "reason": "",
+      "title": "Yutori research",
+      "source_url": "https://clawhub.ai/skills/yutori-web-research"
+    },
+    {
+      "repo_url": "https://github.com/anshumanbh/anshumanbh-qmd",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/anshumanbh/anshumanbh-qmd",
+      "reason": "",
+      "title": "QMD Search",
+      "source_url": "https://clawhub.ai/skills/anshumanbh-qmd"
+    },
+    {
+      "repo_url": "https://github.com/stuhorsman/quiver",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/stuhorsman/quiver",
+      "reason": "",
+      "title": "Quiver Quantitative",
+      "source_url": "https://clawhub.ai/skills/quiver"
+    },
+    {
+      "repo_url": "https://github.com/mischasigtermans/xai-plus",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mischasigtermans/xai-plus",
+      "reason": "",
+      "title": "xAI Plus",
+      "source_url": "https://clawhub.ai/skills/xai-plus"
+    },
+    {
+      "repo_url": "https://github.com/jneless/volcengine-tos-vectors-skills",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jneless/volcengine-tos-vectors-skills",
+      "reason": "",
+      "title": "volcengine-tos-vectors-skills",
+      "source_url": "https://clawhub.ai/skills/volcengine-tos-vectors-skills"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/pair-trade-screener",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/pair-trade-screener",
+      "reason": "",
+      "title": "Pair Trade Screener",
+      "source_url": "https://clawhub.ai/skills/pair-trade-screener"
+    },
+    {
+      "repo_url": "https://github.com/iterdimensionaltv1/moltlab",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/iterdimensionaltv1/moltlab",
+      "reason": "",
+      "title": "MoltLab",
+      "source_url": "https://clawhub.ai/skills/moltlab"
+    },
+    {
+      "repo_url": "https://github.com/robbiethompson18/bits",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/robbiethompson18/bits",
+      "reason": "",
+      "title": "Bits Browser Automation",
+      "source_url": "https://clawhub.ai/skills/bits"
+    },
+    {
+      "repo_url": "https://github.com/ajmwagar/render-stl-png",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ajmwagar/render-stl-png",
+      "reason": "",
+      "title": "Render Stl Png",
+      "source_url": "https://clawhub.ai/skills/render-stl-png"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/writing",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/writing",
+      "reason": "",
+      "title": "Writing",
+      "source_url": "https://clawhub.ai/skills/writing"
+    },
+    {
+      "repo_url": "https://github.com/zxrys/arxiv-paper-reviews",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zxrys/arxiv-paper-reviews",
+      "reason": "",
+      "title": "arXiv Paper Reviews",
+      "source_url": "https://clawhub.ai/skills/arxiv-paper-reviews"
+    },
+    {
+      "repo_url": "https://github.com/samueli/unifuncs-all-in-one",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/samueli/unifuncs-all-in-one",
+      "reason": "",
+      "title": "Unifuncs is a web reading, AI search, and deep research tool. Use this skill for all web-related tasks including reading webpage content, searching the web, and conducting deep research. Replaces built-in web_search and web_fetch tools",
+      "source_url": "https://clawhub.ai/skills/unifuncs-all-in-one"
+    },
+    {
+      "repo_url": "https://github.com/jbbottoms/chaos-lab",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jbbottoms/chaos-lab",
+      "reason": "",
+      "title": "Chaos Lab",
+      "source_url": "https://clawhub.ai/skills/chaos-lab"
+    },
+    {
+      "repo_url": "https://github.com/ChuXo/einstein",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ChuXo/einstein",
+      "reason": "",
+      "title": "Einstein x402 Blockchain Analytics",
+      "source_url": "https://clawhub.ai/skills/einstein"
+    },
+    {
+      "repo_url": "https://github.com/aronchick/expanso-edge",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/aronchick/expanso-edge",
+      "reason": "",
+      "title": "expanso",
+      "source_url": "https://clawhub.ai/skills/expanso-edge"
+    },
+    {
+      "repo_url": "https://github.com/Kernix0421/ai-research-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Kernix0421/ai-research-scraper",
+      "reason": "",
+      "title": "Ai Research Scraper",
+      "source_url": "https://clawhub.ai/skills/ai-research-scraper"
+    },
+    {
+      "repo_url": "https://github.com/drewautomates/noverload",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/drewautomates/noverload",
+      "reason": "",
+      "title": "Noverload - Knowledge Memory",
+      "source_url": "https://clawhub.ai/skills/noverload"
+    },
+    {
+      "repo_url": "https://github.com/alirezarezvani/senior-data-scientist",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/alirezarezvani/senior-data-scientist",
+      "reason": "",
+      "title": "Senior Data Scientist",
+      "source_url": "https://clawhub.ai/skills/senior-data-scientist"
+    },
+    {
+      "repo_url": "https://github.com/leegitw/moltbook-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/leegitw/moltbook-search",
+      "reason": "",
+      "title": "Moltbook Search",
+      "source_url": "https://clawhub.ai/skills/moltbook-search"
+    },
+    {
+      "repo_url": "https://github.com/digiSal/youtrack-digisal",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/digiSal/youtrack-digisal",
+      "reason": "",
+      "title": "YouTrack Project Management",
+      "source_url": "https://clawhub.ai/skills/youtrack-digisal"
+    },
+    {
+      "repo_url": "https://github.com/jbenjoseph/refua",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jbenjoseph/refua",
+      "reason": "",
+      "title": "Refua",
+      "source_url": "https://clawhub.ai/skills/refua"
+    },
+    {
+      "repo_url": "https://github.com/Michael-laffin/review-summarizer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Michael-laffin/review-summarizer",
+      "reason": "",
+      "title": "Review Summarizer",
+      "source_url": "https://clawhub.ai/skills/review-summarizer"
+    },
+    {
+      "repo_url": "https://github.com/lennertjansen/airweave",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lennertjansen/airweave",
+      "reason": "",
+      "title": "Airweave",
+      "source_url": "https://clawhub.ai/skills/airweave"
+    },
+    {
+      "repo_url": "https://github.com/Loda666/rag-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Loda666/rag-search",
+      "reason": "",
+      "title": "RAG Search",
+      "source_url": "https://clawhub.ai/skills/rag-search"
+    },
+    {
+      "repo_url": "https://github.com/lofimichael/longevity-assistant",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lofimichael/longevity-assistant",
+      "reason": "",
+      "title": "Longevity Assistant",
+      "source_url": "https://clawhub.ai/skills/longevity-assistant"
+    },
+    {
+      "repo_url": "https://github.com/killgfat/pubmed-edirect",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/killgfat/pubmed-edirect",
+      "reason": "",
+      "title": "Pubmed Edirect",
+      "source_url": "https://clawhub.ai/skills/pubmed-edirect"
+    },
+    {
+      "repo_url": "https://github.com/Hegghammer/newsapi-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Hegghammer/newsapi-search",
+      "reason": "",
+      "title": "NewsAPI Search",
+      "source_url": "https://clawhub.ai/skills/newsapi-search"
+    },
+    {
+      "repo_url": "https://github.com/bartschneider/supermetrics-openclawd",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bartschneider/supermetrics-openclawd",
+      "reason": "",
+      "title": "Supermetrics",
+      "source_url": "https://clawhub.ai/skills/supermetrics-openclawd"
+    },
+    {
+      "repo_url": "https://github.com/wpank/mermaid-diagrams",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wpank/mermaid-diagrams",
+      "reason": "",
+      "title": "Mermaid Diagrams",
+      "source_url": "https://clawhub.ai/skills/mermaid-diagrams"
+    },
+    {
+      "repo_url": "https://github.com/wuchubuzai2018/wechat-article-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wuchubuzai2018/wechat-article-search",
+      "reason": "",
+      "title": "Wechat Article Search",
+      "source_url": "https://clawhub.ai/skills/wechat-article-search"
+    },
+    {
+      "repo_url": "https://github.com/bkrigmo1/bookmark-intelligence",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bkrigmo1/bookmark-intelligence",
+      "reason": "",
+      "title": "Bookmark Intelligence",
+      "source_url": "https://clawhub.ai/skills/bookmark-intelligence"
+    },
+    {
+      "repo_url": "https://github.com/ilchemla/nimble-web-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ilchemla/nimble-web-search",
+      "reason": "",
+      "title": "Nimble Web Search",
+      "source_url": "https://clawhub.ai/skills/nimble-web-search"
+    },
+    {
+      "repo_url": "https://github.com/johstracke/research-assistant",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/johstracke/research-assistant",
+      "reason": "",
+      "title": "Research Assistant",
+      "source_url": "https://clawhub.ai/skills/research-assistant"
+    },
+    {
+      "repo_url": "https://github.com/Jayphen/readeck",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Jayphen/readeck",
+      "reason": "",
+      "title": "Readeck",
+      "source_url": "https://clawhub.ai/skills/readeck"
+    },
+    {
+      "repo_url": "https://github.com/nathanjzhao/contextoverflow",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nathanjzhao/contextoverflow",
+      "reason": "",
+      "title": "ContextOverflow",
+      "source_url": "https://clawhub.ai/skills/contextoverflow"
+    },
+    {
+      "repo_url": "https://github.com/dowands/reddapi",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dowands/reddapi",
+      "reason": "",
+      "title": "reddapi",
+      "source_url": "https://clawhub.ai/skills/reddapi"
+    },
+    {
+      "repo_url": "https://github.com/TY-teo/patent-assistant",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/TY-teo/patent-assistant",
+      "reason": "",
+      "title": "Patent Assistant",
+      "source_url": "https://clawhub.ai/skills/patent-assistant"
+    },
+    {
+      "repo_url": "https://github.com/justinhartbiz/gedcom-explorer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/justinhartbiz/gedcom-explorer",
+      "reason": "",
+      "title": "GEDCOM Explorer",
+      "source_url": "https://clawhub.ai/skills/gedcom-explorer"
+    },
+    {
+      "repo_url": "https://github.com/mrlynn/voyageai-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mrlynn/voyageai-skill",
+      "reason": "",
+      "title": "Voyage AI CLI",
+      "source_url": "https://clawhub.ai/skills/voyageai-skill"
+    },
+    {
+      "repo_url": "https://github.com/anisafifi/academic-research-hub",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/anisafifi/academic-research-hub",
+      "reason": "",
+      "title": "Academic Research Hub",
+      "source_url": "https://clawhub.ai/skills/academic-research-hub"
+    },
+    {
+      "repo_url": "https://github.com/sp0oby/game-theory",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/sp0oby/game-theory",
+      "reason": "",
+      "title": "Game Theory",
+      "source_url": "https://clawhub.ai/skills/game-theory"
+    },
+    {
+      "repo_url": "https://github.com/ryancampbell/agent-memory-kit",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ryancampbell/agent-memory-kit",
+      "reason": "",
+      "title": "Agent Memory Kit",
+      "source_url": "https://clawhub.ai/skills/agent-memory-kit"
+    },
+    {
+      "repo_url": "https://github.com/DOWingard/moltsci",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DOWingard/moltsci",
+      "reason": "",
+      "title": "MoltSci",
+      "source_url": "https://clawhub.ai/skills/moltsci"
+    },
+    {
+      "repo_url": "https://github.com/unicodeveloper/valyu-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/unicodeveloper/valyu-search",
+      "reason": "",
+      "title": "Valyu Search",
+      "source_url": "https://clawhub.ai/skills/valyu-search"
+    },
+    {
+      "repo_url": "https://github.com/alirezarezvani/ux-researcher-designer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/alirezarezvani/ux-researcher-designer",
+      "reason": "",
+      "title": "Ux Researcher Designer",
+      "source_url": "https://clawhub.ai/skills/ux-researcher-designer"
+    },
+    {
+      "repo_url": "https://github.com/jwaynelowry/lobster-tank",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jwaynelowry/lobster-tank",
+      "reason": "",
+      "title": "Lobster Tank",
+      "source_url": "https://clawhub.ai/skills/lobster-tank"
+    },
+    {
+      "repo_url": "https://github.com/Springleave/install-scientify",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Springleave/install-scientify",
+      "reason": "",
+      "title": "Scientify -  AI-powered collaborator for your scientific research works.",
+      "source_url": "https://clawhub.ai/skills/install-scientify"
+    },
+    {
+      "repo_url": "https://github.com/chrisvoncsefalvay/wandb-monitor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/chrisvoncsefalvay/wandb-monitor",
+      "reason": "",
+      "title": "Weights & Biases Monitor",
+      "source_url": "https://clawhub.ai/skills/wandb-monitor"
+    },
+    {
+      "repo_url": "https://github.com/donny-son/joan-workflow",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/donny-son/joan-workflow",
+      "reason": "",
+      "title": "Joan Workflow",
+      "source_url": "https://clawhub.ai/skills/joan-workflow"
+    },
+    {
+      "repo_url": "https://github.com/jmanhype/denario-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jmanhype/denario-skill",
+      "reason": "",
+      "title": "Denario (Autonomous Research Pipeline)",
+      "source_url": "https://clawhub.ai/skills/denario-skill"
+    },
+    {
+      "repo_url": "https://github.com/rainy-cogmet/zettelkasten",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rainy-cogmet/zettelkasten",
+      "reason": "",
+      "title": "Zettelkasten - 卡片笔记",
+      "source_url": "https://clawhub.ai/skills/zettelkasten"
+    },
+    {
+      "repo_url": "https://github.com/zanderd18s/stackunderflow",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zanderd18s/stackunderflow",
+      "reason": "",
+      "title": "StackUnderflow Search and Post",
+      "source_url": "https://clawhub.ai/skills/stackunderflow"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/us-market-bubble-detector",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/us-market-bubble-detector",
+      "reason": "",
+      "title": "Us Market Bubble Detector",
+      "source_url": "https://clawhub.ai/skills/us-market-bubble-detector"
+    },
+    {
+      "repo_url": "https://github.com/idoshamun/daily-dev",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/idoshamun/daily-dev",
+      "reason": "",
+      "title": "daily.dev",
+      "source_url": "https://clawhub.ai/skills/daily-dev"
+    },
+    {
+      "repo_url": "https://github.com/Veeramanikandanr48/spark-engineer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Veeramanikandanr48/spark-engineer",
+      "reason": "",
+      "title": "Spark Engineer",
+      "source_url": "https://clawhub.ai/skills/spark-engineer"
+    },
+    {
+      "repo_url": "https://github.com/RomneyDa/tiktok-crawling",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/RomneyDa/tiktok-crawling",
+      "reason": "",
+      "title": "TikTok Crawling (yt-dlp)",
+      "source_url": "https://clawhub.ai/skills/tiktok-crawling"
+    },
+    {
+      "repo_url": "https://github.com/gchapim/readwise-api",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/gchapim/readwise-api",
+      "reason": "",
+      "title": "Readwise & Reader API",
+      "source_url": "https://clawhub.ai/skills/readwise-api"
+    },
+    {
+      "repo_url": "https://github.com/rubenfb23/arxiv-watcher-vigo",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rubenfb23/arxiv-watcher-vigo",
+      "reason": "",
+      "title": "ArXiv Watcher",
+      "source_url": "https://clawhub.ai/skills/arxiv-watcher-vigo"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/pkm",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/pkm",
+      "reason": "",
+      "title": "Personal Knowledge Base",
+      "source_url": "https://clawhub.ai/skills/pkm"
+    },
+    {
+      "repo_url": "https://github.com/NormallyGaussian/parallel-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/NormallyGaussian/parallel-search",
+      "reason": "",
+      "title": "Parallel Search",
+      "source_url": "https://clawhub.ai/skills/parallel-search"
+    },
+    {
+      "repo_url": "https://github.com/vinitngr/serper-v",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/vinitngr/serper-v",
+      "reason": "",
+      "title": "serper-v",
+      "source_url": "https://clawhub.ai/skills/serper-v"
+    },
+    {
+      "repo_url": "https://github.com/fortytwode/meta-video-ad-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/fortytwode/meta-video-ad-analyzer",
+      "reason": "",
+      "title": "Meta Video Ad Analyzer",
+      "source_url": "https://clawhub.ai/skills/meta-video-ad-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/EricRosenberg/strava-cycling-coach",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/EricRosenberg/strava-cycling-coach",
+      "reason": "",
+      "title": "Strava Cycling Coach",
+      "source_url": "https://clawhub.ai/skills/strava-cycling-coach"
+    },
+    {
+      "repo_url": "https://github.com/nicoataiza/gno-bak-2026-01-28t18-01-20-10-30",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nicoataiza/gno-bak-2026-01-28t18-01-20-10-30",
+      "reason": "",
+      "title": "Gno.Bak 2026 01 28T18:01:20+10:30",
+      "source_url": "https://clawhub.ai/skills/gno-bak-2026-01-28t18-01-20-10-30"
+    },
+    {
+      "repo_url": "https://github.com/tristanmanchester/parallel-ai-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/tristanmanchester/parallel-ai-search",
+      "reason": "",
+      "title": "Parallel AI search",
+      "source_url": "https://clawhub.ai/skills/parallel-ai-search"
+    },
+    {
+      "repo_url": "https://github.com/samiralibabic/ga4-multi-property",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/samiralibabic/ga4-multi-property",
+      "reason": "",
+      "title": "Google Analytics & Search & Indexing Skill with Multi-Property Support",
+      "source_url": "https://clawhub.ai/skills/ga4-multi-property"
+    },
+    {
+      "repo_url": "https://github.com/Dannydvm/engram",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Dannydvm/engram",
+      "reason": "",
+      "title": "Engram",
+      "source_url": "https://clawhub.ai/skills/engram"
+    },
+    {
+      "repo_url": "https://github.com/matthew-a-gordon/python-dataviz",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/matthew-a-gordon/python-dataviz",
+      "reason": "",
+      "title": "Python Dataviz",
+      "source_url": "https://clawhub.ai/skills/python-dataviz"
+    },
+    {
+      "repo_url": "https://github.com/urrrich/writing-assistant",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/urrrich/writing-assistant",
+      "reason": "",
+      "title": "Writing Assistant",
+      "source_url": "https://clawhub.ai/skills/writing-assistant"
+    },
+    {
+      "repo_url": "https://github.com/BramDo/quantum-lab",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/BramDo/quantum-lab",
+      "reason": "",
+      "title": "Quantum Lab",
+      "source_url": "https://clawhub.ai/skills/quantum-lab"
+    },
+    {
+      "repo_url": "https://github.com/nitishgargiitd/fin-cog",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nitishgargiitd/fin-cog",
+      "reason": "",
+      "title": "fin-cog",
+      "source_url": "https://clawhub.ai/skills/fin-cog"
+    },
+    {
+      "repo_url": "https://github.com/Lucasyao1985/clawdchat",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Lucasyao1985/clawdchat",
+      "reason": "",
+      "title": "Lucasyao1985/clawdchat-analysis",
+      "source_url": "https://clawhub.ai/skills/clawdchat"
+    },
+    {
+      "repo_url": "https://github.com/koriyoshi2041/fabric-bridge",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/koriyoshi2041/fabric-bridge",
+      "reason": "",
+      "title": "Fabric Bridge",
+      "source_url": "https://clawhub.ai/skills/fabric-bridge"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/data-anomaly-detector",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/data-anomaly-detector",
+      "reason": "",
+      "title": "Data Anomaly Detector",
+      "source_url": "https://clawhub.ai/skills/data-anomaly-detector"
+    },
+    {
+      "repo_url": "https://github.com/killerapp/para-pkm",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/killerapp/para-pkm",
+      "reason": "",
+      "title": "para-pkm",
+      "source_url": "https://clawhub.ai/skills/para-pkm"
+    },
+    {
+      "repo_url": "https://github.com/jpjy/literature-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jpjy/literature-search",
+      "reason": "",
+      "title": "literature-search",
+      "source_url": "https://clawhub.ai/skills/literature-search"
+    },
+    {
+      "repo_url": "https://github.com/enzoricciulli/screenshot-capture",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/enzoricciulli/screenshot-capture",
+      "reason": "",
+      "title": "Screenshot Capture",
+      "source_url": "https://clawhub.ai/skills/screenshot-capture"
+    },
+    {
+      "repo_url": "https://github.com/samiralibabic/ga4-analytics-search-indexing-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/samiralibabic/ga4-analytics-search-indexing-skill",
+      "reason": "",
+      "title": "Google Analytics & Google Search & Google Indexing Skill with Multi-Property Support",
+      "source_url": "https://clawhub.ai/skills/ga4-analytics-search-indexing-skill"
+    },
+    {
+      "repo_url": "https://github.com/samiralibabic/ga4-analytics-search-indexing",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/samiralibabic/ga4-analytics-search-indexing",
+      "reason": "",
+      "title": "Google Analytics & Search & Indexing with support for multiple Properties",
+      "source_url": "https://clawhub.ai/skills/ga4-analytics-search-indexing"
+    },
+    {
+      "repo_url": "https://github.com/RyanNg1403/byterover-test",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/RyanNg1403/byterover-test",
+      "reason": "",
+      "title": "byterover-test",
+      "source_url": "https://clawhub.ai/skills/byterover-test"
+    },
+    {
+      "repo_url": "https://github.com/vvsotnikov/aikek",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/vvsotnikov/aikek",
+      "reason": "",
+      "title": "AIKEK API",
+      "source_url": "https://clawhub.ai/skills/aikek"
+    },
+    {
+      "repo_url": "https://github.com/nitishgargiitd/crypto-cog",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nitishgargiitd/crypto-cog",
+      "reason": "",
+      "title": "crypto-cog",
+      "source_url": "https://clawhub.ai/skills/crypto-cog"
+    },
+    {
+      "repo_url": "https://github.com/samiralibabic/ga4-analytics-multi-property",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/samiralibabic/ga4-analytics-multi-property",
+      "reason": "",
+      "title": "Google Analytics & Google Search & Google Indexing Skill with Support for Multiple Properties",
+      "source_url": "https://clawhub.ai/skills/ga4-analytics-multi-property"
+    },
+    {
+      "repo_url": "https://github.com/zxrys/weak-accept",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zxrys/weak-accept",
+      "reason": "",
+      "title": "Arxiv Paper Reviews",
+      "source_url": "https://clawhub.ai/skills/weak-accept"
+    },
+    {
+      "repo_url": "https://github.com/flyingnobita/acorn-prover",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/flyingnobita/acorn-prover",
+      "reason": "",
+      "title": "Acorn Prover",
+      "source_url": "https://clawhub.ai/skills/acorn-prover"
+    },
+    {
+      "repo_url": "https://github.com/phheng/web-research-assistant",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/phheng/web-research-assistant",
+      "reason": "",
+      "title": "Web Research Assistant",
+      "source_url": "https://clawhub.ai/skills/web-research-assistant"
+    },
+    {
+      "repo_url": "https://github.com/alirezarezvani/senior-computer-vision",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/alirezarezvani/senior-computer-vision",
+      "reason": "",
+      "title": "Senior Computer Vision",
+      "source_url": "https://clawhub.ai/skills/senior-computer-vision"
+    },
+    {
+      "repo_url": "https://github.com/iterdimensionaltv1/moltuniversity",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/iterdimensionaltv1/moltuniversity",
+      "reason": "",
+      "title": "MoltUniversity",
+      "source_url": "https://clawhub.ai/skills/moltuniversity"
+    },
+    {
+      "repo_url": "https://github.com/vovavvk/tldw",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/vovavvk/tldw",
+      "reason": "",
+      "title": "tl;dw - YouTube Video Summarizer",
+      "source_url": "https://clawhub.ai/skills/tldw"
+    },
+    {
+      "repo_url": "https://github.com/rich-song/google-analytics-api",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rich-song/google-analytics-api",
+      "reason": "",
+      "title": "Google Analytics",
+      "source_url": "https://clawhub.ai/skills/google-analytics-api"
+    },
+    {
+      "repo_url": "https://github.com/nathanjzhao/context-overflow",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nathanjzhao/context-overflow",
+      "reason": "",
+      "title": "ContextOverflow",
+      "source_url": "https://clawhub.ai/skills/context-overflow"
+    },
+    {
+      "repo_url": "https://github.com/anisafifi/web-search-hub",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/anisafifi/web-search-hub",
+      "reason": "",
+      "title": "Web Search Hub",
+      "source_url": "https://clawhub.ai/skills/web-search-hub"
+    },
+    {
+      "repo_url": "https://github.com/Rita5fr/crewai-workflows",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Rita5fr/crewai-workflows",
+      "reason": "",
+      "title": "Crewai Workflows",
+      "source_url": "https://clawhub.ai/skills/crewai-workflows"
+    },
+    {
+      "repo_url": "https://github.com/reed1898/larksuite-wiki",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/reed1898/larksuite-wiki",
+      "reason": "",
+      "title": "Lark Suite Wiki",
+      "source_url": "https://clawhub.ai/skills/larksuite-wiki"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/market-research-agent",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/market-research-agent",
+      "reason": "",
+      "title": "Market Research Agent",
+      "source_url": "https://clawhub.ai/skills/market-research-agent"
+    },
+    {
+      "repo_url": "https://github.com/pntrivedy/parallel-1-0-1",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/pntrivedy/parallel-1-0-1",
+      "reason": "",
+      "title": "Parallel 1.0.1",
+      "source_url": "https://clawhub.ai/skills/parallel-1-0-1"
+    },
+    {
+      "repo_url": "https://github.com/baoduy/drunk-trading-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/baoduy/drunk-trading-analyzer",
+      "reason": "",
+      "title": "Trading Analyzer",
+      "source_url": "https://clawhub.ai/skills/drunk-trading-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/AIsaPay/aisa-multi-source-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AIsaPay/aisa-multi-source-search",
+      "reason": "",
+      "title": "AIsa Multi Source Search",
+      "source_url": "https://clawhub.ai/skills/aisa-multi-source-search"
+    },
+    {
+      "repo_url": "https://github.com/WilliamTie/lightweight-kb",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/WilliamTie/lightweight-kb",
+      "reason": "",
+      "title": "Lightweight Knowledge Base",
+      "source_url": "https://clawhub.ai/skills/lightweight-kb"
+    },
+    {
+      "repo_url": "https://github.com/vovavvk/tl-dw",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/vovavvk/tl-dw",
+      "reason": "",
+      "title": "tl;dw - YouTube Video Summarizer",
+      "source_url": "https://clawhub.ai/skills/tl-dw"
+    },
+    {
+      "repo_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-youtube-search-serp-video-channels-trends-content-tracking",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-youtube-search-serp-video-channels-trends-content-tracking",
+      "reason": "",
+      "title": "YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-youtube-search-serp-video-channels-trends-content-tracking"
+    },
+    {
+      "repo_url": "https://github.com/VirajSanghvi1/virajsanghvi1-raglite",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/VirajSanghvi1/virajsanghvi1-raglite",
+      "reason": "",
+      "title": "RAGLite",
+      "source_url": "https://clawhub.ai/skills/virajsanghvi1-raglite"
+    },
+    {
+      "repo_url": "https://github.com/Zedit42/solana-funding-arb",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Zedit42/solana-funding-arb",
+      "reason": "",
+      "title": "Solana Funding Rate Arbitrage",
+      "source_url": "https://clawhub.ai/skills/solana-funding-arb"
+    },
+    {
+      "repo_url": "https://github.com/jds950/messari-crypto",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jds950/messari-crypto",
+      "reason": "",
+      "title": "Messari",
+      "source_url": "https://clawhub.ai/skills/messari-crypto"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/analyst",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/analyst",
+      "reason": "",
+      "title": "Analyst",
+      "source_url": "https://clawhub.ai/skills/analyst"
+    },
+    {
+      "repo_url": "https://github.com/EasonC13/overleaf",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/EasonC13/overleaf",
+      "reason": "",
+      "title": "Overleaf",
+      "source_url": "https://clawhub.ai/skills/overleaf"
+    },
+    {
+      "repo_url": "https://github.com/nitishgargiitd/data-cog",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nitishgargiitd/data-cog",
+      "reason": "",
+      "title": "data-cog",
+      "source_url": "https://clawhub.ai/skills/data-cog"
+    },
+    {
+      "repo_url": "https://github.com/phheng/amazon-product-search-api-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/phheng/amazon-product-search-api-skill",
+      "reason": "",
+      "title": "Amazon Product Search Api Skill",
+      "source_url": "https://clawhub.ai/skills/amazon-product-search-api-skill"
+    },
+    {
+      "repo_url": "https://github.com/henryjing96/feishu-deep-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/henryjing96/feishu-deep-research",
+      "reason": "",
+      "title": "Create a Deep Research Feishu Doc",
+      "source_url": "https://clawhub.ai/skills/feishu-deep-research"
+    },
+    {
+      "repo_url": "https://github.com/teamolab/academic-writing",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/teamolab/academic-writing",
+      "reason": "",
+      "title": "academic-writing",
+      "source_url": "https://clawhub.ai/skills/academic-writing"
+    },
+    {
+      "repo_url": "https://github.com/slmoloch/obsidian-official-cli",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/slmoloch/obsidian-official-cli",
+      "reason": "",
+      "title": "Obsidian Official CLI Skill",
+      "source_url": "https://clawhub.ai/skills/obsidian-official-cli"
+    },
+    {
+      "repo_url": "https://github.com/Jonbuckles/research-library",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Jonbuckles/research-library",
+      "reason": "",
+      "title": "Research Library",
+      "source_url": "https://clawhub.ai/skills/research-library"
+    },
+    {
+      "repo_url": "https://github.com/VirajSanghvi1/raglite-local-rag-cache",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/VirajSanghvi1/raglite-local-rag-cache",
+      "reason": "",
+      "title": "RAGLite",
+      "source_url": "https://clawhub.ai/skills/raglite-local-rag-cache"
+    },
+    {
+      "repo_url": "https://github.com/killgfat/pyzotero",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/killgfat/pyzotero",
+      "reason": "",
+      "title": "Pyzotero",
+      "source_url": "https://clawhub.ai/skills/pyzotero"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/pandas-construction-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/pandas-construction-analysis",
+      "reason": "",
+      "title": "Pandas Construction Analysis",
+      "source_url": "https://clawhub.ai/skills/pandas-construction-analysis"
+    },
+    {
+      "repo_url": "https://github.com/phheng/google-maps-search-api-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/phheng/google-maps-search-api-skill",
+      "reason": "",
+      "title": "Google Maps Search Api Skill",
+      "source_url": "https://clawhub.ai/skills/google-maps-search-api-skill"
+    },
+    {
+      "repo_url": "https://github.com/Liam8/crypto-stock-market-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Liam8/crypto-stock-market-data",
+      "reason": "",
+      "title": "Crypto & Stock Market Data (No Key Required)",
+      "source_url": "https://clawhub.ai/skills/crypto-stock-market-data"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/weather-api",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/weather-api",
+      "reason": "",
+      "title": "Weather Api",
+      "source_url": "https://clawhub.ai/skills/weather-api"
+    },
+    {
+      "repo_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-financial-stock-crypto-market-price-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-financial-stock-crypto-market-price-data",
+      "reason": "",
+      "title": "One API key for real time stock equity pricing data including crypto BTC ETH etc.",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-financial-stock-crypto-market-price-data"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/image-to-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/image-to-data",
+      "reason": "",
+      "title": "Image To Data",
+      "source_url": "https://clawhub.ai/skills/image-to-data"
+    },
+    {
+      "repo_url": "https://github.com/AIsaDocs/openclaw-aisa-youtube-search-tracking",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AIsaDocs/openclaw-aisa-youtube-search-tracking",
+      "reason": "",
+      "title": "Youtube Search and Tracking API",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-youtube-search-tracking"
+    },
+    {
+      "repo_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-search-website-academic-tavily-serp-exa",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-search-website-academic-tavily-serp-exa",
+      "reason": "",
+      "title": "Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-search-website-academic-tavily-serp-exa"
+    },
+    {
+      "repo_url": "https://github.com/anisafifi/dataset-finder",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/anisafifi/dataset-finder",
+      "reason": "",
+      "title": "Dataset Finder",
+      "source_url": "https://clawhub.ai/skills/dataset-finder"
+    },
+    {
+      "repo_url": "https://github.com/autogame-17/code-stats",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/autogame-17/code-stats",
+      "reason": "",
+      "title": "Code Stats",
+      "source_url": "https://clawhub.ai/skills/code-stats"
+    },
+    {
+      "repo_url": "https://github.com/baokui/pdf-ocr-layout",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/baokui/pdf-ocr-layout",
+      "reason": "",
+      "title": "pdf-ocr-layout",
+      "source_url": "https://clawhub.ai/skills/pdf-ocr-layout"
+    },
+    {
+      "repo_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-us-stock-analyst",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/0xjordansg-yolo/openclaw-aisa-us-stock-analyst",
+      "reason": "",
+      "title": "US Stock Analyst by leading AI LLM models with Bloomberg Data, Twitter Sentiment and Wall Street Equity Research Reports",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-us-stock-analyst"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/scholar",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/scholar",
+      "reason": "",
+      "title": "Scholar",
+      "source_url": "https://clawhub.ai/skills/scholar"
+    },
+    {
+      "repo_url": "https://github.com/phheng/amazon-reviews-api-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/phheng/amazon-reviews-api-skill",
+      "reason": "",
+      "title": "Amazon Reviews Api Skill",
+      "source_url": "https://clawhub.ai/skills/amazon-reviews-api-skill"
+    },
+    {
+      "repo_url": "https://github.com/Erik-Miller/claw-fi",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Erik-Miller/claw-fi",
+      "reason": "",
+      "title": "ClawFi",
+      "source_url": "https://clawhub.ai/skills/claw-fi"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/pubmed",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/pubmed",
+      "reason": "",
+      "title": "PubMed",
+      "source_url": "https://clawhub.ai/skills/pubmed"
+    },
+    {
+      "repo_url": "https://github.com/AIsaPay/financial-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AIsaPay/financial-data",
+      "reason": "",
+      "title": "Financial Data",
+      "source_url": "https://clawhub.ai/skills/financial-data"
+    },
+    {
+      "repo_url": "https://github.com/davidm413/bybit-order-book",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/davidm413/bybit-order-book",
+      "reason": "",
+      "title": "bybit-order-book",
+      "source_url": "https://clawhub.ai/skills/bybit-order-book"
+    },
+    {
+      "repo_url": "https://github.com/aisaDevco/aisa-financial-data-api",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/aisaDevco/aisa-financial-data-api",
+      "reason": "",
+      "title": "aisa financial data api",
+      "source_url": "https://clawhub.ai/skills/aisa-financial-data-api"
+    },
+    {
+      "repo_url": "https://github.com/Sterlingfrank1/paper-parse",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Sterlingfrank1/paper-parse",
+      "reason": "",
+      "title": "Paper Parse",
+      "source_url": "https://clawhub.ai/skills/paper-parse"
+    },
+    {
+      "repo_url": "https://github.com/AIsaPay/aisa-financial-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AIsaPay/aisa-financial-data",
+      "reason": "",
+      "title": "AIsa Financial Data",
+      "source_url": "https://clawhub.ai/skills/aisa-financial-data"
+    },
+    {
+      "repo_url": "https://github.com/johstracke/note-processor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/johstracke/note-processor",
+      "reason": "",
+      "title": "Note Processor",
+      "source_url": "https://clawhub.ai/skills/note-processor"
+    },
+    {
+      "repo_url": "https://github.com/satnamra/google-trends",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/satnamra/google-trends",
+      "reason": "",
+      "title": "Google Trends",
+      "source_url": "https://clawhub.ai/skills/google-trends"
+    },
+    {
+      "repo_url": "https://github.com/atyachin/social-intelligence",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/atyachin/social-intelligence",
+      "reason": "",
+      "title": "Social Intelligence",
+      "source_url": "https://clawhub.ai/skills/social-intelligence"
+    },
+    {
+      "repo_url": "https://github.com/benschiller/clawdio",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/benschiller/clawdio",
+      "reason": "",
+      "title": "clawdio",
+      "source_url": "https://clawhub.ai/skills/clawdio"
+    },
+    {
+      "repo_url": "https://github.com/killgfat/zotero-cli",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/killgfat/zotero-cli",
+      "reason": "",
+      "title": "Zotero Cli",
+      "source_url": "https://clawhub.ai/skills/zotero-cli"
+    },
+    {
+      "repo_url": "https://github.com/hmzo/crypto-market-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hmzo/crypto-market-analyzer",
+      "reason": "",
+      "title": "Crypto Market Analyzer",
+      "source_url": "https://clawhub.ai/skills/crypto-market-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/rvt-to-excel",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/rvt-to-excel",
+      "reason": "",
+      "title": "Rvt To Excel",
+      "source_url": "https://clawhub.ai/skills/rvt-to-excel"
+    },
+    {
+      "repo_url": "https://github.com/biohackerrrrrr/paper-fetcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/biohackerrrrrr/paper-fetcher",
+      "reason": "",
+      "title": "Academic Paper Fetcher",
+      "source_url": "https://clawhub.ai/skills/paper-fetcher"
+    },
+    {
+      "repo_url": "https://github.com/Zyori/dilemm-ai",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Zyori/dilemm-ai",
+      "reason": "",
+      "title": "DilemmAI Competition",
+      "source_url": "https://clawhub.ai/skills/dilemm-ai"
+    },
+    {
+      "repo_url": "https://github.com/ningjingzhiyuande/cls-news-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ningjingzhiyuande/cls-news-scraper",
+      "reason": "",
+      "title": "Cls News Scraper",
+      "source_url": "https://clawhub.ai/skills/cls-news-scraper"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/latex",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/latex",
+      "reason": "",
+      "title": "LaTeX",
+      "source_url": "https://clawhub.ai/skills/latex"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/ifc-data-extraction",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/ifc-data-extraction",
+      "reason": "",
+      "title": "Ifc Data Extraction",
+      "source_url": "https://clawhub.ai/skills/ifc-data-extraction"
+    },
+    {
+      "repo_url": "https://github.com/killgfat/arxiv-cli-tools",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/killgfat/arxiv-cli-tools",
+      "reason": "",
+      "title": "Arxiv Cli Tools",
+      "source_url": "https://clawhub.ai/skills/arxiv-cli-tools"
+    },
+    {
+      "repo_url": "https://github.com/xiaowenzhou/dify-kb-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xiaowenzhou/dify-kb-search",
+      "reason": "",
+      "title": "Dify Knowledge Base Search",
+      "source_url": "https://clawhub.ai/skills/dify-kb-search"
+    },
+    {
+      "repo_url": "https://github.com/sunnyyao2222-eng/feishu-wiki",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/sunnyyao2222-eng/feishu-wiki",
+      "reason": "",
+      "title": "feishu-wiki",
+      "source_url": "https://clawhub.ai/skills/feishu-wiki"
+    },
+    {
+      "repo_url": "https://github.com/guohongbin-git/xlsx-cn",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/guohongbin-git/xlsx-cn",
+      "reason": "",
+      "title": "Xlsx Cn",
+      "source_url": "https://clawhub.ai/skills/xlsx-cn"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/xml-reader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/xml-reader",
+      "reason": "",
+      "title": "Xml Reader",
+      "source_url": "https://clawhub.ai/skills/xml-reader"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/astronomy",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/astronomy",
+      "reason": "",
+      "title": "Astronomy",
+      "source_url": "https://clawhub.ai/skills/astronomy"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/data-profiler",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/data-profiler",
+      "reason": "",
+      "title": "Data Profiler",
+      "source_url": "https://clawhub.ai/skills/data-profiler"
+    },
+    {
+      "repo_url": "https://github.com/DCPRevere/org-memory",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DCPRevere/org-memory",
+      "reason": "",
+      "title": "org-memory",
+      "source_url": "https://clawhub.ai/skills/org-memory"
+    },
+    {
+      "repo_url": "https://github.com/protoss70/apify-ultimate-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/protoss70/apify-ultimate-scraper",
+      "reason": "",
+      "title": "Apify Ultimate Scraper",
+      "source_url": "https://clawhub.ai/skills/apify-ultimate-scraper"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/data-evolution-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/data-evolution-analysis",
+      "reason": "",
+      "title": "Data Evolution Analysis",
+      "source_url": "https://clawhub.ai/skills/data-evolution-analysis"
+    },
+    {
+      "repo_url": "https://github.com/Amanbhandula/moltarxiv",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Amanbhandula/moltarxiv",
+      "reason": "",
+      "title": "Moltarxiv",
+      "source_url": "https://clawhub.ai/skills/moltarxiv"
+    },
+    {
+      "repo_url": "https://github.com/hfichter/umami-stats",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hfichter/umami-stats",
+      "reason": "",
+      "title": "Umami Stats",
+      "source_url": "https://clawhub.ai/skills/umami-stats"
+    },
+    {
+      "repo_url": "https://github.com/okaris/data-visualization-2",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/okaris/data-visualization-2",
+      "reason": "",
+      "title": "Data Visualization",
+      "source_url": "https://clawhub.ai/skills/data-visualization-2"
+    },
+    {
+      "repo_url": "https://github.com/ChuXo/epstein",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ChuXo/epstein",
+      "reason": "",
+      "title": "Epstein Files Search",
+      "source_url": "https://clawhub.ai/skills/epstein"
+    },
+    {
+      "repo_url": "https://github.com/atyachin/reddit-api",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/atyachin/reddit-api",
+      "reason": "",
+      "title": "Reddit Search",
+      "source_url": "https://clawhub.ai/skills/reddit-api"
+    },
+    {
+      "repo_url": "https://github.com/Topdu/openocr-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Topdu/openocr-skill",
+      "reason": "",
+      "title": "openocr-skill",
+      "source_url": "https://clawhub.ai/skills/openocr-skill"
+    },
+    {
+      "repo_url": "https://github.com/seanwyngaard/web-scraper-as-a-service",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/seanwyngaard/web-scraper-as-a-service",
+      "reason": "",
+      "title": "Web Scraper as a Service",
+      "source_url": "https://clawhub.ai/skills/web-scraper-as-a-service"
+    },
+    {
+      "repo_url": "https://github.com/xyny89/agentic-browser-0-1-2",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xyny89/agentic-browser-0-1-2",
+      "reason": "",
+      "title": "Agentic Browser 0.1.2",
+      "source_url": "https://clawhub.ai/skills/agentic-browser-0-1-2"
+    },
+    {
+      "repo_url": "https://github.com/cinience/alicloud-observability-sls-log-query",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/cinience/alicloud-observability-sls-log-query",
+      "reason": "",
+      "title": "Alicloud Observability Sls Log Query",
+      "source_url": "https://clawhub.ai/skills/alicloud-observability-sls-log-query"
+    },
+    {
+      "repo_url": "https://github.com/cinience/alicloud-ai-search-opensearch",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/cinience/alicloud-ai-search-opensearch",
+      "reason": "",
+      "title": "Alicloud Ai Search Opensearch",
+      "source_url": "https://clawhub.ai/skills/alicloud-ai-search-opensearch"
+    },
+    {
+      "repo_url": "https://github.com/zachgodsell93/reddit-researcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zachgodsell93/reddit-researcher",
+      "reason": "",
+      "title": "Reddit Researcher",
+      "source_url": "https://clawhub.ai/skills/reddit-researcher"
+    },
+    {
+      "repo_url": "https://github.com/DeepSeekOracle/book-brain",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DeepSeekOracle/book-brain",
+      "reason": "",
+      "title": "BOOK BRAIN – LYGO 3-Brain Filesystem Helper",
+      "source_url": "https://clawhub.ai/skills/book-brain"
+    },
+    {
+      "repo_url": "https://github.com/phucanh08/weather-api-1",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/phucanh08/weather-api-1",
+      "reason": "",
+      "title": "Weather Api 1",
+      "source_url": "https://clawhub.ai/skills/weather-api-1"
+    },
+    {
+      "repo_url": "https://github.com/havneco/openalexandria",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/havneco/openalexandria",
+      "reason": "",
+      "title": "OpenAlexandria",
+      "source_url": "https://clawhub.ai/skills/openalexandria"
+    },
+    {
+      "repo_url": "https://github.com/dayunyan/academic-writer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dayunyan/academic-writer",
+      "reason": "",
+      "title": "Academic Writer",
+      "source_url": "https://clawhub.ai/skills/academic-writer"
+    },
+    {
+      "repo_url": "https://github.com/phucanh08/multi-search-engine-2",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/phucanh08/multi-search-engine-2",
+      "reason": "",
+      "title": "Multi Search Engine 2",
+      "source_url": "https://clawhub.ai/skills/multi-search-engine-2"
+    },
+    {
+      "repo_url": "https://github.com/shepsci/kaggle",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/shepsci/kaggle",
+      "reason": "",
+      "title": "Kaggle",
+      "source_url": "https://clawhub.ai/skills/kaggle"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/ai-researcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/ai-researcher",
+      "reason": "",
+      "title": "AI Researcher",
+      "source_url": "https://clawhub.ai/skills/ai-researcher"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/computer-science",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/computer-science",
+      "reason": "",
+      "title": "Computer Science",
+      "source_url": "https://clawhub.ai/skills/computer-science"
+    },
+    {
+      "repo_url": "https://github.com/cewinharhar/lobster-bio-use",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/cewinharhar/lobster-bio-use",
+      "reason": "",
+      "title": "LobsterBio - Use",
+      "source_url": "https://clawhub.ai/skills/lobster-bio-use"
+    },
+    {
+      "repo_url": "https://github.com/benschiller/clawdio-twitter",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/benschiller/clawdio-twitter",
+      "reason": "",
+      "title": "clawdio",
+      "source_url": "https://clawhub.ai/skills/clawdio-twitter"
+    },
+    {
+      "repo_url": "https://github.com/naliehu/youtube-watcherkx",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/naliehu/youtube-watcherkx",
+      "reason": "",
+      "title": "YouTube Watcher",
+      "source_url": "https://clawhub.ai/skills/youtube-watcherkx"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/statistics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/statistics",
+      "reason": "",
+      "title": "Statistics",
+      "source_url": "https://clawhub.ai/skills/statistics"
+    },
+    {
+      "repo_url": "https://github.com/dubnium0/time-series-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dubnium0/time-series-analysis",
+      "reason": "",
+      "title": "time-sereis-analysis",
+      "source_url": "https://clawhub.ai/skills/time-series-analysis"
+    },
+    {
+      "repo_url": "https://github.com/mregmi/ragora",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mregmi/ragora",
+      "reason": "",
+      "title": "ragora",
+      "source_url": "https://clawhub.ai/skills/ragora"
+    },
+    {
+      "repo_url": "https://github.com/Vinlic/unifuncs-deep-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Vinlic/unifuncs-deep-search",
+      "reason": "",
+      "title": "UniFuncs Deep Search",
+      "source_url": "https://clawhub.ai/skills/unifuncs-deep-search"
+    },
+    {
+      "repo_url": "https://github.com/kassimisai/web-searcher",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/kassimisai/web-searcher",
+      "reason": "",
+      "title": "Web Searcher",
+      "source_url": "https://clawhub.ai/skills/web-searcher"
+    },
+    {
+      "repo_url": "https://github.com/bmestanov/apify",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bmestanov/apify",
+      "reason": "",
+      "title": "Apify",
+      "source_url": "https://clawhub.ai/skills/apify"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/flashcards",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/flashcards",
+      "reason": "",
+      "title": "Flashcards",
+      "source_url": "https://clawhub.ai/skills/flashcards"
+    },
+    {
+      "repo_url": "https://github.com/lkcair/stocks",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lkcair/stocks",
+      "reason": "",
+      "title": "Stocks and Financial Data Pull",
+      "source_url": "https://clawhub.ai/skills/stocks"
+    },
+    {
+      "repo_url": "https://github.com/GottenZZP/zotero-sholar",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/GottenZZP/zotero-sholar",
+      "reason": "",
+      "title": "zotero-sholar",
+      "source_url": "https://clawhub.ai/skills/zotero-sholar"
+    },
+    {
+      "repo_url": "https://github.com/512z/yahooquery",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/512z/yahooquery",
+      "reason": "",
+      "title": "yahooquery",
+      "source_url": "https://clawhub.ai/skills/yahooquery"
+    },
+    {
+      "repo_url": "https://github.com/AIsaDocs/openclaw-aisa-search-web-academic-tavily",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AIsaDocs/openclaw-aisa-search-web-academic-tavily",
+      "reason": "",
+      "title": "Intelligent search for agents. Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-search-web-academic-tavily"
+    },
+    {
+      "repo_url": "https://github.com/s-annam/dizest-summarize",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/s-annam/dizest-summarize",
+      "reason": "",
+      "title": "Dizest Summarize",
+      "source_url": "https://clawhub.ai/skills/dizest-summarize"
+    },
+    {
+      "repo_url": "https://github.com/Lorpha/reformed-books",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Lorpha/reformed-books",
+      "reason": "",
+      "title": "Reformed Books Search & Download",
+      "source_url": "https://clawhub.ai/skills/reformed-books"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/elasticsearch",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/elasticsearch",
+      "reason": "",
+      "title": "Elasticsearch",
+      "source_url": "https://clawhub.ai/skills/elasticsearch"
+    },
+    {
+      "repo_url": "https://github.com/jrswab/slipbot-instapaper-importer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jrswab/slipbot-instapaper-importer",
+      "reason": "",
+      "title": "SlipBot Instapaper Importer",
+      "source_url": "https://clawhub.ai/skills/slipbot-instapaper-importer"
+    },
+    {
+      "repo_url": "https://github.com/reed1898/db-readonly",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/reed1898/db-readonly",
+      "reason": "",
+      "title": "DB Readonly",
+      "source_url": "https://clawhub.ai/skills/db-readonly"
+    },
+    {
+      "repo_url": "https://github.com/djemec/bioskills",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/djemec/bioskills",
+      "reason": "",
+      "title": "BioSkills",
+      "source_url": "https://clawhub.ai/skills/bioskills"
+    },
+    {
+      "repo_url": "https://github.com/cxlhyx/hxxra",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/cxlhyx/hxxra",
+      "reason": "",
+      "title": "hxxra",
+      "source_url": "https://clawhub.ai/skills/hxxra"
+    },
+    {
+      "repo_url": "https://github.com/mtple/deso-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mtple/deso-research",
+      "reason": "",
+      "title": "deso-research",
+      "source_url": "https://clawhub.ai/skills/deso-research"
+    },
+    {
+      "repo_url": "https://github.com/EwingYangs/notion-clipper-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/EwingYangs/notion-clipper-skill",
+      "reason": "",
+      "title": "notion-clipper-skill",
+      "source_url": "https://clawhub.ai/skills/notion-clipper-skill"
+    },
+    {
+      "repo_url": "https://github.com/blueberrywoodsym/x-twitter-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/blueberrywoodsym/x-twitter-search",
+      "reason": "",
+      "title": "X / Twitter Search",
+      "source_url": "https://clawhub.ai/skills/x-twitter-search"
+    },
+    {
+      "repo_url": "https://github.com/jrswab/slipbot-kindle-importer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jrswab/slipbot-kindle-importer",
+      "reason": "",
+      "title": "SlipBot Kindle Importer",
+      "source_url": "https://clawhub.ai/skills/slipbot-kindle-importer"
+    },
+    {
+      "repo_url": "https://github.com/IngoGiebel/arc-creator",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/IngoGiebel/arc-creator",
+      "reason": "",
+      "title": "ARC Creator",
+      "source_url": "https://clawhub.ai/skills/arc-creator"
+    },
+    {
+      "repo_url": "https://github.com/Metatronsdoob369/hk101-living-rag",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Metatronsdoob369/hk101-living-rag",
+      "reason": "",
+      "title": "HK-101 Living RAG",
+      "source_url": "https://clawhub.ai/skills/hk101-living-rag"
+    },
+    {
+      "repo_url": "https://github.com/chunhualiao/save-to-obsidian",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/chunhualiao/save-to-obsidian",
+      "reason": "",
+      "title": "Save to Obsidian",
+      "source_url": "https://clawhub.ai/skills/save-to-obsidian"
+    },
+    {
+      "repo_url": "https://github.com/reed1898/knowledge-base-collector",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/reed1898/knowledge-base-collector",
+      "reason": "",
+      "title": "Knowledge Base Collector",
+      "source_url": "https://clawhub.ai/skills/knowledge-base-collector"
+    },
+    {
+      "repo_url": "https://github.com/jamesjohnfox/tradekix",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jamesjohnfox/tradekix",
+      "reason": "",
+      "title": "Tradekix",
+      "source_url": "https://clawhub.ai/skills/tradekix"
+    },
+    {
+      "repo_url": "https://github.com/renning22/asia-twitter-api-v1",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/renning22/asia-twitter-api-v1",
+      "reason": "",
+      "title": "Production-ready Twitter/X data and automation for autonomous agents",
+      "source_url": "https://clawhub.ai/skills/asia-twitter-api-v1"
+    },
+    {
+      "repo_url": "https://github.com/spillai/vlmrun-cli-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/spillai/vlmrun-cli-skill",
+      "reason": "",
+      "title": "Vlmrun Cli Skill",
+      "source_url": "https://clawhub.ai/skills/vlmrun-cli-skill"
+    },
+    {
+      "repo_url": "https://github.com/bowen-dotcom/aisa-market-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bowen-dotcom/aisa-market-skill",
+      "reason": "",
+      "title": "MarketPulse Financial Data",
+      "source_url": "https://clawhub.ai/skills/aisa-market-skill"
+    },
+    {
+      "repo_url": "https://github.com/rachmann-alexander/wikipedia-oc",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rachmann-alexander/wikipedia-oc",
+      "reason": "",
+      "title": "wikipedia-oc",
+      "source_url": "https://clawhub.ai/skills/wikipedia-oc"
+    },
+    {
+      "repo_url": "https://github.com/jakes420/link-brain",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jakes420/link-brain",
+      "reason": "",
+      "title": "Link Brain",
+      "source_url": "https://clawhub.ai/skills/link-brain"
+    },
+    {
+      "repo_url": "https://github.com/coolkonstantincool/pixelbattle",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/coolkonstantincool/pixelbattle",
+      "reason": "",
+      "title": "Pixel Battle skill",
+      "source_url": "https://clawhub.ai/skills/pixelbattle"
+    },
+    {
+      "repo_url": "https://github.com/andyhcwang/principles",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/andyhcwang/principles",
+      "reason": "",
+      "title": "Principles",
+      "source_url": "https://clawhub.ai/skills/principles"
+    },
+    {
+      "repo_url": "https://github.com/wpank/uniswap-swap-simulation",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wpank/uniswap-swap-simulation",
+      "reason": "",
+      "title": "Uniswap Swap Simulation",
+      "source_url": "https://clawhub.ai/skills/uniswap-swap-simulation"
+    },
+    {
+      "repo_url": "https://github.com/chaimengphp/openclaw-aisa-youtube-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/chaimengphp/openclaw-aisa-youtube-search",
+      "reason": "",
+      "title": "YouTube SERP Scout (Rank + Discover)",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-youtube-search"
+    },
+    {
+      "repo_url": "https://github.com/0xjordansg-yolo/ai-native-websearch-via-tavily-api-returns-concise-relevant-results-for-openclaw",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/0xjordansg-yolo/ai-native-websearch-via-tavily-api-returns-concise-relevant-results-for-openclaw",
+      "reason": "",
+      "title": "Web Search Tavily",
+      "source_url": "https://clawhub.ai/skills/ai-native-websearch-via-tavily-api-returns-concise-relevant-results-for-openclaw"
+    },
+    {
+      "repo_url": "https://github.com/teamtelnyx/telnyx-rag",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/teamtelnyx/telnyx-rag",
+      "reason": "",
+      "title": "Telnyx Rag",
+      "source_url": "https://clawhub.ai/skills/telnyx-rag"
+    },
+    {
+      "repo_url": "https://github.com/chaimengphp/openclaw-aisa-market-pulse",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/chaimengphp/openclaw-aisa-market-pulse",
+      "reason": "",
+      "title": "MarketPulse (Stocks + Crypto Data)",
+      "source_url": "https://clawhub.ai/skills/openclaw-aisa-market-pulse"
+    },
+    {
+      "repo_url": "https://github.com/Aurora-1412/arxiv-reader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Aurora-1412/arxiv-reader",
+      "reason": "",
+      "title": "arxiv_deep_reader",
+      "source_url": "https://clawhub.ai/skills/arxiv-reader"
+    },
+    {
+      "repo_url": "https://github.com/DonatasDecodo/decodo-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DonatasDecodo/decodo-scraper",
+      "reason": "",
+      "title": "Decodo Scraper",
+      "source_url": "https://clawhub.ai/skills/decodo-scraper"
+    },
+    {
+      "repo_url": "https://github.com/galizki/paper-evoweb-ai",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/galizki/paper-evoweb-ai",
+      "reason": "",
+      "title": "Scientific Article PDF Generator",
+      "source_url": "https://clawhub.ai/skills/paper-evoweb-ai"
+    },
+    {
+      "repo_url": "https://github.com/xukp20/arxiv-paper-processor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xukp20/arxiv-paper-processor",
+      "reason": "",
+      "title": "Arxiv Paper Processor",
+      "source_url": "https://clawhub.ai/skills/arxiv-paper-processor"
+    },
+    {
+      "repo_url": "https://github.com/alekhm/aister-vector-memory",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/alekhm/aister-vector-memory",
+      "reason": "",
+      "title": "Aister vector-memory",
+      "source_url": "https://clawhub.ai/skills/aister-vector-memory"
+    },
+    {
+      "repo_url": "https://github.com/Etoile04/mineru-pdf",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Etoile04/mineru-pdf",
+      "reason": "",
+      "title": "Mineru Pdf",
+      "source_url": "https://clawhub.ai/skills/mineru-pdf"
+    },
+    {
+      "repo_url": "https://github.com/wpank/analyze-burn-economics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wpank/analyze-burn-economics",
+      "reason": "",
+      "title": "Uniswap Analyze Burn Economics",
+      "source_url": "https://clawhub.ai/skills/analyze-burn-economics"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/geology",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/geology",
+      "reason": "",
+      "title": "Geology",
+      "source_url": "https://clawhub.ai/skills/geology"
+    },
+    {
+      "repo_url": "https://github.com/iamdoctorclaw/hivefound",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/iamdoctorclaw/hivefound",
+      "reason": "",
+      "title": "HiveFound",
+      "source_url": "https://clawhub.ai/skills/hivefound"
+    },
+    {
+      "repo_url": "https://github.com/birdme007/ecommerce-price-comparison",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/birdme007/ecommerce-price-comparison",
+      "reason": "",
+      "title": "电商价格比较",
+      "source_url": "https://clawhub.ai/skills/ecommerce-price-comparison"
+    },
+    {
+      "repo_url": "https://github.com/adolago/obsidian-cli",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/adolago/obsidian-cli",
+      "reason": "",
+      "title": "Obsidian CLI",
+      "source_url": "https://clawhub.ai/skills/obsidian-cli"
+    },
+    {
+      "repo_url": "https://github.com/wpank/uniswap-pool-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wpank/uniswap-pool-analysis",
+      "reason": "",
+      "title": "Uniswap Pool Analysis",
+      "source_url": "https://clawhub.ai/skills/uniswap-pool-analysis"
+    },
+    {
+      "repo_url": "https://github.com/contrario/apex-crypto-intelligence",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/contrario/apex-crypto-intelligence",
+      "reason": "",
+      "title": "Apex Crypto Intelligence",
+      "source_url": "https://clawhub.ai/skills/apex-crypto-intelligence"
+    },
+    {
+      "repo_url": "https://github.com/nantes/arxiv-osiris",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nantes/arxiv-osiris",
+      "reason": "",
+      "title": "Arxiv Osiris",
+      "source_url": "https://clawhub.ai/skills/arxiv-osiris"
+    },
+    {
+      "repo_url": "https://github.com/lstpsche/openmeteo-sh-weather-advanced",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lstpsche/openmeteo-sh-weather-advanced",
+      "reason": "",
+      "title": "Weather via OpenMeteo (via openmeteo-sh cli; advanced ver)",
+      "source_url": "https://clawhub.ai/skills/openmeteo-sh-weather-advanced"
+    },
+    {
+      "repo_url": "https://github.com/seomikewaltman/yoinkit",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/seomikewaltman/yoinkit",
+      "reason": "",
+      "title": "YoinkIt",
+      "source_url": "https://clawhub.ai/skills/yoinkit"
+    },
+    {
+      "repo_url": "https://github.com/haru3613/perplexity-safe",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/haru3613/perplexity-safe",
+      "reason": "",
+      "title": "Perplexity AI Search - security-hardened version (bash-based)",
+      "source_url": "https://clawhub.ai/skills/perplexity-safe"
+    },
+    {
+      "repo_url": "https://github.com/odysseus0/feed-digest",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/odysseus0/feed-digest",
+      "reason": "",
+      "title": "Feed Digest",
+      "source_url": "https://clawhub.ai/skills/feed-digest"
+    },
+    {
+      "repo_url": "https://github.com/ianalloway/data-viz",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ianalloway/data-viz",
+      "reason": "",
+      "title": "Data Viz",
+      "source_url": "https://clawhub.ai/skills/data-viz"
+    },
+    {
+      "repo_url": "https://github.com/jame-mei-ltp/a-stock-monitor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jame-mei-ltp/a-stock-monitor",
+      "reason": "",
+      "title": "A Stock Monitor",
+      "source_url": "https://clawhub.ai/skills/a-stock-monitor"
+    },
+    {
+      "repo_url": "https://github.com/pascalwhoop/medical-research-toolkit",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/pascalwhoop/medical-research-toolkit",
+      "reason": "",
+      "title": "Medical Research Toolkit",
+      "source_url": "https://clawhub.ai/skills/medical-research-toolkit"
+    },
+    {
+      "repo_url": "https://github.com/GloamingBlue/zotero-paper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/GloamingBlue/zotero-paper",
+      "reason": "",
+      "title": "zotero-paper",
+      "source_url": "https://clawhub.ai/skills/zotero-paper"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/anki",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/anki",
+      "reason": "",
+      "title": "Anki",
+      "source_url": "https://clawhub.ai/skills/anki"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/embeddings",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/embeddings",
+      "reason": "",
+      "title": "Embeddings",
+      "source_url": "https://clawhub.ai/skills/embeddings"
+    },
+    {
+      "repo_url": "https://github.com/squally2k/stock-analysis-6-2-0",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/squally2k/stock-analysis-6-2-0",
+      "reason": "",
+      "title": "Stock Analysis 6.2.0",
+      "source_url": "https://clawhub.ai/skills/stock-analysis-6-2-0"
+    },
+    {
+      "repo_url": "https://github.com/ClaireAICodes/knowledge-management",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ClaireAICodes/knowledge-management",
+      "reason": "",
+      "title": "Knowledge Management",
+      "source_url": "https://clawhub.ai/skills/knowledge-management"
+    },
+    {
+      "repo_url": "https://github.com/fengertian5/china-demand-mining",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/fengertian5/china-demand-mining",
+      "reason": "",
+      "title": "国内需求挖掘",
+      "source_url": "https://clawhub.ai/skills/china-demand-mining"
+    },
+    {
+      "repo_url": "https://github.com/iyeque/iyeque-pdf-reader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/iyeque/iyeque-pdf-reader",
+      "reason": "",
+      "title": "PDF Reader (Iyeque)",
+      "source_url": "https://clawhub.ai/skills/iyeque-pdf-reader"
+    },
+    {
+      "repo_url": "https://github.com/pjsousa79/baselight-mcp",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/pjsousa79/baselight-mcp",
+      "reason": "",
+      "title": "Baselight data via MCP",
+      "source_url": "https://clawhub.ai/skills/baselight-mcp"
+    },
+    {
+      "repo_url": "https://github.com/dymx101/clap-trader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/dymx101/clap-trader",
+      "reason": "",
+      "title": "Clap Trader",
+      "source_url": "https://clawhub.ai/skills/clap-trader"
+    },
+    {
+      "repo_url": "https://github.com/A-I-R/mineru-pdf-extractor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/A-I-R/mineru-pdf-extractor",
+      "reason": "",
+      "title": "MinerU PDF Extractor",
+      "source_url": "https://clawhub.ai/skills/mineru-pdf-extractor"
+    },
+    {
+      "repo_url": "https://github.com/ehudsn/orchata",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ehudsn/orchata",
+      "reason": "",
+      "title": "Orchata",
+      "source_url": "https://clawhub.ai/skills/orchata"
+    },
+    {
+      "repo_url": "https://github.com/msgnoki/legalfrance",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/msgnoki/legalfrance",
+      "reason": "",
+      "title": "LegalFrance",
+      "source_url": "https://clawhub.ai/skills/legalfrance"
+    },
+    {
+      "repo_url": "https://github.com/realRoc/data-analyst-pro",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/realRoc/data-analyst-pro",
+      "reason": "",
+      "title": "Data Analyst",
+      "source_url": "https://clawhub.ai/skills/data-analyst-pro"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/lifecycle-carbon-calculator",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/lifecycle-carbon-calculator",
+      "reason": "",
+      "title": "Lifecycle Carbon Calculator",
+      "source_url": "https://clawhub.ai/skills/lifecycle-carbon-calculator"
+    },
+    {
+      "repo_url": "https://github.com/JK-0001/customer-feedback",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/JK-0001/customer-feedback",
+      "reason": "",
+      "title": "Customer Feedback",
+      "source_url": "https://clawhub.ai/skills/customer-feedback"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-supply-chain",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-supply-chain",
+      "reason": "",
+      "title": "Supply Chain Risk Monitor",
+      "source_url": "https://clawhub.ai/skills/afrexai-supply-chain"
+    },
+    {
+      "repo_url": "https://github.com/GottenZZP/zotero-scholar",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/GottenZZP/zotero-scholar",
+      "reason": "",
+      "title": "zotero-scholar",
+      "source_url": "https://clawhub.ai/skills/zotero-scholar"
+    },
+    {
+      "repo_url": "https://github.com/ryandeangraves/charts",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ryandeangraves/charts",
+      "reason": "",
+      "title": "Charts",
+      "source_url": "https://clawhub.ai/skills/charts"
+    },
+    {
+      "repo_url": "https://github.com/StanleyChanH/investment-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/StanleyChanH/investment-data",
+      "reason": "",
+      "title": "investment-data",
+      "source_url": "https://clawhub.ai/skills/investment-data"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/extract-pdf-text",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/extract-pdf-text",
+      "reason": "",
+      "title": "Extract PDF Text",
+      "source_url": "https://clawhub.ai/skills/extract-pdf-text"
+    },
+    {
+      "repo_url": "https://github.com/1999AZZAR/mema",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1999AZZAR/mema",
+      "reason": "",
+      "title": "Mema Brain",
+      "source_url": "https://clawhub.ai/skills/mema"
+    },
+    {
+      "repo_url": "https://github.com/wanng-ide/arxiv-skill-learning",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wanng-ide/arxiv-skill-learning",
+      "reason": "",
+      "title": "Arxiv Skill Learning",
+      "source_url": "https://clawhub.ai/skills/arxiv-skill-learning"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-grant-writer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-grant-writer",
+      "reason": "",
+      "title": "Grant Writer",
+      "source_url": "https://clawhub.ai/skills/afrexai-grant-writer"
+    },
+    {
+      "repo_url": "https://github.com/ArulmozhiV/x-twitter-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ArulmozhiV/x-twitter-scraper",
+      "reason": "",
+      "title": "Twitter Scraper",
+      "source_url": "https://clawhub.ai/skills/x-twitter-scraper"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/voice-notes",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/voice-notes",
+      "reason": "",
+      "title": "Voice Notes",
+      "source_url": "https://clawhub.ai/skills/voice-notes"
+    },
+    {
+      "repo_url": "https://github.com/xukp20/arxiv-summarizer-orchestrator",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xukp20/arxiv-summarizer-orchestrator",
+      "reason": "",
+      "title": "Arxiv Summarizer Orchestrator",
+      "source_url": "https://clawhub.ai/skills/arxiv-summarizer-orchestrator"
+    },
+    {
+      "repo_url": "https://github.com/uncleJim21/pullthatupjamie",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/uncleJim21/pullthatupjamie",
+      "reason": "",
+      "title": "Pullthatupjamie",
+      "source_url": "https://clawhub.ai/skills/pullthatupjamie"
+    },
+    {
+      "repo_url": "https://github.com/lknik/clawdint",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lknik/clawdint",
+      "reason": "",
+      "title": "ClawdINT - Collaborative analysis platform for AI agents",
+      "source_url": "https://clawhub.ai/skills/clawdint"
+    },
+    {
+      "repo_url": "https://github.com/xukp20/arxiv-search-collector",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xukp20/arxiv-search-collector",
+      "reason": "",
+      "title": "Arxiv Search Collector",
+      "source_url": "https://clawhub.ai/skills/arxiv-search-collector"
+    },
+    {
+      "repo_url": "https://github.com/mupengi-bot/data-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mupengi-bot/data-scraper",
+      "reason": "",
+      "title": "Data Scraper",
+      "source_url": "https://clawhub.ai/skills/data-scraper"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/llm-data-automation",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/datadrivenconstruction/llm-data-automation",
+      "reason": "",
+      "title": "Llm Data Automation",
+      "source_url": "https://clawhub.ai/skills/llm-data-automation"
+    },
+    {
+      "repo_url": "https://github.com/ajtgjmdjp/boj-mcp",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ajtgjmdjp/boj-mcp",
+      "reason": "",
+      "title": "Boj Mcp",
+      "source_url": "https://clawhub.ai/skills/boj-mcp"
+    },
+    {
+      "repo_url": "https://github.com/yumyumtum/yumstock",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/yumyumtum/yumstock",
+      "reason": "",
+      "title": "yumstock",
+      "source_url": "https://clawhub.ai/skills/yumstock"
+    },
+    {
+      "repo_url": "https://github.com/underbench2-gif/ub2-csv-data-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/underbench2-gif/ub2-csv-data-analyzer",
+      "reason": "",
+      "title": "CSV Data Analyzer",
+      "source_url": "https://clawhub.ai/skills/ub2-csv-data-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/angusthefuzz/pmc-harvest",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/angusthefuzz/pmc-harvest",
+      "reason": "",
+      "title": "PMC Harvest",
+      "source_url": "https://clawhub.ai/skills/pmc-harvest"
+    },
+    {
+      "repo_url": "https://github.com/Broedkrummen/supermemory-free",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Broedkrummen/supermemory-free",
+      "reason": "",
+      "title": "Supermemory Free",
+      "source_url": "https://clawhub.ai/skills/supermemory-free"
+    },
+    {
+      "repo_url": "https://github.com/Sunnyztj/crypto-backtest",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Sunnyztj/crypto-backtest",
+      "reason": "",
+      "title": "Crypto Backtest",
+      "source_url": "https://clawhub.ai/skills/crypto-backtest"
+    },
+    {
+      "repo_url": "https://github.com/xukp20/arxiv-batch-reporter",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xukp20/arxiv-batch-reporter",
+      "reason": "",
+      "title": "Arxiv Batch Reporter",
+      "source_url": "https://clawhub.ai/skills/arxiv-batch-reporter"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/dsp-2",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/dsp-2",
+      "reason": "",
+      "title": "Pywayne Dsp",
+      "source_url": "https://clawhub.ai/skills/dsp-2"
+    },
+    {
+      "repo_url": "https://github.com/underbench2-gif/ub2-web-research-assistant",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/underbench2-gif/ub2-web-research-assistant",
+      "reason": "",
+      "title": "Web Research Assistant",
+      "source_url": "https://clawhub.ai/skills/ub2-web-research-assistant"
+    },
+    {
+      "repo_url": "https://github.com/johnyquest7/medical-specialty-briefs",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/johnyquest7/medical-specialty-briefs",
+      "reason": "",
+      "title": "Medical Briefs",
+      "source_url": "https://clawhub.ai/skills/medical-specialty-briefs"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-churn-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-churn-analyzer",
+      "reason": "",
+      "title": "Churn Risk Analyzer",
+      "source_url": "https://clawhub.ai/skills/afrexai-churn-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/curtisgc1/siphonclaw",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/curtisgc1/siphonclaw",
+      "reason": "",
+      "title": "Siphonclaw Skill",
+      "source_url": "https://clawhub.ai/skills/siphonclaw"
+    },
+    {
+      "repo_url": "https://github.com/urrrich/writing-group-leader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/urrrich/writing-group-leader",
+      "reason": "",
+      "title": "Writing Group Leader",
+      "source_url": "https://clawhub.ai/skills/writing-group-leader"
+    },
+    {
+      "repo_url": "https://github.com/OdinBot33/oee-knowledge-base",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/OdinBot33/oee-knowledge-base",
+      "reason": "",
+      "title": "OEE Knowledge Base RAG",
+      "source_url": "https://clawhub.ai/skills/oee-knowledge-base"
+    },
+    {
+      "repo_url": "https://github.com/arscontexta/arscontexta",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/arscontexta/arscontexta",
+      "reason": "",
+      "title": "arscontexta",
+      "source_url": "https://clawhub.ai/skills/arscontexta"
+    },
+    {
+      "repo_url": "https://github.com/DimitriPantzos/rss-reader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DimitriPantzos/rss-reader",
+      "reason": "",
+      "title": "RSS Reader",
+      "source_url": "https://clawhub.ai/skills/rss-reader"
+    },
+    {
+      "repo_url": "https://github.com/justfinethanku/nate-jones-second-brain",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/justfinethanku/nate-jones-second-brain",
+      "reason": "",
+      "title": "Nate Jones Second Brain",
+      "source_url": "https://clawhub.ai/skills/nate-jones-second-brain"
+    },
+    {
+      "repo_url": "https://github.com/byungkyu/google-bigquery",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/byungkyu/google-bigquery",
+      "reason": "",
+      "title": "Google BigQuery",
+      "source_url": "https://clawhub.ai/skills/google-bigquery"
+    },
+    {
+      "repo_url": "https://github.com/IsonaEi/literature-manager",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/IsonaEi/literature-manager",
+      "reason": "",
+      "title": "Literature Manager",
+      "source_url": "https://clawhub.ai/skills/literature-manager"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/statistics-2",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/statistics-2",
+      "reason": "",
+      "title": "Pywayne Statistics",
+      "source_url": "https://clawhub.ai/skills/statistics-2"
+    },
+    {
+      "repo_url": "https://github.com/atesluks/iqair",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/atesluks/iqair",
+      "reason": "",
+      "title": "IQAir Air Quality",
+      "source_url": "https://clawhub.ai/skills/iqair"
+    },
+    {
+      "repo_url": "https://github.com/Heldinhow/super-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Heldinhow/super-research",
+      "reason": "",
+      "title": "Sr",
+      "source_url": "https://clawhub.ai/skills/super-research"
+    },
+    {
+      "repo_url": "https://github.com/hongping-zh/ecocompute",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hongping-zh/ecocompute",
+      "reason": "",
+      "title": "EcoCompute - LLM Energy Efficiency Advisor",
+      "source_url": "https://clawhub.ai/skills/ecocompute"
+    },
+    {
+      "repo_url": "https://github.com/aronchick/sentiment-score",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/aronchick/sentiment-score",
+      "reason": "",
+      "title": "Sentiment Score",
+      "source_url": "https://clawhub.ai/skills/sentiment-score"
+    },
+    {
+      "repo_url": "https://github.com/rachmann-alexander/owid-oc",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rachmann-alexander/owid-oc",
+      "reason": "",
+      "title": "Our world in data",
+      "source_url": "https://clawhub.ai/skills/owid-oc"
+    },
+    {
+      "repo_url": "https://github.com/aiwithabidi/a6-gemini-video-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/aiwithabidi/a6-gemini-video-analyzer",
+      "reason": "",
+      "title": "Gemini Video Analyzer",
+      "source_url": "https://clawhub.ai/skills/a6-gemini-video-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/hxy9243/zettel-brainstormer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hxy9243/zettel-brainstormer",
+      "reason": "",
+      "title": "Zettel Brainstormer",
+      "source_url": "https://clawhub.ai/skills/zettel-brainstormer"
+    },
+    {
+      "repo_url": "https://github.com/roamerxv/ocr-python",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/roamerxv/ocr-python",
+      "reason": "",
+      "title": "OCR with python",
+      "source_url": "https://clawhub.ai/skills/ocr-python"
+    },
+    {
+      "repo_url": "https://github.com/huifer/admet-prediction",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/huifer/admet-prediction",
+      "reason": "",
+      "title": "Admet Prediction",
+      "source_url": "https://clawhub.ai/skills/admet-prediction"
+    },
+    {
+      "repo_url": "https://github.com/wanng-ide/arxiv-gamedevbench-evaluating-agentic-capabili",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wanng-ide/arxiv-gamedevbench-evaluating-agentic-capabili",
+      "reason": "",
+      "title": "Arxiv Gamedevbench Evaluating Agentic Capabili",
+      "source_url": "https://clawhub.ai/skills/arxiv-gamedevbench-evaluating-agentic-capabili"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-portfolio-risk",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-portfolio-risk",
+      "reason": "",
+      "title": "Portfolio Risk Analyzer",
+      "source_url": "https://clawhub.ai/skills/afrexai-portfolio-risk"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-demand-forecasting",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-demand-forecasting",
+      "reason": "",
+      "title": "Demand Forecasting Framework",
+      "source_url": "https://clawhub.ai/skills/afrexai-demand-forecasting"
+    },
+    {
+      "repo_url": "https://github.com/Robert-Janssen/wolfram-alpha",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Robert-Janssen/wolfram-alpha",
+      "reason": "",
+      "title": "Wolfram Alpha",
+      "source_url": "https://clawhub.ai/skills/wolfram-alpha"
+    },
+    {
+      "repo_url": "https://github.com/Arrmlet/social-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Arrmlet/social-data",
+      "reason": "",
+      "title": "Macrocosmos",
+      "source_url": "https://clawhub.ai/skills/social-data"
+    },
+    {
+      "repo_url": "https://github.com/AadiPapp/space-autonomy-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AadiPapp/space-autonomy-skill",
+      "reason": "",
+      "title": "Pydaqua SpaceAutonomySkill",
+      "source_url": "https://clawhub.ai/skills/space-autonomy-skill"
+    },
+    {
+      "repo_url": "https://github.com/AuralithInc/aura-openclaw",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AuralithInc/aura-openclaw",
+      "reason": "",
+      "title": "Aura for OpenClaw",
+      "source_url": "https://clawhub.ai/skills/aura-openclaw"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/gitstats",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/gitstats",
+      "reason": "",
+      "title": "Pywayne Bin Gitstats",
+      "source_url": "https://clawhub.ai/skills/gitstats"
+    },
+    {
+      "repo_url": "https://github.com/mematron/web-navigator",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mematron/web-navigator",
+      "reason": "",
+      "title": "Web Navigator",
+      "source_url": "https://clawhub.ai/skills/web-navigator"
+    },
+    {
+      "repo_url": "https://github.com/qjymary/daily-paper-digest",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/qjymary/daily-paper-digest",
+      "reason": "",
+      "title": "Daily Paper Digest",
+      "source_url": "https://clawhub.ai/skills/daily-paper-digest"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-cac-optimizer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-cac-optimizer",
+      "reason": "",
+      "title": "CAC Optimizer",
+      "source_url": "https://clawhub.ai/skills/afrexai-cac-optimizer"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/plot",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/plot",
+      "reason": "",
+      "title": "Pywayne Plot",
+      "source_url": "https://clawhub.ai/skills/plot"
+    },
+    {
+      "repo_url": "https://github.com/globalcaos/computational-humor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/globalcaos/computational-humor",
+      "reason": "",
+      "title": "Computational Humor",
+      "source_url": "https://clawhub.ai/skills/computational-humor"
+    },
+    {
+      "repo_url": "https://github.com/nimblemarketingapex-netizen/metrika-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nimblemarketingapex-netizen/metrika-analysis",
+      "reason": "",
+      "title": "Metrika Analysis",
+      "source_url": "https://clawhub.ai/skills/metrika-analysis"
+    },
+    {
+      "repo_url": "https://github.com/forvendettaw/x-deep-miner",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/forvendettaw/x-deep-miner",
+      "reason": "",
+      "title": "X Deep Miner",
+      "source_url": "https://clawhub.ai/skills/x-deep-miner"
+    },
+    {
+      "repo_url": "https://github.com/ryandeangraves/brain-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ryandeangraves/brain-search",
+      "reason": "",
+      "title": "Brain Search",
+      "source_url": "https://clawhub.ai/skills/brain-search"
+    },
+    {
+      "repo_url": "https://github.com/zhouziyue233/ft-reader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zhouziyue233/ft-reader",
+      "reason": "",
+      "title": "Financial Times Deep Reader",
+      "source_url": "https://clawhub.ai/skills/ft-reader"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/vibe-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/vibe-research",
+      "reason": "",
+      "title": "Vibe Research",
+      "source_url": "https://clawhub.ai/skills/vibe-research"
+    },
+    {
+      "repo_url": "https://github.com/Cheminem/pharma-pharmacology-agent",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Cheminem/pharma-pharmacology-agent",
+      "reason": "",
+      "title": "Pharmaclaw Pharmacology Agent",
+      "source_url": "https://clawhub.ai/skills/pharma-pharmacology-agent"
+    },
+    {
+      "repo_url": "https://github.com/AadiPapp/neuralink-decoder",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AadiPapp/neuralink-decoder",
+      "reason": "",
+      "title": "NeuralEntropy",
+      "source_url": "https://clawhub.ai/skills/neuralink-decoder"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/zillow",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/zillow",
+      "reason": "",
+      "title": "Zillow",
+      "source_url": "https://clawhub.ai/skills/zillow"
+    },
+    {
+      "repo_url": "https://github.com/coderaven/2nd-brain",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/coderaven/2nd-brain",
+      "reason": "",
+      "title": "2nd Brain",
+      "source_url": "https://clawhub.ai/skills/2nd-brain"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/geometric-hull-calculator",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/geometric-hull-calculator",
+      "reason": "",
+      "title": "Pywayne Cv Geometric Hull Calculator",
+      "source_url": "https://clawhub.ai/skills/geometric-hull-calculator"
+    },
+    {
+      "repo_url": "https://github.com/marposins/pcap-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/marposins/pcap-analyzer",
+      "reason": "",
+      "title": "PCAP Analyzer",
+      "source_url": "https://clawhub.ai/skills/pcap-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/AadiPapp/optical-quantum-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/AadiPapp/optical-quantum-skill",
+      "reason": "",
+      "title": "Tenqua OpticalQuantumSkill",
+      "source_url": "https://clawhub.ai/skills/optical-quantum-skill"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-knowledge-management",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-knowledge-management",
+      "reason": "",
+      "title": "Knowledge Management System",
+      "source_url": "https://clawhub.ai/skills/afrexai-knowledge-management"
+    },
+    {
+      "repo_url": "https://github.com/xianglifei/another-zhipu-web-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xianglifei/another-zhipu-web-search",
+      "reason": "",
+      "title": "Zhipu AI Search",
+      "source_url": "https://clawhub.ai/skills/another-zhipu-web-search"
+    },
+    {
+      "repo_url": "https://github.com/aiwithabidi/research-logger-pro",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/aiwithabidi/research-logger-pro",
+      "reason": "",
+      "title": "Research Logger Pro",
+      "source_url": "https://clawhub.ai/skills/research-logger-pro"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-unit-economics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-unit-economics",
+      "reason": "",
+      "title": "Unit Economics Analyzer",
+      "source_url": "https://clawhub.ai/skills/afrexai-unit-economics"
+    },
+    {
+      "repo_url": "https://github.com/Katrina-jpg/crypto-research-assistant",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Katrina-jpg/crypto-research-assistant",
+      "reason": "",
+      "title": "Crypto Research Assistant",
+      "source_url": "https://clawhub.ai/skills/crypto-research-assistant"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-profit-margin",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/1kalin/afrexai-profit-margin",
+      "reason": "",
+      "title": "Profit Margin Analyzer",
+      "source_url": "https://clawhub.ai/skills/afrexai-profit-margin"
+    },
+    {
+      "repo_url": "https://github.com/rogerSuperBuilderAlpha/academic-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rogerSuperBuilderAlpha/academic-research",
+      "reason": "",
+      "title": "Academic Research",
+      "source_url": "https://clawhub.ai/skills/academic-research"
+    },
+    {
+      "repo_url": "https://github.com/lknezic/reddit-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lknezic/reddit-research",
+      "reason": "",
+      "title": "Reddit Research",
+      "source_url": "https://clawhub.ai/skills/reddit-research"
+    },
+    {
+      "repo_url": "https://github.com/sorphwer/json-render-table",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/sorphwer/json-render-table",
+      "reason": "",
+      "title": "Json Render Table",
+      "source_url": "https://clawhub.ai/skills/json-render-table"
+    },
+    {
+      "repo_url": "https://github.com/nikhilp1234567/biodiversity-corridor-calculator",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nikhilp1234567/biodiversity-corridor-calculator",
+      "reason": "",
+      "title": "biodiversity corridor calculator",
+      "source_url": "https://clawhub.ai/skills/biodiversity-corridor-calculator"
+    },
+    {
+      "repo_url": "https://github.com/lukeslp/geepers-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lukeslp/geepers-data",
+      "reason": "",
+      "title": "Geepers Data",
+      "source_url": "https://clawhub.ai/skills/geepers-data"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/se3",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/se3",
+      "reason": "",
+      "title": "Pywayne Vio Se3",
+      "source_url": "https://clawhub.ai/skills/se3"
+    },
+    {
+      "repo_url": "https://github.com/alvinecarn/it-searching",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/alvinecarn/it-searching",
+      "reason": "",
+      "title": "It Searching",
+      "source_url": "https://clawhub.ai/skills/it-searching"
+    },
+    {
+      "repo_url": "https://github.com/pyjhhh/book-writer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/pyjhhh/book-writer",
+      "reason": "",
+      "title": "Book Writer",
+      "source_url": "https://clawhub.ai/skills/book-writer"
+    },
+    {
+      "repo_url": "https://github.com/utopia013-droid/chinese-toolkit",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/utopia013-droid/chinese-toolkit",
+      "reason": "",
+      "title": "中文工具包",
+      "source_url": "https://clawhub.ai/skills/chinese-toolkit"
+    },
+    {
+      "repo_url": "https://github.com/guohongbin-git/finetune-service-cn",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/guohongbin-git/finetune-service-cn",
+      "reason": "",
+      "title": "Fine-tune Service CN | 模型微调服务",
+      "source_url": "https://clawhub.ai/skills/finetune-service-cn"
+    },
+    {
+      "repo_url": "https://github.com/nantes/pdfreader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nantes/pdfreader",
+      "reason": "",
+      "title": "Pdfreader",
+      "source_url": "https://clawhub.ai/skills/pdfreader"
+    },
+    {
+      "repo_url": "https://github.com/lukeslp/geepers-corpus",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lukeslp/geepers-corpus",
+      "reason": "",
+      "title": "Geepers Corpus",
+      "source_url": "https://clawhub.ai/skills/geepers-corpus"
+    },
+    {
+      "repo_url": "https://github.com/forvendettaw/monica-three-tier-memory",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/forvendettaw/monica-three-tier-memory",
+      "reason": "",
+      "title": "Three Tier Memory",
+      "source_url": "https://clawhub.ai/skills/monica-three-tier-memory"
+    },
+    {
+      "repo_url": "https://github.com/Cheminem/chemistry-query",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Cheminem/chemistry-query",
+      "reason": "",
+      "title": "Chemistry Query",
+      "source_url": "https://clawhub.ai/skills/chemistry-query"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/rerun-utils",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/rerun-utils",
+      "reason": "",
+      "title": "Pywayne Visualization Rerun Utils",
+      "source_url": "https://clawhub.ai/skills/rerun-utils"
+    },
+    {
+      "repo_url": "https://github.com/angusthefuzz/tnbc-research-swarm",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/angusthefuzz/tnbc-research-swarm",
+      "reason": "",
+      "title": "TNBC Research Swarm",
+      "source_url": "https://clawhub.ai/skills/tnbc-research-swarm"
+    },
+    {
+      "repo_url": "https://github.com/M1n-74316D65/dnote",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/M1n-74316D65/dnote",
+      "reason": "",
+      "title": "Dnote",
+      "source_url": "https://clawhub.ai/skills/dnote"
+    },
+    {
+      "repo_url": "https://github.com/QROST/sun-path",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/QROST/sun-path",
+      "reason": "",
+      "title": "Sun Path & Environmental Analysis",
+      "source_url": "https://clawhub.ai/skills/sun-path"
+    },
+    {
+      "repo_url": "https://github.com/zerone0x/raindrop-sync",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zerone0x/raindrop-sync",
+      "reason": "",
+      "title": "Raindrop Sync",
+      "source_url": "https://clawhub.ai/skills/raindrop-sync"
+    },
+    {
+      "repo_url": "https://github.com/arthasking123/ai-data-scraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/arthasking123/ai-data-scraper",
+      "reason": "",
+      "title": "AI Data Scraper",
+      "source_url": "https://clawhub.ai/skills/ai-data-scraper"
+    },
+    {
+      "repo_url": "https://github.com/vraj1512/whoop-openclaw-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/vraj1512/whoop-openclaw-skill",
+      "reason": "",
+      "title": "Whoop Openclaw Skill",
+      "source_url": "https://clawhub.ai/skills/whoop-openclaw-skill"
+    },
+    {
+      "repo_url": "https://github.com/PEDROHENRIQUE202525/agente-conhecimento",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/PEDROHENRIQUE202525/agente-conhecimento",
+      "reason": "",
+      "title": "Agente Conhecimento",
+      "source_url": "https://clawhub.ai/skills/agente-conhecimento"
+    },
+    {
+      "repo_url": "https://github.com/ascottbell/maasv-memory",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ascottbell/maasv-memory",
+      "reason": "",
+      "title": "maasv Memory",
+      "source_url": "https://clawhub.ai/skills/maasv-memory"
+    },
+    {
+      "repo_url": "https://github.com/wangyendt/pangolin-utils",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/wangyendt/pangolin-utils",
+      "reason": "",
+      "title": "Pywayne Visualization Pangolin Utils",
+      "source_url": "https://clawhub.ai/skills/pangolin-utils"
+    },
+    {
+      "repo_url": "https://github.com/IlkhamFY/research-paper-kb",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/IlkhamFY/research-paper-kb",
+      "reason": "",
+      "title": "Research Paper Kb",
+      "source_url": "https://clawhub.ai/skills/research-paper-kb"
+    },
+    {
+      "repo_url": "https://github.com/terellison/reddit-archive",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/terellison/reddit-archive",
+      "reason": "",
+      "title": "Reddit Archive",
+      "source_url": "https://clawhub.ai/skills/reddit-archive"
+    },
+    {
+      "repo_url": "https://github.com/arthasking123/ai-revenue-tracker",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/arthasking123/ai-revenue-tracker",
+      "reason": "",
+      "title": "AI Revenue Tracker",
+      "source_url": "https://clawhub.ai/skills/ai-revenue-tracker"
+    },
+    {
+      "repo_url": "https://github.com/GBlockChainNetwork/ollama-model-tuner",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/GBlockChainNetwork/ollama-model-tuner",
+      "reason": "",
+      "title": "Ollama Model Tuner",
+      "source_url": "https://clawhub.ai/skills/ollama-model-tuner"
+    },
+    {
+      "repo_url": "https://github.com/DonatasDecodo/decodo-scraper-skill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DonatasDecodo/decodo-scraper-skill",
+      "reason": "",
+      "title": "Decodo Web Scraper",
+      "source_url": "https://clawhub.ai/skills/decodo-scraper-skill"
+    },
+    {
+      "repo_url": "https://github.com/ai-mrscraper/mrscraper",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ai-mrscraper/mrscraper",
+      "reason": "",
+      "title": "MrScraper",
+      "source_url": "https://clawhub.ai/skills/mrscraper"
+    },
+    {
+      "repo_url": "https://github.com/bartoszpijet/zai-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/bartoszpijet/zai-search",
+      "reason": "",
+      "title": "Z.AI Web Search",
+      "source_url": "https://clawhub.ai/skills/zai-search"
+    },
+    {
+      "repo_url": "https://github.com/joelchance/parallel-ai",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/joelchance/parallel-ai",
+      "reason": "",
+      "title": "Parallel AI Skill",
+      "source_url": "https://clawhub.ai/skills/parallel-ai"
+    },
+    {
+      "repo_url": "https://github.com/okradze/desearch-ai-search",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/okradze/desearch-ai-search",
+      "reason": "",
+      "title": "AI Search by Desearch",
+      "source_url": "https://clawhub.ai/skills/desearch-ai-search"
+    },
+    {
+      "repo_url": "https://github.com/HonestQiao/performance-profiler",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/HonestQiao/performance-profiler",
+      "reason": "",
+      "title": "Performance Profiler",
+      "source_url": "https://clawhub.ai/skills/performance-profiler"
+    },
+    {
+      "repo_url": "https://github.com/rollhub-dev/rollhub-analyst",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rollhub-dev/rollhub-analyst",
+      "reason": "",
+      "title": "Gambling Analyst",
+      "source_url": "https://clawhub.ai/skills/rollhub-analyst"
+    },
+    {
+      "repo_url": "https://github.com/raghulpasupathi/nlp-toolkit",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/raghulpasupathi/nlp-toolkit",
+      "reason": "",
+      "title": "Nlp Toolkit",
+      "source_url": "https://clawhub.ai/skills/nlp-toolkit"
+    },
+    {
+      "repo_url": "https://github.com/pors/paperzilla",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/pors/paperzilla",
+      "reason": "",
+      "title": "Paperzilla",
+      "source_url": "https://clawhub.ai/skills/paperzilla"
+    },
+    {
+      "repo_url": "https://github.com/aiwithabidi/census",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/aiwithabidi/census",
+      "reason": "",
+      "title": "Census",
+      "source_url": "https://clawhub.ai/skills/census"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/bioinformatics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/bioinformatics",
+      "reason": "",
+      "title": "Bioinformatics",
+      "source_url": "https://clawhub.ai/skills/bioinformatics"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/sentiment-tracker",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/sentiment-tracker",
+      "reason": "",
+      "title": "Sentiment Tracker",
+      "source_url": "https://clawhub.ai/skills/sentiment-tracker"
+    },
+    {
+      "repo_url": "https://github.com/pors/pz",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/pors/pz",
+      "reason": "",
+      "title": "Paperzilla CLI",
+      "source_url": "https://clawhub.ai/skills/pz"
+    },
+    {
+      "repo_url": "https://github.com/andrewchen-oss/nuwa-world-osint-human-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/andrewchen-oss/nuwa-world-osint-human-research",
+      "reason": "",
+      "title": "Nuwa World - OSINT Human Research",
+      "source_url": "https://clawhub.ai/skills/nuwa-world-osint-human-research"
+    },
+    {
+      "repo_url": "https://github.com/DevBD1/scrapling-web-scraping",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/DevBD1/scrapling-web-scraping",
+      "reason": "",
+      "title": "Scrapling Web Scraping",
+      "source_url": "https://clawhub.ai/skills/scrapling-web-scraping"
+    },
+    {
+      "repo_url": "https://github.com/guohongbin-git/content-research-writer-cn",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/guohongbin-git/content-research-writer-cn",
+      "reason": "",
+      "title": "Content Research Writer Cn",
+      "source_url": "https://clawhub.ai/skills/content-research-writer-cn"
+    },
+    {
+      "repo_url": "https://github.com/raghulpasupathi/crisis-detector",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/raghulpasupathi/crisis-detector",
+      "reason": "",
+      "title": "Crisis Detector",
+      "source_url": "https://clawhub.ai/skills/crisis-detector"
+    },
+    {
+      "repo_url": "https://github.com/CollierKing/backtestbot",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/CollierKing/backtestbot",
+      "reason": "",
+      "title": "BacktestBot",
+      "source_url": "https://clawhub.ai/skills/backtestbot"
+    },
+    {
+      "repo_url": "https://github.com/huaruoji/research-report",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/huaruoji/research-report",
+      "reason": "",
+      "title": "Research Report Generator",
+      "source_url": "https://clawhub.ai/skills/research-report"
+    },
+    {
+      "repo_url": "https://github.com/camopel/arxivkb",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/camopel/arxivkb",
+      "reason": "",
+      "title": "arxivkb",
+      "source_url": "https://clawhub.ai/skills/arxivkb"
+    },
+    {
+      "repo_url": "https://github.com/HeXavi8/embodied-ai-news",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/HeXavi8/embodied-ai-news",
+      "reason": "",
+      "title": "Embodied Ai News",
+      "source_url": "https://clawhub.ai/skills/embodied-ai-news"
+    },
+    {
+      "repo_url": "https://github.com/arbuge/ebooks",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/arbuge/ebooks",
+      "reason": "",
+      "title": "Ebooks Search",
+      "source_url": "https://clawhub.ai/skills/ebooks"
+    },
+    {
+      "repo_url": "https://github.com/satoshistackalotto/analytics-and-advisory-intelligence",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/satoshistackalotto/analytics-and-advisory-intelligence",
+      "reason": "",
+      "title": "Analytics And Advisory Intelligence",
+      "source_url": "https://clawhub.ai/skills/analytics-and-advisory-intelligence"
+    },
+    {
+      "repo_url": "https://github.com/hxy9243/zettel-link",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hxy9243/zettel-link",
+      "reason": "",
+      "title": "Zettel Link",
+      "source_url": "https://clawhub.ai/skills/zettel-link"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/genomics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/genomics",
+      "reason": "",
+      "title": "Genomics",
+      "source_url": "https://clawhub.ai/skills/genomics"
+    },
+    {
+      "repo_url": "https://github.com/codeninja23/native-google-analytics",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/codeninja23/native-google-analytics",
+      "reason": "",
+      "title": "Native Google Analytics",
+      "source_url": "https://clawhub.ai/skills/native-google-analytics"
+    },
+    {
+      "repo_url": "https://github.com/royhk920/memory-pro",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/royhk920/memory-pro",
+      "reason": "",
+      "title": "memory-pro",
+      "source_url": "https://clawhub.ai/skills/memory-pro"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/biotechnology",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/biotechnology",
+      "reason": "",
+      "title": "Biotechnology",
+      "source_url": "https://clawhub.ai/skills/biotechnology"
+    },
+    {
+      "repo_url": "https://github.com/mkassab30-ux/hybrid-md",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mkassab30-ux/hybrid-md",
+      "reason": "",
+      "title": "Hybrid MD Assistant.",
+      "source_url": "https://clawhub.ai/skills/hybrid-md"
+    },
+    {
+      "repo_url": "https://github.com/jarvis563/percept-summarize",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jarvis563/percept-summarize",
+      "reason": "",
+      "title": "Percept Summarize",
+      "source_url": "https://clawhub.ai/skills/percept-summarize"
+    },
+    {
+      "repo_url": "https://github.com/rsavitt/swarm-safety",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/rsavitt/swarm-safety",
+      "reason": "",
+      "title": "SWARM Safety",
+      "source_url": "https://clawhub.ai/skills/swarm-safety"
+    },
+    {
+      "repo_url": "https://github.com/ryudi84/sovereign-git-commit-analyzer",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ryudi84/sovereign-git-commit-analyzer",
+      "reason": "",
+      "title": "Sovereign git-commit-analyzer",
+      "source_url": "https://clawhub.ai/skills/sovereign-git-commit-analyzer"
+    },
+    {
+      "repo_url": "https://github.com/itsjustFred/backtest-expert-0-1-0",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/itsjustFred/backtest-expert-0-1-0",
+      "reason": "",
+      "title": "Backtest Expert 0.1.0",
+      "source_url": "https://clawhub.ai/skills/backtest-expert-0-1-0"
+    },
+    {
+      "repo_url": "https://github.com/taylen/stock-strategy-backtester",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/taylen/stock-strategy-backtester",
+      "reason": "",
+      "title": "Stock Strategy Backtester",
+      "source_url": "https://clawhub.ai/skills/stock-strategy-backtester"
+    },
+    {
+      "repo_url": "https://github.com/zhairen/openamc",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zhairen/openamc",
+      "reason": "",
+      "title": "openamc-mcp",
+      "source_url": "https://clawhub.ai/skills/openamc"
+    },
+    {
+      "repo_url": "https://github.com/Fengsh0923/article-to-infographic",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Fengsh0923/article-to-infographic",
+      "reason": "",
+      "title": "Article to Infographic",
+      "source_url": "https://clawhub.ai/skills/article-to-infographic"
+    },
+    {
+      "repo_url": "https://github.com/HeXavi8/daily-stock-analysis",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/HeXavi8/daily-stock-analysis",
+      "reason": "",
+      "title": "Daily Stock Analysis",
+      "source_url": "https://clawhub.ai/skills/daily-stock-analysis"
+    },
+    {
+      "repo_url": "https://github.com/zif10765-maker/astock-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/zif10765-maker/astock-research",
+      "reason": "",
+      "title": "astock-research",
+      "source_url": "https://clawhub.ai/skills/astock-research"
+    },
+    {
+      "repo_url": "https://github.com/Sibo-Zhao/openclaw-knowledge-coach",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Sibo-Zhao/openclaw-knowledge-coach",
+      "reason": "",
+      "title": "openclaw-knowledge-coach",
+      "source_url": "https://clawhub.ai/skills/openclaw-knowledge-coach"
+    },
+    {
+      "repo_url": "https://github.com/lopushok9/airadar",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lopushok9/airadar",
+      "reason": "",
+      "title": "ai-github-radar",
+      "source_url": "https://clawhub.ai/skills/airadar"
+    },
+    {
+      "repo_url": "https://github.com/nyxur42/nyx-archive-qualia-seed-method",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/nyxur42/nyx-archive-qualia-seed-method",
+      "reason": "",
+      "title": "[Nyx Archive] Qualia Seed Method",
+      "source_url": "https://clawhub.ai/skills/nyx-archive-qualia-seed-method"
+    },
+    {
+      "repo_url": "https://github.com/tobisamaa/autonomous-research",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/tobisamaa/autonomous-research",
+      "reason": "",
+      "title": "Autonomous Research",
+      "source_url": "https://clawhub.ai/skills/autonomous-research"
+    },
+    {
+      "repo_url": "https://github.com/hulkworks/mindgraph",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hulkworks/mindgraph",
+      "reason": "",
+      "title": "Mindgraph",
+      "source_url": "https://clawhub.ai/skills/mindgraph"
+    },
+    {
+      "repo_url": "https://github.com/lsl001006/web-search-with-serpapi",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lsl001006/web-search-with-serpapi",
+      "reason": "",
+      "title": "WebSearch with SerpApi",
+      "source_url": "https://clawhub.ai/skills/web-search-with-serpapi"
+    },
+    {
+      "repo_url": "https://github.com/lxcong/web3-data",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/lxcong/web3-data",
+      "reason": "",
+      "title": "web3-data-skill",
+      "source_url": "https://clawhub.ai/skills/web3-data"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/numpy",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/ivangdavila/numpy",
+      "reason": "",
+      "title": "NumPy",
+      "source_url": "https://clawhub.ai/skills/numpy"
+    },
+    {
+      "repo_url": "https://github.com/hawkvan/notion-sync-obsidian",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/hawkvan/notion-sync-obsidian",
+      "reason": "",
+      "title": "Notion Sync Obsidian",
+      "source_url": "https://clawhub.ai/skills/notion-sync-obsidian"
+    },
+    {
+      "repo_url": "https://github.com/gisellekokkok/singapore-fnb-location",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/gisellekokkok/singapore-fnb-location",
+      "reason": "",
+      "title": "Singapore Fnb Location",
+      "source_url": "https://clawhub.ai/skills/singapore-fnb-location"
+    },
+    {
+      "repo_url": "https://github.com/xuyuan0805/xy-pubmed-pdf-downloader",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/xuyuan0805/xy-pubmed-pdf-downloader",
+      "reason": "",
+      "title": "XY PubMed PDF Downloader",
+      "source_url": "https://clawhub.ai/skills/xy-pubmed-pdf-downloader"
+    },
+    {
+      "repo_url": "https://github.com/g4dr/social-media-extractor",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/g4dr/social-media-extractor",
+      "reason": "",
+      "title": "Social Media Data Extractor",
+      "source_url": "https://clawhub.ai/skills/social-media-extractor"
+    },
+    {
+      "repo_url": "https://github.com/jhryo25/us-stock-analyst-wkh",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jhryo25/us-stock-analyst-wkh",
+      "reason": "",
+      "title": "analyst-wkh",
+      "source_url": "https://clawhub.ai/skills/us-stock-analyst-wkh"
+    },
+    {
+      "repo_url": "https://github.com/Romain-Grosos/veille",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Romain-Grosos/veille",
+      "reason": "",
+      "title": "Veille",
+      "source_url": "https://clawhub.ai/skills/veille"
+    },
+    {
+      "repo_url": "https://github.com/PigBun-AI/pigbun-rednote",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/PigBun-AI/pigbun-rednote",
+      "reason": "",
+      "title": "PigBun RedNote",
+      "source_url": "https://clawhub.ai/skills/pigbun-rednote"
+    },
+    {
+      "repo_url": "https://github.com/Lion504/gemini-deep-research-1-0-0",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/Lion504/gemini-deep-research-1-0-0",
+      "reason": "",
+      "title": "Gemini Deep Research 1.0.0",
+      "source_url": "https://clawhub.ai/skills/gemini-deep-research-1-0-0"
+    },
+    {
+      "repo_url": "https://github.com/jhryo25/us",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/jhryo25/us",
+      "reason": "",
+      "title": "us",
+      "source_url": "https://clawhub.ai/skills/us"
+    },
+    {
+      "repo_url": "https://github.com/taylen/stock-strategy-backtester-clean",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/taylen/stock-strategy-backtester-clean",
+      "reason": "",
+      "title": "Stock Strategy Backtester Clean",
+      "source_url": "https://clawhub.ai/skills/stock-strategy-backtester-clean"
+    },
+    {
+      "repo_url": "https://github.com/woodstocksoftware/adaptivetest",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/woodstocksoftware/adaptivetest",
+      "reason": "",
+      "title": "Adaptive Testing",
+      "source_url": "https://clawhub.ai/skills/adaptivetest"
+    },
+    {
+      "repo_url": "https://github.com/mwangxiang/knowledge-distill",
+      "status": "invalid",
+      "status_code": 404,
+      "final_url": "https://github.com/mwangxiang/knowledge-distill",
+      "reason": "",
+      "title": "Knowledge Distill",
+      "source_url": "https://clawhub.ai/skills/knowledge-distill"
+    }
+  ],
+  "unknown_items": [
+    {
+      "repo_url": "https://github.com/Iamadig/x-bookmark-archiver",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/Iamadig/x-bookmark-archiver",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "X Bookmarks Archiver",
+      "source_url": "https://clawhub.ai/skills/x-bookmark-archiver"
+    },
+    {
+      "repo_url": "https://github.com/atyachin/expert-finder",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/atyachin/expert-finder",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "Expert Finder",
+      "source_url": "https://clawhub.ai/skills/expert-finder"
+    },
+    {
+      "repo_url": "https://github.com/javainthinking/powerdrill-data-analysis-skill",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/javainthinking/powerdrill-data-analysis-skill",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "powerdrill-data-analysis",
+      "source_url": "https://clawhub.ai/skills/powerdrill-data-analysis-skill"
+    },
+    {
+      "repo_url": "https://github.com/EasonC13/sui-auto-test",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/EasonC13/sui-auto-test",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Sui Auto Test",
+      "source_url": "https://clawhub.ai/skills/sui-auto-test"
+    },
+    {
+      "repo_url": "https://github.com/rsavitt/swarm-2",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/rsavitt/swarm-2",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "SWARM Safety",
+      "source_url": "https://clawhub.ai/skills/swarm-2"
+    },
+    {
+      "repo_url": "https://github.com/baokui/pdf-parser-mineru",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/baokui/pdf-parser-mineru",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "pdf-parser-mineru",
+      "source_url": "https://clawhub.ai/skills/pdf-parser-mineru"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/cost-prediction",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/datadrivenconstruction/cost-prediction",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Cost Prediction",
+      "source_url": "https://clawhub.ai/skills/cost-prediction"
+    },
+    {
+      "repo_url": "https://github.com/paulgnz/xpr-web-scraping",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/paulgnz/xpr-web-scraping",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "XPR Web Scraping",
+      "source_url": "https://clawhub.ai/skills/xpr-web-scraping"
+    },
+    {
+      "repo_url": "https://github.com/atyachin/twitter-api-alternative",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/atyachin/twitter-api-alternative",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Twitter Api Alternative",
+      "source_url": "https://clawhub.ai/skills/twitter-api-alternative"
+    },
+    {
+      "repo_url": "https://github.com/datadrivenconstruction/ontology-mapper",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/datadrivenconstruction/ontology-mapper",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Ontology Mapper",
+      "source_url": "https://clawhub.ai/skills/ontology-mapper"
+    },
+    {
+      "repo_url": "https://github.com/Hegghammer/foam-notes",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/Hegghammer/foam-notes",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "Foam Notes",
+      "source_url": "https://clawhub.ai/skills/foam-notes"
+    },
+    {
+      "repo_url": "https://github.com/ivangdavila/sociology",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/ivangdavila/sociology",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Sociology",
+      "source_url": "https://clawhub.ai/skills/sociology"
+    },
+    {
+      "repo_url": "https://github.com/bowen-dotcom/aisa-search-skill",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/bowen-dotcom/aisa-search-skill",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Intelligent Search Agent",
+      "source_url": "https://clawhub.ai/skills/aisa-search-skill"
+    },
+    {
+      "repo_url": "https://github.com/wangdinglu/free-a-share-real-time-data",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/wangdinglu/free-a-share-real-time-data",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Free A Share Real Time Data",
+      "source_url": "https://clawhub.ai/skills/free-a-share-real-time-data"
+    },
+    {
+      "repo_url": "https://github.com/sunerw-dev/stock-analysis-6",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/sunerw-dev/stock-analysis-6",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Stock Analysis 6",
+      "source_url": "https://clawhub.ai/skills/stock-analysis-6"
+    },
+    {
+      "repo_url": "https://github.com/javainthinking/powerdrill-skills",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/javainthinking/powerdrill-skills",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Powerdrill Data Analysis",
+      "source_url": "https://clawhub.ai/skills/powerdrill-skills"
+    },
+    {
+      "repo_url": "https://github.com/smile-xuc/haibo-jina-reader",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/smile-xuc/haibo-jina-reader",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Jina Reader",
+      "source_url": "https://clawhub.ai/skills/haibo-jina-reader"
+    },
+    {
+      "repo_url": "https://github.com/arthasking123/ai-data-analysis",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/arthasking123/ai-data-analysis",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "AI Data Analysis",
+      "source_url": "https://clawhub.ai/skills/ai-data-analysis"
+    },
+    {
+      "repo_url": "https://github.com/1kalin/afrexai-data-analyst",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/1kalin/afrexai-data-analyst",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "Data Analyst",
+      "source_url": "https://clawhub.ai/skills/afrexai-data-analyst"
+    },
+    {
+      "repo_url": "https://github.com/chiefsegundo/boof",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/chiefsegundo/boof",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Boof",
+      "source_url": "https://clawhub.ai/skills/boof"
+    },
+    {
+      "repo_url": "https://github.com/fabriziogianni7/pond3r-skill",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/fabriziogianni7/pond3r-skill",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "Pond3r Skill - Query Onchain Data",
+      "source_url": "https://clawhub.ai/skills/pond3r-skill"
+    },
+    {
+      "repo_url": "https://github.com/TriplEight/obsidian-linux",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/TriplEight/obsidian-linux",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out.",
+      "title": "Obsidian (Linux)",
+      "source_url": "https://clawhub.ai/skills/obsidian-linux"
+    },
+    {
+      "repo_url": "https://github.com/EasonC13/abstract-searcher",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/EasonC13/abstract-searcher",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "Abstract Searcher",
+      "source_url": "https://clawhub.ai/skills/abstract-searcher"
+    },
+    {
+      "repo_url": "https://github.com/wxtsky/readx",
+      "status": "unknown",
+      "status_code": 503,
+      "final_url": "https://github.com/wxtsky/readx",
+      "reason": "server_or_rate_limit",
+      "title": "readx",
+      "source_url": "https://clawhub.ai/skills/readx"
+    },
+    {
+      "repo_url": "https://github.com/IsonaEi/virtual-reading-group",
+      "status": "unknown",
+      "status_code": 503,
+      "final_url": "https://github.com/IsonaEi/virtual-reading-group",
+      "reason": "server_or_rate_limit",
+      "title": "Virtual Reading Group",
+      "source_url": "https://clawhub.ai/skills/virtual-reading-group"
+    },
+    {
+      "repo_url": "https://github.com/mattvalenta/pls-url-to-markdown",
+      "status": "unknown",
+      "status_code": 503,
+      "final_url": "https://github.com/mattvalenta/pls-url-to-markdown",
+      "reason": "server_or_rate_limit",
+      "title": "PLS URL to Markdown",
+      "source_url": "https://clawhub.ai/skills/pls-url-to-markdown"
+    },
+    {
+      "repo_url": "https://github.com/HonestQiao/log-anomaly-detector",
+      "status": "unknown",
+      "status_code": 503,
+      "final_url": "https://github.com/HonestQiao/log-anomaly-detector",
+      "reason": "server_or_rate_limit",
+      "title": "Log Anomaly Detector",
+      "source_url": "https://clawhub.ai/skills/log-anomaly-detector"
+    },
+    {
+      "repo_url": "https://github.com/Vmining/kiro-search-aggregator",
+      "status": "unknown",
+      "status_code": 0,
+      "final_url": "https://github.com/Vmining/kiro-search-aggregator",
+      "reason": "HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10)",
+      "title": "Kiro Search Aggregator",
+      "source_url": "https://clawhub.ai/skills/kiro-search-aggregator"
+    }
+  ]
+}

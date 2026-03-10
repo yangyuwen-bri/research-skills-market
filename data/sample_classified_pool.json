@@ -1,0 +1,33 @@
+{
+  "agent": "classifier",
+  "reviewed_at": "2026-02-27",
+  "items": [
+    {
+      "candidate_id": "cand-001",
+      "is_research_related": true,
+      "research_stage": ["文献检索", "论文写作"],
+      "domain": ["生物医学", "计算机"],
+      "dependencies": ["python", "mcp", "openalex"],
+      "fit_reason": "直接用于文献综述和研究问题挖掘",
+      "reject_reason": ""
+    },
+    {
+      "candidate_id": "cand-002",
+      "is_research_related": true,
+      "research_stage": ["数据分析", "复现"],
+      "domain": ["通用科研"],
+      "dependencies": ["python", "pandas", "matplotlib"],
+      "fit_reason": "可复用于实验数据预处理与可视化",
+      "reject_reason": ""
+    },
+    {
+      "candidate_id": "cand-003",
+      "is_research_related": false,
+      "research_stage": [],
+      "domain": [],
+      "dependencies": [],
+      "fit_reason": "",
+      "reject_reason": "纯娱乐/社交语境，非科研场景"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "agent_name": "OpenClaw Skill 体验官",
+  "report_prefix": "peekaboo-test",
+  "cases": [
+    {
+      "id": "P01",
+      "skill": "peekaboo",
+      "capability": "验证 peekaboo 作为 macOS UI 自动化技能是否可发现、可安装入口与运行前置条件是否清晰",
+      "skill_group": "系统自动化",
+      "priority": 1,
+      "user_prompt": "我想用 OpenClaw 自动做一次 macOS 的界面点击与截图，先帮我先把 peekaboo 能力先核实一下。",
+      "agent_reply_example": "我先检查能不能查到 peekaboo 技能源并确认安装方式；再判断当前环境是否已具备 peekaboo 二进制，以及缺了哪些依赖。",
+      "critical": true,
+      "weight": 5,
+      "probes": [
+        {
+          "label": "peekaboo_skill_index",
+          "command": "npx --yes skills find \"peekaboo\" | head -n 40",
+          "required_exit": 0,
+          "assert_contains": [
+            "Install with",
+            "peekaboo"
+          ],
+          "optional": false
+        },
+        {
+          "label": "peekaboo_binary_check",
+          "command": "if command -v peekaboo >/dev/null; then echo \"peekaboo_binary_ok\"; else echo \"peekaboo_binary_missing\"; fi",
+          "required_exit": 0,
+          "assert_contains": [
+            "peekaboo_binary_ok|peekaboo_binary_missing"
+          ],
+          "optional": true
+        },
+        {
+          "label": "peekaboo_install_hint_probe",
+          "command": "echo \"peekaboo 安装建议：npx skills add steipete/clawdis@peekaboo -g -y 或 npx skills add openclaw/skills -g --skill peekaboo\"",
+          "required_exit": 0,
+          "assert_contains": [
+            "steipete/clawdis@peekaboo",
+            "openclaw/skills"
+          ],
+          "optional": false
+        }
+      ]
+    }
+  ]
+}

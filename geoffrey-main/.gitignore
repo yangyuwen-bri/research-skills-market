@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# iCloud sync conflicts
+*sync-conflict*
+*.icloud
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+debug/
+
+# Local secrets (never commit)
+.env
+secrets.env
+.env.local
+*.key
+credentials.json
+
+# Node modules (if we add any tooling)
+node_modules/
+package-lock.json
+
+# Python (if we add any tooling)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Testing
+test-output/
+*.test
+
+# Personal data (stored in iCloud, not repo)
+knowledge/
+preferences.json
+memory.jsonl
+# Note: hooks/pre-tool-use/patterns.json is tracked (security patterns, not personal data)
+
+# Temporary work files (not part of repo)
+workspace/
+skills/pptx/*.png
+skills/pptx/*.html
+skills/pptx/*.txt
+skills/pptx/*.sh
+skills/pptx/create-presentation*.js
+skills/pptx/package.json

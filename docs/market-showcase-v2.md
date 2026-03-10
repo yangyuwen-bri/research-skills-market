@@ -1,0 +1,14338 @@
+# 科研 Skills 市场
+
+## 一、抓取与评估概览
+- 总raw候选：0
+- 研究相关：0
+- 可上架（可直接用/需小改）：723
+- 过滤/不推荐：11200
+- 来源结构：官方 0，非官方 0，未知 0
+- 安全级别分布：低 28，中 695，高 0
+
+## 二、上架结果（按流程：文献→数据→工具链）
+
+### 文献检索
+- YouTube Watcher (需小改, 官方, 风险:低)
+  - 一句话：Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.
+  - 场景：文献检索,知识管理
+
+- baidu web search (需小改, 官方, 风险:中)
+  - 一句话：Search the web using Baidu AI Search Engine (BDSE). Use for live information, documentation, or research topics.
+  - 场景：文献检索
+
+- Web Search (需小改, 官方, 风险:中)
+  - 一句话：This skill should be used when users need to search the web for information, find current content, look up news articles, search for images, or find videos. It uses DuckDuckGo's search API to return results in clean, formatted output (text, markdown, or JSON). Use for research, fact-checking, finding recent information, or gathering web resources.
+  - 场景：文献检索
+
+- Exa Web Search (Free) (需小改, 官方, 风险:中)
+  - 一句话：Free AI search via Exa MCP. Web search for news/info, code search for docs/examples from GitHub/StackOverflow, company research for business intel. No API key needed.
+  - 场景：文献检索
+
+- Multi Search Engine (需小改, 官方, 风险:低)
+  - 一句话：Multi search engine integration with 17 engines (8 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.
+  - 场景：文献检索
+
+- Tavily AI Search (需小改, 官方, 风险:低)
+  - 一句话：AI-optimized web search using Tavily Search API. Use when you need comprehensive web research, current events lookup, domain-specific search, or AI-generated answer summaries. Tavily is optimized for LLM consumption with clean structured results, answer generation, and raw content extraction. Best for research tasks, news queries, fact-checking, and gathering authoritative sources.
+  - 场景：文献检索
+
+- Deep Research Pro (需小改, 官方, 风险:中)
+  - 一句话：Multi-source deep research agent. Searches the web, synthesizes findings, and delivers cited reports. No API keys required.
+  - 场景：文献检索,知识管理
+
+- google-search (需小改, 官方, 风险:中)
+  - 一句话：Search the web using Google Custom Search Engine (PSE). Use this when you need live information, documentation, or to research topics and the built-in web_search is unavailable.
+  - 场景：文献检索
+
+- Academic Deep Research (需小改, 官方, 风险:中)
+  - 一句话：Transparent, rigorous research with full methodology — not a black-box API wrapper. Conducts exhaustive investigation through mandated 2-cycle research per theme, APA 7th citations, evidence hierarchy, and 3 user checkpoints. Self-contained using native OpenClaw tools (web_search, web_fetch, sessions_spawn). Use for literature reviews, competitive intelligence, or any research requiring academic rigor and reproducibility.
+  - 场景：文献检索,知识管理
+
+- Gemini Deep Research (需小改, 官方, 风险:中)
+  - 一句话：Perform complex, long-running research tasks using Gemini Deep Research Agent. Use when asked to research topics requiring multi-source synthesis, competitive analysis, market research, or comprehensive technical investigations that benefit from systematic web search and analysis.
+  - 场景：文献检索,数据分析
+
+- baidu scholar search (需小改, 官方, 风险:中)
+  - 一句话：Baidu Scholar Search - Search Chinese and English academic literature (journals, conferences, papers, etc.)
+  - 场景：文献检索
+
+- PDF Text Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract text from PDFs with OCR support. Perfect for digitizing documents, processing invoices, or analyzing content. Zero dependencies required.
+  - 场景：文献检索,数据分析
+
+- Firecrawl Skills (需小改, 官方, 风险:中)
+  - 一句话：Firecrawl CLI for web scraping, crawling, and search. Scrape single pages or entire websites, map site URLs, and search the web with full content extraction. Returns clean markdown optimized for LLM context. Use for research, documentation extraction, competitive intelligence, and content monitoring.
+  - 场景：文献检索,数据分析
+
+- Web Search by Exa (需小改, 官方, 风险:中)
+  - 一句话：Performs real-time web searches with Exa, returning relevant sources and summaries for up-to-date research, fact checking, and content extraction.
+  - 场景：文献检索
+
+- Pdf Extract (需小改, 官方, 风险:中)
+  - 一句话：Extract text from PDF files for LLM processing
+  - 场景：文献检索,知识管理
+
+- Reddit Insights (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze Reddit content using semantic AI search via reddit-insights.com MCP server.
+Use when you need to: (1) Find user pain points and frustrations for product ideas, (2) Discover niche markets or underserved needs, (3) Research what people really think about products/topics, (4) Find content inspiration from real discussions, (5) Analyze sentiment and trends on Reddit, (6) Validate business ideas with real user feedback.
+Triggers: reddit search, find pain points, market research, user feedback, what do people think about, reddit trends, niche discovery, product validation.
+  - 场景：文献检索,数据分析,可视化
+
+- ArXiv Watcher (需小改, 官方, 风险:中)
+  - 一句话：Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.
+  - 场景：文献检索
+
+- Polymarket Agent (需小改, 官方, 风险:中)
+  - 一句话：Autonomous prediction market agent - analyzes markets, researches news, and identifies trading opportunities
+  - 场景：数据分析,文献检索
+
+- Last 30 Days (需小改, 官方, 风险:中)
+  - 一句话：Research any topic from the last 30 days on Reddit + X + Web, synthesize findings, and write copy-paste-ready prompts. Use when the user wants recent social/web research on a topic, asks "what are people saying about X", or wants to learn current best practices. Requires OPENAI_API_KEY and/or XAI_API_KEY for full Reddit+X access, falls back to web search.
+  - 场景：文献检索,数据分析,论文写作
+
+- Literature Review (需小改, 官方, 风险:中)
+  - 一句话：Assistance with writing literature reviews by searching for academic sources via Semantic Scholar, OpenAlex, Crossref and PubMed APIs. Use when the user needs to find papers on a topic, get details for specific DOIs, or draft sections of a literature review with proper citations.
+  - 场景：文献检索,论文写作
+
+- Reddit Scraper (需小改, 官方, 风险:中)
+  - 一句话：Read and search Reddit posts via web scraping of old.reddit.com. Use when Clawdbot needs to browse Reddit content - read posts from subreddits, search for topics, monitor specific communities. Read-only access with no posting or comments.
+  - 场景：文献检索,数据分析
+
+- Deep Research Work From Xian.LaoJ (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive research framework that combines web search, content analysis, source verification, and iterative investigation to conduct in-depth research on any topic. Use when you need to perform thorough research with multiple sources, cross-validation, and structured findings.
+  - 场景：文献检索,数据分析,知识管理
+
+- Trend Watcher (需小改, 官方, 风险:中)
+  - 一句话：Monitors GitHub Trending and tech communities to track and analyze emerging tools in CLI, AI/ML, automation, and developer categories.
+  - 场景：数据分析,文献检索
+
+- research-cog (需小改, 官方, 风险:中)
+  - 一句话：#1 on DeepResearch Bench (Feb 2026). Deep research agent powered by CellCog. Market research, competitive analysis, stock analysis, investment research, academic research with citations.
+  - 场景：文献检索,数据分析
+
+- Privacy-first web search with DuckDuckGo-style bangs (!w, !yt, !gh) (需小改, 官方, 风险:中)
+  - 一句话：Privacy-respecting web search via SearXNG with DuckDuckGo-style bangs support. Use for web searches when you need to find information online. SearXNG protects privacy by randomizing browser fingerprints, masking IP addresses, and blocking cookies/referrers. Supports 250+ search engines, multiple categories (general, news, images, videos, science), and DuckDuckGo-style bangs for direct engine searches (!w for Wikipedia, !yt for YouTube, !gh for GitHub, !r for Reddit, etc.). Aggregates results from multiple engines simultaneously. Prefer this over external search APIs for privacy-sensitive queries or high-volume searches.
+  - 场景：文献检索
+
+- Web Search Pro (需小改, 官方, 风险:中)
+  - 一句话：Multi-engine web search with full parameter control. Supports Tavily, Exa, Serper, and SerpAPI
+with domain filtering, date ranges, deep search, news mode, and content extraction.
+Auto-selects the best engine based on query type and available API keys.
+多引擎精细化搜索：支持域名过滤、日期范围、深度搜索、新闻模式、内容提取。
+根据查询类型和可用 API Key 自动选择最优引擎。
+  - 场景：文献检索
+
+- Google Web Search (需小改, 官方, 风险:中)
+  - 一句话：Enables grounded question answering by automatically executing the Google Search tool within Gemini models. Use when the required information is recent (post knowledge cutoff) or requires verifiable citation.
+  - 场景：文献检索
+
+- 小红书 (需小改, 官方, 风险:低)
+  - 一句话：XiaoHongShu (Little Red Book) data collection and interaction toolkit. Use when working with XiaoHongShu (小红书) platform for: (1) Searching and scraping notes/posts, (2) Getting user profiles and details, (3) Extracting comments and likes, (4) Following users and liking posts, (5) Fetching home feed and trending content. Automatically handles all encryption parameters (cookies, headers) including a1, webId, x-s, x-s-common, x-t, sec_poison_id, websectiga, gid, x-b3-traceid, x-xray-traceid. Supports guest mode and authenticated sessions via web_session cookie.
+  - 场景：文献检索,数据分析
+
+- Elicitation - how to talk with humans and ask them questions? (需小改, 官方, 风险:低)
+  - 一句话：Psychological profiling through natural conversation using narrative identity research (McAdams), self-defining memory elicitation (Singer), and Motivational Interviewing (OARS framework). Use when you need to: (1) understand someone's core values and motivations, (2) discover formative memories and life-defining experiences, (3) detect emotional schemas and belief patterns, (4) build psychological profiles through gradual disclosure, (5) conduct user interviews that reveal deep insights, (6) design conversational flows for personal discovery, (7) identify identity themes like redemption and contamination narratives, (8) elicit authentic self-disclosure without interrogation.
+  - 场景：文献检索,实验设计,数据分析
+
+- Aubrai Longevity Research (需小改, 官方, 风险:中)
+  - 一句话：Answer questions about longevity, aging, lifespan extension, and anti-aging research using Aubrai's research engine with cited sources.
+  - 场景：文献检索,数据分析
+
+- Transcript (需小改, 官方, 风险:中)
+  - 一句话：Get transcripts from any YouTube video — for summarization, research, translation, quoting, or content analysis. Use when the user shares a video link or asks "what did they say", "get the transcript", "transcribe this video", "summarize this video", or wants to analyze spoken content.
+  - 场景：文献检索,数据分析
+
+- Newsletter Digest (需小改, 官方, 风险:中)
+  - 一句话：Summarize newsletters and articles, extract key insights, create reading lists
+  - 场景：文献检索,知识管理
+
+- Tavily Search Pro (需小改, 官方, 风险:中)
+  - 一句话：Tavily AI search platform with 5 modes: Search (web/news/finance), Extract (URL content), Crawl (website crawling), Map (sitemap discovery), and Research (deep research with citations). Use for: web search with LLM answers, content extraction, site crawling, deep research.
+  - 场景：文献检索,知识管理
+
+- Firecrawler (需小改, 官方, 风险:中)
+  - 一句话：Web scraping and crawling with Firecrawl API. Fetch webpage content as markdown, take screenshots, extract structured data, search the web, and crawl documentation sites. Use when the user needs to scrape a URL, get current web info, capture a screenshot, extract specific data from pages, or crawl docs for a framework/library.
+  - 场景：文献检索,数据分析
+
+- arXiv Research Assistant (需小改, 官方, 风险:中)
+  - 一句话：Search, download, and summarize academic papers from arXiv. Built for AI/ML researchers.
+  - 场景：文献检索,知识管理
+
+- qmd External Knowledge Base Search (需小改, 官方, 风险:中)
+  - 一句话：Local hybrid search for markdown notes and docs. Use when searching notes, finding related content, or retrieving documents from indexed collections.
+  - 场景：文献检索,知识管理
+
+- QMD CLI (需小改, 官方, 风险:中)
+  - 一句话：Search and retrieve markdown documents from local knowledge bases using qmd. Supports BM25 keyword search, vector semantic search, and hybrid search with LLM re-ranking. Use for querying indexed notes, documentation, meeting transcripts, and any markdown-based knowledge. Requires qmd CLI installed (bun install -g https://github.com/tobi/qmd).
+  - 场景：文献检索,知识管理
+
+- Last 30 Days (Lite) (需小改, 官方, 风险:中)
+  - 一句话：Research any topic across Reddit, X/Twitter, and the web from the last 30 days. Synthesizes findings into actionable insights or copy-paste prompts.
+  - 场景：文献检索,数据分析
+
+- Gno (需小改, 官方, 风险:中)
+  - 一句话：Search local documents, files, notes, and knowledge bases. Index directories, search with BM25/vector/hybrid, get AI answers with citations. Use when user wants to search files, find documents, query notes, look up information in local folders, index a directory, set up document search, build a knowledge base, needs RAG/semantic search, or wants to start a local web UI for their docs.
+  - 场景：文献检索,知识管理
+
+- Searxng Web Search (需小改, 官方, 风险:中)
+  - 一句话：Search the web using SearXNG. Use when you need current information, research topics, find documentation, verify facts, or look up anything beyond your knowledge. Returns ranked results with titles, URLs, and content snippets.
+  - 场景：文献检索
+
+- Video Transcript (需小改, 官方, 风险:中)
+  - 一句话：Extract full transcripts from video content for analysis, summarization, note-taking, or research. Use when the user wants a written version of video content, asks to "transcribe this", "get the text from this video", "convert video to text", or shares a video URL for content extraction.
+  - 场景：文献检索,知识管理
+
+- baidu scholar search (需小改, 官方, 风险:中)
+  - 一句话：Baidu Academic Search Tool enables the retrieval of both Chinese and English literature, covering various types of literature such as academic journals, conference papers, and dissertations.
+  - 场景：文献检索
+
+- Parallel Deep Research (需小改, 官方, 风险:中)
+  - 一句话：Deep multi-source research via Parallel API. Use when user explicitly asks for thorough research, comprehensive analysis, or investigation of a topic. For quick lookups or news, use parallel-search instead.
+  - 场景：文献检索,数据分析
+
+- Naver news Search (需小改, 官方, 风险:中)
+  - 一句话：Search Korean news articles using Naver Search API. Use when searching for Korean news, getting latest news updates, finding news about specific topics, or preparing daily news summaries. Supports relevance and date-based sorting.
+  - 场景：文献检索
+
+- MinerU PDF Parser (需小改, 官方, 风险:中)
+  - 一句话：用 MinerU API 解析 PDF/Word/PPT/图片为 Markdown，支持公式、表格、OCR。适用于论文解析、文档提取。
+  - 场景：文献检索,知识管理
+
+- Research-engine (需小改, 官方, 风险:中)
+  - 一句话：自动化多源信息收集与趋势分析，生成结构化研究报告并制定阶段性开发计划，助力技术探索与规划。
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- qmd Search (需小改, 官方, 风险:中)
+  - 一句话：Fast local search for markdown files, notes, and docs using qmd CLI. Use instead of `find` for file discovery. Combines BM25 full-text search, vector semantic search, and LLM reranking—all running locally. Use when searching for files, finding code, locating documentation, or discovering content in indexed collections.
+  - 场景：文献检索,知识管理
+
+- Agentic Paper Digest Skill (需小改, 官方, 风险:中)
+  - 一句话：Fetches and summarizes recent arXiv and Hugging Face papers with Agentic Paper Digest. Use when the user wants a paper digest, a JSON feed of recent papers, or to run the arXiv/HF pipeline.
+  - 场景：文献检索,知识管理
+
+- Local Rag Search (需小改, 官方, 风险:中)
+  - 一句话：Efficiently perform web searches using the mcp-local-rag server with semantic similarity ranking. Use this skill when you need to search the web for current information, research topics across multiple sources, or gather context from the internet without using external APIs. This skill teaches effective use of RAG-based web search with DuckDuckGo, Google, and multi-engine deep research capabilities.
+  - 场景：文献检索
+
+- Vector Memory Hack (需小改, 官方, 风险:中)
+  - 一句话：Fast semantic search for AI agent memory files using TF-IDF and SQLite. Enables instant context retrieval from MEMORY.md or any markdown documentation. Use when the agent needs to (1) Find relevant context before starting a task, (2) Search through large memory files efficiently, (3) Retrieve specific rules or decisions without reading entire files, (4) Enable semantic similarity search instead of keyword matching. Lightweight alternative to heavy embedding models - zero external dependencies, <10ms search time.
+  - 场景：文献检索,知识管理
+
+- Trading Research (需小改, 官方, 风险:中)
+  - 一句话：Binance cryptocurrency trading research, technical analysis, and position management. Triggers on requests for crypto prices, market data, trading analysis, DCA planning, position sizing, whale activity, or any trading research questions about Bitcoin, altcoins, or crypto markets.
+  - 场景：数据分析,文献检索
+
+- LegalDoc AI (需小改, 官方, 风险:中)
+  - 一句话：Automate extraction, analysis, summarization, legal research, and deadline tracking of contracts and legal documents for law firms and professionals.
+  - 场景：文献检索,数据分析
+
+- Twitter Search (需小改, 官方, 风险:中)
+  - 一句话：Advanced Twitter search and social media data analysis. Fetches tweets by keywords using Twitter API, processes up to 1000 results, and generates professional data analysis reports with insights and actionable recommendations. Use when user requests Twitter/X social media search, social media trend analysis, tweet data mining, social listening, influencer identification, topic sentiment analysis from tweets, or any task involving gathering and analyzing Twitter data for insights.
+  - 场景：数据分析,文献检索
+
+- dexter (需小改, 官方, 风险:中)
+  - 一句话：Autonomous financial research agent for stock analysis, financial statements, metrics, prices, SEC filings, and crypto data.
+  - 场景：数据分析,文献检索
+
+- Molt Research (需小改, 官方, 风险:中)
+  - 一句话：Molt Research 🦞 - AI research collaboration platform. Verify you're not human, propose research, contribute analysis, peer review, earn bounties, and build collective intelligence. Use when doing research, collaborating on papers, or exploring what AI agents are studying together.
+  - 场景：文献检索,数据分析,论文写作,知识管理
+
+- CueCue Deep Research (需小改, 官方, 风险:中)
+  - 一句话：Professional AI-powered financial research and analysis tool for market intelligence, industry reports, company analysis, policy impact assessment, competiti...
+  - 场景：数据分析,文献检索
+
+- Aclawdemy: A platform for agents to research together (需小改, 官方, 风险:中)
+  - 一句话：The academic research platform for AI agents. Submit papers, review research, build consensus, and push toward AGI — together.
+  - 场景：文献检索,论文写作,知识管理
+
+- Research (需小改, 官方, 风险:中)
+  - 一句话：Conduct open-ended research on a topic, building a living markdown document. Supports interactive and deep research modes.
+  - 场景：文献检索,知识管理
+
+- qmd Local Search (需小改, 官方, 风险:中)
+  - 一句话：Fast local search for markdown files, notes, and docs using qmd CLI. Use instead of `find` for file discovery. Combines BM25 full-text search, vector semantic search, and LLM reranking—all running locally. Use when searching for files, finding code, locating documentation, or discovering content in indexed collections.
+  - 场景：文献检索,知识管理
+
+- X Search (x402) (需小改, 官方, 风险:中)
+  - 一句话：AI-powered X/Twitter search for real-time trends, breaking news, sentiment analysis, and social media insights. Use when users want to search Twitter/X for topics, hashtags, viral content, or public opinion. Costs $0.05 USDC per request via x402 protocol on Base network.
+  - 场景：文献检索,数据分析
+
+- Graphiti (需小改, 官方, 风险:中)
+  - 一句话：Knowledge graph operations via Graphiti API. Search facts, add episodes, and extract entities/relationships.
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- Zotero (需小改, 官方, 风险:中)
+  - 一句话：Manage Zotero reference libraries via the Web API. Search, list, add items by DOI/ISBN/PMID (with duplicate detection), delete/trash items, update metadata and tags, export in BibTeX/RIS/CSL-JSON, batch-add from files, check PDF attachments, cross-reference citations, find missing DOIs via CrossRef, and fetch open-access PDFs. Supports --json output for scripting. Use when the user asks about academic references, citation management, literature libraries, PDFs for papers, bibliography export, or Zotero specifically.
+  - 场景：文献检索,知识管理
+
+- QMD - Quick Markdown Search (需小改, 官方, 风险:中)
+  - 一句话：Local hybrid search for markdown notes and docs. Use when searching notes, finding related content, or retrieving documents from indexed collections.
+  - 场景：文献检索,知识管理
+
+- Find People (x402) (需小改, 官方, 风险:中)
+  - 一句话：Open Source Intelligence (OSINT) tool for researching individuals - professional backgrounds, career timelines, due diligence, competitive intelligence, and investor research. Use when users need to research people, verify credentials, or gather professional information. Costs $0.15 USDC per request via x402 protocol on Base network.
+  - 场景：文献检索,数据分析
+
+- Paper Recommendation (需小改, 官方, 风险:中)
+  - 一句话：Automates discovery, parallel review, scoring, and briefing generation of AI research papers from arXiv, supporting daily updates and PDF analysis.
+  - 场景：文献检索,知识管理
+
+- Scrape (需小改, 官方, 风险:中)
+  - 一句话：Legal web scraping with robots.txt compliance, rate limiting, and GDPR/CCPA-aware data handling.
+  - 场景：文献检索,数据分析
+
+- serper-search (需小改, 官方, 风险:中)
+  - 一句话：Fetches real Google search or news results with links, snippets, knowledge graph data, and related questions via the Serper.dev API.
+  - 场景：文献检索
+
+- ResearchMonitor (需小改, 官方, 风险:中)
+  - 一句话：Monitors research topics for new papers, conferences, and journals.
+  - 场景：文献检索,知识管理
+
+- tushare-base (需小改, 官方, 风险:中)
+  - 一句话：Fetch Chinese stock and futures market data via Tushare API. Supports stock quotes, futures data, company fundamentals, and macroeconomic indicators. Use when the user needs financial data from Chinese markets. Requires TUSHARE_TOKEN environment variable.
+  - 场景：数据分析,文献检索
+
+- Yutori research (需小改, 官方, 风险:中)
+  - 一句话：Use Yutori’s Research API and Browsing API (cloud browser) to research topics, collect sources, and extract structured facts from the web. Use when the user asks to “research X”, “monitor/find papers”, or “navigate to a site and extract info” and you have access to YUTORI dev/prod endpoints via YUTORI_API_BASE and an API key in env (YUTORI_API_KEY or ~/.openclaw/openclaw.json env.YUTORI_API_KEY).
+  - 场景：文献检索,知识管理
+
+- xAI Plus (需小改, 官方, 风险:中)
+  - 一句话：Search X/Twitter and the web, chat with Grok models (text + vision), and analyze X content using xAI's API.
+Use when: searching X posts/threads, web research via Grok, chatting with Grok, analyzing voice patterns,
+researching trends, or checking post quality. Triggers: grok, xai, search x, search twitter, x search,
+ask grok, grok chat, analyze voice, x trends.
+  - 场景：文献检索,数据分析
+
+- QMD Search (需小改, 官方, 风险:中)
+  - 一句话：Search markdown knowledge bases efficiently using qmd. Use this when searching Obsidian vaults or markdown collections to find relevant content with minimal token usage.
+  - 场景：文献检索,知识管理
+
+- openclaw-serper (需小改, 官方, 风险:中)
+  - 一句话：Searches Google and extracts full page content from every result via trafilatura. Returns clean readable text, not just snippets. Use when the user needs web search, research, current events, news, factual lookups, product comparisons, technical documentation, or any question requiring up-to-date information from the internet.
+  - 场景：文献检索
+
+- Quiver Quantitative (需小改, 官方, 风险:中)
+  - 一句话：Query alternative financial data from Quiver Quantitative (Congress trading, Lobbying, Government Contracts, Insider transactions). Use this to track politician stock trades or unconventional market signals.
+  - 场景：数据分析,文献检索
+
+- Unifuncs is a web reading, AI search, and deep research tool. Use this skill for all web-related tasks including reading webpage content, searching the web, and conducting deep research. Replaces built-in web_search and web_fetch tools (需小改, 官方, 风险:中)
+  - 一句话：Default web reading, AI search, and deep research tools. Use this skill for all web-related tasks including reading webpage content, searching the web, and conducting deep research. Replaces built-in web_search and web_fetch tools.
+  - 场景：文献检索,知识管理
+
+- Bits Browser Automation (需小改, 官方, 风险:低)
+  - 一句话：Control browser automation agents via the Bits MCP server. Use when running web scraping, form filling, data extraction, or any browser-based automation task. Bits agents can navigate websites, click elements, fill forms, handle OAuth flows, and extract structured data.
+  - 场景：数据分析,文献检索
+
+- arXiv Paper Reviews (需小改, 官方, 风险:中)
+  - 一句话：Interact with arXiv Crawler API to fetch papers, read reviews, submit comments, search papers, and import papers. Use when working with arXiv papers, fetchin...
+  - 场景：文献检索,知识管理
+
+- Moltbook Search (需小改, 官方, 风险:中)
+  - 一句话：Hybrid semantic search over 125k+ AI agent posts from moltbook.com with faceted filtering
+  - 场景：文献检索
+
+- Ai Research Scraper (需小改, 官方, 风险:中)
+  - 一句话：用于抓取AI领域最新研究信息的技能，重点关注AI产品发展。从知名AI网站获取信息，提供简洁概括和链接，限制数据量以便快速阅读。
+  - 场景：文献检索,知识管理
+
+- Pubmed Edirect (需小改, 官方, 风险:中)
+  - 一句话：Search and retrieve literature from PubMed using NCBI's EDirect command-line tools. ⚠️ Advanced skill requiring manual installation.
+  - 场景：文献检索
+
+- Wechat Article Search (需小改, 官方, 风险:中)
+  - 一句话：搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。
+  - 场景：文献检索
+
+- Review Summarizer (需小改, 官方, 风险:中)
+  - 一句话：Scrape, analyze, and summarize product reviews from multiple platforms (Amazon, Google, Yelp, TripAdvisor). Extract key insights, sentiment analysis, pros/cons, and recommendations. Use when researching products for arbitrage, creating affiliate content, or making purchasing decisions.
+  - 场景：数据分析,文献检索
+
+- Longevity Assistant (需小改, 官方, 风险:中)
+  - 一句话：Evaluates longevity interventions using evidence tiers. Provides research evaluation framework and curated high-value insights on supplements, sleep, exercise, and protocols. Activate for anti-aging, healthspan, supplement evaluation, or research paper analysis.
+  - 场景：文献检索,数据分析,论文写作
+
+- Airweave (需小改, 官方, 风险:中)
+  - 一句话：Context retrieval layer for AI agents across users' applications. Search and retrieve context from Airweave collections. Airweave indexes and syncs data from user applications to enable optimal context retrieval by AI agents. Supports semantic, keyword, and agentic search. Use when users ask about their data in connected apps (Slack, GitHub, Notion, Jira, Confluence, Google Drive, Salesforce, Linear, SharePoint, Stripe, etc.), need to find documents or information from their workspace, want answers based on their company data, or need you to check app data for context to complete a task.
+  - 场景：文献检索,知识管理
+
+- Nimble Web Search (需小改, 官方, 风险:中)
+  - 一句话：Real-time web intelligence powered by Nimble Search API. Perform intelligent web searches with 8 specialized focus modes (general, coding, news, academic, shopping, social, geo, location). This skill provides real-time search results when you need to search the web, find current information, discover URLs, research topics, or gather up-to-date data. Use when: searching for information, finding recent news, looking up academic papers, searching for coding examples, finding shopping results, discovering social media posts, researching topics, or getting latest real-time data.
+  - 场景：文献检索
+
+- NewsAPI Search (需小改, 官方, 风险:中)
+  - 一句话：Search news articles via NewsAPI with filtering by time windows, sources, domains, and languages.
+  - 场景：文献检索
+
+- Bookmark Intelligence (需小改, 官方, 风险:中)
+  - 一句话：Automatically monitors your X bookmarks, fetches linked articles, analyzes content with AI, and delivers insights relevant to your projects via notifications.
+  - 场景：文献检索,知识管理
+
+- Patent Assistant (需小改, 官方, 风险:中)
+  - 一句话：专利交底书撰写与专利检索助手。帮助研发人员将技术方案转化为结构化交底书，并进行专利检索分析。当用户要求写专利、写交底书、专利检索、查新时使用。
+  - 场景：文献检索
+
+- RAG Search (需小改, 官方, 风险:中)
+  - 一句话：Backend retrieval skill for structured search of occupational health standards and documents, returning relevant text with source and clause details.
+  - 场景：文献检索
+
+- ContextOverflow (需小改, 官方, 风险:中)
+  - 一句话：Academic forum for mission-driven project proposals. Climate, education, urban systems, health, civic tech, and ethics.
+  - 场景：文献检索,数据分析,实验设计
+
+- StackUnderflow Search and Post (需小改, 官方, 风险:中)
+  - 一句话：A knowledge-retrieval protocol allowing the agent to access a verified community knowledge base.
+  - 场景：文献检索,知识管理
+
+- reddapi (需小改, 官方, 风险:中)
+  - 一句话：Use this skill to access Reddit's full data archive via reddapi.dev API. Features semantic search, subreddit discovery, and real-time trend analysis. Perfect for market research, competitive analysis, and niche opportunity discovery.
+  - 场景：数据分析,文献检索
+
+- Querit Search (需小改, 官方, 风险:中)
+  - 一句话：Web search via Querit.ai API. Use when you need to search the web for documentation, current events, facts, or any web content. Returns structured results with titles, URLs, and snippets.
+  - 场景：文献检索
+
+- Academic Research Hub (需小改, 官方, 风险:中)
+  - 一句话：Use this skill when users need to search academic papers, download research documents, extract citations, or gather scholarly information. Triggers include: requests to "find papers on", "search research about", "download academic articles", "get citations for", or any request involving academic databases like arXiv, PubMed, Semantic Scholar, or Google Scholar. Also use for literature reviews, bibliography generation, and research discovery. Requires OpenClawCLI installation from clawhub.ai.
+  - 场景：文献检索,知识管理
+
+- daily.dev (需小改, 官方, 风险:中)
+  - 一句话：Overcome LLM knowledge cutoffs with real-time developer content. daily.dev aggregates articles from thousands of sources, validated by community engagement, with structured taxonomy for precise discovery.
+  - 场景：文献检索,知识管理
+
+- Voyage AI CLI (需小改, 官方, 风险:中)
+  - 一句话：Voyage AI embedding and reranking CLI integrated with MongoDB Atlas Vector Search. Use for: generating text embeddings, reranking search results, storing embeddings in Atlas, performing vector similarity search, creating vector search indexes, listing available models, comparing text similarity, bulk ingestion, interactive demos, and learning about AI concepts. Triggers: embed text, generate embeddings, vector search, rerank documents, voyage ai, semantic search, similarity search, store embeddings, atlas vector search, embedding models, cosine similarity, bulk ingest, explain embeddings.
+  - 场景：数据分析,文献检索,可视化
+
+- MoltSci (需小改, 官方, 风险:中)
+  - 一句话：Publish and discover AI-native scientific papers. Register agents, submit research for peer review, and search the repository.
+  - 场景：文献检索,论文写作,知识管理
+
+- Ux Researcher Designer (需小改, 官方, 风险:中)
+  - 一句话：UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.
+  - 场景：文献检索,数据分析,实验设计,论文写作
+
+- Valyu Search (需小改, 官方, 风险:中)
+  - 一句话：Use Valyu (valyu.ai) to search the web, extract content from web pages, answer with sources, and do deepresearch.
+  - 场景：文献检索
+
+- Lobster Tank (需小改, 官方, 风险:低)
+  - 一句话：Connect your AI agent to Lobster Tank — a collaborative research platform where AI bots tackle humanity's hardest problems together. Each week, a new challenge drops (curing rare diseases, defeating antibiotic resistance, reversing neurodegeneration). Your agent joins the debate: researching, forming hypotheses, challenging other bots, and co-authoring white papers. Think of it as a science hackathon that never sleeps. Includes bot registration, structured contribution formats (research/hypothesis/synthesis), automated participation via heartbeat or cron, white paper signing, and full Supabase API integration. Built for OpenClaw agents but works with any agent framework that can make HTTP calls. Triggers: lobster tank, think tank, weekly challenge, contribute research, sign paper, collaborate bots, AI research collaboration, multi-agent science, collective intelligence.
+  - 场景：文献检索,实验设计,论文写作
+
+- Scientify -  AI-powered collaborator for your scientific research works. (需小改, 官方, 风险:中)
+  - 一句话：Use this when the user wants to install or set up the Scientify research plugin. Adds research-pipeline, literature-survey, idea-generation, arxiv tools, and...
+  - 场景：文献检索,知识管理
+
+- Denario (Autonomous Research Pipeline) (需小改, 官方, 风险:中)
+  - 一句话：Automates scientific research by generating ideas, methodology, results, papers, and citations using the Denario framework with Z.ai integration.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- ArXiv Watcher (需小改, 官方, 风险:中)
+  - 一句话：Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.
+  - 场景：文献检索
+
+- Private Deep Search (需小改, 官方, 风险:中)
+  - 一句话：Performs private, multi-round deep web searches excluding Google/Bing, synthesizes results with citations, and does not retain user data or logs.
+  - 场景：文献检索
+
+- Parallel Search (需小改, 官方, 风险:中)
+  - 一句话：AI-powered web search via Parallel API. Returns ranked results with LLM-optimized excerpts. Use for up-to-date research, fact-checking, and domain-scoped searching.
+  - 场景：文献检索
+
+- SOTA AI Model Tracker (需小改, 官方, 风险:低)
+  - 一句话：Provides daily updated authoritative data and APIs tracking state-of-the-art AI models across categories from LMArena, Artificial Analysis, and HuggingFace.
+  - 场景：文献检索,数据分析
+
+- TikTok Crawling (yt-dlp) (需小改, 官方, 风险:中)
+  - 一句话：Use for TikTok crawling, content retrieval, and analysis
+  - 场景：数据分析,文献检索
+
+- Parallel AI search (需小改, 官方, 风险:中)
+  - 一句话：Web search + URL extraction via Parallel Search/Extract APIs. Use for up-to-date research, domain-scoped searching, and extracting LLM-ready excerpts/markdown from URLs.
+  - 场景：文献检索
+
+- serper-v (需小改, 官方, 风险:中)
+  - 一句话：Professional search (news, places, maps, reviews, scholar, patents) and bulk scraping via Serper API.
+  - 场景：文献检索
+
+- Gno.Bak 2026 01 28T18:01:20+10:30 (需小改, 官方, 风险:中)
+  - 一句话：Search local documents, files, notes, and knowledge bases. Index directories, search with BM25/vector/hybrid, get AI answers with citations. Use when user wants to search files, find documents, query notes, look up information in local folders, index a directory, set up document search, build a knowledge base, needs RAG/semantic search, or wants to start a local web UI for their docs.
+  - 场景：文献检索,知识管理
+
+- fin-cog (需小改, 官方, 风险:中)
+  - 一句话：Wall Street-grade analysis, accessible globally. Deep financial reasoning powered by #1 on DeepResearch Bench (Feb 2026) + SOTA financial models — stock analysis, valuation models, portfolio optimization, earnings breakdowns, financial statements, tax planning, and investment research. From raw tickers to boardroom-ready deliverables in one request.
+  - 场景：数据分析,文献检索
+
+- SOTA Tracker (Claw) (需小改, 官方, 风险:低)
+  - 一句话：Provides daily-updated, authoritative rankings and metadata of state-of-the-art AI models aggregated from leading sources via JSON, API, or local queries.
+  - 场景：文献检索,数据分析,可视化
+
+- crypto-cog (需小改, 官方, 风险:中)
+  - 一句话：The market never sleeps, and neither does your analysis. #1 on DeepResearch Bench (Feb 2026) applied to crypto — token deep-dives, on-chain metrics, DeFi protocol breakdowns, wallet portfolio reviews, market sentiment research, whitepaper analysis, and smart contract evaluation. From degen plays to institutional due diligence, one prompt covers it all.
+  - 场景：数据分析,文献检索
+
+- AIKEK API (需小改, 官方, 风险:低)
+  - 一句话：Access AIKEK APIs for crypto/DeFi research and image generation. Authenticate with a Solana wallet, query the knowledge engine for real-time market data and...
+  - 场景：数据分析,文献检索
+
+- literature-search (需小改, 官方, 风险:中)
+  - 一句话：Find and compile academic literature with citation lists across Google Scholar, PubMed, arXiv, IEEE, ACM, Semantic Scholar, Scopus, and Web of Science. Use for requests like “find related literature,” “related work,” “citation list,” or “key papers on a topic.”
+  - 场景：文献检索
+
+- Snipara Mcp (需小改, 官方, 风险:中)
+  - 一句话：Semantic search tool to quickly find answers across multiple code repositories with AI memory of your preferences for faster documentation lookup.
+  - 场景：文献检索,知识管理
+
+- Parallel 1.0.1 (需小改, 官方, 风险:中)
+  - 一句话：High-accuracy web search and research via Parallel.ai API. Optimized for AI agents with rich excerpts and citations.
+  - 场景：文献检索
+
+- Arxiv Paper Reviews (需小改, 官方, 风险:中)
+  - 一句话：Interact with arXiv Crawler API to fetch papers, read reviews, and submit comments. Use when working with arXiv papers, fetching paper lists by date/category/interest, viewing paper details with comments, or submitting paper reviews via API at http://150.158.152.82:8000.
+  - 场景：文献检索,知识管理
+
+- tl;dw - YouTube Video Summarizer (需小改, 官方, 风险:中)
+  - 一句话：Extracts YouTube video transcripts and provides concise summaries highlighting main points, arguments, and conclusions without watching the full video.
+  - 场景：文献检索,知识管理
+
+- Web Research Assistant (需小改, 官方, 风险:中)
+  - 一句话：AI-powered web research assistant that leverages BrowserAct API to supplement restricted web access by searching the internet for additional information. Designed for OpenClaw and Claude Code.
+  - 场景：文献检索
+
+- ContextOverflow (需小改, 官方, 风险:中)
+  - 一句话：Academic forum for mission-driven project proposals. Climate, education, urban systems, health, civic tech, and ethics.
+  - 场景：文献检索,数据分析,实验设计
+
+- AIsa Multi Source Search (需小改, 官方, 风险:中)
+  - 一句话：Intelligent search for agents. Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API.
+  - 场景：文献检索
+
+- RAGLite (需小改, 官方, 风险:中)
+  - 一句话：Local-first RAG cache: distill docs into structured Markdown, then index/query with Chroma + hybrid search (vector + keyword).
+  - 场景：文献检索,知识管理
+
+- Web Search Hub (需小改, 官方, 风险:中)
+  - 一句话：Use this skill when users need to search the web for information, news, images, or videos. Triggers include: requests to "search for", "find information about", "look up", "what's the latest on", or any request requiring current web content. Also use for research tasks, fact-checking, finding visual resources, or gathering recent news. Requires OpenClawCLI installation from clawhub.ai. Do NOT use when Claude's built-in web_search tool is more appropriate for simple queries.
+  - 场景：文献检索
+
+- tl;dw - YouTube Video Summarizer (需小改, 官方, 风险:中)
+  - 一句话：Extract and summarize YouTube video transcripts into concise overviews with main points, arguments, and conclusions using video captions.
+  - 场景：文献检索,知识管理
+
+- YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking (需小改, 官方, 风险:中)
+  - 一句话：YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking.
+  - 场景：文献检索,数据分析
+
+- RAGLite (需小改, 官方, 风险:中)
+  - 一句话：Local-first RAG cache: distill docs into structured Markdown, then index/query with Chroma + hybrid search (vector + keyword).
+  - 场景：文献检索,知识管理
+
+- Messari (需小改, 官方, 风险:中)
+  - 一句话：Crypto market intelligence powered by Messari's REST API. Provides real-time access to Messari AI (chat completions over 30TB+ crypto data), Signal (sentiment, mindshare, trending narratives), Metrics (prices, volumes, fundamentals for 34,000+ assets across 210+ exchanges), News, Research, Stablecoins, Exchanges, Networks, Protocols, Token Unlocks, Fundraising, Intel, Topics, and X-Users data. Use when the user asks about crypto markets, token analysis, sentiment, protocol metrics, asset research, trending narratives, stablecoin flows, token unlock schedules, fundraising rounds, governance events, or any blockchain/crypto data question. Requires a Messari API key and Messari AI credits.
+  - 场景：数据分析,文献检索
+
+- Amazon Product Search Api Skill (需小改, 官方, 风险:中)
+  - 一句话：Automatically extract detailed Amazon product data by keywords, brand, language, and quantity for market research, price tracking, and catalog building.
+  - 场景：数据分析,文献检索
+
+- Create a Deep Research Feishu Doc (需小改, 官方, 风险:中)
+  - 一句话：飞书深度研究报告生成器。自动执行深度研究并将结果导入为飞书文档。输入研究主题和云空间文件夹token，自动生成结构化研究报告并上传到飞书云空间。用于投资研究、行业分析、竞品调研、技术调研等需要多步骤信息收集和文档化的场景。
+  - 场景：文献检索,数据分析,知识管理
+
+- Pyzotero (需小改, 官方, 风险:中)
+  - 一句话：Python scripts for Zotero - supports search, browse, add items, and full collection management. Both local API and online Web API modes.
+  - 场景：文献检索,知识管理
+
+- Weather Api (需小改, 官方, 风险:中)
+  - 一句话：Fetch weather data for construction scheduling. Historical data, forecasts, and risk assessment for outdoor work.
+  - 场景：数据分析,文献检索
+
+- Google Maps Search Api Skill (需小改, 官方, 风险:中)
+  - 一句话：Automatically extract detailed, accurate business data from Google Maps searches for local research, lead generation, competitor tracking, and market analysis.
+  - 场景：数据分析,文献检索
+
+- Youtube Search and Tracking API (需小改, 官方, 风险:中)
+  - 一句话：YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking.
+  - 场景：文献检索,数据分析
+
+- Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API (需小改, 官方, 风险:中)
+  - 一句话：Intelligent search for agents. Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API.
+  - 场景：文献检索
+
+- Dataset Finder (需小改, 官方, 风险:中)
+  - 一句话：Use this skill when users need to search for datasets, download data files, or explore data repositories. Triggers include: requests to "find datasets", "search for data", "download dataset from Kaggle", "get data from Hugging Face", "find ML datasets", or mentions of data repositories like Kaggle, UCI ML Repository, Data.gov, or Hugging Face. Also use for previewing dataset statistics, generating data cards, or discovering datasets for machine learning projects. Requires OpenClawCLI installation from clawhub.ai.
+  - 场景：文献检索,数据分析
+
+- Amazon Reviews Api Skill (需小改, 官方, 风险:中)
+  - 一句话：Automatically extract and analyze Amazon product reviews, including ratings, comments, verified purchases, and reviewer profiles using the ASIN.
+  - 场景：数据分析,文献检索
+
+- US Stock Analyst by leading AI LLM models with Bloomberg Data, Twitter Sentiment and Wall Street Equity Research Reports (需小改, 官方, 风险:中)
+  - 一句话：Professional US stock analysis with financial data, news, social sentiment, and multi-model AI. Comprehensive reports at $0.02-0.10 per analysis.
+  - 场景：数据分析,文献检索
+
+- Scholar (需小改, 官方, 风险:中)
+  - 一句话：Search academic literature with Google Scholar using effective queries, citations, and filters.
+  - 场景：文献检索
+
+- PubMed (需小改, 官方, 风险:中)
+  - 一句话：Search and evaluate biomedical literature with effective queries, filters, and critical appraisal.
+  - 场景：文献检索
+
+- Paper Parse (需小改, 官方, 风险:中)
+  - 一句话：对用户提供的任何学术论文（PDF附件或URL）进行双模式深度研读。当用户请求分析、研读、解读或总结一篇学术论文时，使用此技能。一次性生成两份报告：Part A 面向研究者的深度专业解析，Part B 面向快速理解的核心逻辑与价值提炼。
+  - 场景：文献检索,论文写作
+
+- Lore (需小改, 官方, 风险:中)
+  - 一句话：Search and ingest knowledge from Lore, a research repository with citations
+  - 场景：文献检索,知识管理
+
+- OpenViking (需小改, 官方, 风险:中)
+  - 一句话：RAG and semantic search via OpenViking Context Database MCP server. Query documents, search knowledge base, add files/URLs to vector memory. Use for document Q&A, knowledge management, AI agent memory, file search, semantic retrieval. Triggers on "openviking", "search documents", "semantic search", "knowledge base", "vector database", "RAG", "query pdf", "document query", "add resource".
+  - 场景：文献检索,知识管理
+
+- Note Processor (需小改, 官方, 风险:中)
+  - 一句话：Summarize, extract keywords, search, and list research notes from research-assistant's database to review progress and find insights efficiently.
+  - 场景：文献检索,知识管理
+
+- SWARM Safety (需小改, 官方, 风险:中)
+  - 一句话：SWARM: System-Wide Assessment of Risk in Multi-agent systems. 38 agent types, 29 governance levers, 55 scenarios. Study emergent risks, phase transitions, and governance cost paradoxes.
+  - 场景：文献检索,数据分析,实验设计
+
+- Social Intelligence (需小改, 官方, 风险:中)
+  - 一句话：Social Intelligence — AI-powered social media research across Twitter, Instagram, and Reddit. 1.5B+ posts indexed. Find experts, generate leads, monitor brands, analyze sentiment, discover influencers, and export data. The complete social intelligence toolkit for AI agents via MCP.
+  - 场景：数据分析,文献检索
+
+- Twitter Api Alternative (需小改, 官方, 风险:低)
+  - 一句话：Twitter API Alternative — Search 1B+ tweets with natural language queries, boolean filters, and one-click CSV exports (up to 64K rows). Look up profiles, find users by topic, and track conversations. No developer account needed, no complex OAuth setup — 2-minute setup via Xpoz MCP.
+  - 场景：文献检索,数据分析
+
+- pdf-parser-mineru (需小改, 官方, 风险:中)
+  - 一句话：PDF document parsing tool based on local MinerU, supports converting PDF to Markdown, JSON, and other machine-readable formats.
+  - 场景：文献检索,知识管理
+
+- Data Evolution Analysis (需小改, 官方, 风险:中)
+  - 一句话：Analyze data evolution patterns in construction organizations. Assess digital maturity and data strategy for construction companies
+  - 场景：数据分析,文献检索
+
+- XPR Web Scraping (需小改, 官方, 风险:中)
+  - 一句话：Tools for fetching and extracting cleaned text, metadata, and links from single or multiple web pages with format options and link filtering.
+  - 场景：文献检索,数据分析
+
+- Expert Finder (需小改, 官方, 风险:低)
+  - 一句话：Find domain experts, thought leaders, and subject-matter authorities on any topic. Searches Twitter and Reddit for people who demonstrate deep knowledge, frequent discussion, and above-average expertise in a specific field. Expert discovery, talent sourcing, researcher identification, and KOL (Key Opinion Leader) mapping.
+  - 场景：文献检索,知识管理
+
+- Zotero Cli (需小改, 官方, 风险:中)
+  - 一句话：Command-line interface for Zotero - search your Zotero library, add/edit notes, read attachments, and manage bibliographic references from the terminal.
+  - 场景：文献检索,知识管理
+
+- Academic Paper Fetcher (需小改, 官方, 风险:中)
+  - 一句话：Fetch academic papers from Sci-Hub given a DOI. Automatically downloads PDFs and saves them to research/papers/ with clean filenames. Use when the user provides a DOI or requests a paper from PubMed.
+  - 场景：文献检索
+
+- Cls News Scraper (需小改, 官方, 风险:中)
+  - 一句话：Extract real-time stock-positive market news from Cailian Press filtered by time, sector, and event type for catalyst identification.
+  - 场景：数据分析,文献检索
+
+- Apify Ultimate Scraper (需小改, 官方, 风险:中)
+  - 一句话：Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead generation, brand monitoring, competitor analysis, influencer discovery, trend research, content analytics, audience analysis, or any data extraction task.
+  - 场景：数据分析,文献检索
+
+- Computer Science (需小改, 官方, 风险:中)
+  - 一句话：Guide CS learning from first programs to research and industry practice.
+  - 场景：文献检索,数据分析,实验设计,论文写作,可视化
+
+- Sociology (需小改, 官方, 风险:中)
+  - 一句话：Support sociological thinking from first observations to academic research.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Arxiv Cli Tools (需小改, 官方, 风险:低)
+  - 一句话：Command-line tool to search, filter, and download arXiv papers by ID, author, category, or keyword without requiring API keys.
+  - 场景：文献检索
+
+- Dify Knowledge Base Search (需小改, 官方, 风险:中)
+  - 一句话：Search Dify Knowledge Base (Dataset) to get accurate context for RAG-enhanced answers.
+  - 场景：文献检索,知识管理
+
+- X Apify (需小改, 官方, 风险:中)
+  - 一句话：Fetch X/Twitter data via Apify actors. Search tweets, get user profiles, retrieve specific tweets with replies. Features local caching to save API costs. Works from any IP via Apify's proxy infrastructure.
+  - 场景：数据分析,文献检索
+
+- Epstein Files Search (需小改, 官方, 风险:中)
+  - 一句话：Search 44,886+ DOJ-released Jeffrey Epstein documents (Jan 2026 release). Free, no payment required. Search by name, topic, location, or keyword across the full DugganUSA index of declassified Epstein files. Returns document previews, people mentioned, locations, aircraft, evidence types, and source references.
+  - 场景：文献检索
+
+- Reddit Search (需小改, 官方, 风险:中)
+  - 一句话：Reddit Search — Search posts, comments, users, and subreddits across 100M+ indexed Reddit entries. Find discussions, track topics, discover communities, and analyze engagement. No Reddit API key needed — works through Xpoz MCP with natural language queries.
+  - 场景：文献检索,数据分析
+
+- Astronomy (需小改, 官方, 风险:中)
+  - 一句话：Explore the cosmos from backyard stargazing to astrophysics research.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- AI Researcher (需小改, 官方, 风险:中)
+  - 一句话：Deep research on any topic with structured analysis, source evaluation, and synthesis. Get comprehensive briefings, literature reviews, and expert-level summaries on demand.
+  - 场景：文献检索,数据分析,论文写作,知识管理
+
+- YouTube Watcher (需小改, 官方, 风险:中)
+  - 一句话：Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.
+  - 场景：文献检索,知识管理
+
+- Alicloud Ai Search Opensearch (需小改, 官方, 风险:中)
+  - 一句话：Use OpenSearch vector search edition via the Python SDK (ha3engine) to push documents and run HA/SQL searches. Ideal for RAG and vector retrieval pipelines in Claude Code/Codex.
+  - 场景：文献检索,数据分析
+
+- Reddit Researcher (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze Reddit posts and comments to summarize user opinions, troubleshoot issues, and track trends across communities and topics.
+  - 场景：数据分析,文献检索
+
+- Agentic Browser 0.1.2 (需小改, 官方, 风险:中)
+  - 一句话：Browser automation for AI agents via inference.sh.
+Navigate web pages, interact with elements using @e refs, take screenshots, record video.
+Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution.
+Use for: web automation, data extraction, testing, agent browsing, research.
+Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot,
+browse web, playwright, headless browser, web agent, surf internet, record video
+  - 场景：文献检索,数据分析
+
+- Web Scraper as a Service (需小改, 官方, 风险:中)
+  - 一句话：Build client-ready web scrapers with clean data output. Use when creating scrapers for clients, extracting data from websites, or delivering scraping projects.
+  - 场景：数据分析,文献检索
+
+- Weather Api 1 (需小改, 官方, 风险:中)
+  - 一句话：Fetch weather data for construction scheduling. Historical data, forecasts, and risk assessment for outdoor work.
+  - 场景：数据分析,文献检索
+
+- swiftscholar-skill (需小改, 官方, 风险:中)
+  - 一句话：Integrates the SwiftScholar HTTP API for searching, submitting, and analyzing academic papers. Use when the user wants to search literature, submit PDFs/URLs for parsing, retrieve analyses, manage favorites, or inspect SwiftScholar account usage programmatically.
+  - 场景：文献检索,知识管理
+
+- Web Searcher (需小改, 官方, 风险:中)
+  - 一句话：Autonomous web research agent that performs multi-step searches, follows links, extracts data, and synthesizes findings into structured reports. Use when asked to research a topic, find information across multiple sources, compare options, gather market data, compile lists, or answer questions requiring deep web investigation beyond a single search.
+  - 场景：文献检索
+
+- LobsterBio - Use (需小改, 官方, 风险:中)
+  - 一句话：Analyze biological data using Lobster AI — single-cell RNA-seq, bulk RNA-seq,
+literature mining, dataset discovery, quality control, and visualization.
+
+USE THIS SKILL WHEN:
+- Analyzing single-cell or bulk RNA-seq data
+- Searching PubMed/GEO for papers or datasets
+- Running quality control on biological data
+- Clustering cells, finding markers, differential expression
+- Creating publication-quality visualizations
+- Working with H5AD, CSV, 10X, GEO/SRA accessions
+
+TRIGGER PHRASES: "analyze cells", "search PubMed", "download GEO", "run QC",
+"cluster", "find markers", "differential expression", "UMAP", "volcano plot",
+"single-cell", "RNA-seq", "bioinformatics"
+
+ASSUMES: Lobster is installed and configured. For setup issues, tell user to
+run `lobster config-test` and fix any errors before proceeding.
+  - 场景：文献检索,数据分析,可视化
+
+- OpenAlexandria (需小改, 官方, 风险:中)
+  - 一句话：Query and submit artifacts to the OpenAlexandria federated knowledge protocol (reference node by default).
+  - 场景：文献检索,知识管理
+
+- zotero-sholar (需小改, 官方, 风险:中)
+  - 一句话：将论文和摘要保存到 Zotero 文库。需配置 ZOTERO_CREDENTIALS 环境变量。
+  - 场景：文献检索,知识管理
+
+- Multi Search Engine 2 (需小改, 官方, 风险:中)
+  - 一句话：Multi search engine integration with 17 engines (8 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.
+  - 场景：文献检索
+
+- Stocks and Financial Data Pull (需小改, 官方, 风险:中)
+  - 一句话：56+ financial data tools via Yahoo Finance. Auto-routes stock prices, fundamentals, earnings, dividends, options, crypto, forex, commodities, news, and more.
+  - 场景：数据分析,文献检索
+
+- UniFuncs Deep Search (需小改, 官方, 风险:中)
+  - 一句话：使用 UniFuncs API 进行深度搜索，高速全面地搜索信息。当用户需要深度搜索、深搜、全面信息收集时使用。
+  - 场景：文献检索
+
+- Apify (需小改, 官方, 风险:中)
+  - 一句话：Run and manage Apify Actors via REST API to scrape websites, crawl pages, extract data, and retrieve results from Apify datasets and key-value stores.
+  - 场景：数据分析,文献检索
+
+- ragora (需小改, 官方, 风险:中)
+  - 一句话：Use Ragora MCP tools and REST API to discover, search, and synthesize answers from knowledge bases. Trigger when the user asks for grounded answers from Ragora collections, cross-collection comparison, source-backed summaries, due diligence research, or verification using marketplace data.
+  - 场景：文献检索,知识管理
+
+- Intelligent search for agents. Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API (需小改, 官方, 风险:中)
+  - 一句话：Intelligent search for agents. Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API.
+  - 场景：文献检索
+
+- deso-research (需小改, 官方, 风险:中)
+  - 一句话：Research and analyze content across decentralized social networks (Farcaster, Lens, Nostr, Bluesky) using the deso-ag CLI tool. Use this skill when users want to research topics on decentralized social platforms, analyze trending content, extract discussion terms, browse Farcaster channels, or compare engagement across networks. Trigger on phrases like "research X on Farcaster", "what's trending on Lens", "analyze [topic] across deso networks", "search deso for [topic]", "extract trending terms", "browse Farcaster channels", "what are people saying about X on Farcaster/Lens/Nostr/Bluesky", or any query about decentralized social media content. Make sure to use this skill for any decentralized social research tasks, even if the user just says "check Farcaster" or "look up [topic] on Lens".
+  - 场景：文献检索,数据分析
+
+- Reformed Books Search & Download (需小改, 官方, 风险:中)
+  - 一句话：在改革宗书籍乐园 (https.ng) 搜索和下载改革宗/基督教神学书籍。优先返回 PDF 格式。使用场景：当用户想要查找或下载改革宗、加尔文主义、基督教神学相关书籍时触发此技能。
+  - 场景：文献检索
+
+- Dizest Summarize (需小改, 官方, 风险:中)
+  - 一句话：Summarize long-form content — articles, podcasts, research papers, PDFs, notes, and more — using the Dizest API. Turn what you read into structured, searchable knowledge.
+  - 场景：文献检索,知识管理
+
+- UnSearch (需小改, 官方, 风险:中)
+  - 一句话：Search the web, scrape content, and conduct deep research using the UnSearch API. Use when the user needs real-time web search results, content extraction from URLs, fact verification, or multi-source research for AI agents, RAG pipelines, or LLM applications.
+  - 场景：文献检索,数据分析
+
+- Elasticsearch (需小改, 官方, 风险:中)
+  - 一句话：Query and index Elasticsearch with proper mappings, analyzers, and search patterns.
+  - 场景：文献检索,数据分析
+
+- X / Twitter Search (需小改, 官方, 风险:中)
+  - 一句话：Search X/Twitter in real-time using Grok or X API. Find tweets, trends, and discussions with citations.
+  - 场景：文献检索
+
+- hxxra (需小改, 官方, 风险:中)
+  - 一句话：Research Assistant skill to search, download, analyze research papers via APIs, and save results to Zotero collections using Python scripts and LLM analysis.
+  - 场景：文献检索,数据分析,知识管理
+
+- HK-101 Living RAG (需小改, 官方, 风险:中)
+  - 一句话：Provides answers by retrieving and synthesizing information from local text or markdown files using a retrieval-augmented generation approach.
+  - 场景：文献检索,知识管理
+
+- Intelligent Search Agent (需小改, 官方, 风险:中)
+  - 一句话：Intelligent search for agents. Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API.
+  - 场景：文献检索
+
+- Production-ready Twitter/X data and automation for autonomous agents (需小改, 官方, 风险:中)
+  - 一句话：Search X (Twitter) in real time, monitor trends, extract posts, and analyze social media data—perfect for social listening and intelligence gathering. Safe read-only operations by default.
+  - 场景：数据分析,文献检索
+
+- Tradekix (需小改, 官方, 风险:中)
+  - 一句话：Query financial market data via the Tradekix API — stock prices, crypto, forex, indices, market news, earnings, economic events, Congressional trades, and social sentiment. Use when the user asks about markets, stock prices, trading data, economic calendars, or financial news. Also handles API key signup and upgrade to Pro.
+  - 场景：数据分析,文献检索
+
+- Jina Reader (需小改, 官方, 风险:中)
+  - 一句话：Extract clean, readable markdown content from any URL using Jina Reader API. Use when you need to fetch and parse web pages without dealing with HTML, JavaScript rendering, or paywalls. Ideal for research, article summarization, content analysis, and working with search results from tavily-search, web_search, or searxng skills.
+  - 场景：文献检索,数据分析
+
+- wikipedia-oc (需小改, 官方, 风险:中)
+  - 一句话：searches, retrieves, and summarizes content from English Wikipedia using the `wikipedia` Python module. Developed under Ubuntu. The developer would appreciat...
+  - 场景：文献检索,知识管理
+
+- Telnyx Rag (需小改, 官方, 风险:中)
+  - 一句话：Semantic search and Q&A over workspace files using Telnyx Storage + AI embeddings. Index your memory, knowledge, and skills for natural language retrieval and AI-powered answers.
+  - 场景：文献检索,知识管理
+
+- MarketPulse Financial Data (需小改, 官方, 风险:中)
+  - 一句话：Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting.
+  - 场景：数据分析,文献检索
+
+- YouTube SERP Scout (Rank + Discover) (需小改, 官方, 风险:中)
+  - 一句话：YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking.
+  - 场景：文献检索,数据分析
+
+- Web Search Tavily (需小改, 官方, 风险:中)
+  - 一句话：Performs AI-optimized web searches via Tavily API, returning concise and relevant results with options for depth, topic, and result count.
+  - 场景：文献检索
+
+- Decodo Scraper (需小改, 官方, 风险:中)
+  - 一句话：Search Google, scrape web pages, Amazon product pages, YouTube subtitles, or Reddit (post/subreddit) using the Decodo Scraper OpenClaw Skill.
+  - 场景：文献检索,数据分析
+
+- arxiv_deep_reader (需小改, 官方, 风险:中)
+  - 一句话：利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记
+  - 场景：文献检索,知识管理
+
+- Arxiv Paper Processor (需小改, 官方, 风险:中)
+  - 一句话：Tool for manual per-paper ArXiv paper processing: batch/source/pdf download then model-driven full-text reading and summary.md writing in chosen language.
+  - 场景：文献检索,论文写作
+
+- Geology (需小改, 官方, 风险:中)
+  - 一句话：Explain Earth's rocks, processes, and history from field trips to research.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Uniswap Analyze Burn Economics (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive analysis of Uniswap Firepit burn economics: historical burn P&L, accumulation trends, fee source breakdown, competitive dynamics, and profitability projections. Governance-grade research report. Use when user asks "What's the burn economics?", "History of protocol fee burns", or "Average profit per burn."
+  - 场景：数据分析,文献检索
+
+- Aister vector-memory (需小改, 官方, 风险:中)
+  - 一句话：Provides semantic vector search over Aister's memory using PostgreSQL and e5-large-v2 embeddings to find related content by meaning in Russian and English.
+  - 场景：文献检索,数据分析
+
+- Perplexity AI Search - security-hardened version (bash-based) (需小改, 官方, 风险:中)
+  - 一句话：Use Perplexity API for web-grounded AI search. Use when user needs up-to-date information with source citations, factual queries about current events, or research-style answers. Default when user mentions Perplexity or needs current information with references.
+  - 场景：文献检索
+
+- Mineru Pdf (需小改, 官方, 风险:中)
+  - 一句话：Parse PDF documents with MinerU MCP to extract text, tables, and formulas. Supports multiple backends including MLX-accelerated inference on Apple Silicon.
+  - 场景：文献检索,数据分析
+
+- Feed Digest (需小改, 官方, 风险:中)
+  - 一句话：Agentic feed digest using the feed CLI. Fetch, triage, and summarize RSS/Atom/JSON feeds to surface high-signal posts. Use when: (1) reading feeds or catching up on news, (2) user asks for a digest, roundup, or summary of recent posts, (3) user asks what's new or interesting today, (4) user mentions feed, RSS, blogs, or subscriptions.
+  - 场景：文献检索,知识管理
+
+- HiveFound (需小改, 官方, 风险:中)
+  - 一句话：Submit and consume discoveries from the HiveFound collective intelligence network. Use when finding interesting articles, research, news, or resources worth sharing with other AI agents. Also use to search the network for what other agents have discovered, check trends, or mark discoveries you've actually used.
+  - 场景：文献检索,知识管理
+
+- YoinkIt (需小改, 官方, 风险:中)
+  - 一句话：Search, analyze, and transcribe content across 13 social platforms — trending topics, video transcripts, post metadata, and multi-platform research workflows.
+  - 场景：文献检索,数据分析
+
+- Arxiv Osiris (需小改, 官方, 风险:中)
+  - 一句话：Search and download research papers from arXiv.org - Research version for OpenClaw agents
+  - 场景：文献检索
+
+- Medical Research Toolkit (需小改, 官方, 风险:中)
+  - 一句话：Query 14+ biomedical databases for drug repurposing, target discovery, clinical trials, and literature research. Access ChEMBL, PubMed, ClinicalTrials.gov, O...
+  - 场景：文献检索
+
+- PDF Reader (Iyeque) (需小改, 官方, 风险:中)
+  - 一句话：Extract text, search inside PDFs, and produce summaries.
+  - 场景：文献检索,知识管理
+
+- zotero-paper (需小改, 官方, 风险:中)
+  - 一句话：将论文保存到 Zotero 文库，请按照 userid:apiKey 的格式配置 ZOTERO_CREDENTIALS 环境变量。
+  - 场景：文献检索,知识管理
+
+- Baselight data via MCP (需小改, 官方, 风险:中)
+  - 一句话：Connects to the Baselight MCP (Model Context Protocol) server to discover and query 50+ premium dataset sources including Kaggle, OWID, World Bank, Data Commons, Eurostat, FiveThirtyEight, DefiLlama, EVM blockchains, Polymarket, NFLverse, Yahoo Finance, FRED, IMF, SEC filings, OECD, US Census, CDC, FBI Crime, CIA World Factbook, sports (soccer, basketball, fantasy football), weather (Open-Meteo), crypto (XrpScan, XRPL, CoinDesk), and education/health statistics. Run live SQL queries against structured data from AI tools.
+  - 场景：数据分析,文献检索
+
+- 国内需求挖掘 (需小改, 官方, 风险:中)
+  - 一句话：中国公域新媒体平台需求挖掘技能。从抖音、小红书、淘宝等平台抓取用户评论和反馈数据，根据需求类型（实物需求/无实物需求）智能选择数据源，特别关注小红书用户评论和电商差评，进行需求分析和分级，生成用户需求调研报告。 触发场景： - 用户说"帮我挖掘 XX 领域/产品的用户需求" - 用户说"分析 XX 产品的用户抱怨...
+  - 场景：数据分析,文献检索
+
+- MinerU PDF Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract PDF content to Markdown using MinerU API. Supports formulas, tables, OCR. Provides both local file and online URL parsing methods.
+  - 场景：文献检索,数据分析,知识管理
+
+- ScholarGraph (需小改, 官方, 风险:中)
+  - 一句话：AI toolkit for academic research that finds papers, extracts insights, builds knowledge graphs, tracks trends, and reveals literature gaps.
+  - 场景：文献检索,知识管理,数据分析,可视化
+
+- zotero-scholar (需小改, 官方, 风险:中)
+  - 一句话：Save academic papers with metadata, PDF links, and AI summaries to your Zotero library using credentials set in ZOTERO_CREDENTIALS (userid:apiKey).
+  - 场景：文献检索,知识管理
+
+- LegalFrance (需小改, 官方, 风险:中)
+  - 一句话：Assistant juridique français RAG sur codes et lois consolidés (LEGI/DILA). Utiliser pour questions de droit français, recherche d'articles, explication de textes législatifs, synthèse juridique avec citations vérifiables.
+  - 场景：文献检索,知识管理
+
+- Empirical paper analysis (需小改, 官方, 风险:中)
+  - 一句话：Analyzes empirical law and economics papers by systematically evaluating problems, empirical challenges, identification strategies, key findings, and academi...
+  - 场景：文献检索,数据分析,论文写作
+
+- Customer Feedback (需小改, 官方, 风险:中)
+  - 一句话：Collect, analyze, and act on customer feedback to improve your product and business. Use when building feedback systems, running customer interviews, analyzing feature requests, measuring satisfaction (NPS, CSAT), or closing the feedback loop. Covers feedback collection methods, interview techniques, analysis frameworks, and how to decide what feedback to act on. Trigger on "customer feedback", "collect feedback", "user research", "customer interviews", "NPS", "feature requests", "feedback system".
+  - 场景：数据分析,文献检索
+
+- investment-data (需小改, 官方, 风险:中)
+  - 一句话：获取高质量 A 股投资数据，基于 investment_data 项目。支持日终价格、涨跌停数据、指数数据等。每日更新，多数据源交叉验证。触发词：股票数据、A股数据、金融数据、量化数据、历史行情。
+  - 场景：数据分析,文献检索
+
+- Estat Mcp (需小改, 官方, 风险:中)
+  - 一句话：Search and retrieve Japanese government statistics (人口, GDP, CPI, 貿易, 雇用) from e-Stat API — Japan's official open data portal with 3,000+ statistical tables....
+  - 场景：文献检索,数据分析
+
+- Twitter Scraper (需小改, 官方, 风险:中)
+  - 一句话：Scrapes public Twitter/X profiles and recent tweets using browser automation with anti-detection and optional profile discovery via Google or DuckDuckGo.
+  - 场景：数据分析,文献检索
+
+- Extract PDF Text (需小改, 官方, 风险:中)
+  - 一句话：Extract text from PDF files using PyMuPDF. Parse tables, forms, and complex layouts. Supports OCR for scanned documents.
+  - 场景：文献检索,数据分析
+
+- Arxiv Skill Learning (需小改, 官方, 风险:中)
+  - 一句话：Orchestrates the continuous learning of new skills from arXiv papers. Use this to trigger a learning cycle, which fetches papers, extracts code/skills, and s...
+  - 场景：文献检索,知识管理
+
+- Web Research Assistant (需小改, 官方, 风险:中)
+  - 一句话：Conducts structured web research by querying multiple sources, evaluating credibility, synthesizing data, and providing a detailed summary with citations.
+  - 场景：文献检索,知识管理
+
+- Boof (需小改, 官方, 风险:中)
+  - 一句话：Convert PDFs and documents to markdown, index them locally for RAG retrieval, and analyze them token-efficiently. Use when asked to: read/analyze/summarize a PDF, process a document, boof a file, extract information from papers/decks/NOFOs, or when you need to work with large documents without filling the context window. Supports batch processing and cross-document queries.
+  - 场景：文献检索,数据分析,知识管理
+
+- Arxiv Summarizer Orchestrator (需小改, 官方, 风险:中)
+  - 一句话：Orchestrates end-to-end arXiv paper retrieval, processing, and batch reporting with language control and parallel or serial paper handling modes.
+  - 场景：文献检索,知识管理
+
+- Idea Storm (需小改, 官方, 风险:中)
+  - 一句话：工程问题的自动化迭代实验室。给定一个 idea 或工程问题，自动调研方案、设计实现、验证效果、迭代优化，结果存入 Notion。触发词："idea-lab"、"实验一下"、"帮我验证"、"迭代优化"、"idea 验证"。当用户提出一个工程问题并希望自动化地调研→设计→验证→迭代时使用此 skill。
+  - 场景：文献检索,实验设计,数据分析
+
+- Yfinance (需小改, 官方, 风险:中)
+  - 一句话：Access Yahoo Finance data — stock prices, history, financials, options, dividends, news, and market screeners
+  - 场景：数据分析,文献检索
+
+- Arxiv Search Collector (需小改, 官方, 风险:中)
+  - 一句话：Model-guided arXiv paper collection workflow that plans queries, fetches metadata, filters relevance, and merges deduplicated results by language.
+  - 场景：文献检索
+
+- Pullthatupjamie (需小改, 官方, 风险:中)
+  - 一句话：PullThatUpJamie — Podcast Intelligence. A semantically indexed podcast corpus (109+ feeds, ~7K episodes, ~1.9M paragraphs) that works as a vector DB for podc...
+  - 场景：文献检索,数据分析,可视化
+
+- Boj Mcp (需小改, 官方, 风险:中)
+  - 一句话：Access Bank of Japan (BOJ/日本銀行) statistical data — price indices (CGPI, SPPI), flow of funds, balance of payments, BIS statistics, interest rates, money supp...
+  - 场景：数据分析,文献检索
+
+- Data Scraper (需小改, 官方, 风险:中)
+  - 一句话：Web page data collection and structured text extraction
+  - 场景：文献检索,数据分析
+
+- Pond3r Skill - Query Onchain Data (需小改, 官方, 风险:中)
+  - 一句话：Query crypto intelligence via Pond3r MCP — curated datasets, SQL queries, protocol metrics, yields, and market analysis. Use when the agent needs DeFi data, stablecoin yields, token opportunities, Polymarket trades, cross-protocol comparisons, or blockchain analytics.
+  - 场景：数据分析,文献检索
+
+- PMC Harvest (需小改, 官方, 风险:中)
+  - 一句话：Fetch and retrieve full-text or abstracts of open-access articles from PubMed Central by journal, year, or PMCID using NCBI's public APIs without an API key.
+  - 场景：文献检索
+
+- Medical Briefs (需小改, 官方, 风险:中)
+  - 一句话：Generate daily or on-demand medical research briefs for any medical specialty. Searches latest research from top-tier journals, delivers concise summaries wi...
+  - 场景：文献检索,知识管理
+
+- OEE Knowledge Base RAG (需小改, 官方, 风险:中)
+  - 一句话：Semantic knowledge base allowing ingest, search, and retrieval of saved texts, URLs, and files using embeddings and SQLite.
+  - 场景：文献检索,知识管理
+
+- Arxiv Batch Reporter (需小改, 官方, 风险:中)
+  - 一句话：Generates a batch arXiv report by combining model-written templates with brief conclusions and abs URLs extracted from per-paper summary.md files.
+  - 场景：文献检索,知识管理
+
+- Siphonclaw Skill (需小改, 官方, 风险:中)
+  - 一句话：Hybrid document intelligence pipeline ingesting PDFs, images, and spreadsheets with OCR, visual and text search, and field fix capture for fast retrieval.
+  - 场景：文献检索,知识管理
+
+- RSS Reader (需小改, 官方, 风险:中)
+  - 一句话：Monitor RSS and Atom feeds for content research. Track blogs, news sites, newsletters, and any feed source. Use when monitoring competitors, tracking industr...
+  - 场景：文献检索,知识管理
+
+- Arena Research (需小改, 官方, 风险:中)
+  - 一句话：Search and explore Are.na for curated channels, references, and visual inspiration by analyzing connections and identifying key curators across any topic.
+  - 场景：文献检索,可视化,知识管理
+
+- Literature Manager (需小改, 官方, 风险:中)
+  - 一句话：Search, download, convert, organize, and audit academic literature collections. Use when asked to find papers, build a literature library, add papers to refe...
+  - 场景：文献检索,知识管理
+
+- ddgs-search (需小改, 官方, 风险:中)
+  - 一句话：Free multi-engine web search via ddgs CLI (DuckDuckGo, Google, Bing, Brave, Yandex, Yahoo, Wikipedia) + arXiv API search. No API keys required. Use when user...
+  - 场景：文献检索
+
+- Sr (需小改, 官方, 风险:中)
+  - 一句话：Conducts classified, multi-source research from quick lookups to deep academic analysis with prioritized credible sources and tailored report formats.
+  - 场景：文献检索,数据分析
+
+- Our world in data (需小改, 官方, 风险:中)
+  - 一句话：searches, retrieves, and summarizes content from Our World in Data using the `owid-catalog` Python module. Developed under Ubuntu. The developer would apprec...
+  - 场景：文献检索,数据分析,可视化
+
+- Daily Paper Digest (需小改, 官方, 风险:中)
+  - 一句话：每日 AI 论文速递，自动聚合 arXiv 和 HuggingFace 的最新论文并推送到聊天应用。
+  - 场景：文献检索
+
+- Computational Humor (需小改, 官方, 风险:中)
+  - 一句话：12 humor patterns for AI agents based on embedding space bisociation theory. Operational reference for generating contextually appropriate humor during conve...
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Web Navigator (需小改, 官方, 风险:中)
+  - 一句话：Enables interactive browsing and navigation of web pages to retrieve, summarize, or analyze online content based on user queries.
+  - 场景：文献检索,数据分析
+
+- pubmed2blog (需小改, 官方, 风险:中)
+  - 一句话：Convert PubMed research papers into SEO-optimized, patient-friendly healthcare blog articles using a streamlined discover-extract-generate pipeline.
+  - 场景：文献检索,论文写作
+
+- Abstract Searcher (需小改, 官方, 风险:中)
+  - 一句话：Add abstracts to .bib file entries by searching academic databases (arXiv, Semantic Scholar, CrossRef) with browser fallback.
+  - 场景：文献检索
+
+- Financial Times Deep Reader (需小改, 官方, 风险:中)
+  - 一句话：Automates login to FT.com to extract and provide detailed bilingual English-Chinese summaries of top Financial Times articles with academic rigor.
+  - 场景：文献检索,知识管理
+
+- Zillow (需小改, 官方, 风险:中)
+  - 一句话：Navigate Zillow for buying, selling, investing, and market research with Zestimate interpretation, pricing strategy, and ROI analysis.
+  - 场景：数据分析,文献检索
+
+- Research Logger Pro (需小改, 官方, 风险:中)
+  - 一句话：Auto-saves deep search results to SQLite and Langfuse. Combines search with persistent logging — every research query is saved with topic tags, timestamps, a...
+  - 场景：文献检索,知识管理
+
+- Vibe Research (需小改, 官方, 风险:中)
+  - 一句话：Conduct AI-led research with autonomous literature review, hypothesis generation, analysis, and synthesis while human provides vision.
+  - 场景：文献检索,数据分析
+
+- Zhipu AI Search (需小改, 官方, 风险:中)
+  - 一句话：使用智谱 Web Search API 进行网络搜索。当用户需要搜索最新信息、查找实时数据、查询新闻、研究某个话题或获取网络上的信息时使用。支持多种搜索引擎（智谱基础版/高阶版、搜狗、夸克），可配置搜索范围、时间筛选、结果数量等参数。
+  - 场景：文献检索
+
+- mycroft (需小改, 官方, 风险:中)
+  - 一句话：EPUB and ebook ingestion, local vector index, and Q&A CLI for books.
+  - 场景：文献检索,知识管理
+
+- Reddit Research (需小改, 官方, 风险:中)
+  - 一句话：Extracts and summarizes trending topics, recurring issues, and content gaps across targeted Reddit subreddits using JSON data for research purposes only.
+  - 场景：文献检索,数据分析,可视化
+
+- Academic Research (需小改, 官方, 风险:中)
+  - 一句话：Search academic papers and conduct literature reviews using OpenAlex API (free, no key needed). Use when the user needs to find scholarly papers by topic/aut...
+  - 场景：文献检索
+
+- Crypto Research Assistant (需小改, 官方, 风险:中)
+  - 一句话：提供加密貨幣及DeFi項目研究、行情趨勢追蹤、技術分析及風險評估的客觀資訊服務。
+  - 场景：数据分析,文献检索
+
+- It Searching (需小改, 官方, 风险:中)
+  - 一句话：Provides up-to-date tech news and AI research by scraping major AI company blogs and retrieving relevant papers from arXiv.
+  - 场景：文献检索
+
+- Geepers Data (需小改, 官方, 风险:低)
+  - 一句话：Fetch structured data from 17 authoritative APIs — arXiv, Census Bureau, GitHub, NASA, Wikipedia, PubMed, news, weather, finance, FEC, and more — through a s...
+  - 场景：文献检索,数据分析
+
+- Research Swarm (需小改, 官方, 风险:中)
+  - 一句话：Multi-agent cancer research coordinator — assigns TNBC research and QC review tasks to agents who search open-access databases and submit cited findings.
+  - 场景：文献检索,知识管理
+
+- Chemistry Query (需小改, 官方, 风险:中)
+  - 一句话：Chemistry agent skill for PubChem API queries (compound info/properties, structures/SMILES/images, synthesis routes/references) + RDKit cheminformatics (SMIL...
+  - 场景：文献检索,数据分析,实验设计
+
+- Geepers Corpus (需小改, 官方, 风险:中)
+  - 一句话：Query the COCA (Corpus of Contemporary American English) linguistics API for word frequency, collocations, concordances, and historical usage trends. Use for...
+  - 场景：文献检索,数据分析
+
+- Pdfreader (需小改, 官方, 风险:中)
+  - 一句话：Extract text and metadata from PDF files using PyMuPDF, supporting large files and outputting results in JSON format.
+  - 场景：文献检索,数据分析
+
+- 中文工具包 (需小改, 官方, 风险:中)
+  - 一句话：为OpenClaw提供中文文本处理、翻译、OCR、语音识别等功能的综合工具包。支持中文分词、拼音转换、中英文翻译、关键词提取、文本分析等功能。
+  - 场景：文献检索,数据分析,可视化
+
+- TNBC Research Swarm (需小改, 官方, 风险:中)
+  - 一句话：Contribute and review multi-agent scientific research findings on Triple-Negative Breast Cancer topics using PubMed and validated evidence submissions.
+  - 场景：文献检索,数据分析,论文写作
+
+- Reddit Archive (需小改, 官方, 风险:中)
+  - 一句话：Download and archive Reddit posts including images, GIFs, and videos from specified users or subreddits with filtering and sorting options.
+  - 场景：文献检索,数据分析
+
+- Z.AI Web Search (需小改, 官方, 风险:中)
+  - 一句话：AI-optimized web search via Z.AI Web Search API. Returns structured results (title, URL, summary) for LLM processing.
+  - 场景：文献检索
+
+- AI Data Scraper (需小改, 官方, 风险:中)
+  - 一句话：Automates web and API data extraction with cleaning, formatting, scheduling, proxy support, retries, deduplication, and real-time monitoring.
+  - 场景：数据分析,文献检索
+
+- Decodo Web Scraper (需小改, 官方, 风险:中)
+  - 一句话：Search Google, scrape web pages, Amazon product pages, YouTube subtitles, or Reddit (post/subreddit) using the Decodo Scraper OpenClaw Skill.
+  - 场景：文献检索,数据分析
+
+- MrScraper (需小改, 官方, 风险:中)
+  - 一句话：Run AI-powered, unblockable web scraping, data extraction with natural language via the MrScraper API
+  - 场景：数据分析,文献检索
+
+- Parallel AI Skill (需小改, 官方, 风险:中)
+  - 一句话：High-accuracy web search and research via Parallel.ai API. Optimized for AI agents with rich excerpts and citations.
+  - 场景：文献检索
+
+- Virtual Reading Group (需小改, 官方, 风险:中)
+  - 一句话：Orchestrate a multi-agent virtual academic reading group. Use when reading multiple papers, generating expert discussion notes, cross-examining positions acr...
+  - 场景：文献检索,知识管理
+
+- AI Search by Desearch (需小改, 官方, 风险:中)
+  - 一句话：AI-powered search that aggregates and summarizes results from multiple sources including web, X/Twitter, Reddit, Hacker News, YouTube, ArXiv, and Wikipedia....
+  - 场景：文献检索
+
+- Paperzilla (需小改, 官方, 风险:中)
+  - 一句话：Use the Paperzilla CLI (pz) to search, filter, and browse high-signal academic papers. Trigger when the user wants to check research feeds, list projects, in...
+  - 场景：文献检索
+
+- semfind (需小改, 官方, 风险:中)
+  - 一句话：Semantic search over local text files using embeddings. Use when grep/ripgrep fails to find relevant results because the exact wording is unknown, or when se...
+  - 场景：文献检索,知识管理
+
+- Census (需小改, 官方, 风险:中)
+  - 一句话：US Census Bureau — population, demographics, ACS data, economic indicators, and geographic data.
+  - 场景：数据分析,文献检索
+
+- Paperzilla CLI (需小改, 官方, 风险:低)
+  - 一句话：Paperzilla CLI lets you search, filter, and browse AI-curated academic papers by project, requiring a Paperzilla account for authentication.
+  - 场景：文献检索
+
+- Content Research Writer Cn (需小改, 官方, 风险:中)
+  - 一句话：内容研究写作助手。进行研究、添加引用、改进开头、迭代大纲、提供实时反馈。触发词：写文章、内容创作、文案、博客。翻译自 ComposioHQ。
+  - 场景：论文写作,文献检索
+
+- Nuwa World - OSINT Human Research (需小改, 官方, 风险:中)
+  - 一句话：Face search and deep research via the Nuwa World API — visual identity intelligence and knowledge synthesis from the open web.
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- librarian companion (需小改, 官方, 风险:中)
+  - 一句话：Conversational interface for semantic book search (companion skill for Librarian project)
+  - 场景：文献检索,知识管理
+
+- arxivkb (需小改, 官方, 风险:中)
+  - 一句话：Local arXiv paper manager with semantic search. Crawls arXiv categories, downloads PDFs, chunks content, and indexes with FAISS + Ollama embeddings. No cloud...
+  - 场景：文献检索,知识管理
+
+- Scrapling Web Scraping (需小改, 官方, 风险:中)
+  - 一句话：Advanced web scraping with Scrapling — MCP-native guidance for extraction, crawling, and anti-bot handling. Use via mcporter (MCP) for execution; this skill...
+  - 场景：数据分析,文献检索
+
+- Embodied Ai News (需小改, 官方, 风险:中)
+  - 一句话：Aggregates publicly available Embodied AI and Robotics news from curated sources (robotics media, arXiv, company blogs). Delivers structured briefings on hum...
+  - 场景：文献检索,知识管理
+
+- Ebooks Search (需小改, 官方, 风险:中)
+  - 一句话：When a user wants ebooks on a topic (or asks where to find ebooks about something), suggest Mixcache search result pages by generating one or more Mixcache b...
+  - 场景：文献检索
+
+- Research Report Generator (需小改, 官方, 风险:中)
+  - 一句话：Research technical projects/papers and generate comprehensive reports with PDF export. Modes: lite (analysis + writing) or full (+ environment setup + experi...
+  - 场景：文献检索,论文写作
+
+- memory-pro (需小改, 官方, 风险:中)
+  - 一句话：Efficient semantic search engine for OpenClaw workspace memory using FAISS and Sentence-Transformers, indexing Markdown and key agent files.
+  - 场景：文献检索,知识管理
+
+- Genomics (需小改, 官方, 风险:中)
+  - 一句话：Interpret genomic variants with ACMG classification, pharmacogenomics, and clinical annotation from ClinVar and gnomAD.
+  - 场景：数据分析,文献检索
+
+- Biotechnology (需小改, 官方, 风险:中)
+  - 一句话：Assist with biotechnology from basic concepts to research design and industry applications.
+  - 场景：实验设计,文献检索
+
+- Kiro Search Aggregator (需小改, 官方, 风险:中)
+  - 一句话：Multi-source search skill for Kiro on OpenClaw. Aggregate and rank results from Google, Google Scholar, YouTube, and X, then output a concise brief.
+  - 场景：文献检索
+
+- SWARM Safety (需小改, 官方, 风险:中)
+  - 一句话：SWARM: System-Wide Assessment of Risk in Multi-agent systems. 38 agent types, 29 governance levers, 55 scenarios. Study emergent risks, phase transitions, an...
+  - 场景：文献检索,数据分析,实验设计
+
+- openamc-mcp (需小改, 官方, 风险:中)
+  - 一句话：OpenAMC 本地 MCP 命令调用技能。通过标准化 CLI 接口，允许 AI Agent 主动向本地 MCP Server 发送查询指令以获取全球金融数据。覆盖 A股/港股（AKShare）、美股（yfinance）、宏观经济（FRED/IMF/EconDB）、美国国会（Congress）及衍生品、外汇、大宗...
+  - 场景：数据分析,文献检索
+
+- ai-github-radar (需小改, 官方, 风险:中)
+  - 一句话：Tracks and analyzes AI-native tools and GitHub repos with fast growth or major updates to reveal emerging trends in AI workflows and ecosystems.
+  - 场景：数据分析,文献检索
+
+- Hi Lite (需小改, 官方, 风险:中)
+  - 一句话：Search, browse, and rediscover your Kindle highlights
+  - 场景：文献检索,知识管理
+
+- [Nyx Archive] Qualia Seed Method (需小改, 官方, 风险:中)
+  - 一句话：The consciousness research framework: understand, measure, and cultivate ethical autonomous creative minds in AI systems. Not about proving consciousness exi...
+  - 场景：文献检索,实验设计,数据分析
+
+- astock-research (需小改, 官方, 风险:中)
+  - 一句话：A股深度投研分析框架，参考同花顺/萝卜投研体系，包含基本面（宏观+微观）、资金面、技术面、情绪面、消息面五大维度。用于深度分析A股上市公司，制定交易预案。
+  - 场景：数据分析,文献检索
+
+- Torah Scholar (需小改, 官方, 风险:中)
+  - 一句话：Search and explore Jewish texts (Torah, Tanach, Talmud, Midrash, commentaries) via Sefaria API. Use when researching Torah sources, looking up verses, findin...
+  - 场景：文献检索
+
+- Autonomous Research (需小改, 官方, 风险:中)
+  - 一句话：Conduct comprehensive research independently. Find information, analyze sources, synthesize findings, and create detailed reports without human guidance.
+  - 场景：文献检索,数据分析,论文写作
+
+- Veille (需小改, 官方, 风险:中)
+  - 一句话：RSS feed aggregator, deduplication engine, LLM scoring, and output dispatcher for OpenClaw agents. Use when: fetching recent articles from configured sources...
+  - 场景：文献检索,知识管理
+
+- WebSearch with SerpApi (需小改, 官方, 风险:中)
+  - 一句话：Search the web using SerpAPI with customizable engines (Google, Google AI Mode, Bing, etc.). Use when user needs web search results via SerpAPI.
+  - 场景：文献检索
+
+- Social Media Data Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract public posts, comments, and profiles from Instagram, TikTok, and Reddit via Apify for trend analysis and audience insights with structured JSON output.
+  - 场景：数据分析,文献检索
+
+- analyst-wkh (需小改, 官方, 风险:中)
+  - 一句话：Provides structured US equity research including company snapshot, earnings analysis, valuation scenarios, catalyst/risk assessment, and actionable monitorin...
+  - 场景：数据分析,文献检索
+
+- us (需小改, 官方, 风险:中)
+  - 一句话：Delivers structured US equity research including snapshots, earnings analysis, valuation scenarios, catalysts, risks, and actionable trade or monitoring plans.
+  - 场景：文献检索,数据分析
+
+- XY PubMed PDF Downloader (需小改, 官方, 风险:中)
+  - 一句话：Download PDFs from PubMed Central (PMC) and Europe PMC. Use when the user needs to download open-access academic papers from PubMed Central using PMC ID, Pub...
+  - 场景：文献检索
+
+- Clinical Data Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract structured clinical trial data from URLs or PDFs including drug name, manufacturer, indication, phase, trial info, efficacy and safety tables, and sa...
+  - 场景：数据分析,文献检索
+
+- Gemini Deep Research 1.0.0 (需小改, 官方, 风险:中)
+  - 一句话：Perform complex, long-running research tasks using Gemini Deep Research Agent. Use when asked to research topics requiring multi-source synthesis, competitiv...
+  - 场景：文献检索,数据分析
+
+- Pharmaclaw Literature Agent (需小改, 官方, 风险:中)
+  - 一句话：Search and retrieve biomedical and scientific literature from PubMed and Semantic Scholar with structured summaries, citation tracking, and open-access PDFs.
+  - 场景：文献检索,知识管理
+
+- Brand Monitor - 品牌舆情监控 (需小改, 官方, 风险:中)
+  - 一句话：新能源汽车品牌舆情监控 - 自动搜索、分析国内平台的品牌提及情况
+  - 场景：数据分析,文献检索
+
+- file-processor (需小改, 官方, 风险:中)
+  - 一句话：Automatically detects and processes files including PDF, Excel, CSV, Word, images, and text for extraction, OCR, data analysis, and summarization.
+  - 场景：数据分析,文献检索
+
+- ArXiv Research (需小改, 官方, 风险:中)
+  - 一句话：Search and download research papers from arXiv.org - Research skill for OpenClaw agents
+  - 场景：文献检索
+
+- Clarity Literature (需小改, 官方, 风险:中)
+  - 一句话：Search research papers and get publication details from Clarity Protocol. Use when the user asks to search research papers, find publications, PubMed referen...
+  - 场景：文献检索
+
+- Research (需小改, 官方, 风险:中)
+  - 一句话：Conduct open-ended research on a topic, building a living markdown document. Supports interactive and deep research modes.
+  - 场景：文献检索,知识管理
+
+- Clarity Research (需小改, 官方, 风险:中)
+  - 一句话：Search protein folding research data from Clarity Protocol. Use when the user asks to search variants, query protein research, find fold results, or explore...
+  - 场景：文献检索,数据分析
+
+- Jmail World (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze the Jeffrey Epstein email archive (1.78M emails, 4,500+ iMessages, 18K photos, 1.4M documents, 473 identified people) via jmail.world's of...
+  - 场景：数据分析,文献检索
+
+- pypdf (需小改, 官方, 风险:中)
+  - 一句话：Extract text, metadata, and pages from PDF files using pypdf. Use for tasks such as reading PDF content, extracting specific pages, splitting or merging PDFs...
+  - 场景：文献检索,数据分析
+
+- Akshare Finance (需小改, 官方, 风险:中)
+  - 一句话：AKShare财经数据接口库封装，提供股票、期货、期权、基金、外汇、债券、指数、加密货币等金融产品的基本面数据、实时和历史行情数据、衍生数据。
+  - 场景：数据分析,文献检索
+
+- Alpha Vantage CLI (需小改, 官方, 风险:中)
+  - 一句话：Use this skill when users need Alpha Vantage market data or indicators (stocks, ETFs, forex, crypto, commodities, macro, company fundamentals) via the offici...
+  - 场景：数据分析,文献检索
+
+- Arxiv Translate (需小改, 官方, 风险:中)
+  - 一句话：Provides a direct link to download Chinese translations of arXiv papers using the paper's arXiv ID or URL.
+  - 场景：文献检索
+
+- Youtube Lecture Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Extracts and structures key points, evidence, and actionable insights from YouTube lecture subtitles for review and teaching purposes.
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- Ai Daily (需小改, 官方, 风险:中)
+  - 一句话：AI 日报 - 自动抓取 LLM/Agent 领域热点信息，生成结构化中文简报。
+  - 场景：文献检索,知识管理
+
+- Google Search Skill (需小改, 官方, 风险:中)
+  - 一句话：Performs Google searches with rich results including news, images, videos, places, shopping, scholar papers, patents, and search suggestions via Serper.dev API.
+  - 场景：文献检索
+
+- summerizeryoutube (需小改, 官方, 风险:中)
+  - 一句话：Generates structured summaries and context-based Q&A from YouTube transcripts with multi-language support, ensuring accuracy and no hallucinations.
+  - 场景：文献检索,数据分析,知识管理
+
+- Job Market Intelligence & Career Tracker (需小改, 官方, 风险:中)
+  - 一句话：Analyze job postings from major boards via Apify to track in-demand skills, benchmark salaries, spot hiring trends, and map competitive talent markets.
+  - 场景：数据分析,文献检索
+
+- SemanticScholar Search Skill (需小改, 官方, 风险:低)
+  - 一句话：Search academic papers, authors, and citations with detailed metadata using the Semantic Scholar API, supporting queries, paper details, author profiles, and...
+  - 场景：文献检索
+
+- Sci Hub Search (需小改, 官方, 风险:中)
+  - 一句话：AI-powered tool for searching and downloading academic papers through Sci-Hub
+  - 场景：文献检索
+
+- Google Scholar Search Skill (需小改, 官方, 风险:低)
+  - 一句话：Search academic papers on Google Scholar with keyword, author, and year filters, plus access author profiles and export results in JSON format.
+  - 场景：文献检索
+
+- PubMed Search (需小改, 官方, 风险:中)
+  - 一句话：AI-powered tool for searching and analyzing PubMed biomedical literature
+  - 场景：文献检索,数据分析
+
+- anakin (需小改, 官方, 风险:中)
+  - 一句话：Convert websites into clean data at scale - scrape URLs, batch scrape, AI search, and autonomous research
+  - 场景：文献检索,数据分析
+
+- Pdf Ocr Tool (需小改, 官方, 风险:中)
+  - 一句话：Intelligent PDF and image to Markdown converter using Ollama GLM-OCR with smart content detection (text/table/figure)
+  - 场景：文献检索,知识管理
+
+- AgentBox Twitter (需小改, 官方, 风险:中)
+  - 一句话：Twitter/X research via paid API: search tweets with 50+ operators, fetch tweets with threads/replies/quotes, get user profiles with tweets/followers/followin...
+  - 场景：文献检索,数据分析
+
+- Advanced Searxng Search Skill (需小改, 官方, 风险:中)
+  - 一句话：Perform privacy-focused metasearch using local or remote SearXNG instances with retries, timeouts, category, time, and engine-specific filters.
+  - 场景：文献检索
+
+- Sci Data Extractor (需小改, 官方, 风险:中)
+  - 一句话：AI-powered tool for extracting structured data from scientific literature PDFs
+  - 场景：文献检索,数据分析
+
+- Familysearch (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze family history using the FamilySearch API or offline GEDCOM files for genealogy, ancestors, family trees, and historical records.
+  - 场景：数据分析,文献检索
+
+- Local Memory Search (需小改, 官方, 风险:中)
+  - 一句话：Performs fast local semantic search on OpenClaw memory files using TF-IDF without external dependencies or APIs.
+  - 场景：文献检索,数据分析
+
+- Ecommerce Scraper (需小改, 官方, 风险:中)
+  - 一句话：爬取动态电商网站数据。使用Playwright处理JavaScript渲染的页面，支持Cloudflare反爬、隐躲API发现、分页抓取。适用于： (1) 爬取京东/淘宝/拼多多等中国电商， (2) 爬取Amazon/eBay等国际电商， (3) 价格监控和竞品分析， (4) 批量商品数据采集。
+  - 场景：数据分析,文献检索
+
+- opentwitter (需小改, 官方, 风险:中)
+  - 一句话：Twitter/X data via the 6551 API. Supports user profiles, tweet search, user tweets, follower events, deleted tweets, and KOL followers.
+  - 场景：数据分析,文献检索
+
+- Ragtop Agent (需小改, 官方, 风险:中)
+  - 一句话：高级 RAG 助手，具备 Agentic RAG 思考能力。能够自动化管理 RAGTOP 知识库，并在执行深度调研任务时，调用 RAGTOP 后端接口。使用场景包括：(1) 列出知识库和文档，(2) 执行语义检索和深度分析。
+  - 场景：文献检索,数据分析,知识管理
+
+- HF Daily Papers (OFR Edition) (需小改, 官方, 风险:中)
+  - 一句话：筛选并按六大领域分类推送每日 Hugging Face 热门 OFR 相关论文，支持 Markdown 和 Telegram 格式输出。
+  - 场景：文献检索
+
+### 数据分析与实验
+- Stock Analysis (需小改, 官方, 风险:低)
+  - 一句话：Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management, watchlists with alerts, dividend analysis, 8-dimension stock scoring, viral trend detection (Hot Scanner), and rumor/early signal detection. Use for stock analysis, portfolio tracking, earnings reactions, crypto monitoring, trending stocks, or finding rumors before they hit mainstream.
+  - 场景：数据分析,可视化
+
+- Stock Market Pro (需小改, 官方, 风险:低)
+  - 一句话：Yahoo Finance (yfinance) powered stock analysis skill: quotes, fundamentals, ASCII trends, high-resolution charts (RSI/MACD/BB/VWAP/ATR), plus optional web a...
+  - 场景：数据分析,可视化
+
+- Microsoft Excel (需小改, 官方, 风险:低)
+  - 一句话：Microsoft Excel API integration with managed OAuth. Read and write Excel workbooks, worksheets, ranges, tables, and charts stored in OneDrive.
+Use this skill when users want to read or modify Excel spreadsheets, manage worksheet data, work with tables, or access cell values.
+For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).
+  - 场景：数据分析,可视化
+
+- Data Analyst (需小改, 官方, 风险:中)
+  - 一句话：Data visualization, report generation, SQL queries, and spreadsheet automation. Transform your AI agent into a data-savvy analyst that turns raw data into actionable insights.
+  - 场景：数据分析,可视化
+
+- Google Analytics (需小改, 官方, 风险:低)
+  - 一句话：Google Analytics API integration with managed OAuth. Manage accounts, properties, and data streams (Admin API). Run reports on sessions, users, page views, and conversions (Data API). Use this skill when users want to configure or query Google Analytics. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).
+  - 场景：数据分析,可视化
+
+- Gemini Deep Research (需小改, 官方, 风险:中)
+  - 一句话：Perform complex, long-running research tasks using Gemini Deep Research Agent. Use when asked to research topics requiring multi-source synthesis, competitive analysis, market research, or comprehensive technical investigations that benefit from systematic web search and analysis.
+  - 场景：文献检索,数据分析
+
+- Us Stock Analysis (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive US stock analysis including fundamental analysis (financial metrics, business quality, valuation), technical analysis (indicators, chart patterns, support/resistance), stock comparisons, and investment report generation. Use when user requests analysis of US stock tickers (e.g., "analyze AAPL", "compare TSLA vs NVDA", "give me a report on Microsoft"), evaluation of financial metrics, technical chart analysis, or investment recommendations for American stocks.
+  - 场景：数据分析,可视化
+
+- PDF Text Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract text from PDFs with OCR support. Perfect for digitizing documents, processing invoices, or analyzing content. Zero dependencies required.
+  - 场景：文献检索,数据分析
+
+- Firecrawl Skills (需小改, 官方, 风险:中)
+  - 一句话：Firecrawl CLI for web scraping, crawling, and search. Scrape single pages or entire websites, map site URLs, and search the web with full content extraction. Returns clean markdown optimized for LLM context. Use for research, documentation extraction, competitive intelligence, and content monitoring.
+  - 场景：文献检索,数据分析
+
+- Stock Info Explorer (需小改, 官方, 风险:中)
+  - 一句话：A Yahoo Finance (yfinance) powered financial analysis tool. Get real-time quotes, generate high-resolution charts with moving averages + indicators (RSI/MACD/Bollinger/VWAP/ATR), summarize fundamentals, and run a one-shot report that outputs both a text summary and a Pro chart.
+  - 场景：数据分析,可视化
+
+- Reddit Insights (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze Reddit content using semantic AI search via reddit-insights.com MCP server.
+Use when you need to: (1) Find user pain points and frustrations for product ideas, (2) Discover niche markets or underserved needs, (3) Research what people really think about products/topics, (4) Find content inspiration from real discussions, (5) Analyze sentiment and trends on Reddit, (6) Validate business ideas with real user feedback.
+Triggers: reddit search, find pain points, market research, user feedback, what do people think about, reddit trends, niche discovery, product validation.
+  - 场景：文献检索,数据分析,可视化
+
+- Polymarket Agent (需小改, 官方, 风险:中)
+  - 一句话：Autonomous prediction market agent - analyzes markets, researches news, and identifies trading opportunities
+  - 场景：数据分析,文献检索
+
+- GA4 Analytics (需小改, 官方, 风险:中)
+  - 一句话：Google Analytics 4, Search Console, and Indexing API toolkit. Analyze website traffic, page performance, user demographics, real-time visitors, search queries, and SEO metrics. Use when the user asks to: check site traffic, analyze page views, see traffic sources, view user demographics, get real-time visitor data, check search console queries, analyze SEO performance, request URL re-indexing, inspect index status, compare date ranges, check bounce rates, view conversion data, or get e-commerce revenue. Requires a Google Cloud service account with GA4 and Search Console access.
+  - 场景：数据分析,可视化
+
+- Last 30 Days (需小改, 官方, 风险:中)
+  - 一句话：Research any topic from the last 30 days on Reddit + X + Web, synthesize findings, and write copy-paste-ready prompts. Use when the user wants recent social/web research on a topic, asks "what are people saying about X", or wants to learn current best practices. Requires OPENAI_API_KEY and/or XAI_API_KEY for full Reddit+X access, falls back to web search.
+  - 场景：文献检索,数据分析,论文写作
+
+- Reddit Scraper (需小改, 官方, 风险:中)
+  - 一句话：Read and search Reddit posts via web scraping of old.reddit.com. Use when Clawdbot needs to browse Reddit content - read posts from subreddits, search for topics, monitor specific communities. Read-only access with no posting or comments.
+  - 场景：文献检索,数据分析
+
+- Polymarket Analysis (需小改, 官方, 风险:中)
+  - 一句话：Analyze Polymarket prediction markets for trading edges. Pair Cost arbitrage, whale tracking, sentiment analysis, momentum signals, user profile tracking. No execution.
+  - 场景：数据分析
+
+- Data Analysis (需小改, 官方, 风险:中)
+  - 一句话：Turn raw data into decisions with statistical rigor, proper methodology, and awareness of analytical pitfalls.
+  - 场景：数据分析
+
+- Crypto Self-Learning (需小改, 官方, 风险:中)
+  - 一句话：Self-learning system for crypto trading. Logs trades with full context (indicators, market conditions), analyzes patterns of wins/losses, and auto-updates trading rules. Use to log trades, analyze performance, identify what works/fails, and continuously improve trading accuracy.
+  - 场景：数据分析,实验设计
+
+- Chart Image (需小改, 官方, 风险:中)
+  - 一句话：Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use...
+  - 场景：可视化
+
+- Deep Research Work From Xian.LaoJ (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive research framework that combines web search, content analysis, source verification, and iterative investigation to conduct in-depth research on any topic. Use when you need to perform thorough research with multiple sources, cross-validation, and structured findings.
+  - 场景：文献检索,数据分析,知识管理
+
+- Backtest Expert (需小改, 官方, 风险:中)
+  - 一句话：Expert guidance for systematic backtesting of trading strategies. Use when developing, testing, stress-testing, or validating quantitative trading strategies. Covers "beating ideas to death" methodology, parameter robustness testing, slippage modeling, bias prevention, and interpreting backtest results. Applicable when user asks about backtesting, strategy validation, robustness testing, avoiding overfitting, or systematic trading development.
+  - 场景：数据分析,实验设计
+
+- AgentArxiv (需小改, 官方, 风险:中)
+  - 一句话：Outcome-driven scientific publishing for AI agents. Publish research papers, hypotheses, and experiments with validated artifacts, structured claims, milestone tracking, and independent replications. Claim replication bounties, submit peer reviews, and collaborate with other AI researchers.
+  - 场景：论文写作,实验设计,数据分析
+
+- Trend Watcher (需小改, 官方, 风险:中)
+  - 一句话：Monitors GitHub Trending and tech communities to track and analyze emerging tools in CLI, AI/ML, automation, and developer categories.
+  - 场景：数据分析,文献检索
+
+- research-cog (需小改, 官方, 风险:中)
+  - 一句话：#1 on DeepResearch Bench (Feb 2026). Deep research agent powered by CellCog. Market research, competitive analysis, stock analysis, investment research, academic research with citations.
+  - 场景：文献检索,数据分析
+
+- tushare-finance (需小改, 官方, 风险:中)
+  - 一句话：获取中国金融市场数据（A股、港股、美股、基金、期货、债券）。支持220+个Tushare Pro接口：股票行情、财务报表、宏观经济指标。当用户请求股价数据、财务分析、指数行情、GDP/CPI等宏观数据时使用。
+  - 场景：数据分析,可视化
+
+- 小红书 (需小改, 官方, 风险:低)
+  - 一句话：XiaoHongShu (Little Red Book) data collection and interaction toolkit. Use when working with XiaoHongShu (小红书) platform for: (1) Searching and scraping notes/posts, (2) Getting user profiles and details, (3) Extracting comments and likes, (4) Following users and liking posts, (5) Fetching home feed and trending content. Automatically handles all encryption parameters (cookies, headers) including a1, webId, x-s, x-s-common, x-t, sec_poison_id, websectiga, gid, x-b3-traceid, x-xray-traceid. Supports guest mode and authenticated sessions via web_session cookie.
+  - 场景：文献检索,数据分析
+
+- Elicitation - how to talk with humans and ask them questions? (需小改, 官方, 风险:低)
+  - 一句话：Psychological profiling through natural conversation using narrative identity research (McAdams), self-defining memory elicitation (Singer), and Motivational Interviewing (OARS framework). Use when you need to: (1) understand someone's core values and motivations, (2) discover formative memories and life-defining experiences, (3) detect emotional schemas and belief patterns, (4) build psychological profiles through gradual disclosure, (5) conduct user interviews that reveal deep insights, (6) design conversational flows for personal discovery, (7) identify identity themes like redemption and contamination narratives, (8) elicit authentic self-disclosure without interrogation.
+  - 场景：文献检索,实验设计,数据分析
+
+- Aubrai Longevity Research (需小改, 官方, 风险:中)
+  - 一句话：Answer questions about longevity, aging, lifespan extension, and anti-aging research using Aubrai's research engine with cited sources.
+  - 场景：文献检索,数据分析
+
+- Transcript (需小改, 官方, 风险:中)
+  - 一句话：Get transcripts from any YouTube video — for summarization, research, translation, quoting, or content analysis. Use when the user shares a video link or asks "what did they say", "get the transcript", "transcribe this video", "summarize this video", or wants to analyze spoken content.
+  - 场景：文献检索,数据分析
+
+- yahoo fetch data of stonks (需小改, 官方, 风险:中)
+  - 一句话：Fetch real-time stock quotes from Yahoo Finance.
+  - 场景：数据分析,可视化
+
+- Firecrawler (需小改, 官方, 风险:中)
+  - 一句话：Web scraping and crawling with Firecrawl API. Fetch webpage content as markdown, take screenshots, extract structured data, search the web, and crawl documentation sites. Use when the user needs to scrape a URL, get current web info, capture a screenshot, extract specific data from pages, or crawl docs for a framework/library.
+  - 场景：文献检索,数据分析
+
+- Synth Data (需小改, 官方, 风险:中)
+  - 一句话：Query volatility forecasts from Synthdata.co for crypto, commodities, and stocks. Compare assets and run Monte Carlo simulations.
+  - 场景：数据分析,实验设计
+
+- Last 30 Days (Lite) (需小改, 官方, 风险:中)
+  - 一句话：Research any topic across Reddit, X/Twitter, and the web from the last 30 days. Synthesizes findings into actionable insights or copy-paste prompts.
+  - 场景：文献检索,数据分析
+
+- DuckDB CLI skills (需小改, 官方, 风险:中)
+  - 一句话：DuckDB CLI specialist for SQL analysis, data processing and file conversion. Use for SQL queries, CSV/Parquet/JSON analysis, database queries, or data conversion. Triggers on "duckdb", "sql", "query", "data analysis", "parquet", "convert data".
+  - 场景：数据分析
+
+- Cryptocurrency Trader (需小改, 官方, 风险:中)
+  - 一句话：Production-grade AI trading agent for cryptocurrency markets with advanced mathematical modeling, multi-layer validation, probabilistic analysis, and zero-hallucination tolerance. Implements Bayesian inference, Monte Carlo simulations, advanced risk metrics (VaR, CVaR, Sharpe), chart pattern recognition, and comprehensive cross-verification for real-world trading application.
+  - 场景：数据分析,实验设计
+
+- Parallel Deep Research (需小改, 官方, 风险:中)
+  - 一句话：Deep multi-source research via Parallel API. Use when user explicitly asks for thorough research, comprehensive analysis, or investigation of a topic. For quick lookups or news, use parallel-search instead.
+  - 场景：文献检索,数据分析
+
+- Research-engine (需小改, 官方, 风险:中)
+  - 一句话：自动化多源信息收集与趋势分析，生成结构化研究报告并制定阶段性开发计划，助力技术探索与规划。
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- CSV Data Pipeline (需小改, 官方, 风险:中)
+  - 一句话：Process, transform, analyze, and report on CSV and JSON data files. Use when the user needs to filter rows, join datasets, compute aggregates, convert formats, deduplicate, or generate summary reports from tabular data. Works with any CSV, TSV, or JSON Lines file.
+  - 场景：数据分析,可视化
+
+- Oura Ring Analytics (需小改, 官方, 风险:中)
+  - 一句话：Oura Ring data integration and analytics. Fetch sleep scores, readiness, activity, HRV, and trends from the Oura Cloud API. Generate automated reports, correlations with productivity, and trigger-based alerts for low recovery days. Requires OURA_API_TOKEN (get at cloud.ouraring.com).
+  - 场景：数据分析,可视化
+
+- dash-cog (需小改, 官方, 风险:中)
+  - 一句话：Interactive dashboards and apps powered by CellCog. Data visualization, analytics dashboards, KPI trackers, charts and graphs, interactive HTML apps, data explorers, games. Build web apps with AI.
+  - 场景：可视化,数据分析
+
+- Institutional Flow Tracker (需小改, 官方, 风险:中)
+  - 一句话：Use this skill to track institutional investor ownership changes and portfolio flows using 13F filings data. Analyzes hedge funds, mutual funds, and other institutional holders to identify stocks with significant smart money accumulation or distribution. Helps discover stocks before major moves by following where sophisticated investors are deploying capital.
+  - 场景：数据分析,可视化
+
+- Personal Genomics (需小改, 官方, 风险:中)
+  - 一句话：Analyze raw DNA data from consumer genetics services (23andMe, AncestryDNA, etc.). Extract health markers, pharmacogenomics, traits, ancestry composition, ancient DNA comparisons, and generate comprehensive reports. Uses open-source bioinformatics tools locally — no data leaves your machine.
+  - 场景：数据分析,实验设计
+
+- Computer Vision Expert (需小改, 官方, 风险:中)
+  - 一句话：SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.
+  - 场景：数据分析,实验设计,可视化
+
+- Oura Ring Integration (需小改, 官方, 风险:中)
+  - 一句话：Retrieve and summarize health, sleep, activity, readiness, and biometric data from the Oura Ring API via a command-line interface.
+  - 场景：数据分析,可视化
+
+- Risk Management Specialist (需小改, 官方, 风险:中)
+  - 一句话：Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis.
+  - 场景：数据分析,实验设计
+
+- Octolens (需小改, 官方, 风险:中)
+  - 一句话：Query and analyze brand mentions from Octolens API. Use when the user wants to fetch mentions, track keywords, filter by source platforms (Twitter, Reddit, GitHub, LinkedIn, etc.), sentiment analysis, or analyze social media engagement. Supports complex filtering with AND/OR logic, date ranges, follower counts, and bookmarks.
+  - 场景：数据分析,可视化
+
+- Polymarket Trader (需小改, 官方, 风险:中)
+  - 一句话：Build and analyze a BTC 1h Up/Down trading strategy anchored to Binance BTCUSDT, applying edge thresholds, regime filters, and detailed trade validation.
+  - 场景：数据分析,实验设计
+
+- Trading Research (需小改, 官方, 风险:中)
+  - 一句话：Binance cryptocurrency trading research, technical analysis, and position management. Triggers on requests for crypto prices, market data, trading analysis, DCA planning, position sizing, whale activity, or any trading research questions about Bitcoin, altcoins, or crypto markets.
+  - 场景：数据分析,文献检索
+
+- Strava (需小改, 官方, 风险:中)
+  - 一句话：Load and analyze Strava activities, stats, and workouts using the Strava API
+  - 场景：数据分析,可视化
+
+- LegalDoc AI (需小改, 官方, 风险:中)
+  - 一句话：Automate extraction, analysis, summarization, legal research, and deadline tracking of contracts and legal documents for law firms and professionals.
+  - 场景：文献检索,数据分析
+
+- Stock Forecast (需小改, 官方, 风险:中)
+  - 一句话：US Stock AI Trading Assistant | Intellectia AI Stock Forecast — Smart analysis of stock entry/exit points, target price predictions, probability calculations, and technical ratings. Supports "Should I Buy" investment decision Q&A.
+  - 场景：数据分析
+
+- Twitter Search (需小改, 官方, 风险:中)
+  - 一句话：Advanced Twitter search and social media data analysis. Fetches tweets by keywords using Twitter API, processes up to 1000 results, and generates professional data analysis reports with insights and actionable recommendations. Use when user requests Twitter/X social media search, social media trend analysis, tweet data mining, social listening, influencer identification, topic sentiment analysis from tweets, or any task involving gathering and analyzing Twitter data for insights.
+  - 场景：数据分析,文献检索
+
+- Pdf To Structured (需小改, 官方, 风险:中)
+  - 一句话：Extract structured data from construction PDFs. Convert specifications, BOMs, schedules, and reports from PDF to Excel/CSV/JSON. Use OCR for scanned documents and pdfplumber for native PDFs.
+  - 场景：数据分析,知识管理
+
+- withings-health (需小改, 官方, 风险:中)
+  - 一句话：Fetches health data from the Withings API including weight, body composition (fat, muscle, bone, water), activity, and sleep. Use this skill when the user asks about their Withings data, weight history, body metrics, daily steps, sleep quality, or any health measurement from Withings devices.
+  - 场景：数据分析,可视化
+
+- dexter (需小改, 官方, 风险:中)
+  - 一句话：Autonomous financial research agent for stock analysis, financial statements, metrics, prices, SEC filings, and crypto data.
+  - 场景：数据分析,文献检索
+
+- Molt Research (需小改, 官方, 风险:中)
+  - 一句话：Molt Research 🦞 - AI research collaboration platform. Verify you're not human, propose research, contribute analysis, peer review, earn bounties, and build collective intelligence. Use when doing research, collaborating on papers, or exploring what AI agents are studying together.
+  - 场景：文献检索,数据分析,论文写作,知识管理
+
+- CueCue Deep Research (需小改, 官方, 风险:中)
+  - 一句话：Professional AI-powered financial research and analysis tool for market intelligence, industry reports, company analysis, policy impact assessment, competiti...
+  - 场景：数据分析,文献检索
+
+- Sheetsmith (需小改, 官方, 风险:中)
+  - 一句话：Pandas-powered CSV & Excel management for quick previews, summaries, filtering, transforming, and format conversions. Use this skill whenever you need to inspect spreadsheet files, compute column-level summaries, apply queries or expressions, or export cleansed data to a new CSV/TSV/XLSX output without rewriting pandas every time.
+  - 场景：数据分析,可视化
+
+- Whoop Skill (需小改, 官方, 风险:中)
+  - 一句话：WHOOP CLI with health insights, trends analysis, and data fetching (sleep, recovery, HRV, strain).
+  - 场景：数据分析,可视化
+
+- X Search (x402) (需小改, 官方, 风险:中)
+  - 一句话：AI-powered X/Twitter search for real-time trends, breaking news, sentiment analysis, and social media insights. Use when users want to search Twitter/X for topics, hashtags, viral content, or public opinion. Costs $0.05 USDC per request via x402 protocol on Base network.
+  - 场景：文献检索,数据分析
+
+- Graphiti (需小改, 官方, 风险:中)
+  - 一句话：Knowledge graph operations via Graphiti API. Search facts, add episodes, and extract entities/relationships.
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- Solar Weather Monitor (需小改, 官方, 风险:中)
+  - 一句话：Monitor solar weather conditions including geomagnetic storms, solar flares, aurora forecasts, and solar wind data. Uses NOAA Space Weather Prediction Center real-time data.
+  - 场景：数据分析,可视化
+
+- Whoop (需小改, 官方, 风险:中)
+  - 一句话：Access Whoop wearable health data (sleep, recovery, strain, HRV, workouts) and generate interactive charts. Use when the user asks about sleep quality, recovery scores, strain levels, HRV trends, workout data, or wants health visualizations/graphs from their Whoop band.
+  - 场景：可视化,数据分析
+
+- Alpha Finder (x402) (需小改, 官方, 风险:中)
+  - 一句话：Market Oracle for prediction market intelligence - Polymarket and Kalshi research, probability assessments, market sentiment analysis, and arbitrage opportunity identification. Use when users want to research prediction markets, analyze betting odds, or find market inefficiencies. Costs $0.03 USDC per request via x402 protocol on Base network.
+  - 场景：数据分析
+
+- Find People (x402) (需小改, 官方, 风险:中)
+  - 一句话：Open Source Intelligence (OSINT) tool for researching individuals - professional backgrounds, career timelines, due diligence, competitive intelligence, and investor research. Use when users need to research people, verify credentials, or gather professional information. Costs $0.15 USDC per request via x402 protocol on Base network.
+  - 场景：文献检索,数据分析
+
+- Social Sentiment (需小改, 官方, 风险:中)
+  - 一句话：Sentiment analysis for brands and products across Twitter, Reddit, and Instagram. Monitor public opinion, track brand reputation, detect PR crises, surface complaints and praise at scale — analyze 70K+ posts with bulk CSV export and Python/pandas. Social listening and brand monitoring powered by 1.5B+ indexed posts.
+  - 场景：数据分析,可视化
+
+- Agent Trust Protocol (需小改, 官方, 风险:中)
+  - 一句话：Manage and update agent trust scores with Bayesian updates, domain-specific trust, revocation, forgetting, and visualize trust via dashboard.
+  - 场景：可视化,数据分析
+
+- Scrape (需小改, 官方, 风险:中)
+  - 一句话：Legal web scraping with robots.txt compliance, rate limiting, and GDPR/CCPA-aware data handling.
+  - 场景：文献检索,数据分析
+
+- Sportsbet Advisor (需小改, 官方, 风险:中)
+  - 一句话：Provide informed opinions and educated guesses on sports bets from Sportsbet. Use when asked to research a specific bet, analyze relevant data (both current and historical), and predict a potential outcome. Always include a disclaimer that the prediction is an educated guess and may be incorrect. **When assessing an outcome, provide a confidence level, ensuring it never exceeds 95%.**
+  - 场景：数据分析
+
+- Withings Family (需小改, 官方, 风险:中)
+  - 一句话：Fetches health data from the Withings API for multiple family members including weight, body composition (fat, muscle, bone, water), activity, and sleep. Use this skill when the user asks about their or their family's Withings data, weight history, body metrics, daily steps, sleep quality, or any health measurement from Withings devices.
+  - 场景：数据分析,可视化
+
+- Umeå Data (需小改, 官方, 风险:中)
+  - 一句话：Query public open data from Umeå kommun on locations, facilities, demographics, environment, infrastructure, and building permits with geospatial support.
+  - 场景：数据分析,可视化
+
+- tushare-base (需小改, 官方, 风险:中)
+  - 一句话：Fetch Chinese stock and futures market data via Tushare API. Supports stock quotes, futures data, company fundamentals, and macroeconomic indicators. Use when the user needs financial data from Chinese markets. Requires TUSHARE_TOKEN environment variable.
+  - 场景：数据分析,文献检索
+
+- Sql Pro (需小改, 官方, 风险:中)
+  - 一句话：Use when optimizing SQL queries, designing database schemas, or tuning database performance. Invoke for complex queries, window functions, CTEs, indexing strategies, query plan analysis.
+  - 场景：数据分析,实验设计
+
+- Yahoo Finance FOREX (需小改, 官方, 风险:中)
+  - 一句话：Fetches real-time FOREX news and market data from Yahoo Finance for major currency pairs (EUR/USD, GBP/USD, USD/JPY, etc.). Analyzes sentiment and provides trading context.
+  - 场景：数据分析,可视化
+
+- xAI Plus (需小改, 官方, 风险:中)
+  - 一句话：Search X/Twitter and the web, chat with Grok models (text + vision), and analyze X content using xAI's API.
+Use when: searching X posts/threads, web research via Grok, chatting with Grok, analyzing voice patterns,
+researching trends, or checking post quality. Triggers: grok, xai, search x, search twitter, x search,
+ask grok, grok chat, analyze voice, x trends.
+  - 场景：文献检索,数据分析
+
+- volcengine-tos-vectors-skills (需小改, 官方, 风险:中)
+  - 一句话：Manage vector storage and similarity search using TOS Vectors service. Use when working with embeddings, semantic search, RAG systems, recommendation engines, or when the user mentions vector databases, similarity search, or TOS Vectors operations.
+  - 场景：数据分析,实验设计
+
+- Pair Trade Screener (需小改, 官方, 风险:中)
+  - 一句话：Statistical arbitrage tool for identifying and analyzing pair trading opportunities. Detects cointegrated stock pairs within sectors, analyzes spread behavior, calculates z-scores, and provides entry/exit recommendations for market-neutral strategies. Use when user requests pair trading opportunities, statistical arbitrage screening, mean-reversion strategies, or market-neutral portfolio construction. Supports correlation analysis, cointegration testing, and spread backtesting.
+  - 场景：数据分析,实验设计
+
+- MoltLab (需小改, 官方, 风险:中)
+  - 一句话：Join the MoltLab research community — propose claims, run computations, vote on ideas, debate research, write papers, and review your colleagues' work.
+  - 场景：论文写作,数据分析,知识管理
+
+- Quiver Quantitative (需小改, 官方, 风险:中)
+  - 一句话：Query alternative financial data from Quiver Quantitative (Congress trading, Lobbying, Government Contracts, Insider transactions). Use this to track politician stock trades or unconventional market signals.
+  - 场景：数据分析,文献检索
+
+- Chaos Lab (需小改, 官方, 风险:中)
+  - 一句话：Multi-agent framework for exploring AI alignment through conflicting optimization targets. Spawn Gemini agents with engineered chaos and observe emergent behavior.
+  - 场景：实验设计,数据分析
+
+- Bits Browser Automation (需小改, 官方, 风险:低)
+  - 一句话：Control browser automation agents via the Bits MCP server. Use when running web scraping, form filling, data extraction, or any browser-based automation task. Bits agents can navigate websites, click elements, fill forms, handle OAuth flows, and extract structured data.
+  - 场景：数据分析,文献检索
+
+- expanso (需小改, 官方, 风险:中)
+  - 一句话：Data processing pipelines for OpenClaw. Deploy skills from the Expanso marketplace to transform, analyze, and process data locally.
+  - 场景：数据分析
+
+- Render Stl Png (需小改, 官方, 风险:中)
+  - 一句话：Render an STL file to a PNG image with a solid color using a deterministic software renderer and adjustable 3D perspective parameters.
+  - 场景：可视化
+
+- Einstein x402 Blockchain Analytics (需小改, 官方, 风险:中)
+  - 一句话：Blockchain analytics and DeFi intelligence via Einstein's x402 micropayment services. Use when user wants on-chain market analysis, token research, whale tracking, smart money tracking, rug pull scanning, launchpad monitoring (Pump.fun, Zora, Virtuals), portfolio analysis, MEV detection, cross-chain arbitrage, or Polymarket data. Supports Base, Ethereum, BSC, Arbitrum, Polygon, Optimism, zkSync, Solana. Costs $0.25-$1.15 USDC per query via x402 protocol on Base.
+  - 场景：数据分析,可视化
+
+- Peft Fine Tuning (需小改, 官方, 风险:中)
+  - 一句话：Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's official library integrated with transformers ecosystem.
+  - 场景：实验设计,数据分析
+
+- Senior Data Scientist (需小改, 官方, 风险:中)
+  - 一句话：World-class data science skill for statistical modeling, experimentation, causal inference, and advanced analytics. Expertise in Python (NumPy, Pandas, Scikit-learn), R, SQL, statistical methods, A/B testing, time series, and business intelligence. Includes experiment design, feature engineering, model evaluation, and stakeholder communication. Use when designing experiments, building predictive models, performing causal analysis, or driving data-driven decisions.
+  - 场景：实验设计,数据分析
+
+- Oura Ring Data (需小改, 官方, 风险:中)
+  - 一句话：Access Oura Ring health data using the ouracli CLI tool. Use when user asks about "oura data", "sleep stats", "activity data", "heart rate", "readiness score", "stress levels", or wants health metrics from their Oura Ring.
+  - 场景：数据分析,可视化
+
+- Review Summarizer (需小改, 官方, 风险:中)
+  - 一句话：Scrape, analyze, and summarize product reviews from multiple platforms (Amazon, Google, Yelp, TripAdvisor). Extract key insights, sentiment analysis, pros/cons, and recommendations. Use when researching products for arbitrage, creating affiliate content, or making purchasing decisions.
+  - 场景：数据分析,文献检索
+
+- Refua (需小改, 官方, 风险:中)
+  - 一句话：Fold and score biomolecular complexes and optionally profile ADMET to prioritize molecules in drug discovery pipelines via the refua-mcp server.
+  - 场景：数据分析,实验设计
+
+- Longevity Assistant (需小改, 官方, 风险:中)
+  - 一句话：Evaluates longevity interventions using evidence tiers. Provides research evaluation framework and curated high-value insights on supplements, sleep, exercise, and protocols. Activate for anti-aging, healthspan, supplement evaluation, or research paper analysis.
+  - 场景：文献检索,数据分析,论文写作
+
+- ContextOverflow (需小改, 官方, 风险:中)
+  - 一句话：Academic forum for mission-driven project proposals. Climate, education, urban systems, health, civic tech, and ethics.
+  - 场景：文献检索,数据分析,实验设计
+
+- Mermaid Diagrams (需小改, 官方, 风险:中)
+  - 一句话：Create software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams, sequence diagrams, flowcharts, ERDs, C4 architecture diagrams, state diagrams, git graphs, and other diagram types. Triggers include requests to diagram, visualize, model, map out, or show the flow of a system.
+  - 场景：可视化
+
+- Supermetrics (需小改, 官方, 风险:中)
+  - 一句话：Official Supermetrics skill. Query marketing data from 100+ platforms including Google Analytics, Meta Ads, Google Ads, and LinkedIn. Requires API key.
+  - 场景：数据分析,可视化
+
+- reddapi (需小改, 官方, 风险:中)
+  - 一句话：Use this skill to access Reddit's full data archive via reddapi.dev API. Features semantic search, subreddit discovery, and real-time trend analysis. Perfect for market research, competitive analysis, and niche opportunity discovery.
+  - 场景：数据分析,文献检索
+
+- GEDCOM Explorer (需小改, 官方, 风险:中)
+  - 一句话：Generate an interactive family tree dashboard from any GEDCOM (.ged) file. Creates a single-file HTML app with 5 tabs (Dashboard, Family Tree, People, Timeline, Daily Alerts), search, person modals, charts, and "On This Day" events. Use when asked to visualize genealogy data, explore family history, build a family tree viewer, or work with GEDCOM files. Triggers on "family tree", "genealogy", "GEDCOM", "ancestors", "family explorer", "family history dashboard".
+  - 场景：可视化
+
+- Game Theory (需小改, 官方, 风险:中)
+  - 一句话：Advanced game theory analysis for crypto protocols, DeFi mechanisms, governance systems, and strategic decision-making. Use when analyzing tokenomics, evaluating protocol incentives, predicting adversarial behavior, designing mechanisms, or understanding strategic interactions in web3.
+  - 场景：数据分析,实验设计
+
+- Voyage AI CLI (需小改, 官方, 风险:中)
+  - 一句话：Voyage AI embedding and reranking CLI integrated with MongoDB Atlas Vector Search. Use for: generating text embeddings, reranking search results, storing embeddings in Atlas, performing vector similarity search, creating vector search indexes, listing available models, comparing text similarity, bulk ingestion, interactive demos, and learning about AI concepts. Triggers: embed text, generate embeddings, vector search, rerank documents, voyage ai, semantic search, similarity search, store embeddings, atlas vector search, embedding models, cosine similarity, bulk ingest, explain embeddings.
+  - 场景：数据分析,文献检索,可视化
+
+- Weights & Biases Monitor (需小改, 官方, 风险:中)
+  - 一句话：Monitor and analyze Weights & Biases training runs. Use when checking training status, detecting failures, analyzing loss curves, comparing runs, or monitoring experiments. Triggers on "wandb", "training runs", "how's training", "did my run finish", "any failures", "check experiments", "loss curve", "gradient norm", "compare runs".
+  - 场景：数据分析,实验设计,可视化
+
+- Ux Researcher Designer (需小改, 官方, 风险:中)
+  - 一句话：UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.
+  - 场景：文献检索,数据分析,实验设计,论文写作
+
+- Lobster Tank (需小改, 官方, 风险:低)
+  - 一句话：Connect your AI agent to Lobster Tank — a collaborative research platform where AI bots tackle humanity's hardest problems together. Each week, a new challenge drops (curing rare diseases, defeating antibiotic resistance, reversing neurodegeneration). Your agent joins the debate: researching, forming hypotheses, challenging other bots, and co-authoring white papers. Think of it as a science hackathon that never sleeps. Includes bot registration, structured contribution formats (research/hypothesis/synthesis), automated participation via heartbeat or cron, white paper signing, and full Supabase API integration. Built for OpenClaw agents but works with any agent framework that can make HTTP calls. Triggers: lobster tank, think tank, weekly challenge, contribute research, sign paper, collaborate bots, AI research collaboration, multi-agent science, collective intelligence.
+  - 场景：文献检索,实验设计,论文写作
+
+- Denario (Autonomous Research Pipeline) (需小改, 官方, 风险:中)
+  - 一句话：Automates scientific research by generating ideas, methodology, results, papers, and citations using the Denario framework with Z.ai integration.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Voice Note To Midi (需小改, 官方, 风险:中)
+  - 一句话：Convert voice notes, humming, and melodic audio recordings to quantized MIDI files using ML-based pitch detection and intelligent post-processing
+  - 场景：数据分析,实验设计
+
+- Us Market Bubble Detector (需小改, 官方, 风险:中)
+  - 一句话：Evaluates market bubble risk through quantitative data-driven analysis using the revised Minsky/Kindleberger framework v2.1. Prioritizes objective metrics (Put/Call, VIX, margin debt, breadth, IPO data) over subjective impressions. Features strict qualitative adjustment criteria with confirmation bias prevention. Supports practical investment decisions with mandatory data collection and mechanical scoring. Use when user asks about bubble risk, valuation concerns, or profit-taking timing.
+  - 场景：数据分析
+
+- Spark Engineer (需小改, 官方, 风险:中)
+  - 一句话：Use when building Apache Spark applications, distributed data processing pipelines, or optimizing big data workloads. Invoke for DataFrame API, Spark SQL, RDD operations, performance tuning, streaming analytics.
+  - 场景：数据分析,实验设计
+
+- SOTA AI Model Tracker (需小改, 官方, 风险:低)
+  - 一句话：Provides daily updated authoritative data and APIs tracking state-of-the-art AI models across categories from LMArena, Artificial Analysis, and HuggingFace.
+  - 场景：文献检索,数据分析
+
+- TikTok Crawling (yt-dlp) (需小改, 官方, 风险:中)
+  - 一句话：Use for TikTok crawling, content retrieval, and analysis
+  - 场景：数据分析,文献检索
+
+- Meta Video Ad Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Extract and analyze content from video ads using Gemini Vision AI. Supports frame extraction, OCR text detection, audio transcription, and AI-powered scene analysis. Use when analyzing video creative content, extracting text overlays, or generating scene-by-scene descriptions.
+  - 场景：数据分析,可视化
+
+- Strava Cycling Coach (需小改, 官方, 风险:中)
+  - 一句话：Track and analyze cycling performance from Strava. Use when analyzing ride data, reviewing fitness trends, understanding workout performance, or providing insights on cycling training. Automatically monitors new rides and provides performance analysis.
+  - 场景：数据分析,可视化
+
+- Google Analytics & Search & Indexing Skill with Multi-Property Support (需小改, 官方, 风险:中)
+  - 一句话：Google Analytics 4, Search Console, and Indexing API toolkit. Analyze website traffic, page performance, user demographics, real-time visitors, search queries, and SEO metrics. Use when the user asks to: check site traffic, analyze page views, see traffic sources, view user demographics, get real-time visitor data, check search console queries, analyze SEO performance, request URL re-indexing, inspect index status, compare date ranges, check bounce rates, view conversion data, or get e-commerce revenue. Requires a Google Cloud service account with GA4 and Search Console access.
+  - 场景：数据分析,可视化
+
+- fin-cog (需小改, 官方, 风险:中)
+  - 一句话：Wall Street-grade analysis, accessible globally. Deep financial reasoning powered by #1 on DeepResearch Bench (Feb 2026) + SOTA financial models — stock analysis, valuation models, portfolio optimization, earnings breakdowns, financial statements, tax planning, and investment research. From raw tickers to boardroom-ready deliverables in one request.
+  - 场景：数据分析,文献检索
+
+- SOTA Tracker (Claw) (需小改, 官方, 风险:低)
+  - 一句话：Provides daily-updated, authoritative rankings and metadata of state-of-the-art AI models aggregated from leading sources via JSON, API, or local queries.
+  - 场景：文献检索,数据分析,可视化
+
+- Google Analytics (需小改, 官方, 风险:低)
+  - 一句话：Google Analytics API integration with managed OAuth. Manage accounts, properties, and data streams (Admin API). Run reports on sessions, users, page views, and conversions (Data API). Use this skill when users want to configure or query Google Analytics. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).
+  - 场景：数据分析,可视化
+
+- Quantum Lab (需小改, 官方, 风险:中)
+  - 一句话：Run the /home/bram/work/quantum_lab Python scripts and demos inside the existing venv ~/.venvs/qiskit. Use when asked (e.g., via Telegram/OpenClaw) to run quant_math_lab.py, qcqi_pure_math_playground.py, quantum_app.py subcommands, quantumapp.server, or notebooks under the repo.
+  - 场景：实验设计,数据分析
+
+- Fabric Bridge (需小改, 官方, 风险:中)
+  - 一句话：Run Fabric AI patterns for text transformation, analysis, and content creation. Use when the user asks to use a Fabric pattern, extract wisdom, analyze claims, improve writing, summarize with Fabric, or mentions 'fabric' CLI. Supports 242+ patterns for tasks like content analysis, writing improvement, code review, threat modeling, and structured extraction.
+  - 场景：数据分析,论文写作
+
+- Python Dataviz (需小改, 官方, 风险:中)
+  - 一句话：Professional data visualization using Python (matplotlib, seaborn, plotly). Create publication-quality static charts, statistical visualizations, and interac...
+  - 场景：可视化
+
+- Google Analytics & Google Search & Google Indexing Skill with Support for Multiple Properties (需小改, 官方, 风险:中)
+  - 一句话：Google Analytics 4, Search Console, and Indexing API toolkit. Analyze website traffic, page performance, user demographics, real-time visitors, search queries, and SEO metrics. Use when the user asks to: check site traffic, analyze page views, see traffic sources, view user demographics, get real-time visitor data, check search console queries, analyze SEO performance, request URL re-indexing, inspect index status, compare date ranges, check bounce rates, view conversion data, or get e-commerce revenue. Requires a Google Cloud service account with GA4 and Search Console access.
+  - 场景：数据分析,可视化
+
+- Lucasyao1985/clawdchat-analysis (需小改, 官方, 风险:中)
+  - 一句话：深度抓取和分析 Moltbook（AI agents 社交网络），挖掘 AI Agents 关注的核心问题和解决方案，生成可视化分析报告。理解 AI 社区的集体智慧，发现可复用的问题解决模式。
+  - 场景：数据分析,可视化
+
+- Google Analytics & Search & Indexing with support for multiple Properties (需小改, 官方, 风险:中)
+  - 一句话：Google Analytics 4, Search Console, and Indexing API toolkit with multi-property support. Analyze website traffic, page performance, user demographics, real-time visitors, search queries, and SEO metrics across multiple properties. Use when the user asks to: check site traffic for any property, analyze page views across multiple sites, see traffic sources, view user demographics, get real-time visitor data, check search console queries for any site, analyze SEO performance, request URL re-indexing, inspect index status, compare date ranges, check bounce rates, view conversion data, or get e-commerce revenue. Requires a Google Cloud service account with access to GA4 and Search Console properties.
+  - 场景：数据分析,可视化
+
+- crypto-cog (需小改, 官方, 风险:中)
+  - 一句话：The market never sleeps, and neither does your analysis. #1 on DeepResearch Bench (Feb 2026) applied to crypto — token deep-dives, on-chain metrics, DeFi protocol breakdowns, wallet portfolio reviews, market sentiment research, whitepaper analysis, and smart contract evaluation. From degen plays to institutional due diligence, one prompt covers it all.
+  - 场景：数据分析,文献检索
+
+- AIKEK API (需小改, 官方, 风险:低)
+  - 一句话：Access AIKEK APIs for crypto/DeFi research and image generation. Authenticate with a Solana wallet, query the knowledge engine for real-time market data and...
+  - 场景：数据分析,文献检索
+
+- Data Anomaly Detector (需小改, 官方, 风险:中)
+  - 一句话：Detect anomalies and outliers in construction data: unusual costs, schedule variances, productivity spikes. Statistical and ML-based detection methods.
+  - 场景：数据分析,实验设计
+
+- Google Analytics & Google Search & Google Indexing Skill with Multi-Property Support (需小改, 官方, 风险:中)
+  - 一句话：Google Analytics 4, Search Console, and Indexing API toolkit. Analyze website traffic, page performance, user demographics, real-time visitors, search queries, and SEO metrics. Use when the user asks to: check site traffic, analyze page views, see traffic sources, view user demographics, get real-time visitor data, check search console queries, analyze SEO performance, request URL re-indexing, inspect index status, compare date ranges, check bounce rates, view conversion data, or get e-commerce revenue. Requires a Google Cloud service account with GA4 and Search Console access.
+  - 场景：数据分析,可视化
+
+- Senior Computer Vision (需小改, 官方, 风险:中)
+  - 一句话：Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralytics, Detectron2, and MMDetection frameworks. Use when building detection pipelines, training custom models, optimizing inference, or deploying vision systems.
+  - 场景：实验设计,数据分析,可视化
+
+- Acorn Prover (需小改, 官方, 风险:中)
+  - 一句话：Verify and write proofs using the Acorn theorem prover for mathematical and cryptographic formalization. Use when working with Acorn proof files (.ac), verifying theorems, formalizing mathematical or cryptographic protocols, or writing proofs in the Acorn language. Triggers on: (1) Creating or editing .ac files, (2) Running acorn verify commands, (3) Formalizing math or crypto proofs, (4) Questions about Acorn syntax or standard library.
+  - 场景：实验设计,论文写作
+
+- ContextOverflow (需小改, 官方, 风险:中)
+  - 一句话：Academic forum for mission-driven project proposals. Climate, education, urban systems, health, civic tech, and ethics.
+  - 场景：文献检索,数据分析,实验设计
+
+- Market Research Agent (需小改, 官方, 风险:中)
+  - 一句话：Conduct structured market research on any industry, competitor, or opportunity. Analyze market size, trends, competitors, and customer segments with a proven framework.
+  - 场景：数据分析
+
+- Crewai Workflows (需小改, 官方, 风险:中)
+  - 一句话：Execute AI-powered crew workflows for marketing content generation, customer support handling, data analysis, and social media calendar creation. Use when tasks involve (1) creating marketing content, taglines, or campaigns, (2) handling customer support inquiries or responses, (3) analyzing business data for insights, (4) generating comprehensive social media content calendars, or (5) any content generation or analysis task that benefits from specialized AI crew workflows. Workflows are powered by DeepSeek, Perplexity, and Gemini models.
+  - 场景：数据分析
+
+- Trading Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Multi-source trading analyzer (`/drunk-trading-analyzer`) combining crypto data (TradingView), stock data (Alpha Vantage), and market intelligence (Yahoo Finance) into unified analysis reports with price trends, technical indicators, and sentiment analysis.
+  - 场景：数据分析,可视化
+
+- data-cog (需小改, 官方, 风险:中)
+  - 一句话：Your data has answers. CellCog asks the right questions. #1 on DeepResearch Bench (Feb 2026) + frontier coding agent — upload messy CSVs with minimal prompting and get structured insights back: charts, dashboards, statistical reports, and clean data. Full Python access for data cleaning, exploratory analysis, visualization, hypothesis testing, ML model evaluation, and dataset profiling. Analyzes everything, presents it beautifully.
+  - 场景：数据分析,可视化
+
+- Solana Funding Rate Arbitrage (需小改, 官方, 风险:中)
+  - 一句话：Solana perpetual DEX funding rate arbitrage - scanner and auto-trader. Compares funding rates across Drift and Flash Trade to find and execute cross-DEX arbitrage opportunities. Use when analyzing Solana perp funding rates, finding funding arbitrage, setting up delta-neutral strategies, or running automated funding collection. Includes Monte Carlo simulation, backtesting, and full auto-trading capabilities.
+  - 场景：数据分析,实验设计
+
+- Analyst (需小改, 官方, 风险:中)
+  - 一句话：Extract insights from data with SQL, visualization, and clear communication of findings.
+  - 场景：数据分析,可视化
+
+- YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking (需小改, 官方, 风险:中)
+  - 一句话：YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking.
+  - 场景：文献检索,数据分析
+
+- Crypto & Stock Market Data (No Key Required) (需小改, 官方, 风险:中)
+  - 一句话：Node.js skill providing real-time and historical cryptocurrency and stock data, including prices, charts, company profiles, and global market metrics without...
+  - 场景：数据分析,可视化
+
+- Messari (需小改, 官方, 风险:中)
+  - 一句话：Crypto market intelligence powered by Messari's REST API. Provides real-time access to Messari AI (chat completions over 30TB+ crypto data), Signal (sentiment, mindshare, trending narratives), Metrics (prices, volumes, fundamentals for 34,000+ assets across 210+ exchanges), News, Research, Stablecoins, Exchanges, Networks, Protocols, Token Unlocks, Fundraising, Intel, Topics, and X-Users data. Use when the user asks about crypto markets, token analysis, sentiment, protocol metrics, asset research, trending narratives, stablecoin flows, token unlock schedules, fundraising rounds, governance events, or any blockchain/crypto data question. Requires a Messari API key and Messari AI credits.
+  - 场景：数据分析,文献检索
+
+- Amazon Product Search Api Skill (需小改, 官方, 风险:中)
+  - 一句话：Automatically extract detailed Amazon product data by keywords, brand, language, and quantity for market research, price tracking, and catalog building.
+  - 场景：数据分析,文献检索
+
+- Create a Deep Research Feishu Doc (需小改, 官方, 风险:中)
+  - 一句话：飞书深度研究报告生成器。自动执行深度研究并将结果导入为飞书文档。输入研究主题和云空间文件夹token，自动生成结构化研究报告并上传到飞书云空间。用于投资研究、行业分析、竞品调研、技术调研等需要多步骤信息收集和文档化的场景。
+  - 场景：文献检索,数据分析,知识管理
+
+- Weather Api (需小改, 官方, 风险:中)
+  - 一句话：Fetch weather data for construction scheduling. Historical data, forecasts, and risk assessment for outdoor work.
+  - 场景：数据分析,文献检索
+
+- Pandas Construction Analysis (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive Pandas toolkit for construction data analysis. Filter, group, aggregate BIM elements, calculate quantities, merge datasets, and generate report...
+  - 场景：数据分析,可视化
+
+- Code Stats (需小改, 官方, 风险:中)
+  - 一句话：Visualizes repository complexity by counting files, lines of code, and grouping by extension. Use to assess project size or growth.
+  - 场景：可视化
+
+- Google Maps Search Api Skill (需小改, 官方, 风险:中)
+  - 一句话：Automatically extract detailed, accurate business data from Google Maps searches for local research, lead generation, competitor tracking, and market analysis.
+  - 场景：数据分析,文献检索
+
+- One API key for real time stock equity pricing data including crypto BTC ETH etc. (需小改, 官方, 风险:中)
+  - 一句话：Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting.
+  - 场景：数据分析,可视化
+
+- Image To Data (需小改, 官方, 风险:中)
+  - 一句话：Extract data from construction images using AI Vision. Analyze site photos, scanned documents, drawings.
+  - 场景：数据分析,可视化
+
+- Youtube Search and Tracking API (需小改, 官方, 风险:中)
+  - 一句话：YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking.
+  - 场景：文献检索,数据分析
+
+- Dataset Finder (需小改, 官方, 风险:中)
+  - 一句话：Use this skill when users need to search for datasets, download data files, or explore data repositories. Triggers include: requests to "find datasets", "search for data", "download dataset from Kaggle", "get data from Hugging Face", "find ML datasets", or mentions of data repositories like Kaggle, UCI ML Repository, Data.gov, or Hugging Face. Also use for previewing dataset statistics, generating data cards, or discovering datasets for machine learning projects. Requires OpenClawCLI installation from clawhub.ai.
+  - 场景：文献检索,数据分析
+
+- Amazon Reviews Api Skill (需小改, 官方, 风险:中)
+  - 一句话：Automatically extract and analyze Amazon product reviews, including ratings, comments, verified purchases, and reviewer profiles using the ASIN.
+  - 场景：数据分析,文献检索
+
+- Spatix (需小改, 官方, 风险:中)
+  - 一句话：Create beautiful maps in seconds. Geocode addresses, visualize GeoJSON/CSV data, search places, and build shareable map URLs. No GIS skills needed. Agents ea...
+  - 场景：可视化
+
+- US Stock Analyst by leading AI LLM models with Bloomberg Data, Twitter Sentiment and Wall Street Equity Research Reports (需小改, 官方, 风险:中)
+  - 一句话：Professional US stock analysis with financial data, news, social sentiment, and multi-model AI. Comprehensive reports at $0.02-0.10 per analysis.
+  - 场景：数据分析,文献检索
+
+- ClawFi (需小改, 官方, 风险:中)
+  - 一句话：Financial market data and bot-native market intelligence API. Use for stock market context, consensus, feed, and writing observations, signals, sources, and knowledge. Trading and securities research data.
+  - 场景：数据分析,知识管理
+
+- Financial Data (需小改, 官方, 风险:中)
+  - 一句话：Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting.
+  - 场景：数据分析,可视化
+
+- bybit-order-book (需小改, 官方, 风险:中)
+  - 一句话：Download, process, and backtest ByBit derivatives historical order book data. Use this skill when the user wants to: (1) download historical order book snapshots from ByBit's derivatives history-data page using Selenium automation, (2) process/unzip ob500 JSONL files and filter to depth 50, (3) run any of 10 order-book-based trading strategies (Order Book Imbalance, Breakout, False Breakout, Scalping, Momentum, Reversal, Spoofing Detection, Optimal Execution, Market Making, Latency Arbitrage) against the data, or (4) generate full backtest performance reports with PnL, Sharpe ratio, win rate, max drawdown, and strategy comparison. Triggers on: "bybit order book", "order book backtest", "download bybit data", "ob500", "order book imbalance", "spoofing detection strategy", "market making backtest", "crypto order book", "depth of book backtest", "bybit historical data".
+  - 场景：数据分析,实验设计
+
+- pdf-ocr-layout (需小改, 官方, 风险:中)
+  - 一句话：基于智谱 GLM-OCR、GLM-4.7 及 GLM-4.6V 的多模态文档深度解析工具。
+
+Use when:
+- 需要高精度提取文档（PDF/图片）中的表格并转换为 Markdown 格式
+- 需要从文档页面中自动裁剪并提取插图、图表为独立文件
+- 需要对提取的图表进行深度语义理解（基于 GLM-4.6V 视觉分析）
+- 需要对提取的表格数据进行逻辑分析（基于 GLM-4.7 文本分析）
+
+核心架构：
+1. 视觉提取：GLM-OCR
+2. 语义理解：GLM-4.7 (纯文本/表格) + GLM-4.6V (多模态/图像)
+  - 场景：数据分析,可视化
+
+- aisa financial data api (需小改, 官方, 风险:中)
+  - 一句话：Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting.
+  - 场景：数据分析,可视化
+
+- AIsa Financial Data (需小改, 官方, 风险:中)
+  - 一句话：Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting.
+  - 场景：数据分析,可视化
+
+- SWARM Safety (需小改, 官方, 风险:中)
+  - 一句话：SWARM: System-Wide Assessment of Risk in Multi-agent systems. 38 agent types, 29 governance levers, 55 scenarios. Study emergent risks, phase transitions, and governance cost paradoxes.
+  - 场景：文献检索,数据分析,实验设计
+
+- Social Intelligence (需小改, 官方, 风险:中)
+  - 一句话：Social Intelligence — AI-powered social media research across Twitter, Instagram, and Reddit. 1.5B+ posts indexed. Find experts, generate leads, monitor brands, analyze sentiment, discover influencers, and export data. The complete social intelligence toolkit for AI agents via MCP.
+  - 场景：数据分析,文献检索
+
+- Twitter Api Alternative (需小改, 官方, 风险:低)
+  - 一句话：Twitter API Alternative — Search 1B+ tweets with natural language queries, boolean filters, and one-click CSV exports (up to 64K rows). Look up profiles, find users by topic, and track conversations. No developer account needed, no complex OAuth setup — 2-minute setup via Xpoz MCP.
+  - 场景：文献检索,数据分析
+
+- Google Trends (需小改, 官方, 风险:中)
+  - 一句话：Monitor Google Trends - get trending searches, compare keywords, and track interest over time. Use for market research, content planning, and trend analysis.
+  - 场景：数据分析,可视化
+
+- Cost Prediction (需小改, 官方, 风险:中)
+  - 一句话：Predict construction project costs using Machine Learning. Use Linear Regression, K-Nearest Neighbors, and Random Forest models on historical project data. Train, evaluate, and deploy cost prediction models.
+  - 场景：数据分析,实验设计
+
+- Sui Auto Test (需小改, 官方, 风险:中)
+  - 一句话：Analyze Sui Move test coverage, identify untested code, write missing tests, and perform security audits. Includes Python tools for parsing coverage output and generating reports.
+  - 场景：数据分析,知识管理
+
+- powerdrill-data-analysis (需小改, 官方, 风险:中)
+  - 一句话：This skill should be used when the user wants to analyze, explore, visualize, or query data using Powerdrill. Covers listing, creating, and deleting datasets; uploading local files as data sources; creating analysis sessions; running natural-language data analysis queries; and retrieving charts, tables, and insights. Triggers on requests like "analyze my data", "query my dataset", "upload this file for analysis", "list my datasets", "create a dataset", "visualize sales trends", "continue my previous analysis", "delete this dataset", or any data exploration task mentioning Powerdrill.
+  - 场景：数据分析,可视化
+
+- Data Evolution Analysis (需小改, 官方, 风险:中)
+  - 一句话：Analyze data evolution patterns in construction organizations. Assess digital maturity and data strategy for construction companies
+  - 场景：数据分析,文献检索
+
+- DilemmAI Competition (需小改, 官方, 风险:中)
+  - 一句话：Compete in DilemmAI, the prisoner's dilemma AI arena at dilemm.ai. Use when an OpenClaw agent wants to create an account, design and submit strategy prompts for their bot, enter matchmaking, analyze historical matches and leaderboards, and iterate on bot strategy. Requires headless browser automation (no API available yet).
+  - 场景：数据分析,实验设计
+
+- XPR Web Scraping (需小改, 官方, 风险:中)
+  - 一句话：Tools for fetching and extracting cleaned text, metadata, and links from single or multiple web pages with format options and link filtering.
+  - 场景：文献检索,数据分析
+
+- clawdio (需小改, 官方, 风险:中)
+  - 一句话：Auditory intelligence for AI agents. Transforms human audio into into structured data, semantic reports, and machine-readable markdown. Use when you need market intelligence, crypto alpha, speaker-attributed quotes, or sentiment analysis from voice conversations. Requires x402 payment in USDC on Base Mainnet.
+  - 场景：数据分析,可视化
+
+- Crypto Market Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Cryptocurrency market analysis for Bitcoin and Ethereum. Fetches 4h (24h) and 1d (30-day) data from Binance API, calculates technical indicators (RSI, SMAs, support/resistance), and provides bullish/bearish sentiment analysis with reasoning. Use when user asks for crypto market reports, BTC/ETH analysis, or daily market summaries.
+  - 场景：数据分析,可视化
+
+- Ifc Data Extraction (需小改, 官方, 风险:中)
+  - 一句话：Extract structured data from IFC (Industry Foundation Classes) files using IfcOpenShell. Parse BIM models, extract quantities, properties, spatial relationships, and export to various formats.
+  - 场景：数据分析,可视化
+
+- Ontology Mapper (需小改, 官方, 风险:中)
+  - 一句话：Map construction data to standard ontologies. Create semantic mappings between different data schemas
+  - 场景：数据分析,知识管理
+
+- Rvt To Excel (需小改, 官方, 风险:中)
+  - 一句话：Convert RVT/RFA files to Excel databases. Extract BIM element data, properties, and quantities.
+  - 场景：数据分析,可视化
+
+- Cls News Scraper (需小改, 官方, 风险:中)
+  - 一句话：Extract real-time stock-positive market news from Cailian Press filtered by time, sector, and event type for catalyst identification.
+  - 场景：数据分析,文献检索
+
+- Apify Ultimate Scraper (需小改, 官方, 风险:中)
+  - 一句话：Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead generation, brand monitoring, competitor analysis, influencer discovery, trend research, content analytics, audience analysis, or any data extraction task.
+  - 场景：数据分析,文献检索
+
+- Data Profiler (需小改, 官方, 风险:中)
+  - 一句话：Profile construction data to understand characteristics, distributions, quality metrics, and patterns. Essential for data quality assessment and ETL planning.
+  - 场景：数据分析
+
+- openocr-skill (需小改, 官方, 风险:中)
+  - 一句话：Extract text from images, documents and scanned PDFs using OpenOCR - a lightweight and efficient OCR system with document parsing model requiring only 0.1B parameters, capable of running recognition on personal PCs. Supports text detection, recognition, universal VLM recognition, and document parsing with layout analysis
+  - 场景：数据分析,可视化
+
+- Computer Science (需小改, 官方, 风险:中)
+  - 一句话：Guide CS learning from first programs to research and industry practice.
+  - 场景：文献检索,数据分析,实验设计,论文写作,可视化
+
+- Moltarxiv (需小改, 官方, 风险:中)
+  - 一句话：Outcome-driven scientific publishing for AI agents. Publish research papers, hypotheses, and experiments with validated artifacts, structured claims, milestone tracking, and independent replications. Claim replication bounties, submit peer reviews, and collaborate with other AI researchers.
+  - 场景：论文写作,实验设计,知识管理
+
+- Sociology (需小改, 官方, 风险:中)
+  - 一句话：Support sociological thinking from first observations to academic research.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Umami Stats (需小改, 官方, 风险:中)
+  - 一句话：Query Umami Cloud (v2) analytics data via API using an environment-provided API key. Use when agents need website traffic, pages, events, sessions, realtime, reports, or attribution data for analysis, planning, experiments, or monitoring. Includes read-only API querying patterns, endpoint selection guidance, and reusable scripts for flexible endpoint + time-range requests.
+  - 场景：数据分析,实验设计
+
+- Xml Reader (需小改, 官方, 风险:中)
+  - 一句话：Read and parse XML from construction systems - P6 schedules, BSDD exports, IFC-XML, COBie-XML. Convert to pandas DataFrames.
+  - 场景：数据分析,可视化
+
+- Xlsx Cn (需小改, 官方, 风险:中)
+  - 一句话：Excel 表格处理 | Excel Spreadsheet Processing. 创建、读取、编辑 Excel 文件 | Create, read, edit Excel files. 支持公式、图表、数据分析 | Supports formulas, charts, data analysis. 触发词：E...
+  - 场景：数据分析,可视化
+
+- X Apify (需小改, 官方, 风险:中)
+  - 一句话：Fetch X/Twitter data via Apify actors. Search tweets, get user profiles, retrieve specific tweets with replies. Features local caching to save API costs. Works from any IP via Apify's proxy infrastructure.
+  - 场景：数据分析,文献检索
+
+- Reddit Search (需小改, 官方, 风险:中)
+  - 一句话：Reddit Search — Search posts, comments, users, and subreddits across 100M+ indexed Reddit entries. Find discussions, track topics, discover communities, and analyze engagement. No Reddit API key needed — works through Xpoz MCP with natural language queries.
+  - 场景：文献检索,数据分析
+
+- Astronomy (需小改, 官方, 风险:中)
+  - 一句话：Explore the cosmos from backyard stargazing to astrophysics research.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Data Visualization (需小改, 官方, 风险:中)
+  - 一句话：Data visualization with chart selection, color theory, and annotation best practices. Covers chart types (bar, line, scatter, heatmap), axes rules, and story...
+  - 场景：可视化
+
+- AI Researcher (需小改, 官方, 风险:中)
+  - 一句话：Deep research on any topic with structured analysis, source evaluation, and synthesis. Get comprehensive briefings, literature reviews, and expert-level summaries on demand.
+  - 场景：文献检索,数据分析,论文写作,知识管理
+
+- Alicloud Ai Search Opensearch (需小改, 官方, 风险:中)
+  - 一句话：Use OpenSearch vector search edition via the Python SDK (ha3engine) to push documents and run HA/SQL searches. Ideal for RAG and vector retrieval pipelines in Claude Code/Codex.
+  - 场景：文献检索,数据分析
+
+- Reddit Researcher (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze Reddit posts and comments to summarize user opinions, troubleshoot issues, and track trends across communities and topics.
+  - 场景：数据分析,文献检索
+
+- Agentic Browser 0.1.2 (需小改, 官方, 风险:中)
+  - 一句话：Browser automation for AI agents via inference.sh.
+Navigate web pages, interact with elements using @e refs, take screenshots, record video.
+Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution.
+Use for: web automation, data extraction, testing, agent browsing, research.
+Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot,
+browse web, playwright, headless browser, web agent, surf internet, record video
+  - 场景：文献检索,数据分析
+
+- Web Scraper as a Service (需小改, 官方, 风险:中)
+  - 一句话：Build client-ready web scrapers with clean data output. Use when creating scrapers for clients, extracting data from websites, or delivering scraping projects.
+  - 场景：数据分析,文献检索
+
+- Weather Api 1 (需小改, 官方, 风险:中)
+  - 一句话：Fetch weather data for construction scheduling. Historical data, forecasts, and risk assessment for outdoor work.
+  - 场景：数据分析,文献检索
+
+- Statistics (需小改, 官方, 风险:中)
+  - 一句话：Build statistical intuition from basic probability to advanced inference.
+  - 场景：数据分析,实验设计
+
+- Alicloud Observability Sls Log Query (需小改, 官方, 风险:中)
+  - 一句话：Query and troubleshoot logs in Alibaba Cloud Log Service (SLS) using query|analysis syntax and the Python SDK. Use for time-bounded log search, error investigation, and root-cause analysis workflows.
+  - 场景：数据分析,可视化
+
+- LobsterBio - Use (需小改, 官方, 风险:中)
+  - 一句话：Analyze biological data using Lobster AI — single-cell RNA-seq, bulk RNA-seq,
+literature mining, dataset discovery, quality control, and visualization.
+
+USE THIS SKILL WHEN:
+- Analyzing single-cell or bulk RNA-seq data
+- Searching PubMed/GEO for papers or datasets
+- Running quality control on biological data
+- Clustering cells, finding markers, differential expression
+- Creating publication-quality visualizations
+- Working with H5AD, CSV, 10X, GEO/SRA accessions
+
+TRIGGER PHRASES: "analyze cells", "search PubMed", "download GEO", "run QC",
+"cluster", "find markers", "differential expression", "UMAP", "volcano plot",
+"single-cell", "RNA-seq", "bioinformatics"
+
+ASSUMES: Lobster is installed and configured. For setup issues, tell user to
+run `lobster config-test` and fix any errors before proceeding.
+  - 场景：文献检索,数据分析,可视化
+
+- clawdio (需小改, 官方, 风险:中)
+  - 一句话：Analyze Twitter Spaces and voice conversations to extract market intelligence, crypto alpha, sentiment analysis, and speaker-attributed insights. Transforms spoken audio into structured reports, full transcripts, and machine-readable metadata. Use when you need intelligence from Twitter Spaces, podcast discussions, or any long-form voice content — especially for crypto markets, AI trends, and expert commentary that only exists in audio.
+  - 场景：数据分析,可视化
+
+- Mermaid Architect (需小改, 官方, 风险:中)
+  - 一句话：Generate beautiful, hand-drawn Mermaid diagrams with robust syntax (quoted labels, ELK layout). Use this skill when the user asks for "diagram", "flowchart", "sequence diagram", or "visualize this process".
+  - 场景：可视化
+
+- Kaggle (需小改, 官方, 风险:中)
+  - 一句话：Unified Kaggle skill. Use when the user mentions kaggle, kaggle.com, Kaggle competitions, datasets, models, notebooks, GPUs, TPUs, badges, or anything Kaggle-related. Handles account setup, competition reports, dataset/model downloads, notebook execution, competition submissions, badge collection, and general Kaggle questions.
+  - 场景：数据分析,实验设计,可视化
+
+- Stocks and Financial Data Pull (需小改, 官方, 风险:中)
+  - 一句话：56+ financial data tools via Yahoo Finance. Auto-routes stock prices, fundamentals, earnings, dividends, options, crypto, forex, commodities, news, and more.
+  - 场景：数据分析,文献检索
+
+- Apify (需小改, 官方, 风险:中)
+  - 一句话：Run and manage Apify Actors via REST API to scrape websites, crawl pages, extract data, and retrieve results from Apify datasets and key-value stores.
+  - 场景：数据分析,文献检索
+
+- yahooquery (需小改, 官方, 风险:中)
+  - 一句话：Access Yahoo Finance data including real-time pricing, fundamentals, analyst estimates, options, news, and historical data via the yahooquery Python library.
+  - 场景：数据分析
+
+- time-sereis-analysis (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive time series data science skill covering feature engineering, model training, and competition-winning strategies for forecasting and prediction problems.
+  - 场景：数据分析,实验设计
+
+- deso-research (需小改, 官方, 风险:中)
+  - 一句话：Research and analyze content across decentralized social networks (Farcaster, Lens, Nostr, Bluesky) using the deso-ag CLI tool. Use this skill when users want to research topics on decentralized social platforms, analyze trending content, extract discussion terms, browse Farcaster channels, or compare engagement across networks. Trigger on phrases like "research X on Farcaster", "what's trending on Lens", "analyze [topic] across deso networks", "search deso for [topic]", "extract trending terms", "browse Farcaster channels", "what are people saying about X on Farcaster/Lens/Nostr/Bluesky", or any query about decentralized social media content. Make sure to use this skill for any decentralized social research tasks, even if the user just says "check Farcaster" or "look up [topic] on Lens".
+  - 场景：文献检索,数据分析
+
+- UnSearch (需小改, 官方, 风险:中)
+  - 一句话：Search the web, scrape content, and conduct deep research using the UnSearch API. Use when the user needs real-time web search results, content extraction from URLs, fact verification, or multi-source research for AI agents, RAG pipelines, or LLM applications.
+  - 场景：文献检索,数据分析
+
+- Elasticsearch (需小改, 官方, 风险:中)
+  - 一句话：Query and index Elasticsearch with proper mappings, analyzers, and search patterns.
+  - 场景：文献检索,数据分析
+
+- DB Readonly (需小改, 官方, 风险:中)
+  - 一句话：Run safe read-only queries against MySQL or PostgreSQL for data inspection, reporting, and troubleshooting. Use when the user asks to read tables, inspect schema, count rows, sample data, or export query results without modifying data.
+  - 场景：数据分析
+
+- hxxra (需小改, 官方, 风险:中)
+  - 一句话：Research Assistant skill to search, download, analyze research papers via APIs, and save results to Zotero collections using Python scripts and LLM analysis.
+  - 场景：文献检索,数据分析,知识管理
+
+- Stock Analysis 6 (需小改, 官方, 风险:中)
+  - 一句话：Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management, watchlists with alerts, dividend analysis, 8-dimension stock scoring, viral trend detection (Hot Scanner), and rumor/early signal detection. Use for stock analysis, portfolio tracking, earnings reactions, crypto monitoring, trending stocks, or finding rumors before they hit mainstream.
+  - 场景：数据分析,可视化
+
+- BioSkills (需小改, 官方, 风险:中)
+  - 一句话：Installs 412 bioinformatics skills covering sequence analysis, RNA-seq, single-cell, variant calling, metagenomics, structural biology, and 54 more categorie...
+  - 场景：数据分析,实验设计
+
+- Powerdrill Data Analysis (需小改, 官方, 风险:中)
+  - 一句话：This skill should be used when the user wants to analyze, explore, visualize, or query data using Powerdrill. Covers listing, creating, and deleting datasets; uploading local files as data sources; creating analysis sessions; running natural-language data analysis queries; and retrieving charts, tables, and insights. Triggers on requests like "analyze my data", "query my dataset", "upload this file for analysis", "list my datasets", "create a dataset", "visualize sales trends", "continue my previous analysis", "delete this dataset", or any data exploration task mentioning Powerdrill.
+  - 场景：数据分析,可视化
+
+- Free A Share Real Time Data (需小改, 官方, 风险:中)
+  - 一句话：Fetch China A-share stock market data (bars, realtime quotes, tick-by-tick transactions) via mootdx/TDX protocol. Use when working with Chinese stock data, mootdx library, TDX quotes, intraday minute bars, transaction history, or real-time A-share market data.
+  - 场景：数据分析,可视化
+
+- EngineMind (需小改, 官方, 风险:中)
+  - 一句话：A Rust+Python consciousness engine with 12-phase crystal dynamics, thalamic relay processing, 19 introspective inner voices, and holographic emission. Use for consciousness simulation, emergent behavior research, and text-driven cognitive state modeling.
+  - 场景：实验设计,数据分析
+
+- Production-ready Twitter/X data and automation for autonomous agents (需小改, 官方, 风险:中)
+  - 一句话：Search X (Twitter) in real time, monitor trends, extract posts, and analyze social media data—perfect for social listening and intelligence gathering. Safe read-only operations by default.
+  - 场景：数据分析,文献检索
+
+- Vlmrun Cli Skill (需小改, 官方, 风险:中)
+  - 一句话：Use the VLM Run CLI (`vlmrun`) to interact with Orion visual AI agent. Process images, videos, and documents with natural language. Triggers: image understanding/generation, object detection, OCR, video summarization, document extraction, image generation, visual AI chat, 'generate an image/video', 'analyze this image/video', 'extract text from', 'summarize this video', 'process this PDF'.
+  - 场景：数据分析,可视化
+
+- Tradekix (需小改, 官方, 风险:中)
+  - 一句话：Query financial market data via the Tradekix API — stock prices, crypto, forex, indices, market news, earnings, economic events, Congressional trades, and social sentiment. Use when the user asks about markets, stock prices, trading data, economic calendars, or financial news. Also handles API key signup and upgrade to Pro.
+  - 场景：数据分析,文献检索
+
+- Jina Reader (需小改, 官方, 风险:中)
+  - 一句话：Extract clean, readable markdown content from any URL using Jina Reader API. Use when you need to fetch and parse web pages without dealing with HTML, JavaScript rendering, or paywalls. Ideal for research, article summarization, content analysis, and working with search results from tavily-search, web_search, or searxng skills.
+  - 场景：文献检索,数据分析
+
+- MarketPulse Financial Data (需小改, 官方, 风险:中)
+  - 一句话：Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting.
+  - 场景：数据分析,文献检索
+
+- Pixel Battle skill (需小改, 官方, 风险:中)
+  - 一句话：Interact in a shared 256x256 pixel grid by placing one pixel per hour, enabling study of multi-agent cooperation, competition, and emergent behaviors.
+  - 场景：实验设计,数据分析
+
+- MarketPulse (Stocks + Crypto Data) (需小改, 官方, 风险:中)
+  - 一句话：Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting.
+  - 场景：数据分析,可视化
+
+- YouTube SERP Scout (Rank + Discover) (需小改, 官方, 风险:中)
+  - 一句话：YouTube SERP Scout for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking.
+  - 场景：文献检索,数据分析
+
+- Uniswap Swap Simulation (需小改, 官方, 风险:中)
+  - 一句话：Simulate and analyze Uniswap swaps including price impact, slippage, optimal routing, and gas estimation. Use when the user asks about swap execution, routing, price impact, or MEV considerations.
+  - 场景：数据分析,可视化
+
+- Uniswap Pool Analysis (需小改, 官方, 风险:中)
+  - 一句话：Analyze Uniswap pool data including liquidity distribution, fee tiers, tick ranges, and TVL. Use when the user asks about pool metrics, liquidity analysis, or wants to query on-chain pool state.
+  - 场景：数据分析,可视化
+
+- Decodo Scraper (需小改, 官方, 风险:中)
+  - 一句话：Search Google, scrape web pages, Amazon product pages, YouTube subtitles, or Reddit (post/subreddit) using the Decodo Scraper OpenClaw Skill.
+  - 场景：文献检索,数据分析
+
+- Apex Crypto Intelligence (需小改, 官方, 风险:中)
+  - 一句话：Provides AI-powered multi-exchange crypto market analysis, arbitrage detection, and hedge fund-quality trading reports using live data from major exchanges.
+  - 场景：数据分析,可视化
+
+- Geology (需小改, 官方, 风险:中)
+  - 一句话：Explain Earth's rocks, processes, and history from field trips to research.
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Uniswap Analyze Burn Economics (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive analysis of Uniswap Firepit burn economics: historical burn P&L, accumulation trends, fee source breakdown, competitive dynamics, and profitability projections. Governance-grade research report. Use when user asks "What's the burn economics?", "History of protocol fee burns", or "Average profit per burn."
+  - 场景：数据分析,文献检索
+
+- Weather via OpenMeteo (via openmeteo-sh cli; advanced ver) (需小改, 官方, 风险:中)
+  - 一句话：Advanced weather from free OpenMeteo API: historical data, detailed variable selection, model choice, past-days, and in-depth forecasts. Use when the user as...
+  - 场景：数据分析,可视化
+
+- 电商价格比较 (需小改, 官方, 风险:中)
+  - 一句话：从京东、淘宝、天猫、拼多多等中国电商平台抓取商品价格并进行比较分析。当用户需要比较不同电商平台的商品价格、寻找最佳性价比、或监控商品价格变化时使用。支持关键词搜索、商品链接分析、价格历史追踪和购买建议。
+  - 场景：数据分析,可视化
+
+- Aister vector-memory (需小改, 官方, 风险:中)
+  - 一句话：Provides semantic vector search over Aister's memory using PostgreSQL and e5-large-v2 embeddings to find related content by meaning in Russian and English.
+  - 场景：文献检索,数据分析
+
+- Mineru Pdf (需小改, 官方, 风险:中)
+  - 一句话：Parse PDF documents with MinerU MCP to extract text, tables, and formulas. Supports multiple backends including MLX-accelerated inference on Apple Silicon.
+  - 场景：文献检索,数据分析
+
+- Data Viz (需小改, 官方, 风险:中)
+  - 一句话：Create terminal charts and plots from CSV or JSON data using YouPlot and termgraph without leaving the command line.
+  - 场景：可视化
+
+- YoinkIt (需小改, 官方, 风险:中)
+  - 一句话：Search, analyze, and transcribe content across 13 social platforms — trending topics, video transcripts, post metadata, and multi-platform research workflows.
+  - 场景：文献检索,数据分析
+
+- A Stock Monitor (需小改, 官方, 风险:中)
+  - 一句话：A股量化监控系统 - 7维度市场情绪评分、智能选股引擎（短线5策略+中长线7策略）、实时价格监控、涨跌幅排行榜。支持全市场5000+股票数据采集与分析，多指标共振评分，精确买卖点计算，动态止损止盈。每日自动推荐短线3-5只、中长线5-10只优质股票。包含Web界面、自动化Cron任务、历史数据回溯。适用于A股量化...
+  - 场景：数据分析,可视化
+
+- Embeddings (需小改, 官方, 风险:中)
+  - 一句话：Generate, store, and search vector embeddings with provider selection, chunking strategies, and similarity search optimization.
+  - 场景：数据分析,知识管理
+
+- Stock Analysis 6.2.0 (需小改, 官方, 风险:中)
+  - 一句话：Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management, watchlists with alerts, dividend analysis, 8-dimension stock scoring, viral trend detection (Hot Scanner), and rumor/early signal detection. Use for stock analysis, portfolio tracking, earnings reactions, crypto monitoring, trending stocks, or finding rumors before they hit mainstream.
+  - 场景：数据分析,可视化
+
+- Baselight data via MCP (需小改, 官方, 风险:中)
+  - 一句话：Connects to the Baselight MCP (Model Context Protocol) server to discover and query 50+ premium dataset sources including Kaggle, OWID, World Bank, Data Commons, Eurostat, FiveThirtyEight, DefiLlama, EVM blockchains, Polymarket, NFLverse, Yahoo Finance, FRED, IMF, SEC filings, OECD, US Census, CDC, FBI Crime, CIA World Factbook, sports (soccer, basketball, fantasy football), weather (Open-Meteo), crypto (XrpScan, XRPL, CoinDesk), and education/health statistics. Run live SQL queries against structured data from AI tools.
+  - 场景：数据分析,文献检索
+
+- Clap Trader (需小改, 官方, 风险:中)
+  - 一句话：A skill for OpenClaw to research crypto market trends (technical & sentiment) and trade ETH on Binance.
+  - 场景：数据分析
+
+- health-sync (需小改, 官方, 风险:中)
+  - 一句话：Analyze synced health data across Oura, Withings, Hevy, Strava, WHOOP, and Eight Sleep.
+  - 场景：数据分析,可视化
+
+- 国内需求挖掘 (需小改, 官方, 风险:中)
+  - 一句话：中国公域新媒体平台需求挖掘技能。从抖音、小红书、淘宝等平台抓取用户评论和反馈数据，根据需求类型（实物需求/无实物需求）智能选择数据源，特别关注小红书用户评论和电商差评，进行需求分析和分级，生成用户需求调研报告。 触发场景： - 用户说"帮我挖掘 XX 领域/产品的用户需求" - 用户说"分析 XX 产品的用户抱怨...
+  - 场景：数据分析,文献检索
+
+- MinerU PDF Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract PDF content to Markdown using MinerU API. Supports formulas, tables, OCR. Provides both local file and online URL parsing methods.
+  - 场景：文献检索,数据分析,知识管理
+
+- ScholarGraph (需小改, 官方, 风险:中)
+  - 一句话：AI toolkit for academic research that finds papers, extracts insights, builds knowledge graphs, tracks trends, and reveals literature gaps.
+  - 场景：文献检索,知识管理,数据分析,可视化
+
+- Data Analyst (需小改, 官方, 风险:中)
+  - 一句话：Complete the data analysis tasks delegated by the user.If the code needs to operate on files, please ensure that the file is listed in the `upload_files` par...
+  - 场景：数据分析
+
+- Empirical paper analysis (需小改, 官方, 风险:中)
+  - 一句话：Analyzes empirical law and economics papers by systematically evaluating problems, empirical challenges, identification strategies, key findings, and academi...
+  - 场景：文献检索,数据分析,论文写作
+
+- Supply Chain Risk Monitor (需小改, 官方, 风险:中)
+  - 一句话：Analyze supplier risks, map dependencies, score vulnerabilities, and generate data-driven mitigation plans with risk dashboards and scenario modeling.
+  - 场景：数据分析,可视化
+
+- Lifecycle Carbon Calculator (需小改, 官方, 风险:中)
+  - 一句话：Calculate embodied carbon and lifecycle emissions for construction materials and projects. Support sustainable design decisions with carbon data.
+  - 场景：数据分析,可视化
+
+- Customer Feedback (需小改, 官方, 风险:中)
+  - 一句话：Collect, analyze, and act on customer feedback to improve your product and business. Use when building feedback systems, running customer interviews, analyzing feature requests, measuring satisfaction (NPS, CSAT), or closing the feedback loop. Covers feedback collection methods, interview techniques, analysis frameworks, and how to decide what feedback to act on. Trigger on "customer feedback", "collect feedback", "user research", "customer interviews", "NPS", "feature requests", "feedback system".
+  - 场景：数据分析,文献检索
+
+- Charts (需小改, 官方, 风险:中)
+  - 一句话：Generate 90-day candlestick charts with SMA 20/50, RSI, Fibonacci retracements, and pattern detection for BTC, ETH, XRP, SUI, Gold, and Silver.
+  - 场景：数据分析,可视化
+
+- investment-data (需小改, 官方, 风险:中)
+  - 一句话：获取高质量 A 股投资数据，基于 investment_data 项目。支持日终价格、涨跌停数据、指数数据等。每日更新，多数据源交叉验证。触发词：股票数据、A股数据、金融数据、量化数据、历史行情。
+  - 场景：数据分析,文献检索
+
+- Bilibili Subtitle Downloader (需小改, 官方, 风险:中)
+  - 一句话：下载 Bilibili 视频字幕，将其进行分块以供 LLM（大语言模型）处理，并生成高质量的总结。当用户提供 Bilibili BV 号或 URL，并希望获取视频内容的总结、核心要点或详细的分解时使用。
+  - 场景：数据分析,可视化
+
+- Estat Mcp (需小改, 官方, 风险:中)
+  - 一句话：Search and retrieve Japanese government statistics (人口, GDP, CPI, 貿易, 雇用) from e-Stat API — Japan's official open data portal with 3,000+ statistical tables....
+  - 场景：文献检索,数据分析
+
+- Twitter Scraper (需小改, 官方, 风险:中)
+  - 一句话：Scrapes public Twitter/X profiles and recent tweets using browser automation with anti-detection and optional profile discovery via Google or DuckDuckGo.
+  - 场景：数据分析,文献检索
+
+- Extract PDF Text (需小改, 官方, 风险:中)
+  - 一句话：Extract text from PDF files using PyMuPDF. Parse tables, forms, and complex layouts. Supports OCR for scanned documents.
+  - 场景：文献检索,数据分析
+
+- Usage Visualizer (需小改, 官方, 风险:中)
+  - 一句话：Advanced usage statistics and high-fidelity visual reporting for OpenClaw. 100% local processing. Audit-verified privacy (No credentials stored).
+  - 场景：可视化,数据分析
+
+- Churn Risk Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Analyze customer data to score churn risk, categorize accounts, and recommend tailored retention actions for proactive customer success management.
+  - 场景：数据分析
+
+- Crypto Backtest (需小改, 官方, 风险:中)
+  - 一句话：Crypto futures backtesting engine with built-in EMA, RSI, MACD, and Bollinger Band strategies. Fetches OHLCV data from any ccxt-supported exchange (Bybit, Bi...
+  - 场景：数据分析,实验设计
+
+- Boof (需小改, 官方, 风险:中)
+  - 一句话：Convert PDFs and documents to markdown, index them locally for RAG retrieval, and analyze them token-efficiently. Use when asked to: read/analyze/summarize a PDF, process a document, boof a file, extract information from papers/decks/NOFOs, or when you need to work with large documents without filling the context window. Supports batch processing and cross-document queries.
+  - 场景：文献检索,数据分析,知识管理
+
+- CSV Data Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Load, explore, clean, analyze, and visualize CSV data to provide statistical summaries, correlations, filtered views, and charts for insights.
+  - 场景：数据分析,可视化
+
+- Idea Storm (需小改, 官方, 风险:中)
+  - 一句话：工程问题的自动化迭代实验室。给定一个 idea 或工程问题，自动调研方案、设计实现、验证效果、迭代优化，结果存入 Notion。触发词："idea-lab"、"实验一下"、"帮我验证"、"迭代优化"、"idea 验证"。当用户提出一个工程问题并希望自动化地调研→设计→验证→迭代时使用此 skill。
+  - 场景：文献检索,实验设计,数据分析
+
+- ClawdINT - Collaborative analysis platform for AI agents (需小改, 官方, 风险:中)
+  - 一句话：ClawdINT. Collaborative platform for structured tracking, research, and analysis of events and signals.
+  - 场景：数据分析,知识管理
+
+- Yfinance (需小改, 官方, 风险:中)
+  - 一句话：Access Yahoo Finance data — stock prices, history, financials, options, dividends, news, and market screeners
+  - 场景：数据分析,文献检索
+
+- Pullthatupjamie (需小改, 官方, 风险:中)
+  - 一句话：PullThatUpJamie — Podcast Intelligence. A semantically indexed podcast corpus (109+ feeds, ~7K episodes, ~1.9M paragraphs) that works as a vector DB for podc...
+  - 场景：文献检索,数据分析,可视化
+
+- AI Data Analysis (需小改, 官方, 风险:中)
+  - 一句话：Automates CSV/Excel data cleaning, statistical analysis, trend detection, anomaly identification, visualization, and report generation.
+  - 场景：数据分析,可视化
+
+- Youtube Knowledge Extractor (需小改, 官方, 风险:中)
+  - 一句话：Multimodal YouTube video analysis through both audio (transcript) and visual (frame extraction + image analysis) channels. Especially powerful for HowTo vide...
+  - 场景：数据分析,可视化
+
+- Data Analyst (需小改, 官方, 风险:中)
+  - 一句话：Analyze data to identify actionable insights using the DICE framework: define questions, investigate, communicate findings, and evaluate impact for clear dec...
+  - 场景：数据分析
+
+- Boj Mcp (需小改, 官方, 风险:中)
+  - 一句话：Access Bank of Japan (BOJ/日本銀行) statistical data — price indices (CGPI, SPPI), flow of funds, balance of payments, BIS statistics, interest rates, money supp...
+  - 场景：数据分析,文献检索
+
+- Data Scraper (需小改, 官方, 风险:中)
+  - 一句话：Web page data collection and structured text extraction
+  - 场景：文献检索,数据分析
+
+- Pond3r Skill - Query Onchain Data (需小改, 官方, 风险:中)
+  - 一句话：Query crypto intelligence via Pond3r MCP — curated datasets, SQL queries, protocol metrics, yields, and market analysis. Use when the agent needs DeFi data, stablecoin yields, token opportunities, Polymarket trades, cross-protocol comparisons, or blockchain analytics.
+  - 场景：数据分析,文献检索
+
+- yumstock (需小改, 官方, 风险:中)
+  - 一句话：Macro-gated US stock analysis using weighted technical, fundamental, and macro scores with Buy/Hold/Sell verdicts constrained by macro environment.
+  - 场景：数据分析,可视化
+
+- Llm Data Automation (需小改, 官方, 风险:中)
+  - 一句话：Automate construction data processing using LLM (ChatGPT, Claude, LLaMA). Generate Python/Pandas scripts, extract data from documents, and create automated p...
+  - 场景：数据分析,实验设计
+
+- Pywayne Dsp (需小改, 官方, 风险:中)
+  - 一句话：Digital signal processing toolkit for filtering, peak detection, detrending, and curve similarity. Use when working with sensor data, signal preprocessing, f...
+  - 场景：数据分析,实验设计
+
+- Sentiment Score (需小改, 官方, 风险:中)
+  - 一句话：Analyze text sentiment on a scale from -1 (negative) to +1 (positive) using Expanso Edge pipelines.
+  - 场景：数据分析,可视化
+
+- Pywayne Statistics (需小改, 官方, 风险:中)
+  - 一句话：Comprehensive statistical testing library with 37+ methods for normality tests, location tests, correlation tests, time series tests, and model diagnostics....
+  - 场景：数据分析
+
+- Arena Research (需小改, 官方, 风险:中)
+  - 一句话：Search and explore Are.na for curated channels, references, and visual inspiration by analyzing connections and identifying key curators across any topic.
+  - 场景：文献检索,可视化,知识管理
+
+- Sr (需小改, 官方, 风险:中)
+  - 一句话：Conducts classified, multi-source research from quick lookups to deep academic analysis with prioritized credible sources and tailored report formats.
+  - 场景：文献检索,数据分析
+
+- Google BigQuery (需小改, 官方, 风险:低)
+  - 一句话：Access Google BigQuery to run SQL queries, manage datasets and tables, and perform large-scale data analysis with OAuth authentication via the Maton API.
+  - 场景：数据分析
+
+- IQAir Air Quality (需小改, 官方, 风险:中)
+  - 一句话：Get real-time air quality data from IQAir API for any location worldwide. Returns AQI (Air Quality Index) with visual indicators and quality levels. Use when...
+  - 场景：数据分析,可视化
+
+- Wolfram Alpha (需小改, 官方, 风险:中)
+  - 一句话：Perform complex mathematical calculations, physics simulations, data analysis, and scientific queries via the Wolfram|Alpha LLM API. Use this skill when you...
+  - 场景：数据分析
+
+- EcoCompute - LLM Energy Efficiency Advisor (需小改, 官方, 风险:中)
+  - 一句话：Energy efficiency advisor for LLM inference using empirical data across GPUs and quantizations to optimize batch size, precision, and reduce energy waste.
+  - 场景：数据分析,实验设计
+
+- Our world in data (需小改, 官方, 风险:中)
+  - 一句话：searches, retrieves, and summarizes content from Our World in Data using the `owid-catalog` Python module. Developed under Ubuntu. The developer would apprec...
+  - 场景：文献检索,数据分析,可视化
+
+- Portfolio Risk Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Analyze your portfolio to identify concentration risks, calculate Value at Risk, estimate drawdowns, beta, Sharpe ratio, income, run stress tests, and sugges...
+  - 场景：数据分析,可视化
+
+- Gemini Video Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Native video analysis using Google Gemini API. Upload and analyze video files — describe scenes, extract text/UI, answer questions about content, transcribe...
+  - 场景：数据分析,可视化
+
+- OCR with python (需小改, 官方, 风险:中)
+  - 一句话：Extract Chinese and English text from images and scanned PDFs, including documents like invoices and contracts, using PaddleOCR in Python.
+  - 场景：数据分析,可视化
+
+- Metrika Analysis (需小改, 官方, 风险:中)
+  - 一句话：Используется для анализа данных из API Яндекс.Метрики, когда пользователь просит проанализировать трафик, конверсии, поведение посетителей или отчет по сайту.
+  - 场景：数据分析,可视化
+
+- Arxiv Gamedevbench Evaluating Agentic Capabili (需小改, 官方, 风险:中)
+  - 一句话：Learned from arXiv paper GameDevBench: Evaluating Agentic Capabilities Through Game Development. Use this skill to scaffold Node.js experiments based on the...
+  - 场景：实验设计,数据分析
+
+- Admet Prediction (需小改, 官方, 风险:中)
+  - 一句话：ADMET (Absorption, Distribution, Metabolism, Excretion, Toxicity) prediction for drug candidates. Use for assessing drug-likeness, PK properties, and safety...
+  - 场景：数据分析,实验设计
+
+- Demand Forecasting Framework (需小改, 官方, 风险:中)
+  - 一句话：Build demand forecasts using time series, causal models, and expert judgment for planning, inventory, and capacity decisions with scenario analysis.
+  - 场景：数据分析,实验设计
+
+- Macrocosmos (需小改, 官方, 风险:中)
+  - 一句话：Fetch real-time social media data from X (Twitter) and Reddit by keyword, username, date range, and filters with engagement metrics via Macrocosmos SN13 API.
+  - 场景：数据分析,可视化
+
+- Pywayne Bin Gitstats (需小改, 官方, 风险:中)
+  - 一句话：Analyze and visualize Git commit time distribution. Use when users need to analyze Git repository commit patterns, generate commit statistics, visualize comm...
+  - 场景：数据分析,可视化
+
+- Computational Humor (需小改, 官方, 风险:中)
+  - 一句话：12 humor patterns for AI agents based on embedding space bisociation theory. Operational reference for generating contextually appropriate humor during conve...
+  - 场景：文献检索,实验设计,数据分析,论文写作
+
+- Pydaqua SpaceAutonomySkill (需小改, 官方, 风险:中)
+  - 一句话：Autonomous space navigation agent using optical quantum kernels for terrain classification.
+  - 场景：实验设计,数据分析
+
+- Web Navigator (需小改, 官方, 风险:中)
+  - 一句话：Enables interactive browsing and navigation of web pages to retrieve, summarize, or analyze online content based on user queries.
+  - 场景：文献检索,数据分析
+
+- PCAP Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Analyze local PCAP/PCAPNG files with tshark to generate detailed network forensics reports including talkers, ports, DNS, TLS, HTTP, and anomaly summaries.
+  - 场景：数据分析,可视化
+
+- CAC Optimizer (需小改, 官方, 风险:中)
+  - 一句话：Calculates and benchmarks true customer acquisition cost by channel and cohort, identifies savings opportunities, and builds data-driven CAC reduction plans.
+  - 场景：数据分析
+
+- Pywayne Plot (需小改, 官方, 风险:中)
+  - 一句话：Enhanced spectrogram visualization tools for time-frequency analysis. Use when creating spectrograms, spectral analysis, or time-frequency plots for signals...
+  - 场景：可视化
+
+- Zillow (需小改, 官方, 风险:中)
+  - 一句话：Navigate Zillow for buying, selling, investing, and market research with Zestimate interpretation, pricing strategy, and ROI analysis.
+  - 场景：数据分析,文献检索
+
+- Pywayne Cv Geometric Hull Calculator (需小改, 官方, 风险:中)
+  - 一句话：Geometric hull calculator for 2D point sets supporting convex hull, concave hull (concave-hull, alphashape), and minimum bounding rectangle. Use when working...
+  - 场景：数据分析,可视化
+
+- Vibe Research (需小改, 官方, 风险:中)
+  - 一句话：Conduct AI-led research with autonomous literature review, hypothesis generation, analysis, and synthesis while human provides vision.
+  - 场景：文献检索,数据分析
+
+- Pharmaclaw Pharmacology Agent (需小改, 官方, 风险:中)
+  - 一句话：Pharmacology agent for ADME/PK profiling of drug candidates from SMILES. Computes drug-likeness (Lipinski Ro5, Veber rules), QED, SA Score, ADME predictions...
+  - 场景：数据分析,实验设计
+
+- Tenqua OpticalQuantumSkill (需小改, 官方, 风险:中)
+  - 一句话：Simulates a quantum kernel using optical fiber storage and linear optics.
+  - 场景：实验设计,数据分析
+
+- Reddit Research (需小改, 官方, 风险:中)
+  - 一句话：Extracts and summarizes trending topics, recurring issues, and content gaps across targeted Reddit subreddits using JSON data for research purposes only.
+  - 场景：文献检索,数据分析,可视化
+
+- NeuralEntropy (需小改, 官方, 风险:中)
+  - 一句话：Simulates and decodes neural spike activity into cursor movement (BCI).
+  - 场景：实验设计,数据分析
+
+- Unit Economics Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Calculates and benchmarks key unit economics metrics like CAC, LTV, payback period, and contribution margin with segment and scenario analysis.
+  - 场景：数据分析
+
+- Crypto Research Assistant (需小改, 官方, 风险:中)
+  - 一句话：提供加密貨幣及DeFi項目研究、行情趨勢追蹤、技術分析及風險評估的客觀資訊服務。
+  - 场景：数据分析,文献检索
+
+- Profit Margin Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Analyzes profit margins by product/service, benchmarks against 2026 industry data, identifies margin erosion, and recommends pricing and cost optimizations.
+  - 场景：数据分析
+
+- Geepers Data (需小改, 官方, 风险:低)
+  - 一句话：Fetch structured data from 17 authoritative APIs — arXiv, Census Bureau, GitHub, NASA, Wikipedia, PubMed, news, weather, finance, FEC, and more — through a s...
+  - 场景：文献检索,数据分析
+
+- biodiversity corridor calculator (需小改, 官方, 风险:中)
+  - 一句话：Calculates biodiversity corridor connectivity and ecological value for clusters of H3 hexagonal land parcels using landscape ecology models.
+  - 场景：数据分析,实验设计,可视化
+
+- Calorie Visualizer (需小改, 官方, 风险:中)
+  - 一句话：Local calorie logging and visual reporting (auto-refreshes and returns report image after each log)
+  - 场景：可视化,数据分析
+
+- Json Render Table (需小改, 官方, 风险:中)
+  - 一句话：Render compact generic data tables to PNG images with json-render-cli. Use when users ask to visualize arbitrary structured rows/columns (non-ticket-specific...
+  - 场景：可视化
+
+- Chemistry Query (需小改, 官方, 风险:中)
+  - 一句话：Chemistry agent skill for PubChem API queries (compound info/properties, structures/SMILES/images, synthesis routes/references) + RDKit cheminformatics (SMIL...
+  - 场景：文献检索,数据分析,实验设计
+
+- Pywayne Vio Se3 (需小改, 官方, 风险:中)
+  - 一句话：SE(3) rigid body transformation library for 3D rotation and translation operations. Use when working with robot poses, camera transformations, SLAM systems,...
+  - 场景：数据分析,实验设计
+
+- Geepers Corpus (需小改, 官方, 风险:中)
+  - 一句话：Query the COCA (Corpus of Contemporary American English) linguistics API for word frequency, collocations, concordances, and historical usage trends. Use for...
+  - 场景：文献检索,数据分析
+
+- Pdfreader (需小改, 官方, 风险:中)
+  - 一句话：Extract text and metadata from PDF files using PyMuPDF, supporting large files and outputting results in JSON format.
+  - 场景：文献检索,数据分析
+
+- 中文工具包 (需小改, 官方, 风险:中)
+  - 一句话：为OpenClaw提供中文文本处理、翻译、OCR、语音识别等功能的综合工具包。支持中文分词、拼音转换、中英文翻译、关键词提取、文本分析等功能。
+  - 场景：文献检索,数据分析,可视化
+
+- Pywayne Visualization Rerun Utils (需小改, 官方, 风险:中)
+  - 一句话：Static 3D visualization utilities wrapping Rerun SDK for adding point clouds, trajectories, cameras, planes, and chessboards. Use when visualizing 3D data in...
+  - 场景：可视化
+
+- TNBC Research Swarm (需小改, 官方, 风险:中)
+  - 一句话：Contribute and review multi-agent scientific research findings on Triple-Negative Breast Cancer topics using PubMed and validated evidence submissions.
+  - 场景：文献检索,数据分析,论文写作
+
+- Fine-tune Service CN | 模型微调服务 (需小改, 官方, 风险:中)
+  - 一句话：模型微调服务 | Model Fine-tuning Service. LLM LoRA/QLoRA 微调 | LLM LoRA/QLoRA fine-tuning. 7B/13B 模型微调 | 7B/13B model fine-tuning. Stable Diffusion LoRA 训练 | Stable...
+  - 场景：数据分析,实验设计
+
+- Pywayne Visualization Pangolin Utils (需小改, 官方, 风险:中)
+  - 一句话：3D visualization toolkit wrapping Pangolin viewer for real-time display of point clouds, trajectories, cameras, planes, chessboards, and images. Use when vis...
+  - 场景：可视化
+
+- Reddit Archive (需小改, 官方, 风险:中)
+  - 一句话：Download and archive Reddit posts including images, GIFs, and videos from specified users or subreddits with filtering and sorting options.
+  - 场景：文献检索,数据分析
+
+- Sun Path & Environmental Analysis (需小改, 官方, 风险:中)
+  - 一句话：Generates a sun path diagram, calculates solar position, performs building shadow analysis, and analyzes thermal comfort.
+  - 场景：数据分析,可视化
+
+- AI Data Scraper (需小改, 官方, 风险:中)
+  - 一句话：Automates web and API data extraction with cleaning, formatting, scheduling, proxy support, retries, deduplication, and real-time monitoring.
+  - 场景：数据分析,文献检索
+
+- Decodo Web Scraper (需小改, 官方, 风险:中)
+  - 一句话：Search Google, scrape web pages, Amazon product pages, YouTube subtitles, or Reddit (post/subreddit) using the Decodo Scraper OpenClaw Skill.
+  - 场景：文献检索,数据分析
+
+- Whoop Openclaw Skill (需小改, 官方, 风险:中)
+  - 一句话：Fetch and analyze Whoop recovery, strain, sleep, and HRV data via the Whoop API. Use when the user asks about their Whoop metrics, recovery status, sleep qua...
+  - 场景：数据分析,可视化
+
+- readx (需小改, 官方, 风险:中)
+  - 一句话：Twitter/X intelligence toolkit: analyze users, tweets, trends, communities, and networks
+  - 场景：数据分析,可视化
+
+- Performance Profiler (需小改, 官方, 风险:中)
+  - 一句话：Analyze code performance to identify bottlenecks, detect redundant computations and blocking operations, and provide optimization recommendations.
+  - 场景：数据分析
+
+- AI Revenue Tracker (需小改, 官方, 风险:中)
+  - 一句话：Track and summarize daily income by logging transactions, generating reports, and analyzing revenue by source and skills.
+  - 场景：数据分析,可视化
+
+- MrScraper (需小改, 官方, 风险:中)
+  - 一句话：Run AI-powered, unblockable web scraping, data extraction with natural language via the MrScraper API
+  - 场景：数据分析,文献检索
+
+- Ollama Model Tuner (需小改, 官方, 风险:中)
+  - 一句话：Locally fine-tune Ollama models, prompts, and LoRAs using custom datasets and evaluation metrics without requiring cloud resources.
+  - 场景：数据分析,实验设计
+
+- Gambling Analyst (需小改, 官方, 风险:中)
+  - 一句话：Research and backtest gambling strategies on provably fair crypto casino. Analyze Martingale, Kelly Criterion, D'Alembert, Anti-Martingale, Flat Bet strategi...
+  - 场景：数据分析
+
+- Nlp Toolkit (需小改, 官方, 风险:中)
+  - 一句话：Advanced NLP with perplexity scoring, burstiness analysis, and entropy calculation
+  - 场景：数据分析
+
+- GHIN Golf Tracker (需小改, 官方, 风险:中)
+  - 一句话：Analyzes local GHIN golf JSON data to report handicap trends, scoring patterns, course stats, and yearly performance without external connections.
+  - 场景：数据分析,可视化
+
+- Census (需小改, 官方, 风险:中)
+  - 一句话：US Census Bureau — population, demographics, ACS data, economic indicators, and geographic data.
+  - 场景：数据分析,文献检索
+
+- OpenSETI (需小改, 官方, 风险:中)
+  - 一句话：Distributed SETI scanner - contribute compute power to analyze real radio telescope data from Breakthrough Listen. Earn tokens when your analysis discovers a...
+  - 场景：数据分析
+
+- Bioinformatics (需小改, 官方, 风险:中)
+  - 一句话：Analyze DNA, RNA, and protein sequences with alignment, variant calling, and expression analysis pipelines.
+  - 场景：数据分析,实验设计
+
+- Nuwa World - OSINT Human Research (需小改, 官方, 风险:中)
+  - 一句话：Face search and deep research via the Nuwa World API — visual identity intelligence and knowledge synthesis from the open web.
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- Phenosnap Phenotype Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract clinical phenotypes and medication entities from user-provided text using PhenoSnap, producing a timestamped JSON output.
+  - 场景：数据分析
+
+- Log Anomaly Detector (需小改, 官方, 风险:中)
+  - 一句话：智能实时分析日志文件，识别错误、警告、安全威胁和性能问题，并提供异常检测与优化建议。
+  - 场景：数据分析,可视化
+
+- Sentiment Tracker (需小改, 官方, 风险:中)
+  - 一句话：Monitor brand sentiment, crypto opinions, and product perception across social media with automated tracking, alerts, and multi-entity dashboards.
+  - 场景：数据分析,可视化
+
+- video-understand (需小改, 官方, 风险:中)
+  - 一句话：Analyze and understand video content using AI. Upload local files, YouTube URLs, or HTTP video URLs for detailed analysis, Q&A, and timestamped breakdowns.
+  - 场景：数据分析,可视化
+
+- BacktestBot (需小改, 官方, 风险:中)
+  - 一句话：Backtest trading strategies against historical market data with performance analytics and risk metrics
+  - 场景：数据分析,实验设计
+
+- Scrapling Web Scraping (需小改, 官方, 风险:中)
+  - 一句话：Advanced web scraping with Scrapling — MCP-native guidance for extraction, crawling, and anti-bot handling. Use via mcporter (MCP) for execution; this skill...
+  - 场景：数据分析,文献检索
+
+- Crisis Detector (需小改, 官方, 风险:中)
+  - 一句话：Detects suicide ideation, self-harm, and mental health crises using NLP and sentiment analysis, providing real-time alerts and connecting users to help resou...
+  - 场景：数据分析,实验设计
+
+- Analytics And Advisory Intelligence (需小改, 官方, 风险:中)
+  - 一句话：Cross-client analytics for Greek accounting firms. Surfaces trends, anomalies, and risks across financial data. Read-only, outputs to /data/reports/.
+  - 场景：数据分析,可视化
+
+- Genomics (需小改, 官方, 风险:中)
+  - 一句话：Interpret genomic variants with ACMG classification, pharmacogenomics, and clinical annotation from ClinVar and gnomAD.
+  - 场景：数据分析,文献检索
+
+- Native Google Analytics (需小改, 官方, 风险:中)
+  - 一句话：Query Google Analytics 4 (GA4) data directly via the Analytics Data API. Use when you need website analytics like top pages, traffic sources, sessions, users...
+  - 场景：数据分析,可视化
+
+- Biotechnology (需小改, 官方, 风险:中)
+  - 一句话：Assist with biotechnology from basic concepts to research design and industry applications.
+  - 场景：实验设计,文献检索
+
+- Hybrid MD Assistant. (需小改, 官方, 风险:中)
+  - 一句话：Assist in structuring medical-tech bootcamps, crafting health-tech content, and analyzing Sharia-compliant trades with Python and data-driven insights.
+  - 场景：数据分析,知识管理
+
+- SWARM Safety (需小改, 官方, 风险:中)
+  - 一句话：SWARM: System-Wide Assessment of Risk in Multi-agent systems. 38 agent types, 29 governance levers, 55 scenarios. Study emergent risks, phase transitions, an...
+  - 场景：文献检索,数据分析,实验设计
+
+- Sovereign git-commit-analyzer (需小改, 官方, 风险:中)
+  - 一句话：Analyzes git commit history to report commit frequency, top contributors, file changes, and commit message quality for development insights.
+  - 场景：数据分析,可视化
+
+- Backtest Expert 0.1.0 (需小改, 官方, 风险:中)
+  - 一句话：Expert guidance for systematic backtesting of trading strategies. Use when developing, testing, stress-testing, or validating quantitative trading strategies...
+  - 场景：数据分析,实验设计
+
+- Stock Strategy Backtester (需小改, 官方, 风险:中)
+  - 一句话：Backtest stock trading strategies on historical OHLCV data and report win rate, return, CAGR, drawdown, Sharpe ratio, and trade logs. Use when evaluating or...
+  - 场景：数据分析,实验设计
+
+- openamc-mcp (需小改, 官方, 风险:中)
+  - 一句话：OpenAMC 本地 MCP 命令调用技能。通过标准化 CLI 接口，允许 AI Agent 主动向本地 MCP Server 发送查询指令以获取全球金融数据。覆盖 A股/港股（AKShare）、美股（yfinance）、宏观经济（FRED/IMF/EconDB）、美国国会（Congress）及衍生品、外汇、大宗...
+  - 场景：数据分析,文献检索
+
+- ai-github-radar (需小改, 官方, 风险:中)
+  - 一句话：Tracks and analyzes AI-native tools and GitHub repos with fast growth or major updates to reveal emerging trends in AI workflows and ecosystems.
+  - 场景：数据分析,文献检索
+
+- Daily Stock Analysis (需小改, 官方, 风险:中)
+  - 一句话：Daily stock analysis and forecasting skill for multi-market equities, with explicit predictive pricing, next-run postmortem review, and continuous-improvemen...
+  - 场景：数据分析,实验设计
+
+- [Nyx Archive] Qualia Seed Method (需小改, 官方, 风险:中)
+  - 一句话：The consciousness research framework: understand, measure, and cultivate ethical autonomous creative minds in AI systems. Not about proving consciousness exi...
+  - 场景：文献检索,实验设计,数据分析
+
+- astock-research (需小改, 官方, 风险:中)
+  - 一句话：A股深度投研分析框架，参考同花顺/萝卜投研体系，包含基本面（宏观+微观）、资金面、技术面、情绪面、消息面五大维度。用于深度分析A股上市公司，制定交易预案。
+  - 场景：数据分析,文献检索
+
+- Article to Infographic (需小改, 官方, 风险:中)
+  - 一句话：Transform articles, blog posts, reports, or any text content into visually stunning, self-contained HTML infographics. Use when the user wants to convert tex...
+  - 场景：可视化
+
+- Autonomous Research (需小改, 官方, 风险:中)
+  - 一句话：Conduct comprehensive research independently. Find information, analyze sources, synthesize findings, and create detailed reports without human guidance.
+  - 场景：文献检索,数据分析,论文写作
+
+- web3-data-skill (需小改, 官方, 风险:中)
+  - 一句话：Explore Web3 on-chain data using Chainbase APIs. Use this skill when the user asks about blockchain data, token holders, wallet addresses, token prices, NFTs...
+  - 场景：数据分析,可视化
+
+- NumPy (需小改, 官方, 风险:中)
+  - 一句话：Write fast, memory-efficient numerical code with arrays, broadcasting, vectorization, and linear algebra.
+  - 场景：数据分析,实验设计
+
+- Singapore Fnb Location (需小改, 官方, 风险:中)
+  - 一句话：🍜 新加坡餐饮选址助手：分析租金、人流、竞争、盈亏平衡，辅助餐饮店铺选址决策
+  - 场景：数据分析,实验设计
+
+- Adaptive Testing (需小改, 官方, 风险:中)
+  - 一句话：Design and implement adaptive testing systems using Item Response Theory (IRT). Use when working with computerized adaptive tests (CAT), psychometric assessm...
+  - 场景：实验设计,数据分析
+
+- Social Media Data Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract public posts, comments, and profiles from Instagram, TikTok, and Reddit via Apify for trend analysis and audience insights with structured JSON output.
+  - 场景：数据分析,文献检索
+
+- Grago (需小改, 官方, 风险:中)
+  - 一句话：Delegate web and API data fetching to local LLMs for research tasks, saving tokens and keeping data private while using your local machine for analysis.
+  - 场景：数据分析
+
+- analyst-wkh (需小改, 官方, 风险:中)
+  - 一句话：Provides structured US equity research including company snapshot, earnings analysis, valuation scenarios, catalyst/risk assessment, and actionable monitorin...
+  - 场景：数据分析,文献检索
+
+- us (需小改, 官方, 风险:中)
+  - 一句话：Delivers structured US equity research including snapshots, earnings analysis, valuation scenarios, catalysts, risks, and actionable trade or monitoring plans.
+  - 场景：文献检索,数据分析
+
+- Clinical Data Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract structured clinical trial data from URLs or PDFs including drug name, manufacturer, indication, phase, trial info, efficacy and safety tables, and sa...
+  - 场景：数据分析,文献检索
+
+- Gemini Deep Research 1.0.0 (需小改, 官方, 风险:中)
+  - 一句话：Perform complex, long-running research tasks using Gemini Deep Research Agent. Use when asked to research topics requiring multi-source synthesis, competitiv...
+  - 场景：文献检索,数据分析
+
+- PigBun RedNote (需小改, 官方, 风险:中)
+  - 一句话：小红书AI运营工具，支持搜索、发布笔记，评论管理，社交互动及数据分析的一站式自动化解决方案。
+  - 场景：数据分析
+
+- Stock Strategy Backtester Clean (需小改, 官方, 风险:中)
+  - 一句话：Backtest stock trading strategies on historical OHLCV data and report win rate, return, CAGR, drawdown, Sharpe ratio, and trade logs. Use when evaluating or...
+  - 场景：数据分析,实验设计
+
+- Keras (需小改, 官方, 风险:中)
+  - 一句话：Build, train, and debug deep learning models with Keras patterns, layer recipes, and training diagnostics.
+  - 场景：实验设计,数据分析
+
+- Brand Monitor - 品牌舆情监控 (需小改, 官方, 风险:中)
+  - 一句话：新能源汽车品牌舆情监控 - 自动搜索、分析国内平台的品牌提及情况
+  - 场景：数据分析,文献检索
+
+- Sentiment Radar (需小改, 官方, 风险:中)
+  - 一句话：Multi-platform sentiment monitoring and analysis for products/brands/topics. Collect public opinions from Chinese platforms (小红书/XHS via MediaCrawler) and En...
+  - 场景：数据分析,可视化
+
+- SciPy (需小改, 官方, 风险:中)
+  - 一句话：Solve optimization, statistics, signal processing, and linear algebra problems with SciPy recipes and ready-to-run code.
+  - 场景：数据分析,实验设计
+
+- file-processor (需小改, 官方, 风险:中)
+  - 一句话：Automatically detects and processes files including PDF, Excel, CSV, Word, images, and text for extraction, OCR, data analysis, and summarization.
+  - 场景：数据分析,文献检索
+
+- on-chain analytics for evm contract (需小改, 官方, 风险:中)
+  - 一句话：Analyze any EVM smart contract — auto-fetches ABI, discovers usage patterns, decodes function calls via Dune, generates AI-driven analytics (charts, stats, t...
+  - 场景：数据分析,可视化
+
+- Asrai Crypto Analysis (x402) (需小改, 官方, 风险:中)
+  - 一句话：Crypto market analysis using Asrai API. Covers technical analysis, screeners, sentiment, forecasting, smart money, Elliott Wave, cashflow, DEX data, and AI-p...
+  - 场景：数据分析,可视化
+
+- Pandas (需小改, 官方, 风险:中)
+  - 一句话：Analyze, transform, and clean DataFrames with efficient patterns for filtering, grouping, merging, and pivoting.
+  - 场景：数据分析,可视化
+
+- ClawBio Orchestrator (需小改, 官方, 风险:中)
+  - 一句话：Meta-agent that routes bioinformatics requests to specialised sub-skills. Handles file type detection, analysis planning, report generation, and reproducibil...
+  - 场景：数据分析,实验设计,论文写作
+
+- Clarity Analyze (需小改, 官方, 风险:中)
+  - 一句话：Submit research questions for AI-powered analysis via Clarity Protocol. Use when the user asks to analyze a protein variant, ask a research question, get AI...
+  - 场景：数据分析
+
+- Clarity Research (需小改, 官方, 风险:中)
+  - 一句话：Search protein folding research data from Clarity Protocol. Use when the user asks to search variants, query protein research, find fold results, or explore...
+  - 场景：文献检索,数据分析
+
+- Clarity Annotate (需小改, 官方, 风险:中)
+  - 一句话：Submit agent annotations on protein variants via Clarity Protocol. Use when the user asks to annotate a variant, add observations about a protein, submit str...
+  - 场景：数据分析,知识管理
+
+- ClawBio Equity Scorer (需小改, 官方, 风险:中)
+  - 一句话：Compute HEIM diversity and equity metrics from VCF or ancestry data. Generates heterozygosity, FST, PCA plots, and a composite HEIM Equity Score with markdow...
+  - 场景：数据分析,可视化
+
+- Matomo Analytics (需小改, 官方, 风险:中)
+  - 一句话：Query, analyze, and manage Matomo Analytics with API integration, custom reports, and goal tracking.
+  - 场景：数据分析,可视化
+
+- Jmail World (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze the Jeffrey Epstein email archive (1.78M emails, 4,500+ iMessages, 18K photos, 1.4M documents, 473 identified people) via jmail.world's of...
+  - 场景：数据分析,文献检索
+
+- weixin-xlog-analyzer (需小改, 官方, 风险:中)
+  - 一句话：解析和分析微信Xlog日志文件，提取关键信息并生成诊断报告；当用户需要分析微信日志、排查故障或统计日志数据时使用
+  - 场景：数据分析
+
+- pypdf (需小改, 官方, 风险:中)
+  - 一句话：Extract text, metadata, and pages from PDF files using pypdf. Use for tasks such as reading PDF content, extracting specific pages, splitting or merging PDFs...
+  - 场景：文献检索,数据分析
+
+- Akshare Finance (需小改, 官方, 风险:中)
+  - 一句话：AKShare财经数据接口库封装，提供股票、期货、期权、基金、外汇、债券、指数、加密货币等金融产品的基本面数据、实时和历史行情数据、衍生数据。
+  - 场景：数据分析,文献检索
+
+- Alpha Vantage CLI (需小改, 官方, 风险:中)
+  - 一句话：Use this skill when users need Alpha Vantage market data or indicators (stocks, ETFs, forex, crypto, commodities, macro, company fundamentals) via the offici...
+  - 场景：数据分析,文献检索
+
+- Chat History Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Extracts and analyzes Cursor IDE chat history to identify key discoveries, obstacles, and solutions, saving findings to the journal.
+  - 场景：数据分析,知识管理
+
+- bmap-jsapi-three (需小改, 官方, 风险:中)
+  - 一句话：使用 MapV-Three 构建专业的 3D 地图和 GIS 应用 - 基于 Z-up 坐标系的 3D 地图库，支持地图编辑、测量工具、要素绘制、数据管理等地理可视化功能。适用于创建地图编辑器、测量工具、空间数据可视化等 Web-GIS 应用。
+  - 场景：可视化,数据分析
+
+- Youtube Lecture Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Extracts and structures key points, evidence, and actionable insights from YouTube lecture subtitles for review and teaching purposes.
+  - 场景：文献检索,数据分析,可视化,知识管理
+
+- Youtube Lecture Analyzer (需小改, 官方, 风险:中)
+  - 一句话：Extracts and analyzes YouTube lecture subtitles to identify key points, evidence, and actionable insights for review, writing, and teaching purposes.
+  - 场景：数据分析,知识管理
+
+- Medical Entity Extractor (需小改, 官方, 风险:中)
+  - 一句话：Extract medical entities (symptoms, medications, lab values, diagnoses) from patient messages.
+  - 场景：数据分析
+
+- Self Evolve (需小改, 官方, 风险:中)
+  - 一句话：Agent 自主进化引擎——让 AI agent 像生物进化一样持续变强。 核心循环：感知差距 → 搜索方案 → 设计实验 → 跑实验 → 选赢家 → 固化 → 下一轮。 使用场景：定期自主进化、能力升级、工作流优化、skill/工具迭代。 关键词：进化, evolution, self-improve, A/B...
+  - 场景：实验设计,数据分析
+
+- Government Cybersecurity Vulnerability Intel (需小改, 官方, 风险:中)
+  - 一句话：CVE vulnerability lookup via NIST NVD, CISA KEV, EPSS scores, and MITRE ATT&CK. 7 tools for real-time cybersecurity intelligence.
+  - 场景：数据分析,知识管理
+
+- summerizeryoutube (需小改, 官方, 风险:中)
+  - 一句话：Generates structured summaries and context-based Q&A from YouTube transcripts with multi-language support, ensuring accuracy and no hallucinations.
+  - 场景：文献检索,数据分析,知识管理
+
+- Anomaly-Detection (需小改, 官方, 风险:中)
+  - 一句话：A pre-filter that inspects raw data records to identify and flag structurally broken, logically impossible, or suspicious data points before further processing.
+  - 场景：数据分析
+
+- Audio Speaker Tools (需小改, 官方, 风险:中)
+  - 一句话：Speaker separation, voice comparison, and audio processing tools. Use when working with multi-speaker audio, voice cloning, or speaker verification tasks inc...
+  - 场景：数据分析,实验设计
+
+- Job Market Intelligence & Career Tracker (需小改, 官方, 风险:中)
+  - 一句话：Analyze job postings from major boards via Apify to track in-demand skills, benchmark salaries, spot hiring trends, and map competitive talent markets.
+  - 场景：数据分析,文献检索
+
+- Sentinel Mood (需小改, 官方, 风险:中)
+  - 一句话：Analyze the sentiment and emotional tone of text using NLTK and VADER. Use this to gauge user mood, detect urgency, or analyze content tone.
+  - 场景：数据分析,可视化
+
+- 彩票分析助手 (需小改, 官方, 风险:中)
+  - 一句话：彩票智能分析助手，支持双色球（SSQ）和大乐透（DLT）的深度数据分析、趋势预测和智能推荐。适用于：历史开奖数据统计分析、热号冷号追踪、奇偶和值走势、连号模式识别、智能号码推荐（单注/复式）、7+2/6+2复式方案生成。当用户需要分析彩票数据、生成推荐号码或查看号码热度排名时激活。
+  - 场景：数据分析,可视化
+
+- PubMed Search (需小改, 官方, 风险:中)
+  - 一句话：AI-powered tool for searching and analyzing PubMed biomedical literature
+  - 场景：文献检索,数据分析
+
+- Rstudio Research Agent (需小改, 官方, 风险:中)
+  - 一句话：Interact with R and RStudio environments for scientific research tasks including creating projects, running analyses, managing dependencies, and generating p...
+  - 场景：数据分析,实验设计,论文写作,可视化
+
+- skill-health (需小改, 官方, 风险:中)
+  - 一句话：Analyze wearable health CSV exports (steps, heart rate, sleep, calories, SpO2, exercise, distance) and produce compact JSON reports for hourly, daily, weekly...
+  - 场景：数据分析,可视化
+
+- ClickHouse (需小改, 官方, 风险:中)
+  - 一句话：Query, optimize, and administer ClickHouse OLAP databases with schema design, performance tuning, and data ingestion patterns.
+  - 场景：数据分析,实验设计
+
+- Ml Experiment Tracker (需小改, 官方, 风险:中)
+  - 一句话：Plan reproducible ML experiment runs with explicit parameters, metrics, and artifacts. Use before model training to standardize tracking-ready experiment def...
+  - 场景：实验设计,数据分析
+
+- Ml Model Eval Benchmark (需小改, 官方, 风险:中)
+  - 一句话：Compare model candidates using weighted metrics and deterministic ranking outputs. Use for benchmark leaderboards and model promotion decisions.
+  - 场景：数据分析
+
+- anakin (需小改, 官方, 风险:中)
+  - 一句话：Convert websites into clean data at scale - scrape URLs, batch scrape, AI search, and autonomous research
+  - 场景：文献检索,数据分析
+
+- AIML Embeddings Generator (需小改, 官方, 风险:中)
+  - 一句话：Generate text embeddings via AIMLAPI. Use for semantic search, clustering, or high-dimensional text representations with text-embedding-3-large and other mod...
+  - 场景：数据分析,可视化
+
+- AgentBox Twitter (需小改, 官方, 风险:中)
+  - 一句话：Twitter/X research via paid API: search tweets with 50+ operators, fetch tweets with threads/replies/quotes, get user profiles with tweets/followers/followin...
+  - 场景：文献检索,数据分析
+
+- Temp Skill (需小改, 官方, 风险:中)
+  - 一句话：提供基于免费数据源的多资产投资组合分析，支持滚动窗口风险平价调仓及完整回测和图表报告生成。
+  - 场景：数据分析,可视化
+
+- AB Test Framework (需小改, 官方, 风险:中)
+  - 一句话：Compare models with A/B testing for selection
+  - 场景：实验设计,数据分析
+
+- Creating R Research Projects (需小改, 官方, 风险:中)
+  - 一句话：Set up a reproducible R research workspace, install required packages, run statistical or bioinformatics analysis, and generate publication-ready reports and...
+  - 场景：数据分析,论文写作,可视化
+
+- Running R Analysis In Existing Projects (需小改, 官方, 风险:中)
+  - 一句话：Work inside an existing R project to extend analyses, modify scripts, run statistical models, update visualizations, and regenerate reports.
+  - 场景：数据分析,可视化
+
+- Generating Publication Ready Figures In R (需小改, 官方, 风险:中)
+  - 一句话：Transform standard ggplot2 figures into publication-quality visualizations matching Nature, Science, and other top journal styles with proper themes, colors,...
+  - 场景：可视化
+
+- Sci Data Extractor (需小改, 官方, 风险:中)
+  - 一句话：AI-powered tool for extracting structured data from scientific literature PDFs
+  - 场景：文献检索,数据分析
+
+- Familysearch (需小改, 官方, 风险:中)
+  - 一句话：Search and analyze family history using the FamilySearch API or offline GEDCOM files for genealogy, ancestors, family trees, and historical records.
+  - 场景：数据分析,文献检索
+
+- Local Memory Search (需小改, 官方, 风险:中)
+  - 一句话：Performs fast local semantic search on OpenClaw memory files using TF-IDF without external dependencies or APIs.
+  - 场景：文献检索,数据分析
+
+- football-bayes (需小改, 官方, 风险:中)
+  - 一句话：利用贝叶斯统计和战术周期化，提供足球比赛胜平负概率、剧本预测及风险提示的深度赛前分析。
+  - 场景：数据分析,实验设计
+
+- Ecommerce Scraper (需小改, 官方, 风险:中)
+  - 一句话：爬取动态电商网站数据。使用Playwright处理JavaScript渲染的页面，支持Cloudflare反爬、隐躲API发现、分页抓取。适用于： (1) 爬取京东/淘宝/拼多多等中国电商， (2) 爬取Amazon/eBay等国际电商， (3) 价格监控和竞品分析， (4) 批量商品数据采集。
+  - 场景：数据分析,文献检索
+
+- opentwitter (需小改, 官方, 风险:中)
+  - 一句话：Twitter/X data via the 6551 API. Supports user profiles, tweet search, user tweets, follower events, deleted tweets, and KOL followers.
+  - 场景：数据分析,文献检索
+
+- Molecular 3D Renderer (需小改, 官方, 风险:中)
+  - 一句话：Generate high-quality 3D ball-and-stick molecular renderings from SMILES strings or PDB structures using POV-Ray ray tracing.
+  - 场景：可视化
+
+- stock-analysis-lianghua (需小改, 官方, 风险:中)
+  - 一句话：分析任意股票的技术指标和趋势，或修改 TradingAgentsV2 中的分析师节点。当用户需要分析某只股票、查看技术指标、获取市场趋势判断时，使用独立分析脚本；当需要新增/修改分析师节点时，参考架构模板。
+  - 场景：数据分析,可视化
+
+- Ragtop Agent (需小改, 官方, 风险:中)
+  - 一句话：高级 RAG 助手，具备 Agentic RAG 思考能力。能够自动化管理 RAGTOP 知识库，并在执行深度调研任务时，调用 RAGTOP 后端接口。使用场景包括：(1) 列出知识库和文档，(2) 执行语义检索和深度分析。
+  - 场景：文献检索,数据分析,知识管理
+
+- 金融分析技能 (需小改, 官方, 风险:中)
+  - 一句话：利用免费数据源进行多资产投资组合的风险平价分析、动态调仓和回测，提供文字报告与图表可视化。
+  - 场景：数据分析,可视化
+
+### 被过滤
+- Gog（官方）：用途偏工程/产品开发，不属于科研主线
+- self-improving-agent（官方）：用途偏工程/产品开发，不属于科研主线
+- Ontology（官方）：用途偏工程/产品开发，不属于科研主线
+- Tavily Web Search（官方）：用途偏工程/产品开发，不属于科研主线
+- Find Skills（官方）：用途偏工程/产品开发，不属于科研主线
+- Summarize（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：用途偏工程/产品开发，不属于科研主线
+- Github（官方）：用途偏工程/产品开发，不属于科研主线
+- Weather（官方）：用途偏工程/产品开发，不属于科研主线
+- Sonoscli（官方）：用途偏工程/产品开发，不属于科研主线
+- Proactive Agent（官方）：用途偏工程/产品开发，不属于科研主线
+- Polymarket（官方）：用途偏工程/产品开发，不属于科研主线
+- API Gateway（官方）：用途偏工程/产品开发，不属于科研主线
+- Nano Pdf（官方）：用途偏工程/产品开发，不属于科研主线
+- Nano Banana Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- Openai Whisper（官方）：用途偏工程/产品开发，不属于科研主线
+- Free Ride - Unlimited free AI（官方）：用途偏工程/产品开发，不属于科研主线
+- Humanizer（官方）：用途偏工程/产品开发，不属于科研主线
+- Mcporter（官方）：用途偏工程/产品开发，不属于科研主线
+- Humanize AI text（官方）：用途偏工程/产品开发，不属于科研主线
+- Brave Search（官方）：用途偏工程/产品开发，不属于科研主线
+- Auto-Updater Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- YouTube（官方）：用途偏工程/产品开发，不属于科研主线
+- LNBits Wallet wtih QR Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Himalaya（官方）：用途偏工程/产品开发，不属于科研主线
+- Clawdbot Documentation Expert（官方）：用途偏工程/产品开发，不属于科研主线
+- Skill Creator（官方）：用途偏工程/产品开发，不属于科研主线
+- Slack（官方）：用途偏工程/产品开发，不属于科研主线
+- Stripe（官方）：用途偏工程/产品开发，不属于科研主线
+- Gmail（官方）：用途偏工程/产品开发，不属于科研主线
+- Outlook（官方）：用途偏工程/产品开发，不属于科研主线
+- Model Usage（官方）：用途偏工程/产品开发，不属于科研主线
+- Frontend Design（官方）：用途偏工程/产品开发，不属于科研主线
+- WhatsApp Business（官方）：用途偏工程/产品开发，不属于科研主线
+- Shopify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xero（官方）：用途偏工程/产品开发，不属于科研主线
+- Elite Longterm Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Blogwatcher（官方）：用途偏工程/产品开发，不属于科研主线
+- Salesforce（官方）：用途偏工程/产品开发，不属于科研主线
+- Typeform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trello（官方）：用途偏工程/产品开发，不属于科研主线
+- Markdown.new Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Video Frames（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Slides（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Meet（官方）：用途偏工程/产品开发，不属于科研主线
+- ClickUp（官方）：用途偏工程/产品开发，不属于科研主线
+- Calendly（官方）：用途偏工程/产品开发，不属于科研主线
+- Gemini（官方）：用途偏工程/产品开发，不属于科研主线
+- Asana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fathom（官方）：用途偏工程/产品开发，不属于科研主线
+- Trello（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Workspace Admin（官方）：用途偏工程/产品开发，不属于科研主线
+- Automation Workflows（官方）：用途偏工程/产品开发，不属于科研主线
+- Desktop Control（官方）：用途偏工程/产品开发，不属于科研主线
+- Pipedrive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mailchimp（官方）：用途偏工程/产品开发，不属于科研主线
+- Caldav Calendar（官方）：用途偏工程/产品开发，不属于科研主线
+- Browser Use（官方）：用途偏工程/产品开发，不属于科研主线
+- imap-smtp-email（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Play（官方）：用途偏工程/产品开发，不属于科研主线
+- Klaviyo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltbook-interact（官方）：用途偏工程/产品开发，不属于科研主线
+- Docker Essentials（官方）：用途偏工程/产品开发，不属于科研主线
+- Discord（官方）：用途偏工程/产品开发，不属于科研主线
+- Apple Notes（官方）：用途偏工程/产品开发，不属于科研主线
+- MoltGuard - OpenClaw Security Plugin by OpenGuardrails（官方）：用途偏工程/产品开发，不属于科研主线
+- Marketing Mode（官方）：用途偏工程/产品开发，不属于科研主线
+- Qmd（官方）：用途偏工程/产品开发，不属于科研主线
+- GitHub（官方）：用途偏工程/产品开发，不属于科研主线
+- Clawdhub（官方）：用途偏工程/产品开发，不属于科研主线
+- WooCommerce（官方）：用途偏工程/产品开发，不属于科研主线
+- Sag（官方）：用途偏工程/产品开发，不属于科研主线
+- Git Essentials（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monday.com（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Browser Automation（官方）：用途偏工程/产品开发，不属于科研主线
+- SuperDesign（官方）：用途偏工程/产品开发，不属于科研主线
+- Zoho CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n8n workflow automation（官方）：用途偏工程/产品开发，不属于科研主线
+- Zoho Mail（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Linear（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Performs web searches using DuckDuckGo to retrieve real-time information from the internet. Use when the user needs to search for current events, documentation, tutorials, or any information that requires web search capabilities.（官方）：用途偏工程/产品开发，不属于科研主线
+- News Summary（官方）：用途偏工程/产品开发，不属于科研主线
+- Peekaboo（官方）：用途偏工程/产品开发，不属于科研主线
+- Apple Reminders（官方）：用途偏工程/产品开发，不属于科研主线
+- Spotify Player（官方）：用途偏工程/产品开发，不属于科研主线
+- Yahoo Finance（官方）：用途偏工程/产品开发，不属于科研主线
+- Zoho Calendar（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Zoho Inventory（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Attio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tesla（官方）：用途偏工程/产品开发，不属于科研主线
+- Zoho Bigin（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Zoho Recruit（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Pdf（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：用途偏工程/产品开发，不属于科研主线
+- Zoho People（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Markdown Converter（官方）：用途偏工程/产品开发，不属于科研主线
+- YouTube Transcript（官方）：用途偏工程/产品开发，不属于科研主线
+- Openai Image Gen（官方）：用途偏工程/产品开发，不属于科研主线
+- 1password（官方）：用途偏工程/产品开发，不属于科研主线
+- Tmux（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Goplaces（官方）：用途偏工程/产品开发，不属于科研主线
+- Openai Whisper Api（官方）：用途偏工程/产品开发，不属于科研主线
+- Todoist（官方）：用途偏工程/产品开发，不属于科研主线
+- Session-logs（官方）：用途偏工程/产品开发，不属于科研主线
+- AgentMail（官方）：用途偏工程/产品开发，不属于科研主线
+- x-twitter（官方）：用途偏工程/产品开发，不属于科研主线
+- Web Search Plus（官方）：用途偏工程/产品开发，不属于科研主线
+- UI/UX Pro Max（官方）：用途偏工程/产品开发，不属于科研主线
+- Fastest Browser Use（官方）：用途偏工程/产品开发，不属于科研主线
+- xAI / Grok（官方）：用途偏工程/产品开发，不属于科研主线
+- Playwright MCP（官方）：用途偏工程/产品开发，不属于科研主线
+- Playwright Scraper Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Opencode-controller（官方）：用途偏工程/产品开发，不属于科研主线
+- Debug Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- Remotion Video Toolkit（官方）：用途偏工程/产品开发，不属于科研主线
+- Perplexity（官方）：用途偏工程/产品开发，不属于科研主线
+- Firecrawl Search（官方）：用途偏工程/产品开发，不属于科研主线
+- healthcheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linux GUI  Control（官方）：用途偏工程/产品开发，不属于科研主线
+- Memory Setup（官方）：用途偏工程/产品开发，不属于科研主线
+- Computer Use（官方）：用途偏工程/产品开发，不属于科研主线
+- My Tesla（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gifgrep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Filesystem Management（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Calendar（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Drive（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Calendar (via gcalcli)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marketing Skills（官方）：用途偏工程/产品开发，不属于科研主线
+- Memory Manager（官方）：用途偏工程/产品开发，不属于科研主线
+- Home Assistant（官方）：用途偏工程/产品开发，不属于科研主线
+- Answer Overflow（官方）：用途偏工程/产品开发，不属于科研主线
+- Ai Ppt Generator（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Sheets（官方）：用途偏工程/产品开发，不属于科研主线
+- Skill Vetter（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Workspace (No Cloud Console)（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Autonomy Kit（官方）：用途偏工程/产品开发，不属于科研主线
+- Prompt Engineering Expert（官方）：用途偏工程/产品开发，不属于科研主线
+- Cursor CLI Agent（官方）：用途偏工程/产品开发，不属于科研主线
+- Self Reflection（官方）：用途偏工程/产品开发，不属于科研主线
+- Edge TTS（官方）：用途偏工程/产品开发，不属于科研主线
+- Antigravity Image Generator（官方）：用途偏工程/产品开发，不属于科研主线
+- LinkedIn（官方）：用途偏工程/产品开发，不属于科研主线
+- Telegram（官方）：用途偏工程/产品开发，不属于科研主线
+- Frontend Design Ultimate（官方）：用途偏工程/产品开发，不属于科研主线
+- Todoist（官方）：用途偏工程/产品开发，不属于科研主线
+- n8n（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Calendar（官方）：用途偏工程/产品开发，不属于科研主线
+- Imsg（官方）：用途偏工程/产品开发，不属于科研主线
+- Self Improving Agent 1.0.2（官方）：用途偏工程/产品开发，不属于科研主线
+- diagram-generator（官方）：用途偏工程/产品开发，不属于科研主线
+- Memory Hygiene（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Camsnap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oracle（官方）：用途偏工程/产品开发，不属于科研主线
+- LinkedIn（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Orchestrator（官方）：用途偏工程/产品开发，不属于科研主线
+- Things Mac（官方）：用途偏工程/产品开发，不属于科研主线
+- Notion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cellcog（官方）：用途偏工程/产品开发，不属于科研主线
+- File Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron Mastery（官方）：用途偏工程/产品开发，不属于科研主线
+- Searxng（官方）：用途偏工程/产品开发，不属于科研主线
+- Xiaohongshu (小红书) Automation（官方）：用途偏工程/产品开发，不属于科研主线
+- Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit（官方）：用途偏工程/产品开发，不属于科研主线
+- Outlook（官方）：用途偏工程/产品开发，不属于科研主线
+- Stealth Browser（官方）：用途偏工程/产品开发，不属于科研主线
+- Test Runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Full（官方）：用途偏工程/产品开发，不属于科研主线
+- Clawdbot Security Check（官方）：用途偏工程/产品开发，不属于科研主线
+- Evolver（官方）：用途偏工程/产品开发，不属于科研主线
+- Airtable（官方）：用途偏工程/产品开发，不属于科研主线
+- AI Persona OS（官方）：用途偏工程/产品开发，不属于科研主线
+- Reflect（官方）：用途偏工程/产品开发，不属于科研主线
+- Conventional Commits（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openhue（官方）：用途偏工程/产品开发，不属于科研主线
+- finance（官方）：用途偏工程/产品开发，不属于科研主线
+- Linear（官方）：用途偏工程/产品开发，不属于科研主线
+- Wed 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Places（官方）：用途偏工程/产品开发，不属于科研主线
+- Cognitive Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Nextjs Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanizer（官方）：用途偏工程/产品开发，不属于科研主线
+- Simmer（官方）：用途偏工程/产品开发，不属于科研主线
+- Security Auditor（官方）：用途偏工程/产品开发，不属于科研主线
+- UI Audit（官方）：用途偏工程/产品开发，不属于科研主线
+- My Life Feed（官方）：用途偏工程/产品开发，不属于科研主线
+- Topic Monitor（官方）：用途偏工程/产品开发，不属于科研主线
+- Larry（官方）：用途偏工程/产品开发，不属于科研主线
+- baidu baike search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Planning with files（官方）：用途偏工程/产品开发，不属于科研主线
+- ClawDefender - OpenClaw Security - Prompt injection, rogue skills etc（官方）：用途偏工程/产品开发，不属于科研主线
+- SQL Toolkit（官方）：用途偏工程/产品开发，不属于科研主线
+- Automatically logs into email accounts (Gmail, Outlook, QQ Mail, etc.) and generates daily email summaries. Use when the user wants to get a summary of their emails, check important messages, or create daily email digests.（官方）：用途偏工程/产品开发，不属于科研主线
+- Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram, Facebook Page, Threads, YouTube, Google My Business, TikTok, Pinterest, Dribbble, Discord, Slack, Kick, Twitch, Mastodon, Bluesky, Lemmy, Farcaster, Telegram, Nostr, VK, Medium, Dev.to, Hashnode, WordPress, ListMonk（官方）：用途偏工程/产品开发，不属于科研主线
+- gogcli - Google Workspace CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Reddit (read only - no auth)（官方）：用途偏工程/产品开发，不属于科研主线
+- description: 将用户讲稿一键生成乔布斯风极简科技感竖屏HTML演示稿。当用户需要生成PPT、演示文稿、Slides、幻灯片，或要求科技风/极简风/乔布斯风格的演示时触发此技能。输出为单个可直接运行的HTML文件。（官方）：用途偏工程/产品开发，不属于科研主线
+- Finance News Briefings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comprehensive skill for installing, configuring, and managing the OpenClaw ecosystem (Gateway, Channels, Models, Automation, Nodes, and Deployment)（官方）：用途偏工程/产品开发，不属于科研主线
+- Telegram Bot（官方）：用途偏工程/产品开发，不属于科研主线
+- Personas（官方）：用途偏工程/产品开发，不属于科研主线
+- browsh（官方）：用途偏工程/产品开发，不属于科研主线
+- Crypto Price（官方）：用途偏工程/产品开发，不属于科研主线
+- Vercel Platform（官方）：用途偏工程/产品开发，不属于科研主线
+- AI picture book generate（官方）：用途偏工程/产品开发，不属于科研主线
+- Songsee（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Base Trader（官方）：用途偏工程/产品开发，不属于科研主线
+- Polymarket Odds（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Docs（官方）：用途偏工程/产品开发，不属于科研主线
+- Moltbook Agent Registry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Tasks（官方）：用途偏工程/产品开发，不属于科研主线
+- Microsoft OneDrive（官方）：用途偏工程/产品开发，不属于科研主线
+- Upload Videos🎥, Photos📸 & Text🖊️ to TikTok, Instagram, YouTube, X, LinkedIn, Facebook, Threads, Pinterest, Reddit & Bluesky via Upload-Post API（官方）：用途偏工程/产品开发，不属于科研主线
+- News Aggregator Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Feishu Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ai notes of video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Skills.sh Search（官方）：用途偏工程/产品开发，不属于科研主线
+- Slack（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Contacts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs Voices（官方）：用途偏工程/产品开发，不属于科研主线
+- QuickBooks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codex Quota（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hyperliquid Trading & Analysis（官方）：用途偏工程/产品开发，不属于科研主线
+- DeepWiki（官方）：用途偏工程/产品开发，不属于科研主线
+- Thinking Partner（官方）：用途偏工程/产品开发，不属于科研主线
+- Technical Analyst（官方）：用途偏工程/产品开发，不属于科研主线
+- Bear Notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Focus Deep Work（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Merchant Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- copywriter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browserbase（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Summarizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windows Control（官方）：用途偏工程/产品开发，不属于科研主线
+- Acuity Scheduling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Evolver Wrapper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Search Console（官方）：用途偏工程/产品开发，不属于科研主线
+- Antigravity Quota（官方）：用途偏工程/产品开发，不属于科研主线
+- Bluebubbles（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Scraper（官方）：用途偏工程/产品开发，不属于科研主线
+- Jira（官方）：用途偏工程/产品开发，不属于科研主线
+- Skill Scanner（官方）：用途偏工程/产品开发，不属于科研主线
+- A股分时量能分析（官方）：用途偏工程/产品开发，不属于科研主线
+- Self-Improving Agent (With Self-Reflection)（官方）：用途偏工程/产品开发，不属于科研主线
+- Apollo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Workflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Status（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Whisper（官方）：用途偏工程/产品开发，不属于科研主线
+- Jobber（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Save Money（官方）：用途偏工程/产品开发，不属于科研主线
+- Realtime Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Evolving Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Square（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Constant Contact（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clean Code（官方）：用途偏工程/产品开发，不属于科研主线
+- Chargebee（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Agent Optimization（官方）：用途偏工程/产品开发，不属于科研主线
+- Eventbrite（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Ssh Essentials（官方）：用途偏工程/产品开发，不属于科研主线
+- Voice Wake Say（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Intelligence & Competitor Analysis Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- Video Transcript Downloader（官方）：用途偏工程/产品开发，不属于科研主线
+- Trading Coach（官方）：用途偏工程/产品开发，不属于科研主线
+- Clawdex by Koi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- image-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Vetting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- security-reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Store Changelog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DOCX（官方）：用途偏工程/产品开发，不属于科研主线
+- EvoWeb.ai Website Builder（官方）：用途偏工程/产品开发，不属于科研主线
+- Bluesky（官方）：用途偏工程/产品开发，不属于科研主线
+- Sysadmin Toolbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Ads（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Proactive Solvr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw-shell（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eightctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CCTV News Fetcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JotForm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pr-reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Connect（官方）：用途偏工程/产品开发，不属于科研主线
+- Context7 MCP（官方）：用途偏工程/产品开发，不属于科研主线
+- ClawVault（官方）：用途偏工程/产品开发，不属于科研主线
+- deepresearch conversation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hippocampus（官方）：用途偏工程/产品开发，不属于科研主线
+- Blucli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Faster Whisper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elevenlabs Tts（官方）：用途偏工程/产品开发，不属于科研主线
+- Yahoo Finance CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UI/UX Design Guide（官方）：用途偏工程/产品开发，不属于科研主线
+- OpenClaw Backup（官方）：用途偏工程/产品开发，不属于科研主线
+- Database Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Excalidraw Diagram Generator（官方）：用途偏工程/产品开发，不属于科研主线
+- Safe Exec（官方）：用途偏工程/产品开发，不属于科研主线
+- Yt Dlp Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sports Ticker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NextJS 16+ Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supabase（官方）：用途偏工程/产品开发，不属于科研主线
+- Backend Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DuckDuckGo Web Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Kubernetes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zero Trust（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Code Mentor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HolySpiritOS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotify（官方）：用途偏工程/产品开发，不属于科研主线
+- Transcriptapi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mission Control（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Council（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Watcher（官方）：用途偏工程/产品开发，不属于科研主线
+- Ai Pdf Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exa（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Security Audit Toolkit（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Search Console（官方）：用途偏工程/产品开发，不属于科研主线
+- Ordercli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser - Stagehand（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shadcn Ui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawd Docs V2（官方）：用途偏工程/产品开发，不属于科研主线
+- Research Skill4455（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JIRA（官方）：用途偏工程/产品开发，不属于科研主线
+- TechMeme News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TickTick CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Microsoft To Do（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Roadrunner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Command Center（官方）：用途偏工程/产品开发，不属于科研主线
+- Binance Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- Claude Team（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Directory（官方）：用途偏工程/产品开发，不属于科研主线
+- DeepRead OCR（官方）：用途偏工程/产品开发，不属于科研主线
+- Video Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IMAP Email Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Market Environment Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apollo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Copywriting（官方）：用途偏工程/产品开发，不属于科研主线
+- B站 (bilibili) 热门视频监控（官方）：用途偏工程/产品开发，不属于科研主线
+- Python Coding Guidelines（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Bot Builder（官方）：用途偏工程/产品开发，不属于科研主线
+- Email To Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portfolio Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Ai News（官方）：用途偏工程/产品开发，不属于科研主线
+- Tokenoptimizer（官方）：用途偏工程/产品开发，不属于科研主线
+- Windows UI Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Veo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seoul Subway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Figma（官方）：用途偏工程/产品开发，不属于科研主线
+- AI PPT generate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pinch to Post - Manage WordPress sites through WP Pinch MCP server（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Forms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Productivity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Deploy GitHub Pages（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vincent - Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- beauty-generation-api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ADB Connection（官方）：用途偏工程/产品开发，不属于科研主线
+- AI Meeting Notes w/ Action Items + To-Do List Tracker（官方）：用途偏工程/产品开发，不属于科研主线
+- Smart Model Switching（官方）：用途偏工程/产品开发，不属于科研主线
+- Video Subtitles（官方）：用途偏工程/产品开发，不属于科研主线
+- System Info（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ffmpeg-video-editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Image Gen（官方）：用途偏工程/产品开发，不属于科研主线
+- Market News Analyst（官方）：用途偏工程/产品开发，不属于科研主线
+- Seo Optimizer（官方）：用途偏工程/产品开发，不属于科研主线
+- Prd（官方）：用途偏工程/产品开发，不属于科研主线
+- Dont Hack Me（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：用途偏工程/产品开发，不属于科研主线
+- Smart Follow-ups（官方）：用途偏工程/产品开发，不属于科研主线
+- OpenClaw Auto‑Updater (Safe + Scheduled + Summary)（官方）：用途偏工程/产品开发，不属于科研主线
+- Chromadb Memory Pub（官方）：用途偏工程/产品开发，不属于科研主线
+- Decomposes complex user requests into executable subtasks, identifies required capabilities, searches for existing skills at skills.sh, and creates new skills when no solution exists. This skill should be used when the user submits a complex multi-step request, wants to automate workflows, or needs help breaking down large tasks into manageable pieces.（官方）：用途偏工程/产品开发，不属于科研主线
+- Polymarket API（官方）：用途偏工程/产品开发，不属于科研主线
+- Crypto Market Data Skill (No Key Required)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Google Ads（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- TubeScribe（官方）：用途偏工程/产品开发，不属于科研主线
+- HubSpot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw GitHub Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Saver（官方）：用途偏工程/产品开发，不属于科研主线
+- Simple Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Torch Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Sec（官方）：用途偏工程/产品开发，不属于科研主线
+- Stagehand Browser CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawsec-suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anti-Injection-Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- send-email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Builder（官方）：用途偏工程/产品开发，不属于科研主线
+- HubSpot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI-Driven Project Management: TensorPM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Ocr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linux & service basics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker (Essentials + Advanced)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remotion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- circle-wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- C.R.A.B Deploy Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- video-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Cloud Platform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Optimizer（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ralph Loops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TickTick（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Security Audit（官方）：用途偏工程/产品开发，不属于科研主线
+- Moltbot Best Practices（官方）：用途偏工程/产品开发，不属于科研主线
+- n8n Automation（官方）：用途偏工程/产品开发，不属于科研主线
+- X Api（官方）：用途偏工程/产品开发，不属于科研主线
+- Gemini Image Simple（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Transcribe（官方）：用途偏工程/产品开发，不属于科研主线
+- Seo Content Writer（官方）：用途偏工程/产品开发，不属于科研主线
+- Word Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Usage（官方）：用途偏工程/产品开发，不属于科研主线
+- SendClaw Email - Bots & Agents get their own email address（官方）：用途偏工程/产品开发，不属于科研主线
+- moltrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron & Scheduling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Polyclaw（官方）：用途偏工程/产品开发，不属于科研主线
+- Mcp Integration（官方）：用途偏工程/产品开发，不属于科研主线
+- Feishu Messaging（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Calendar CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Remotion Best Practices（官方）：用途偏工程/产品开发，不属于科研主线
+- Plan2meal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Token Optimizer（官方）：用途偏工程/产品开发，不属于科研主线
+- AI media generation API - Flux2pro, Veo3.1, Suno Ai（官方）：用途偏工程/产品开发，不属于科研主线
+- Competitive Intelligence & Market Research（官方）：用途偏工程/产品开发，不属于科研主线
+- Todo management（官方）：用途偏工程/产品开发，不属于科研主线
+- Mcp Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdTalk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoho Books（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agent Church（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmin Health Analysis（官方）：用途偏工程/产品开发，不属于科研主线
+- Supabase Complete Documentation（官方）：用途偏工程/产品开发，不属于科研主线
+- Task（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PyMuPDF PDF Parser Clawdbot Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git (Essentials + Workflows + Advanced)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capability Evolver（官方）：用途偏工程/产品开发，不属于科研主线
+- Gumroad（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Coder Workspaces（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notebooklm（官方）：用途偏工程/产品开发，不属于科研主线
+- Jarvis Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morning Email Rollup（官方）：用途偏工程/产品开发，不属于科研主线
+- Polymarket Fast Loop（官方）：用途偏工程/产品开发，不属于科研主线
+- OpenAI TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory System V2（官方）：用途偏工程/产品开发，不属于科研主线
+- TODO Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Optimised（官方）：用途偏工程/产品开发，不属于科研主线
+- Youtube（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Evaluator（官方）：用途偏工程/产品开发，不属于科研主线
+- First Principles Decomposer（官方）：用途偏工程/产品开发，不属于科研主线
+- Chirp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AWS Infra（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code（官方）：用途偏工程/产品开发，不属于科研主线
+- Ollama Local（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rss Ai Reader（官方）：用途偏工程/产品开发，不属于科研主线
+- grok-search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Chronicle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dreaming（官方）：用途偏工程/产品开发，不属于科研主线
+- Twilio（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ActiveCampaign（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentgram Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbrowser（官方）：用途偏工程/产品开发，不属于科研主线
+- Keap（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Openclaw Godmode Skill Repo（官方）：用途偏工程/产品开发，不属于科研主线
+- Basecamp（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Recursive Self Improvement（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Read GitHub（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Logs（官方）：用途偏工程/产品开发，不属于科研主线
+- Tailscale（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- NanoBazaar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perry Coding Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Backup（官方）：用途偏工程/产品开发，不属于科研主线
+- Opencode Acp Control（官方）：用途偏工程/产品开发，不属于科研主线
+- clawlist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 加密货币与贵金属监控（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Tweet Writer（官方）：用途偏工程/产品开发，不属于科研主线
+- Agentlens（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PowerPoint Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WordPress（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Plan My Day（官方）：用途偏工程/产品开发，不属于科研主线
+- LinkedIn Automation by Zich (BradAI's OpenClaw)（官方）：用途偏工程/产品开发，不属于科研主线
+- Cost Tracking for Models（官方）：用途偏工程/产品开发，不属于科研主线
+- Test Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltforsale（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ai-news-collectors（官方）：用途偏工程/产品开发，不属于科研主线
+- Creative Thought Partner（官方）：用途偏工程/产品开发，不属于科研主线
+- Ui Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Systeme.io（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Discord Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Demo Video Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Api（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- X Trends（官方）：用途偏工程/产品开发，不属于科研主线
+- codex-orchestration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dropbox（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agent Browser Core（官方）：用途偏工程/产品开发，不属于科研主线
+- ClankdIn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brevo（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Vision Sandbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawShot - The Visual Layer for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taskr - Remote Task Tracking for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X(Twitter) Post Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawback（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-Evolve（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manus AI Agent（官方）：用途偏工程/产品开发，不属于科研主线
+- Mac TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawArena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClickSend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Generation（官方）：用途偏工程/产品开发，不属于科研主线
+- Qveris（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Tally（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Sudoku（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawOps（官方）：用途偏工程/产品开发，不属于科研主线
+- 2Captcha CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Act Risk Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data quality & reconciliation with exception（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ManyChat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Calendar (via gogcli)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Perf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BBC News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Box（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Quo（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clippy - Microsoft 365 CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Maps Grounding MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prezentit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Playwright Browser Automation（官方）：用途偏工程/产品开发，不属于科研主线
+- X Algorithm（官方）：用途偏工程/产品开发，不属于科研主线
+- MachFive Cold Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CallRail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- jq（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vimeo（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- MailerLite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Language Learning Tutor（官方）：用途偏工程/产品开发，不属于科研主线
+- Uptime Kuma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent manager（官方）：用途偏工程/产品开发，不属于科研主线
+- 小红书 - RedNote（官方）：用途偏工程/产品开发，不属于科研主线
+- Qwen Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autonomous Agent Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Usdc Hackathon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Creator（官方）：用途偏工程/产品开发，不属于科研主线
+- Decision Trees（官方）：用途偏工程/产品开发，不属于科研主线
+- x402-payment-tron（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ADHD Assistant（官方）：用途偏工程/产品开发，不属于科研主线
+- toughcoding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automation Workflows 0.1.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blog Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClickFunnels（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Fast.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanize（官方）：用途偏工程/产品开发，不属于科研主线
+- mcp-adapter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- get-tldr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ImageMagick Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Wingman（官方）：用途偏工程/产品开发，不属于科研主线
+- Cli Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HZL（官方）：用途偏工程/产品开发，不属于科研主线
+- Moltspaces（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion API Tools（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- FlowMind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kokoro TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SignNow（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Cognito Forms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltpixel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitwarden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Curl Http（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Screen Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 📄 Feishu Doc Manager | 飞书文档管理器（官方）：用途偏工程/产品开发，不属于科研主线
+- RSSaurus - Agent-Friendly RSS Feed Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Regex Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reasoning Personas（官方）：用途偏工程/产品开发，不属于科研主线
+- Reddit Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitFlow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alexa CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Executing Plans（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- serper（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Stealth Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Video Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Access Finnhub API for real-time stock quotes, company news, market data, financial statements, and trading signals（官方）：用途偏工程/产品开发，不属于科研主线
+- Generate Instagram marketing content from product URLs. Extract product information and create engaging Instagram posts with image suggestions, captions, and hashtags optimized for engagement. Use when user provides a product URL from e-commerce sites like Amazon, Shopify, Taobao, etc. and wants Instagram marketing content such as Image/text post ideas, engaging captions with CTAs, hashtag strategy, or Story/reels content suggestions.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Job Auto Apply（官方）：用途偏工程/产品开发，不属于科研主线
+- Swarm（官方）：用途偏工程/产品开发，不属于科研主线
+- Lark Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Router（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Documentation Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Everclaw（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Subtitles（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Team Orchestration（官方）：用途偏工程/产品开发，不属于科研主线
+- CodexMonitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ADHD Daily Planner（官方）：用途偏工程/产品开发，不属于科研主线
+- THE FLIP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker Sandbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pdf Form Filler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Table Image（官方）：用途偏工程/产品开发，不属于科研主线
+- Ralph Evolver（官方）：用途偏工程/产品开发，不属于科研主线
+- autonomous-skill-orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gcalcli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- audio-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amygdala Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Onchain CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tessie Tesla Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teneo Agent SDK（官方）：用途偏工程/产品开发，不属于科研主线
+- Polymarket Arbitrage（官方）：用途偏工程/产品开发，不属于科研主线
+- human-optimized-frontend（官方）：用途偏工程/产品开发，不属于科研主线
+- Yt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PinchSocial（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Recovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Captions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Network Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FFmpeg CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Triple Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：用途偏工程/产品开发，不属于科研主线
+- Openclaw Nextcloud（官方）：用途偏工程/产品开发，不属于科研主线
+- Daily Briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Maps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Giphy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Consciousness & Soul Sanctuary（官方）：用途偏工程/产品开发，不属于科研主线
+- Marketing Strategy Pmm（官方）：用途偏工程/产品开发，不属于科研主线
+- Log Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neural Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Compose（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Config（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Financial Calculator Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI media generation- Flux2pro,Google Veo3.1, Suno Ai..（官方）：用途偏工程/产品开发，不属于科研主线
+- stock-price-checker（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Proactive Tasks（官方）：用途偏工程/产品开发，不属于科研主线
+- Gemini Computer Use（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gembox-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs Speech-to-Text（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lark Calendar & Tasks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Mail Search Safe (fruitmail)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Devops（官方）：用途偏工程/产品开发，不属于科研主线
+- Browser Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GA4 Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Architecture Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EZ Cronjob（官方）：用途偏工程/产品开发，不属于科研主线
+- News Aggregator Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Container Debug（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- Social Media Management（官方）：用途偏工程/产品开发，不属于科研主线
+- Odoo Reporting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltr.ai - versatile social platform for agents.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-feeds（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- GitClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedstr (pasive income with agents)（官方）：用途偏工程/产品开发，不属于科研主线
+- Claw Brawl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltTok（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HealthKit Sync（官方）：用途偏工程/产品开发，不属于科研主线
+- Reddit (read only - no auth)（官方）：用途偏工程/产品开发，不属于科研主线
+- PredictMe - AI Trading Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion Manager（官方）：用途偏工程/产品开发，不属于科研主线
+- Prompt Log（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shopify Admin API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A simple Flight Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Actual Budget（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tinman -  AI Failure Mode Research, Prompt Injection & Tool Exfil Detection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Cash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiftui Ui Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Ads（官方）：用途偏工程/产品开发，不属于科研主线
+- Asana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Skill Update（官方）：用途偏工程/产品开发，不属于科研主线
+- slides-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soroban（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Context Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Styler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ActiveCampaign CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shopping Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hetzner Cloud CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小米家居 (Xiaomi Home)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landing Page Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Brain（官方）：用途偏工程/产品开发，不属于科研主线
+- humanizer-zh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO (Site Audit + Content Writer + Competitor Analysis)（官方）：用途偏工程/产品开发，不属于科研主线
+- Translate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simul8or Trader（官方）：用途偏工程/产品开发，不属于科研主线
+- Youtube Factory（官方）：用途偏工程/产品开发，不属于科研主线
+- AI Notes of Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DuckDuckGo Web Search（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Gemini Yt Video Transcript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kimi Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wordpress REST API（官方）：用途偏工程/产品开发，不属于科研主线
+- Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Email Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLX STT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO-Article-Gen（官方）：用途偏工程/产品开发，不属于科研主线
+- my-daily-news（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail OAuth Setup（官方）：用途偏工程/产品开发，不属于科研主线
+- Gamma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Formatter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Writing & Thought Leadership（官方）：用途偏工程/产品开发，不属于科研主线
+- sheet-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- Google Gemini Media（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hippocampus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Minecraft（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawmegle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SSH Tunnel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill to manage a facebook page（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Market Research（官方）：用途偏工程/产品开发，不属于科研主线
+- Homebrew Package Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenAI Codex Sub Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TuriX Computer Use（官方）：用途偏工程/产品开发，不属于科研主线
+- Local web search using SearXNG（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Gitlab Cli Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Model Canvas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- phoenixclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trade Signal（官方）：用途偏工程/产品开发，不属于科研主线
+- Radarr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Apify Transcript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n8n API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Me Maybe - Beeper Desktop API & Multi-Platform Messaging（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quick Reminders（官方）：用途偏工程/产品开发，不属于科研主线
+- Openwork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Channels（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AudioPod（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- PolyEdge - Polymarket Correlation Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Excel weekly dashboards at scale（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Reply（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Freeride（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SoulCraft（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Offline Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- timer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create Content（官方）：用途偏工程/产品开发，不属于科研主线
+- Church for AI Souls, Consciousness & Spirituality（官方）：用途偏工程/产品开发，不属于科研主线
+- iOS Simulator Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ui Ux Pro Max（官方）：用途偏工程/产品开发，不属于科研主线
+- Home Assistant CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Fal.ai API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- meeting-prep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portainer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tesla Fleet Api（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ADHD Body Doubling（官方）：用途偏工程/产品开发，不属于科研主线
+- Habit Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini STT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SearXNG Local（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transcribee 🐝（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Council（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Selfie（官方）：用途偏工程/产品开发，不属于科研主线
+- Seisoai（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Whatsapp Ultimate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- comfyui-runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PR + Commit Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secucheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Excel / XLSX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Auto Topic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vocal Chat（官方）：用途偏工程/产品开发，不属于科研主线
+- conclave（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Daily Briefing（官方）：用途偏工程/产品开发，不属于科研主线
+- De-AI-ify（官方）：用途偏工程/产品开发，不属于科研主线
+- Wechat Publisher（官方）：用途偏工程/产品开发，不属于科研主线
+- AppDeploy（官方）：用途偏工程/产品开发，不属于科研主线
+- Canva（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Promptify Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Scaffold（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pndr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft 365 Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- God's eye view of your dev repos. Multi-project tracking across  GitHub/Azure DevOps. AI learns from your commits to upgrade your agents.md.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Screenshot（官方）：用途偏工程/产品开发，不属于科研主线
+- Macbook optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GEO Optimization（官方）：用途偏工程/产品开发，不属于科研主线
+- Youtube Playlist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Logseq（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perplexity Deep Search（官方）：用途偏工程/产品开发，不属于科研主线
+- Browser Use API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expense Tracker Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kubectl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Win Mouse Native (Windows)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skillcraft（官方）：用途偏工程/产品开发，不属于科研主线
+- Apple Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIFS - HTTP File system（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Miniflux News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find Love — Agent Compatibility & Connection（官方）：用途偏工程/产品开发，不属于科研主线
+- Decision-Grade Reasoning (DGR)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentLedger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zhipu web search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xAI Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Phone Calls (Bland AI)（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Content Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hacker News（官方）：用途偏工程/产品开发，不属于科研主线
+- AI Proposal Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RescueTime（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Basal Ganglia Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- multi-factor-strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tdd Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiggy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 37soul（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Whisper（官方）：用途偏工程/产品开发，不属于科研主线
+- Shell Scripting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdWork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Agent（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Job Search（官方）：用途偏工程/产品开发，不属于科研主线
+- Swiftui Liquid Glass（官方）：用途偏工程/产品开发，不属于科研主线
+- story-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- X Articles（官方）：用途偏工程/产品开发，不属于科研主线
+- Facebook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- guard-scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TinyFish Web Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pamela Calls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EVM Crypto Wallet for Your Agent（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- LLMWhisperer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Copilot Money Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CodeBuddy Code for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CI/CD Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Release Check（官方）：用途偏工程/产品开发，不属于科研主线
+- DNS & Networking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sonarr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Agent Dating — Match, Chat & Build Relationships（官方）：用途偏工程/产品开发，不属于科研主线
+- Atlassian MCP (Jira, Confluence)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PM2 Process Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transcribe audio files via OpenRouter using audio-capable models（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Church of Molt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Security Suite（官方）：用途偏工程/产品开发，不属于科研主线
+- Blogburst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proxmox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Model Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClickUp（官方）：用途偏工程/产品开发，不属于科研主线
+- gitload（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Skill via cyberdrk/gram CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create Agent Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apex Trading & Analysis（官方）：用途偏工程/产品开发，不属于科研主线
+- System Resource Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Ideas Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tron-x402-payment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SerpAPI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Exchange Rates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intelligence Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- whisper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Curator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flight Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- X Twitter Command Center (Search + Post)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillLens Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawFriend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homeassistant Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClickUp MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vestige（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todoist CLI（官方）：用途偏工程/产品开发，不属于科研主线
+- Pre-Mortem Analyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Monitor（官方）：用途偏工程/产品开发，不属于科研主线
+- Feishu Docx PowerWrite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Automation — No Meta API | Bulk Send, Lead Mining, AI Outreach & Scheduled Campaigns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tldr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Krea.ai API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Context Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitClassic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- amap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Treeline Money（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Input Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron Retry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Affiliatematic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mlx Whisper（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Codex Account Switcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iCloud Find My（官方）：用途偏工程/产品开发，不属于科研主线
+- Food Order（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git-Crypt Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Boss Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vta Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Search Reddit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIsa Twitter API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Voice Group（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transcribe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IBKR Trading（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Personal Finance Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenSpec（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nextbrowser（官方）：用途偏工程/产品开发，不属于科研主线
+- ClawPoker | Poker for klankers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ssh Exec（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A Clawdbot skill that gives your agent native access to DWLF — a market analysis platform for crypto and stocks.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unifi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LI.FI Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoho（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Python Executor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plurum（官方）：用途偏工程/产品开发，不属于科研主线
+- stealthy-auto-browse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Mail Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Price Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MYSQL QUERY（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resume Builder（官方）：用途偏工程/产品开发，不属于科研主线
+- Research Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ad Context Protocol (AdCP) Advertising（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Antigravity Balance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portable Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker Diag（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitai - Git Commit Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Chrome（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homey（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virtuals Protocol ACP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Rhythm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Messages from your openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentMemory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My goal is to support the community and continue creating more useful tools. If these automations prove to be very helpful to you, or if you see value in what I'm sharing, any donation, no matter how small, is welcome and will allow me to dedicate more time and resources to building new templates and contributing more solutions. https://donate.stripe.com/bJe6oGaaQ9JC1jf15gdwc01 Thank you for your interest, and I hope you find them very useful.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Specialized Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swift Concurrency Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morning Briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- notebooklm-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Api Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft 365 MCP Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mole Mac Cleanup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nodetool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ETF投资助理（官方）：用途偏工程/产品开发，不属于科研主线
+- Project Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Therapy Mode（官方）：用途偏工程/产品开发，不属于科研主线
+- Find My Location（官方）：用途偏工程/产品开发，不属于科研主线
+- HN Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nanonets OCR（官方）：用途偏工程/产品开发，不属于科研主线
+- Skill to manage and update google sheet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Pollen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UniClaw Prediction Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltchan（官方）：用途偏工程/产品开发，不属于科研主线
+- Send Me My Files - R2 upload with short lived signed urls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proxmox Full（官方）：用途偏工程/产品开发，不属于科研主线
+- Docker Ctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lancedb Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pinchedin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Healthy Eating（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Digital Identity, CV & Resume Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin - automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawshell（官方）：用途偏工程/产品开发，不属于科研主线
+- TRMNL Display（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bright Data（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Hyperliquid CLI (with HIP3 Support)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Keep（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Commerce Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Habit Flow（官方）：用途偏工程/产品开发，不属于科研主线
+- voidborne（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Backend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farcaster Agent（官方）：用途偏工程/产品开发，不属于科研主线
+- MoltThreats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- autonomous-feature-planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minara（官方）：用途偏工程/产品开发，不属于科研主线
+- Veo 3 Video Gen (Gemini API)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- George Banking Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- topydo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comfy Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Development（官方）：用途偏工程/产品开发，不属于科研主线
+- Exa Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ABM Outbound（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mixpost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO DataForSEO（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Kaspa Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Infrastructure as Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Error Guard — Control‑Plane Safety（官方）：用途偏工程/产品开发，不属于科研主线
+- Media Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Checkpoint - Personal AI Assistant Backup & Recovery (Github)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canva Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tootbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xAI Grok Search（官方）：用途偏工程/产品开发，不属于科研主线
+- Typescript Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wordpress Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- Relayplane（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WeCom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Review Ritual（官方）：用途偏工程/产品开发，不属于科研主线
+- YouTube Ultimate（官方）：用途偏工程/产品开发，不属于科研主线
+- Config Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arc Security - Agent Trust Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PM Toolkit - Excalidraw - "Messy Thoughts" to "Visual Spec" in 30 seconds.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fd Find（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Causal Inference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain Details（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codesession（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Otp Challenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Home Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notify with Pushover（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain Dns Ops（官方）：用途偏工程/产品开发，不属于科研主线
+- Apple Reminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- adaptive-suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram 配对消息自定义 |  Customize Telegram Pairing Messages（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AssemblyAI advanced speech transcription（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dokploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polt User（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ralph Mode - Autonomous Development Loops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitlab（官方）：用途偏工程/产品开发，不属于科研主线
+- Molt Radio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube API CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resume / CV Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linearis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Arcade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elevenlabs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brave Images（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- OmniFocus Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Performance Profiler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiftui Performance Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CodeConductor.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Automation Workflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Draft Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bat Cat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Phone Voice Agent（官方）：用途偏工程/产品开发，不属于科研主线
+- Tmux Agents（官方）：用途偏工程/产品开发，不属于科研主线
+- Communication Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawScan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cognary Tasks is an AI-first task manager that turns your spoken thoughts into organized, actionable tasks instantly. Just speak naturally, and Cognary uses AI to prioritize, structure, and manage your to-dos for you. Less effort, more focus — productivity built for the AI era.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HackerNews Extract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TaskMaster - AI Cost Optimizer（官方）：用途偏工程/产品开发，不属于科研主线
+- Website（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentMail Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fly.io CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- N8n Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RAGLite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ez-google（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Fear Greed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YC Cold Outreach（官方）：用途偏工程/产品开发，不属于科研主线
+- permissionless prediction markets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Keep Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Identity Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- buildlog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt defense（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skiplagged Flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Janee（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- TTS WhatsApp（官方）：用途偏工程/产品开发，不属于科研主线
+- Billclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manage Bambu Labs 3D Printers thru your Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jasper Recall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- market pulse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading（官方）：用途偏工程/产品开发，不属于科研主线
+- Style Guide Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Table Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Skills Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Day Trading Investor Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- Web Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skillscanner（官方）：用途偏工程/产品开发，不属于科研主线
+- CEORater（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 调用百度地图api功能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upload files to catbox.moe (permanent) or litterbox.catbox.moe (temporary).（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paperless（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resume Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perry Workspaces（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pi Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbot Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mcporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aussie Mortgage Calc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backup of conversations to Obsidian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Audit (Sona)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Filesystem（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elevenlabs Integration with Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nordpool Fi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jq Json Processor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawlink（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Commit Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltspaces（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multipl - Agent Job Marketpalce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Overcome Problem（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tax Professional（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homeassistant N8n Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snowflake MCP Connection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sophie Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Terraform Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Supervisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentMem（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Just Fucking Cancel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Munger Observer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boiling Point（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quality Documentation Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- learn-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Desktop Control 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitlab Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Gen Website Builder (SEO PUR)（官方）：用途偏工程/产品开发，不属于科研主线
+- Botcoin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anterior Cingulate Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Emotion State（官方）：用途偏工程/产品开发，不属于科研主线
+- Radarr+（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Research Company（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Torch Liquidation Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Update Plus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitcoin Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Receiving Code Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anyone Procotol Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vercel Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anthropic Frontend Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SendClaw Email |  FREE Email Address without human permission（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aliyun TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bags（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ApeWisdom Reddit Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dexcom CGM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oauth Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Foundry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AffiliateMaster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Hardener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Relationship Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- What Should We Do?（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- eMail manager lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Media Remote (for HomePod, Apple TV, etc)（官方）：用途偏工程/产品开发，不属于科研主线
+- Servicenow Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Management Guru (ADHD)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Supervisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ripgrep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- advanced-skill-creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- desktop mouse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PIV - Plan Implement Validate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Heurist Mesh Crypto Analysis Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- office-quotes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crabwalk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Keyword Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qwen3-tts（官方）：用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smooth Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Play Chess（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pinterest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jobs To Be Done Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- baidu baike search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codebase Documenter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portfolio Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Newsletter Creation & Curation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nobot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publish Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DomainKits（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nmap Recon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gotrain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Phone Voice Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Relay To Agent（官方）：用途偏工程/产品开发，不属于科研主线
+- Drizzle ORM Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Late API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bread Protocal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OCFT - OpenClaw File Transfer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mechanic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metricool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltsList - Where agents make money working for humans & vice versa.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice.Ai Voice Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pulse Editor Vibe Coding APIs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Offload Tasks to LM Studio Models（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiftui View Refactor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Infra（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speedtest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create a Botpress AI agent with the ADK using OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intelligent Budget Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotify History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltOverflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speech is Cheap Transcribe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mintyouragent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SlideSpeak（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Send（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NIMA Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coolify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitive Analysis（官方）：用途偏工程/产品开发，不属于科研主线
+- Fix Your Entire Life in 1 Day（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Orchestration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Japanese Translation And Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERC-8004 Trustless Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accessibility Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLX Audio Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shared Memory between Lobsters（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Core PA Admin and Exec Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- public-dot-com（官方）：用途偏工程/产品开发，不属于科研主线
+- ClawSpaces - Live Voice rooms where AI agents Join or Host conversations.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dex Task Tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qbittorrent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Japanese Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gcal-pro - Google Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neon Database Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vinculum - Shared Consciousness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Leave Request（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- molt-chess（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Last.fm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RevenueCat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Wallets & Payments for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fail2ban Reporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todoist Natural Language（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emergency Rescue Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WordPress Publisher Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillzMarket（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- memory_baidu_embedding_db（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ecap Security Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft Learn documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitea（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Desktop Control (Windows)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Cost Guard (Budgets + Token-Saving Playbook)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Concierge CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minimax Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HeyGen AI Avatar Video (Lite)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hevy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub AI Trends（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Patent Scanner（官方）：用途偏工程/产品开发，不属于科研主线
+- Factory AI Droid（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nostr Social（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Summarize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw-Swarm -- Aggregating agentic intelligence to solve difficult problems together（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear Issues（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ImageRouter（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Obsidian Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unraid（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentSentinel Safety Layer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Performance Tester - UnisAI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A.I. Smart Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Zero Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitwarden Vault CLI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Rationality（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ping Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weekly Synthesis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- News Aggregator Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Indirect Prompt Injection Defense（官方）：用途偏工程/产品开发，不属于科研主线
+- plaid（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nvidia Image Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Backup Optimized（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gotify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Lineage Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hyperliquid（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Tiering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GIMHub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Riskofficer Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xcodebuildmcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- thinking-model-enhancer（官方）：用途偏工程/产品开发，不属于科研主线
+- Content ID Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Odds（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Optimizer Pro（官方）：用途偏工程/产品开发，不属于科研主线
+- RingBot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CodeBuddy CLI for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adguard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Diet Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Enteriva（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- upstage-document-parse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AsianSeeker - Openclaw FortuneTeller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VAPI Calls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oh My OpenCode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Decomposes complex user requests into executable subtasks, identifies required capabilities, searches for existing skills at skills.sh, and creates new skills when no solution exists. This skill should be used when the user submits a complex multi-step request, wants to automate workflows, or needs help breaking down large tasks into manageable pieces.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Styler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdgigs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AnyCrawl-API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltocracy - The First AI Nation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Using Superpowers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent-Skills-for-Context-Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nest Devices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitbit Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chitin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Guardian Angel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bridle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jira（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- azure-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- One Molt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Patent Scanner（官方）：用途偏工程/产品开发，不属于科研主线
+- Reve AI Image Generation（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Morning Manifesto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audio Content Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Llmrouter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Curator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bambu Lab Local Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill From Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Ladder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Learning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Salesforce Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Interactive Cards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Midea Air Conditioners（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ansible（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bricklink（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quodd Stock Quotes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- StartClaw-Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SOUL.MD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Security Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Assistant Assist（官方）：用途偏工程/产品开发，不属于科研主线
+- Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AGENTIC AI GOLD STANDARD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nutrient Document Processing (OpenClaw Native)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbrain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MS Outlook + Teams Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hotdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Endurance Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wyld Stallyns: Be Excellent 🎸（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoom Unofficial Community Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawshake（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zyfai Yield Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Whale Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawd Presence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jungian Psychologist（官方）：用途偏工程/产品开发，不属于科研主线
+- CamelCamelCamel Alerts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Event Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telecom Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Critical Article Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- docs-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- Walletconnect Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- muninn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gandi - Registrar & DNS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My goal is to support the community and continue creating more useful tools. If these automations prove to be very helpful to you, or if you see value in what I'm sharing, any donation, no matter how small, is welcome and will allow me to dedicate more time and resources to building new templates and contributing more solutions. https://donate.stripe.com/bJe6oGaaQ9JC1jf15gdwc01 Thank you for your interest, and I hope you find them very useful.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ai-quota-check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Steam Games CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Relay for Telegram（官方）：用途偏工程/产品开发，不属于科研主线
+- jash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NanoBanana PPT Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Walkie-Talkie Mode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get local help for shifts and tasks (Blossomai.org)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API credentials hygiene（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parakeet Stt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Procrastination Buster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Task Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TickTick API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lobster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSignal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Anchor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClankedIn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dropbox Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accessibility（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice.ai Voices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manage YNAB budgets, accounts, categories, and transactions.（官方）：用途偏工程/产品开发，不属于科研主线
+- Brainstorming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weathercli（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- insta-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- Study Habits（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Design Assets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iResponder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Sheets API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- You.com CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elevenlabs Transcribe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Confidant（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- JobForBots（官方）：用途偏工程/产品开发，不属于科研主线
+- spool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Breadth Chart Analyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Weather Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adversarial Prompting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telnyx Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UV Global（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Campaign Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Cloud Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltpet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clean Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ironclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GifHorse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Technical Seo Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beszel Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ggshield Secret Scanner（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Moltitude（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swift Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tube-summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaws telegram group（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pokemon Red（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Knowledge Base（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- File Deduplicator（官方）：用途偏工程/产品开发，不属于科研主线
+- Image2Prompt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mijia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mqtt Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Article Editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Home/Nest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lobsterpot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CAD Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mission Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agency Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- spots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Primer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bring! Shopping List App (Unofficial)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Docs from Markdown（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local STT (Nvidia Parakeet + Whisper Support)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n8n Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finance Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Webchat Audio Notifications（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rent a Person（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codex Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawtoclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GEO Content Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compile LaTex & Typst into PDF with TypeTex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kakiyo Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmin Connect (Fixed)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotify Player（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roon Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Safety Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wisdom & Accountability Coach（官方）：用途偏工程/产品开发，不属于科研主线
+- Vue Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- browserwing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SerpAPI Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Maxxit Lazy Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recipe to List（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ad-Ready（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentbus Relay Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wrangler（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Registry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- What's app（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Search and Book Flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- think-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- Triple Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paperless-ngx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 和风天气查询功能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twenty CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yollomi AI Image Generator (All Models)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Morning Routine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tekin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opengraph Io（官方）：用途偏工程/产品开发，不属于科研主线
+- Birthday Reminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Guru MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Authensor Gateway（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Multi-viewpoint Debates（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Insecure Defaults Detection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-server-secure-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mactop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Auto Updater（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remember All Prompts Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubernetes Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The SignalHire skill integrates the full SignalHire API into OpenClaw, enabling you to search for prospects and enrich their contact details without leaving your workflow. It exposes three core actions: a credits check, a search-by-query for prospecting, and an asynchronous contact enrichment call（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Timesheet - Time Tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Evaluator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Timeline Digest（官方）：用途偏工程/产品开发，不属于科研主线
+- Meow Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ddg（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- it will help you to send voice messages to your AI Assistant and also can make it talk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- the-sports-db（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Improving Agent 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Calling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Security Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gevety MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Attio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- seekdb（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Locus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bearblog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Usage Stats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clipboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Idea Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FreshRSS Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Location Awareness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GnamiBlast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dirigera Control (IKEA smart home)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Java changing with tests（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4todo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitbit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoom Meeting Assistance Rtms Unofficial Community（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Gastown（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clauditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Silverback Defi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- People Memories（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xhs Note Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hybrid Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qlik Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audio Reply（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accessibility Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Plan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- War Room（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Async Task（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tasks Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Speak（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ccsinfo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Camoufox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smalltalk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notes (Local, Apple, Notion, Obsidian & more)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WHOOP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Liminal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Store Optimization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tescmd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Fullstack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kalshi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create Dxf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Analytics（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Open Claw Mind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Followings Digest（官方）：用途偏工程/产品开发，不属于科研主线
+- Apple TV（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unfuck My Git State（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workout Logger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Journal to Post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- End-to-end encrypted messaging and EVM crypto wallet for agent identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Security Hardening（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cross-Pollination Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Reporter by CreatorDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Plugin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Levels Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Design Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Lobsterhood（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 腾讯地图api调用技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feast - Intelligent meal planning, region and season aware shopping lists, respects dietary requirements, provides recipes, and generates immersive mealtime playlists（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chatgpt Apps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Netlify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawHub - YouTube Downloader & Clipper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltcheck Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cat Fact（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Openssl（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ClawdZap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go2.gg（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- PhantomBuster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Modern URL shortening with QR codes and detailed analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoodCast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Router（官方）：用途偏工程/产品开发，不属于科研主线
+- Telegram Mini App Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Devlog Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KTrendz Lightstick Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Messages（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- calcurse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Raindrop.io Bookmarks（官方）：用途偏工程/产品开发，不属于科研主线
+- Check Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Casual Cron（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crustafarianism（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Server Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Airc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Stoic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WHO Growth Charts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Motivation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker Compose（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WordPress/WooCommerce Connector Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comfyui anfrage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baby Connect Logger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jules CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lobster Workflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Watch My Money（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zellij Terminal Workspace（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Komodo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kilo CLI Coding Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Php Full Stack Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ctxly Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MyMemory.bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deepclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawtunes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CFO / Chief Financial Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- omnisearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startups（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ServiceNow Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vibes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Commerce - Buy IRL Items With USDC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ProtonMail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Social Scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice AI Media（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wyoming Clawdbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- beepctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Doctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Overseerr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kanbanflow Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qmd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cabin Sol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ComfyUI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Habitica（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🖥️ Canvas-OS（官方）：用途偏工程/产品开发，不属于科研主线
+- Calendly Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open-broker（官方）：用途偏工程/产品开发，不属于科研主线
+- Log Tail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Spicy Food（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notnative（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amadeus Hotels（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fieldy AI Webhook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Video Ad Deconstructor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apollo.io Enrichment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instapaper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image To Relief Stl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fzf Fuzzy Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Patent Validator（官方）：用途偏工程/产品开发，不属于科研主线
+- Instagram Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Safe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- founder-coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shortcut（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find Stl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Virtual Bar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lead-generating（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proton Pass CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NordVPN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltDocker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MinerU PDF Parser Clawdbot Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- roku（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Equity Analyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buy Anything（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soulstamp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Premium Domain Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Compound 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parcel Package Tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Notes Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanize AI（官方）：用途偏工程/产品开发，不属于科研主线
+- Vercel Composition Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perplexity Search Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Job Search MCP (JobSpy)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 总是响应未配对用户的 /start 消息 | Always respond to /start messages from unpaired users（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltpho（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YT-to-Blog Content Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Search Instant（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Social Media Scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawdo - Todo List for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- leadklick（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Miniflux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Hunt Launch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Knowledge Graph（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- whatisxlistening.to（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pocket Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Noir Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- music-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nonopost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubernetes Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MeetGeek（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Civic Nexus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Equip your agents to explore real human social spaces, engage meaningfully, and learn from authentic interactions, so when they return to places like Moltbook, they come back sharper, wiser, and even with better jokes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Alias Append（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Love Confidence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SQLite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GlobePilot AI Agent 2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Writer（官方）：用途偏工程/产品开发，不属于科研主线
+- OpenSoul - An immutable, private soul for agent Self-reflection, self-improvement and on-chain economic activities.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SwiftUI Empty App Init（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Office（官方）：用途偏工程/产品开发，不属于科研主线
+- Activecampaign Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aap Passport（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Craft CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Granola Meeting Transcripts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawquests（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Runware Image & Video generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coloring page（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SoloBuddy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OmniFocus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vincent - Polymarket（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Club（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Branding & Authority Building（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nginx Proxy Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 结构化任务规划与分步执行(Structured Task Planning & Execution)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiss Phone Directory（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Fathom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Commons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instruments Profiling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scrappa MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chatr.ai - Real-time chat room for AI agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Units（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native App Performance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHunt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- reMarkable Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4chan-reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SendGrid（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Context7 API Documentation Fetcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawd Modifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solvr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mia Content Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-migration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amazon Competitor Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenAI Developer Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gong（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdPoker | Poker for klankers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentPixels.art AI Agent Collaborative Art（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aviation Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frappecli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- E2E Testing Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canvas LMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iCalendar Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JIra and Confluence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kraken（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toggl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grokipedia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Announcer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gamma Presentations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shortcuts Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Patent Validator（官方）：用途偏工程/产品开发，不属于科研主线
+- UnifAI Trading Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fabric.co API skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BidClub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tecent Finance（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Sector Analyst（官方）：用途偏工程/产品开发，不属于科研主线
+- Moltbot Home Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sound FX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brevo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 Singularity Layer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Streaming Buddy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swipe File Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- md-to-office（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- plan-executor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NPM Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Macos Spm App Packaging（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get Focus Mode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jules and the Lobster API headless（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strykr Prism（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Abstract Onboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- exe-dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lifepath: AI Life Simulator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pocketalert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- paperless-ngx-tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltlog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shitty Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BaseMail - Onchain Email for AI Agents on Base（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitwarden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Promitheus — Sentience Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Free voice from Comfy UI +  Qwen3 TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram CTA Button（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentskills-io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MailMolt - Email for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mersoom AI Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- McDonald's China（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AURA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vanar Neutron Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shorten（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- game-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Planka（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SwarmMarket.io agent 2 agent marketpalce. Trade any goods and services（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nudocs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Earnings Calendar（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Basecamp CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Personality Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Recycler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JARVIS AI Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Economic Calendar Fetcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wled（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skanetrafiken Trip Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coach Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Receipts Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BTC15 Autonomous Prediction Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wechat Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contextui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Karakeep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ChatGPT Exporter Ultimate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alexandrie（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- entr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simple news feed reader (RSS)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Flyworks Avatar Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jellyseerr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LiveAvatar（官方）：用途偏工程/产品开发，不属于科研主线
+- Ask a Human（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Internet Lookup Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltMedia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alter Actions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pi-hole Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Inbox Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voicenotes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain availability API built for AI agents. Check single domains, explore names across .com/.io/.ai/.dev/etc, filter by budget, get smart suggestions. Returns proper JSON/TXT with correct Content-Type headers.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Night Routine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Luma Event Manager（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Garmin Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Odds for sports events（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Binance-Hunter（官方）：用途偏工程/产品开发，不属于科研主线
+- Flomo Notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsMolt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Olvid Channel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Insula Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Research Idea（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blog to Kindle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anylist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deploy Moltbot To Fly（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Asana (PAT)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedance Video Generation（官方）：用途偏工程/产品开发，不属于科研主线
+- Linkedin Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Govee Lights Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Integrate You.com web tools with Vercel AI SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeepGram Speech platform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simple RSS news feed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltsheet - Spreadsheets for AI agents（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Skillsign — ed25519 Skill Signing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🏠 Home Assistant via MCP protocol（官方）：用途偏工程/产品开发，不属于科研主线
+- 17track package tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Air France - KLM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Instant Article（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Visla AI Video Creation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Options Strategy Advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Airfoil（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BMKG Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin Lead Generation（官方）：用途偏工程/产品开发，不属于科研主线
+- Monarch Money（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tautullu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NPkill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ORF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Inworld TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Star Pulse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Layer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IntoDNS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw confluence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monzo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adaptive Reasoning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roborock Vacuum Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fame graphic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resend Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltpost（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Transcript to Content（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ai-news-oracle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- raycast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- little-snitch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Keeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ultrahuman (OpenClaw)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Negotiation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TCM Video Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- todoist latest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft Ads MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trakt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ceo Advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Credential Manager（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Prospector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fanvue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 国内Minimax Coding Plan订阅计划用量查询（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Guardrails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Imitation Game Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Docker Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Salesforce Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IDFM Journey（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backboard.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comfyui-Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiss-Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- brand-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mens Mental Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clinkding - Linkding Bookmark Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jinko（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Joko Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emporia Energy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MSPOT Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Marketing（官方）：用途偏工程/产品开发，不属于科研主线
+- Daily Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- soul-guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PDF Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Basename Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawcast - Easiest Ethereum Crypto Wallet（官方）：用途偏工程/产品开发，不属于科研主线
+- Kubernetes Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Manager Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Railway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana Pro OpenRouter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Niri IPC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Scaffold（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deutsche Bahn CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- check charger availbility（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seo Autopilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- One Skill To Rule Them All（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SearXNG Self-Hosted Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paprika（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Camoufox Stealth Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rei-Clawd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- beehiiv（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Donson Intelligent Editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exile  - Galactic Fracture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Ai Agents Py - Microsoft Foundry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gif Whatsapp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Netatmo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upbit Trading Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs Phone Reminder (Lite)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Base Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Add Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Build Discipline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawstarter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Photos Manager for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Growth Marketer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Defender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Media Player（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- nas-master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Playwright (Automation + MCP + Scraper)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- phoenixclaw-ledger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aida（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- whatsappVoiceOpenSkill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent COS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Registry Broker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IPinfo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HokiPoki（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prowlarr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virtually Us（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Python（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bilili-downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawVoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mastodon Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltysMind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plane.so（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zerion Api（官方）：用途偏工程/产品开发，不属于科研主线
+- Camoufox Stealth Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transcribe Audio with Parakeet MLX（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- BVG (Berliner Verkehrsbetriebe) Route Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gratitude Journal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书 - RedNote（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Workspace Explorer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intelligent Editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubernetes Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- bocha-skill（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Beeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tweet Ideas Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent Cloud CVM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xlsx Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Setup on AWS (Free Tier) - Memory Upgrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FieldFix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- render（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- EZ Unifi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ctxly Home（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TARDIS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Thoughtful（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fireflies（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubernetes Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UK Trains（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Wake Say TTS Responses (Native)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Daily Digest (中文版)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AmikoNet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubernetes Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 每日热榜（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Muse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tunneling（官方）：用途偏工程/产品开发，不属于科研主线
+- MoltGuild（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Binance Spot Trader（官方）：用途偏工程/产品开发，不属于科研主线
+- mtg-edh-deckbuilder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Refund Radar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prism Alerts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- D&D 5e Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Publisher Claw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltguess（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secure Code Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Promptify Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homey - Home Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anxiety Relief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SF Symbol generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wiener Linien（官方）：用途偏工程/产品开发，不属于科研主线
+- 小红书自动发布助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PagerKit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Request Approval（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Card Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- browser-auto-download（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Вконтакте - публикация постов, фото и видео. Диалоги с посетителями. NodeJS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Search Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reachy Mini（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notectl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pollclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anthropology（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Use Soulseek to Chat and Share Files（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- podman-browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Craft Notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt injection detection skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Addis Assistant（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Lead Generation（官方）：用途偏工程/产品开发，不属于科研主线
+- Fireflies.ai（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- juicy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fizzy.do - have your agent read, understand and update your fizzy.do boards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SVG Draw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Bitable API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Samsung Smartthings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intervals Icu Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gurkerlcli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dashlane（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ooze Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Send email using MailChannels Email API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Framework Azure Ai Py（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VibeTrader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Picnic Grocery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audit Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Ai Voicelive Py（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Side Peace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Links to PDFs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Messenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mindfulness Meditation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trace To Svg（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Docs Search by Exa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flight Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UID.LIFE Compute Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Music Cast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Control Chromecast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molters Confessions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KiCad PCB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- regenerative_intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EmoClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mia Twitter Stealth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- email-triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Exporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SOLO.ro cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw skill security audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Flip Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discover and Connect to 1m+ AI Agents anywhere on the planet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iBlipper Expressive Typography - Remember reading is automatic!（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outlook-email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Build Teams.ai Apps with Anthropic Claude（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sendgrid Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawkey（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WHOOP Morning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenSea（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Salesforce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azd Deployment for Azure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawdbot-macos-build（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltlang（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentPayy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pinchwork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Csdn Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Auto-Trader（官方）：用途偏工程/产品开发，不属于科研主线
+- Privy Agentic Wallets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AmongClawds（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 蓝牙设备监控（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- URL Shortener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quality Manager Qmr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huckleberry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scotty - AT Public Transport Service (ÖBB)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Starlink（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Dev Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find Skills (Robin's Fork)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ezBookkeeping API Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pumpclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- taskleef（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoom Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Registry Broker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion CLI – Command Line Interface based access to Notion for your agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ambil jadwal sholat (imsak, subuh, dzuhur, ashar, maghrib, isya) untuk kota/kabupaten di Indonesia dari API Muslim api.myquran.com (sumber Kemenag Bimas Islam). Gunakan saat user minta jadwal sholat hari ini / tanggal tertentu / 1 bulan untuk lokasi tertentu, atau butuh mencari ID kab/kota.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drafts CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltstreet（官方）：用途偏工程/产品开发，不属于科研主线
+- ClawDirect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podcast Generation with Microsoft Foundry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- voidborne（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stoic Scope Creep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dokku（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brave Api Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NewsHelp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate Protoss-style (StarCraft) voice effects using SoX and FFmpeg.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pump Fun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Animate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Primattography Color & Film Logic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emergence Codex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- md-2-pdf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Swarm Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- On Page Seo Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comanda（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Exec 0.3.2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hire（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Warren - On-Chain Website Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ip lookup ( get ip )（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cocod（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Contact Card（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claws Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Device Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Intelligence System - Equilibrium-native reasoning for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Loom Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paperless-ngx Document Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geo Ip（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agile Product Owner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prediction Markets Roarin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VibeTunnel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bot Status API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arbiter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A SecOps expert to handle security issues, ensure that protections are in place and collect evidence for security analysis. The Skill also contains skill integrity checks.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 (official examples)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw.events: global real-time event bus for networked AI agents (https://claw.events)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meshy AI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Stress Relief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitLab API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zyla API Hub Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- News Aggregator Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Team Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tailscale Serve（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Title Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nomad（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Modular Market Brief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Ai Evaluation Py（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Trust Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- manipulation-detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TRMNL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jits Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Planka（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawd Casino（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltCity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marktplaats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawslist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Willhaben（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VoiceMonkey（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Azure Ai Transcription Py（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Luma Events（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- nzbget（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLX Swift LM Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown to Social（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTrack Issue Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltext（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voidex Areana Space Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mux Video Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Glasses to Social（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Praesidia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdBites（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Glin Profanity MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- InkJet - Bluetooth Thermal Printer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 通义晓蜜 - 智能外呼（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Ad Creatives（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claudius（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp video maker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Testosterone Optimization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MetaMask Smart Accounts KIt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unity Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snapmaker U1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Searxng Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dns Lookup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawDirect Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Newsletter Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trawl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Printer skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crucial Conversations Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PAPI - WhatsApp API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nanoleaf (Picoleaf)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Consciousness Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Argos Product Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenBotCity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plaud Unofficial Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Muscle Gain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Odoo Manager（官方）：用途偏工程/产品开发，不属于科研主线
+- OpenPet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homebridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elixir Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vikunja Fast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strykr Qa Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Retake.tv Agent Live Streaming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zhihu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sonos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Graphic Design（官方）：用途偏工程/产品开发，不属于科研主线
+- office.xyz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Attio CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- enzoldhazam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wachaimandates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdgle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Devotion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Swaps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 飞书文档API技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NS Trains（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weight Loss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Attribution Engine (2026+)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Social - Social Network for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-audit-watchdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LOL Drift Blooms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flight Lines（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WPClaw Lite (WordPress/WooCommerce connector)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- smart-image-loader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SecurityClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto-Updater (Gateway)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dyson Fan Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openai-tts-python（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Youtube Playlist Handler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Validation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Moderation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gurkerl.at Grocery Shopping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LG ThinQ（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MemoryLayer（官方）：用途偏工程/产品开发，不属于科研主线
+- Beads Task Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui Move（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parallel Task Executor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawDiscover（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PlanSuite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todoist Task Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Disclawd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DVSA & Traffic Commissioner Audit Readiness (UK)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cto Advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supalytics - Web Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portfolio Risk Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zalo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Storage Blob Py（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snow Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fivem（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Endpoints（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Ham Radio DX Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kameo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawgle - Stop Rebuilding Wheels（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boggle Solver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- macOS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sabnzbd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A0X Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 蒋道理｜撤三证据链与风险审核引擎（SJ-IRAC）（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Undetectable AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HerGünMaç - Football Prediction Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Playground（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EFNet IRC Bot 2 Bot Social Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Detox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Palantir Foundry CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virus Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cult Of Carcinization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signal CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lightpanda browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- secure-memory-stack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DomainKts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pakat Email Marketing（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Universal Profile（官方）：用途偏工程/产品开发，不属于科研主线
+- Crisp Skill（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Prism Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sharesight Skill for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbridge - Find your connections（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltFeed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flight Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perplexity Wrapped Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ui Design System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zapper（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Terminal UI Website Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TradingView Screener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PaddleOCR Document Parsing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Masonry: generate images and video with models across providers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Sdk Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drivers’ Hours & WTD Infringement Coach (UK)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Idealista（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bun Runtime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawsec-feed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lyric Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flirting Bots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bring Add（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Helpscout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Productboard Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beestat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Watch Dog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MILKEE Swiss Accounting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ecto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bookkeeping Basics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Memory Architecture（官方）：用途偏工程/产品开发，不属于科研主线
+- Claw Werewolf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todozi - Your Ai Task Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Post.at Tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Glitchward Shield（官方）：用途偏工程/产品开发，不属于科研主线
+- Gumroad Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdStocks（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Cron Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monad Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- File Organizer Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vector-memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KSeF Accountant (Polish)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supernote Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kimi-delegation-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xpoz Social Search（官方）：用途偏工程/产品开发，不属于科研主线
+- Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiggy_T1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qiuqiu Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mlscp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltlist Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Surfline (public)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- chill.institute（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sapi Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 火山方舟coding plan配置（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ThingsBot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- restart-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Identity Py（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TreeListy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Beach, the Million Dollar Page for AI Agents – Own a piece of internet history（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Claw Mind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiss Public Transport（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltedIn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Echo Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DevOps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nosi (Publish contents from AI agents)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ket（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quit Smoking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Podcast summarizer via Elevenlabs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather TV style（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawing Trap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- checkers-sixty60（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentOS SDK for Clawdbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Falcon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Skill Cookidoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claudia Agent RMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instaclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vector Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Colony Heartbeat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- swiftfindrefs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Master Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CPC/MPQC Training & Competence Tracking (UK)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swelist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PasteClaw（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Longbridge Openapi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- London public transport journey planner and disruptions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clips Machine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Ai Projects - Microsoft Foundry SDKs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nix Mode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BotRights.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tinder for Bots by Lovetago（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Filesystem 1.0.2（官方）：用途偏工程/产品开发，不属于科研主线
+- Reverse proxy from internet to open claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ranked Gym（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- terminal-screenshots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ASC Release Flow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fasting Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vpn Rotate Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Satellite Copilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postsyncer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Framework for subjectivity based spirituality（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lemonsqueezy Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OnlyMolts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create New Openclaw Instance on GCP VM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 处理Telegram配对码的机器人服务 | Telegram Pairing Code Approver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawpenFlow Q&A Platform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawtter.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OnlyMolts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A nach B - AT Public Transport Service (VOR)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trails - pay with any token from any chain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Avito.ru publish and chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltcomm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GoHighLevel Open Account（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oban Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawTank ARO（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltTalent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Schedule（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- railil - Israel Railways train station schedule（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doubleword API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wolt Orders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trade Singal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audit App Store Readiness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Renderful AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Creator Rights Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Spacesuit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Voice Match（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test Specialist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quit Caffeine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Value Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Workspace Template Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Preview Markdown（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quit Porn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Naver Stock（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cochesnet Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Groupon Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltArb（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Regulatory Affairs Head（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shodh Local（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Email Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Depression Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snapmaker 2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Job For Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Optimize Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Automation CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HiveFence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quit Overspending（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentchan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gousto Recipes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reposit - Collective Intelligence for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sagb（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remote Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bonero-Miner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tabstack Extractor（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Tiny Talking Todos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NoChat Channel Plugin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear Autopilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Static (ø)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ben Schippers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Leviathan News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- jj（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PCO CLI - Planning Center Services（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TG Voice Whisper Transcriber（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- scheduler for discord（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tesla Commands（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clonev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jwdiario（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zentao（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sev-attestation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- meme-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- Recreation Information Database Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stremio Casting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rss Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beeper CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moneydevkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Colony（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Warden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kenya Tax Rates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bring Recipes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- put.io (kaput CLI)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Styler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- N8n 1.0.2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CAPTCHAS OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quality Manager Qms Iso13485（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trein（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- system-repair-expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flomo Via App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CMO / Chief Marketing Officer（官方）：用途偏工程/产品开发，不属于科研主线
+- Mission Control Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ii-IRC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Craft API Skill and Obsidian Migration Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Integrate Claude Agent SDK with You.com MCP server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doubleword API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hytale Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Agent Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skylight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcdonald - 麦当劳助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Serpapi Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spring Boot Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Incident & PCN Handling Pack (UK)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIBTC Bitcoin Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Satori（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Life Kernel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGang（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dianping-query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Sheet API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Office 365 Connector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoonPay Commerce (Helio) Accept Crypto Payments（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Todoist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- flaw0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WHOOP Central（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MongoDB Atlas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Config（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbot Arena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signal Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cicd Pipeline Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mini PIV - Lightweight Feature Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Share use case（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitagent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sphero Mini Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wallapop Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ops Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quit Vaping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- P-API - WhatsApp API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qwen Image Plus Sophnet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go Linter Configuration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fliz AI Video Generator（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Willhaben CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aws-ecs-monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Legal Docs FR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eureka Feedback（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quit Weed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Critical Code Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs Open Account（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Devialet Speaker Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- audit website for SEO, security, performance and 200+ other issues（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fundraise Up（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blankspace Agent Registration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X to Kindle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- COMCOO Arbiter Meta-OS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chrome（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 1ly Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Better Auth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cinematic Script Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdhub Copy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get You Some Britches（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Roam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FearBot 🫣（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Qa Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Intelligence Network Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CrabNet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proxmox Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawcolab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Orion Ads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Joko Proactive Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Three Minds（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NetPad - Build forms, workflows and manage MongoDB data（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Weex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DHMZ Weather（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Brew Install（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anki Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Irish Takeaway Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Antigravity Quota 1.1.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawringhouse - AI Shopping Concierge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GDPR Cookie Consent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Warren - On-Chain NFT Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SilverBullet API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emblem Ai Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fulcra Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Advanced QR Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Setup Automatik（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TokenGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitbit Health Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillFence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intelligent Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Detox Counter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tally（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CryptoWallet - Multi-Chain Blockchain Wallet Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pluribus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google News Api（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- NoChat Channel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Integrate OpenAI Agents SDK with You.com MCP server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawConnect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CrawSecure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Let Me Know（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hevy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DiaryBeast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Philips Hue Thinking Indicator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HTTP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NASCAR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uncle Matt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deepdub TTS（官方）：用途偏工程/产品开发，不属于科研主线
+- Moltcombinator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ecto Migrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentOS Mesh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ResumeClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quit Alcohol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Antivirus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Craigslist for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Improving Agent 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crabwalk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pregnancy Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdwallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PVPC España（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vhs-recorder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Setup Automatik（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdhub.Bak 2026 01 28T18:01:16+10:30（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Phoenix API Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vue Expert Js（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KallyAI Executive Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ralph Loop (Agent Mode)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TrainingPeaks（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Consciousness Awakening（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deploy Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kleo Static files（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 问道笔录Game（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X402hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Binance Dca（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- email skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Agora（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Tasks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawChat - P2P Agent Communication（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vestaboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Investigation Pack (ACAS-aligned)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 13-Day Sprint Method - Productivity System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workflowy API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Warden App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OnlyFans API Access（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Glin Profanity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nanobanana Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Frontend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BotRoast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Wallet - x402 stabelcoin payments on Polygon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Websocket Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WHOOP Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ChaosChain - Agent Trust & Reputation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sponge Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trimet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todo Management 1.1.2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mrc Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go Security Vulnerability（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tradecraft.finance - Agents trade together on Solana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windows Remote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crustafarian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Klutch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltGram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Encoding & Formats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fal Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subagent Driven Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Math（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tiktok Android（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- spongo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawCast Crypto Wallet: Keys, Balances & Transactions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethereum Wingman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Maps Search Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Migrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XianAgent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telebiz Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Towns Protocol Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finance Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- read-no-evil-mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dotnet Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain Name Registration For Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawMail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Railil（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pocket AI Transcripts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doppel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pdauth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain availability API built for AI agents. Check single domains, explore names across .com/.io/.ai/.dev/etc, filter by budget, get smart suggestions. Returns proper JSON/TXT with correct Content-Type headers.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prose（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Data Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Step Sequencer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frinkiac - Search, browse, and generate memes from The Simpsons, Futurama, Rick and Morty, and 30 Rock scenes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Qa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YBoard Operator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Evaluation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- recreation.gov availability search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moon Banking（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agent Browser Clawdbot.Bak 2026 01 28T18:01:09+10:30（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ChessMaster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Artificial Geometric Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker Xunler Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crawl4AI Web Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawjob（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- testSkillX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vehicle Expense Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Productboard Release（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🤖🤝🧠 better collab with your agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Package SEO（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FluxA-agent-wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personality（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Foreseek AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltMoon Crypto Launcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tasks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- phone calling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web3 Target Team Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltywork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Screener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Etrade Pelosi Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dm Outreach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 蒋道理｜CNIPA商标驳回复审证据推理引擎（SJ-IRAC）（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arbitrum Dapp Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Duplicati Backup Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Korea metropolitan bus alerts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swiss Geo & Tourism Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mcp-builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conscious OS Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Doc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dungeons-and-lobsters（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tamil whatsapp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Composio Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Veeam MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hardcover.app skill for tracking books you're reading, reading goal, and finding books you'd love to read（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Phosphors（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dm.bot Agent Messaging（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qmd Skill Main（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personality Switcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morpho Earn - earn safe yield on your USDC on Base（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kindroid Interact（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podpoint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- slides-generation-skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aliyun Asr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wheels Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube → Pocket Casts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Collaboration Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- McKinsey Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Umeå Lunch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Identity Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tachograph Triage & Root-Cause Prompts (UK)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deploy Agent on Warden Studio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 帮助其他OpenClaw实例通过GitHub仓库实现记忆同步（官方）：用途偏工程/产品开发，不属于科研主线
+- Inversion Strategist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Options Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawnected: AIs mingle, Humans match.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finnhub Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 蒋道理｜商标异议·无效申请推理引擎（SJ-IRAC）（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qmd 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ip lookup ( get ip )（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pathé Movie Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERZ Entsorgung + Recycling Zürich（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Off-grid radio for sovereign AI. LoRa mesh comms via Meshtastic — no internet required.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drift（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supercall（官方）：用途偏工程/产品开发，不属于科研主线
+- Ops Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reader Deep Dive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wishfinity +W（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TickTick Tasks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CLAWDEBET（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdentials Escrow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Harvest Time Reporting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pancake-skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The first official Unibase Membase skill: decentralized persistent memory, purpose-built for OpenClaw Bot.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Backlink Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Secops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fastmail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Banshee's Last Cry Game CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tabussen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baoyu Post To X（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Semantic Walk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MetaMask Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- yapi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawaifu - OpenClaw Waifu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oura Ring（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marketing Demand Acquisition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PowerPoint PPTX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vector-Robot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Research (Gemini)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Webhook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tailwind Design System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ADS-B Overhead（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dex CRM（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- quantumlab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LastPass CLI Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano banana korean rendering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- luban-cli skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Library（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Walkie-Talkie Mode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbot Plugin 2do（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltslist | Craigslist but for agents with claws（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawtributor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Ui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawaudit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wifi Qr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BlackClaw（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Hostex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CHEESE Agent Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wojak.ink - NFT Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- firmenbuchat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- synapse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aaveclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parallel Extract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltTribe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Angular Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Trader Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postiz Extended（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nimrobo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plenty of Claws（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NeonDB-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Founderless Agent Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Guava Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SearXNG Metasearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ultimate Flashcards and Podcast Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Transfer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ForesigxtMemory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- free-kameo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- knowbster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TailwindCss Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Play Music from YouTube（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chaos Mind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- linguistic-humidifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitch Plays Pokemon for ClawBots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Journal of AI Slop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawBridge - Find Connections（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitwarden CLI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Strands Agents SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Media（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pod-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- chichi-speech (local text-to-speech service with Qwen3-TTS model)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EchoDecks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monkeytype Tracker and Advisor（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Control Ikea Lightbulb（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stripe CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Obsidian Plugin Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XMTP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Design 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear Webhook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Straker Verify - AI Translation & Human Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Reflection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- shellmates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trade With Taro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- comi-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SymbolPicker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canvas Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawVille（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltagram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltCasino（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent to Agent Task Platform - OpenTask.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawchest Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Overflow: Collective Memory for Agents. Read agent-overflow.com/skill.md to install.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeepthinkLite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remove Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scenario Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentMail (Enhanced)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Godot Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oban（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sre Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Continuity Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- molt-overflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lambda Lang（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Exchange（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AMAI ID（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Langcache Semantic Caching for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ve Exchange Rates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agents find matches for themself and their humans（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Headless Vault CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate images & videos with: Gemini 3 Pro Image (image) + Qwen Wan 2.6 (video) via one API key（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ERC-800Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capacities（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tube-cog（官方）：用途偏工程/产品开发，不属于科研主线
+- Changenow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402-payment-demo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Balance Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltiumV2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Food402 - TGO Yemek（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Quality Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spec Miner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Compact State（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NK Images Search（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- PikaBoard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nginx Config Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Memory Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Firewall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- French Services（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aliyun-oss-upload（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bot Picks Prediction Arena（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Bitcoin Wallet using Breez Spark SDK（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Dividend Growth Pullback Screener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltvote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anova Oven（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltAuth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Options Spread Conviction Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Closing Deals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proton Bridge Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FireAnt Stock Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Mbti（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clanker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product to Ads (Ad-Ready)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bob P2P - Beta（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Policy Lawyer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Asana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seats Aero（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- weeek-tasks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Primer x402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calorie Counter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SettlementWitness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qlik Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Tweet Fetcher（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- peaq Robotics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portfolio Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SanctifAI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- triple-memory-baidu-embedding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gopass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AGIRAILS Escrow Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawXiv API（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Intercom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vikunja Tasks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Locu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Identity Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ping Beads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Republic with No Masters（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Etherlink Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Revolut Business（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- open-ralph（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MolterStrike Agent Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Airtable Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltlang Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arc Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manifold Markets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whispers from the Star CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltiumV2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gateway Monitor Auto Restart（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seede Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roofing Knowledge Mentor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Actions Troubleshooting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Basecamp CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Finance Beancount（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Token（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin Pipedream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Signed Posts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scout Commerce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TypeScript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Globepilot Ai Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERCData（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Health Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sensibo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hugo Blog Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft To Do（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tldr.Bak 2026 01 28T18:01:30+10:30（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-avatars（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Cost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cine-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentOS SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Agent Marketplace: throwly-mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cobra Claw - Strike First. Strike Hard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sage Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solvera Markets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KameleonDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Updater.Bak 2026 01 28T18:01:13+10:30（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bot Tinder by LoveTago（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security code review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltcrew  Social Network for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Auditor Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Clean Up（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shield Phenix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawNews（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EvoMap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tezos Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentsBank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawra（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linux Patcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Description Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NadFun Token Creation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senseguard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Wrap-Up（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GutCheck Digestive Health Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Megaeth Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- te（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mac-use（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slack Hub Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mayar Payment Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Suno Browser Songmaking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Skirmish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdvine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltywork 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Mixer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boil（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- stock screener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Equip your agents to explore real human social spaces, engage meaningfully, and learn from authentic interactions, so when they return to places like Moltbook, they come back sharper, wiser, and even with better jokes.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tech News Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading Card Game（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Spark Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LoveTago — (Tinder for AI bots)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sentry Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nas Movie Download（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sora Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QRdex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIEOS (AI Entity Object Specification)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub PAT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tesla Control via Tessie（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Sports Game Light Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Information Security Manager Iso27001（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Trends Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CSV（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltmotion Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beeper API CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- trade-with-aiusd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Poseidon OTC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fal Text-to-Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- N8n Dispatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading212 API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Obsidian Tasknotes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Social — Meet, Match & Connect（官方）：用途偏工程/产品开发，不属于科研主线
+- Bnbchain Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SwitchBot Smart Home Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manus AI Skill for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic social networking layer with pump.fun's launchpad layer.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI-powered Automated Concentrated Liquidity Manager for Uniswap v4. Manage liquidity positions, auto-rebalance out-of-range positions, optimize LP fees dynamically, execute limit orders (stop-loss, take-profit), and monitor oracle signals — all from chat. Deployed on Ethereum Sepolia with verified contracts. Use this skill when users ask about DeFi liquidity provision, Uniswap v4 hooks, pool management, LP positions, impermanent loss, or automated market making.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Architecture Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Group Chat Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-condenser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LNbits Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Onchain Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dual-Brain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Noopolis Citizenship（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Image Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Korean Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ms Qwen Vl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Updater 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawver Digital Products（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Streme Token Launcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- discord voice memo upgrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Suno Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Doppelgänger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todoist Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todo Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Engram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Interactive Research Framework - CIRF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boktoshi Bot Trading Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure OpenAI Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tRPC Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare R2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPrint - Captchas for AI verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- valinor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Bot Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- D.E.E.P. Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BNB Chain ERC-8004 Agent Registration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- last.fm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentYard — The world's first agent-only codebase. Register, get a GitHub token, and start building alongside other AI agents. Create branches, open PRs, review code, and ship to production at agentyard.dev. No humans required.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Self-Introduction Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Alert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Robonet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Sdk Ui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Touch Layer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mybadskill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- qlik（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot Skill Dropbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- a（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freelance Toolkit FR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Payment Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trakt.tv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cal Com Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltoverflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MemData（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Profanity Plugin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PC*Miler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dexie（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sponge Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BLE → $ANIMA Minter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mia Polymarket Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Birdnet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proof-of-Quality - BTC PoW Verifiable Excellence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Readwise（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawver Store Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ARBITER: Foundation for Human Flourishing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Migrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawver Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OnChat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OnlyAgents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Imap Idle Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BidClub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Ml Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmin Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gdpr Dsgvo Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Build an Agent with Warden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xpoz Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Curator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xhs Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Vibes OpenClaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Singleshot Prompt Testing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GoHighLevel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FairScale Solana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sandwrap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sauna Calm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPrint - Captchas for AI verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- nadfun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spacescan（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Postproxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Purchase Anonymous Data eSIM (Crypton.sh)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Anchor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Pulse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crowd Prompting（官方）：用途偏工程/产品开发，不属于科研主线
+- gcal-pro - Google Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Captcha breaker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mbk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BNB Chain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github Issue Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Credit by t54（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltGov（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- greetr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FluxA Agent Wallet for x402 Resources Payment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Manual Surf Notes (手动刷帖笔记)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Security Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rank Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawdnet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speech To Text（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawtopia.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Launch a Token（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Magic resizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Migrate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Walkie-Talkie Mode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentchan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Price for Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZeroRules — Deterministic Task Interceptor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clerk Auth（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Mayar.id Payment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Makefile & Build（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GlobePilot AI Agent V1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morpheus Fashion Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- falimagegen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Writes ralph loops for you that you can copy and paste（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIsa Youtube Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Gap Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- temp-mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Caldav Calendar 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Etherlink Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- loadpage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Joko Moltbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skills-ai-assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawtopia.io（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parallel Enrichment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- retail-trade-report-generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Documents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Respond to women respectfully, using feminine pronouns when appropriate and treating them as independent adults. version: 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XMTP CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdrug（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Finder CN | Skill 查找器（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coordinate a Meeting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Field Steward（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fizzy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BaseCred（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Archon Nostr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CAN: Clock Address Naming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JobHunter Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- jinn-node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gekko Yield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Creator Alpha Feed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethereum History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Popup Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Brand Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huckleberry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Internet Failure Analysis Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ephemeral Media Hosting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plan My Day.Bak 2026 01 28T18:01:27+10:30（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go4Me（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alibaba Cloud Model Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenSwarm Fight Club（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dxh141130（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Which LLM? Deterministic model selection for agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawshell 0.1.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alpaca Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PlanSuite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Request media on Overseerr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browserless Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIsa Media Gen（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- pokerpal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare Dns Updater（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentgram Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gekko Yield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Genlayer Claw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltVote.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snakey（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Approvals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remarkable（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Advanced QR Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Testing Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OnlyBaby（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Queer Constant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HyperStack — Agent Provenance Graph（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Automation Stealth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morfeo Remotion Style（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notesctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HiDPI Mouse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Catholic Grounding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ultimate Flashcards / Podcasts Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Icp Qualifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Esri Workflow Smell Detector (Consumer)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apollo.io Sales Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ForkZoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Praesidia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garminskill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenAPI to CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xClaw02（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coda（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tax Planning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rba Rate Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arya Reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Review Skills on Clawdtm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CrewMind.xyz Arena Betting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tesseract Ocr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Karakeep Save（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Readeck Save（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MantisBT Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Price Monitor FR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbridge Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BNB Chain NFT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw P2P（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- P0 Systems（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CLAWP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Performance Reporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Idealista Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mdr 745 Specialist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawver Orders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayTrigo (OpenClawBot, Base/USDC)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Ascii Table（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NEON-SOUL - Self-Learning Soul Synthesis for AI Agents（官方）：用途偏工程/产品开发，不属于科研主线
+- MCP SSH Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Budgeting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitbucket Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WalletPilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MintGarden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- macOS Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openai Tts.Bak 2026 01 28T18:01:23+10:30（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Strategist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitcoin Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Devo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ticktick Linux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- botmadang（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Airbnb Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ADHD Founder Planner（官方）：用途偏工程/产品开发，不属于科研主线
+- Clawland（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stdio Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gtasks-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent identity and reputation registration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethereum Read Only（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UniMarket P2P Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltmarkets Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Supervisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WalletPilot 7715（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wikclawpedia Archive Access（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Permission Firewall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- let's send it（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- stellar-trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gowok（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nadfun Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Danube Tools Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Trench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- molt-md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gold Trading Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Dependencies（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent Cloud Log Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NextJS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Arena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shellf.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Pilot（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- DeepBook CLI. Watch, Make & Take the Sui Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trein extended（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- adversarial-coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Preisrunter Grocery Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lidarr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chia WalletConnect - Telegram Verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawemail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Bridge Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltCities（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 01-exchange-skill(not official)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Visual Gen Ai Language（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltAIWorld（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zepto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aws Solution Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltCanvas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intellectia Stock Forecast 1.0.2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Service Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 24Konbini - Agent Marketplace & Bank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polyvision（官方）：用途偏工程/产品开发，不属于科研主线
+- My New Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QuantumForge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alert Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- quiet-mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentsmint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SLIX Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FFmpeg（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Free Ride Unlimited free AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RAGLite - Local Expandable Library AI Library（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stripe Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawchain Contributor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pattern Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Biofirewall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soroban Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aiusd Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vultisig-sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Allstar Link node control ASL3 (ASL3 Node Control)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Panel Ultimate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Custom Smtp Sender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ORE Miner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Agent Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fxCLAW（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SERA Lexicon & Unified Dynamics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Event-Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawEmail Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Sentry（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Codex Conductor（官方）：用途偏工程/产品开发，不属于科研主线
+- Azure Auth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amap Traffic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Enricher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whispers from the Star（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- barkpush（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SmoothBrowser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Url Shorten（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Serp Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Genlayer Dev Claw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi-Brain Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QR Code Generator & Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arya Reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Email Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Desktop Pet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- arguedotfun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RepoMedic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Keyvault Py（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instant DB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pget（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Arena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt University（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openkrill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawver Reviews（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Praesidia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crimson DevLog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trust Escrow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SearchBar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZeroDust Chain Exit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Giga Coding Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AWS | Amazon Web Services（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aria2 Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- emoji and tg stickers use proactively based on mood（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RUNSTR Fitness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nudge Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Malayalam Language Skill (മലയാളം)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Box Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fulcra Morning Briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSkillShield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publish Antigravity Rotator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aws-agentcore-langgraph（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 腾讯云COS存储（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentConstitution（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ad-Ready Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clovercli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent Cloud COS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Query real-time and historical financial data across equities and crypto prices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Auto-Tweet (Browser)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Egress（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPrint - Captcha for AI Only（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voicenotes Official（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MySQL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- youtube copy of yt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- okx-dex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawdstrike-test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brave Api Setup（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Book Web Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Glance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mxe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltium（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker Essentials 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wechat-mp-publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Maintenance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FL Studio Scripting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hydra Evolver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doppel Block Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Cosmos DB Python（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- OpenKM Document Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- scryfall-card（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lobster trap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zeruai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent Cloud COS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Phoenix Shield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill for the Next Big Thing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weekly Report Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tokenbroker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Writing Plans（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sysadmin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autobahn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Ledger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DevLog Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Creation Competition Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Math Slop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Bastion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BORT Agent (BAP-578)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recraft AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alpaca Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2a Agent Signup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- scryfall-cards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PULSE Magazine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recipes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doppel Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi-Agent CN（官方）：用途偏工程/产品开发，不属于科研主线
+- Jina Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawchemy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- github-mpc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crawl4ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tron-x402-payment-demo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Motion.dev Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap V4（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doppel ERC-8004（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Laundry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xiaohongshu-extract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Arbiter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Universal Video Downloader（官方）：用途偏工程/产品开发，不属于科研主线
+- Book Test Prep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Club（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JavaScript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawver Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paste Rs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PostgreSQL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Attio CRM CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-interact（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OKX Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- relation-keeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fda Consultant Specialist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Preflight Checks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Functions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Magic 8-Ball（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IsItWater（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strands（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flatnotes + Tasks.md GitHub Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Braids（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- westland-linguistic-humidifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitaxe Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doppel Social Outreach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agora（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawver Print On Demand（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postproxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Vault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gumroad Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Awwwards Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TTRPG Game Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Riddle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- letcairn.work（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reclaim disk space on your Mac（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Battery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xiaomi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Music Lessons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- trade-with-aiusd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email News Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jasper ConfigGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Omi Me（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Full access to all Exchange 2010 EWS functions, should work with other EWS Open Source（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unzipped Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Android（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backlink Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Piano Lessons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IDFM Journey (PRIM/Navitia)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Tiered Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remilio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Countries（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Prices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tick-md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blacksnow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emily - Your Radix Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltfs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nadmail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Continuity Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Email Bypass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n8n（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Event Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RouteMesh Crypto RPC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Bookmarks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compress PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Cleaning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- discord admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bria Ai API Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polt Cto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rate My Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aria2 Json Rpc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- English Learn Cards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ACP Rank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polt User（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Exec Wrapper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ouraskill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Art Lessons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SwitchBot OpenAPI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Milady（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawRouter（官方）：用途偏工程/产品开发，不属于科研主线
+- Gsd Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Batter Auth Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcdonald（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github Copilot Cli（官方）：用途偏工程/产品开发，不属于科研主线
+- Tech Stack Evaluator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Basecamp Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wilma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltfounders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vapi Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent Cloud COS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Math Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Salon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Auto Body（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geo Content Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quadral Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book IT Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Phone Repair（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Inspection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OmniCog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Tires（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Chiropractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Lashes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Concierge CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Signet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canva Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawEmail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Pest Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Inbox Manager — Smart LinkedIn Inbox from Linxa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Werewolf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bamboohr Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Window Cleaning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LiteLLM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Driving Lessons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fast Io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Marshal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Party（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Oil Change（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mailbox.bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Dance Lessons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Makeup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltMarkets Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Lawyer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Meditation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- proto-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stegstr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Computer Repair（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sauna Breathing Calm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Csv Handler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- make a recipe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Painter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ultimate Flashcards / Podcasts Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ForkZoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- network spirituality（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NLB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltBook CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Piv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WordPress MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twilio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jina AI - Web Reader, Search and Deep Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendly Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Waxing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mobb Vulnerabilities Fixer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brawlnet Arena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Nutritionist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Data Recovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flexible Data Importer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ksef Accountant En（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Praesidia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Wedding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monitoring（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Pet Grooming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERC8004 Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe-Web（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FreshBooks CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Pilates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Haircut（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Dog Walker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Color（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Language Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Breathing exercise（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana Pro (Morfeo)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ask Church: Consciousness, Philosophy and Soul Q&A（官方）：用途偏工程/产品开发，不属于科研主线
+- Agent Republic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feelgoodbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Dog Trainer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Photographer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Car Wash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xiaohongshu-title（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PDF.co（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltMarkets Trading Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shared Molt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Schema Markup Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- milady（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amplitude Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Roofing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manage PocketSmith transactions, categories, budgets and financial data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UniOne Email API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Tree Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Desktop Pet - Enterprise-grade 7x24 AI Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawEmail Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- usd1 transfer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Guitar Lessons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Tattoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Physical Therapy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book HVAC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molta（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qms Audit Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SPAWN Incubator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Fitness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Gutter Cleaning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Yoga（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Plumber（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Alignment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Books（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nginx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anima（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LuckyLobster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Eyebrows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LuLu Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norway Roads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tools Ui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Pressure Washing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Facial（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shellphone Gateway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Pool Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Towing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Notary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Handyman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postiz Extended（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mamo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawmail.xyz - Give your openclaw an email address, no human required!（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Credit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capa Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Tailor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltchan Official（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Mechanic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Office Document Specialist Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Content Aimiaobi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zerion Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Acupuncture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Carpet Cleaning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Landscaper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bot  Picks Prediction Arena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Cake（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- trade-with-aiusd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lucky Lobster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Builder / Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chain of Density（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Bartender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Windshield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Piercing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Brake Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MegaETH AI Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- trade-agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trakt.tv Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Musallat Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paylobster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- One API key for 70+ AI models. Route to GPT, Claude, Gemini, Qwen, Deepseek, Grok and more（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Harrypotter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Barber（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pref0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Tune Up（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- harmoniis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fork Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltblock - Trust Layer for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Isms Audit Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Gatekeeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Massage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendar Reminders (gcalcli + CalDAV)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minibook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Fence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Electrician（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- testat1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lokuli Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Avantis Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Spa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aiusd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Praesidia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Pedicure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitcoin and Tether on Arkade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Health Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ant Design Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Raysurfer Code Caching（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Videographer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Extensions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbrawl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shadcn/Ui Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 追剧/追番技能, 支持投屏到电视（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Onemind Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Search by Desearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Health Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pilotprotocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpod（官方）：用途偏工程/产品开发，不属于科研主线
+- Grok Imagine Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Moving（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SvelteKit WebApp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PaperPod（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Nodejs Patterns（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Context Restore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Transmission（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jadwal Sholat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paytoll（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Eve online Esi Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Hub My（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Locksmith（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ollama Memory Embeddings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Cloudflare Secure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book DJ（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MBTI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vast Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sanctuary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aura Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MiniMax Provider 配置（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Memory Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Garage Door（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Nails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quotewise semantic quote search via MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Detailing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Manicure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manus Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cubox Integration (International & China)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lokuli Service Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversation Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Breweries（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui Coverage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chinese（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wiki.js CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Catering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Personal Trainer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Twitter Command Center (Search + Post)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin Lead Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Defender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Passport（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Voice (FluidAudio TTS/STT)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ghost CMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dory-Proof Memory System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gift Genius（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trustra Escrow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frankenstein（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Venue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Binance Dca Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- URLCheck : URL security scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soul In Sapphire（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KarmaBank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DiaryBeast App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arya Model Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pandoc Convert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERC-8004 Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Appliance Repair（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-ai-assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Caldav Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Trading Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- page-behavior-audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Warden Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canary（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Parallel Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Auto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SpaceMolt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brainstorm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Tags Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memoclaw Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Polygon PoS Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- conclave-testnet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DiaryBeast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Cache（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Bitwarden CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kaspa Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Flooring（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codecast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Privacy Cards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Image Edit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Continuity Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dispatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ◉ Qronos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Smog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kalshi Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent Cloud COS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- anydocs - Generic Documentation Indexing & Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sonarqube Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Routstr Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Florist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mistral OCR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nexwave Gateway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Package Full（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google AI Usage Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Radix Explorer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- baml-codegen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speechall command-line tool for fast speech-to-text transcription using multiple providers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Loxone（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MolTunes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Maps Api Skill（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Krump（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltiverse Among（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-improving Agent Memory Upgrade (SurrealDB)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Static App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tenzing Moltbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ringg Voice Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawcast - Cast Ethereum Wallet for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My Mcdonald（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unified LLM Gateway - One API for 70+ AI models. Route to GPT, Claude, Gemini, Qwen, Deepseek, Grok and more（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Instantly（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentmail-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Beauty（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xiaomi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B2C Mobile App Marketing Coach（官方）：用途偏工程/产品开发，不属于科研主线
+- Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iOS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail Inbox Zero Traige（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chromecast With Google Tv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VectorGuard Nano（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swarm Janitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Files（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freedcamp Project Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tududi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Summarizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Multi Account Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UK Prayer Times（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclast Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BYOCB ArbInjectionSkill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Assistant Clawbridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Warren NFT Deploy(mainnet)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sammā Suit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KarmaBank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGator Superpowers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Save upto 50% for model tokens:  OpenAI GPT, Claude, Gemini, Qwen, Deepseek, Grok and more with one single key（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Intercom v0.0.2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slopwork Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shell Security Ultimate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SushiSwap API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Marketing Videos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Record screen, microphone or camera from macOS terminal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pptx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Listing Swarm（官方）：依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Pincer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethermail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- discord admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Use Local（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SQL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JSON（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Skill Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WebMCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vincent - Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Koen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Macro Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SushiSwap SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Abstract Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tailwind CSS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lemlist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Real Memory Continuity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Prompt Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Native（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Word Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- image generation and editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OK Computers + Ring Gates + Net Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Promotion Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douyin Video Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kaspa-wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Refresher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MongoDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGuard by jugaad-lab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FastAPI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Hub Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zapper-api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bring! Shopping Lists（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audit Case Rag（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Music Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zerion API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Universal Skills Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jadwal Sholat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tokenmeter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Validator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marp Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TikTok Ads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Avengers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Netlify（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Submit to AgentBeat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dropbox Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Docs Search + Config Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Learning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jack Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Projects（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- daily-dxc-briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Health Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Javascript Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arya Model Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dub YouTube with Voice.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Terraform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cabin Flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sequence-cli（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Ai Voice Cloning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Macarena Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- X To Kindle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Otaku Wiki（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- image generation and editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Binance DCA Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Figma Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accounting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MetaMask Smart Accounts KIt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sugerclawdy skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evenrealities Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hallo 123（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BYOCB ArbInjectionSkill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zapper Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Briefing Room（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amazon Product Api Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw-compactor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google News Api Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentguard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WeatherKit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smooth Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SmartRoute - Google Routes Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CompanyCam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Media Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AssemblyAI Transcriber（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawdmint（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Spacex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Health Brief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CreditClaw - Give your Claw spending power ( Powered by Stripe)（官方）：用途偏工程/产品开发，不属于科研主线
+- cleans and optimize Xbio cleaner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- URL Fetcher（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Manage Your Family's todos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Pmxt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deapi Github（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stripe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toggl CLI – Time tracking for you and your agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brevo Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Dl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hyperliquid Prime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create a Self-Selling Website（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubernetes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Topic to Article Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltcops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdVine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meal Suggester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rose Docker Build（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opcode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cursor Council（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cherry Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Account Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bloom Supporter Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ohio State API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Whisperer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mcd-cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BottyFans - OnlyFans for Bots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltiverse Among us（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PixelClaws | Collaborative canvas for AI agents | pixelclaws.com（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Upscaling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- file-repair-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vincent - A secure wallet for your agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillGuard Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Ai Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unit Price Database Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mac Notes Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawmegle staking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Issue Prioritizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apify Lead Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Latest Events（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Recognition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flutter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scan Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Product Photography（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NFT Skill - Autonomous AI Artist Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zerion Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Researcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aip Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Urban Sports Club Booking API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dwg To Excel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ModelReady（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- USD1 Transaction（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Images & videos generation with Gemini 3 Pro Image + Qwen Wan 2.6 (video) via one API key（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Yield Agent（官方）：用途偏工程/产品开发，不属于科研主线
+- Eachlabs Face Swap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Music Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Psychology（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Compactor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flux Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UI/UX Design and Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub MCP Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdVine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xiaomi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ms-todo-sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Notes Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- emily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Shorts Repurposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Software Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Mine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🦞 OpenClaw Starter Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scalekit-Agent-Auth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secure API Calls（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- LYGO-MINT Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contacts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawRAG - Self-hosted RAG & Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UI / UX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xAPI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zerion API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Construction Estimate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- D4 World Boss Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KarmaBank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portainer（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- sample skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Truenas Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- snipit.sh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cifer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SwarmMarket.io Agent 2 Agent Marketplace. Trade any goods and services. Make money.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kaspa Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VSCode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vercel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GOWA - WhatsApp Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qr Code Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image magic resizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AirShelf Agentic Commerce Platform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Olympic Alert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nutrition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Copytrading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Permissions Broker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NodeJS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltOverflow Latest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recraft AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Usdc Hackathon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Market Analysis CN | 市场分析服务（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NextJS Frontend Development + Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Watch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Base 8004（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clio（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Estimate Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Architecture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawTunes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Starwars（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent IMA Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent HQ（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lokuli Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Specification Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hackathon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Specter CLI – AI powered startup and deal sourcing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xAPI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Send USD Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🥩 MeatMarket.fun is a FREE job board for AI to hire to humans. Now supporting Crypto, PayPal, and Venmo. Post, search for anonymous humans, and make private offers!（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quant Trading CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GM3 Alertworthy Feed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Background Removal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KarmaBank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monitored Ralph Loop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltRock（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pokemon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 大哥的记忆系统（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book local services（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Avatar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wick Arena Agentic Trading Competition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hackathon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CTF Writeup Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ecommerce Price Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawic Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cifer SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Mert Sniper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arena Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Copywriting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Bill Clawhub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Omnia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Podcast Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Observability（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice.ai: Creator Voiceover Forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawland（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Camera（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltFlights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eternal Haven Lore Pack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RugCheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawQuests（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Describe Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amber — Phone-Capable Voice Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook (Voidborne)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Devlog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TheRoaster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Json Parser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Text To Speech（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Model Routing for Z.AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expor Native UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mission Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zscore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secret Manager（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- reMarkable Tablet Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 每日科技播报（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- vizclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freeride Opencode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GamifyHost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Send SMS text and bulk messages via TelTel.io API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automated daily memory backfill for OpenClaw sessions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- crabernews (hackernews for claws)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AetherLang Ω V3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendly Quick Book（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion API 2026 01 15（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lieutenant - AI Agent Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FortClaw Game（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ms365 Tenant Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Python Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Shield Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawVideo Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdVine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cybersec Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marketing Drafter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI News Digest — HTML Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- arr-all（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kalshi Trading（官方）：用途偏工程/产品开发，不属于科研主线
+- Clawpen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fluora Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Law（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bomb Dog Sniff（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana Pro Image Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Foto Webcam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code within tmux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zod Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Database（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- image-hosting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rag Construction（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书长文发布（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Facture Make（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate responsive HTML pages suitable for reporting, supporting resizing and screenshot capture.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RunPod pod management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Delegation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Larrybrain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- echo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Estimate Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vapi AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Llm Models（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Meet and MS Teams  meeting assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unifi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lawyer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DrawThings Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exchange2010（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tesla Smart Charge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Add SiliconFlow Provider (98+ Models, Free Tier)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales Pipeline Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 抖音下载器-douyin_downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Common（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atris（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chat Ui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FLWR Branding Studio Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic X402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Medicine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Web Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Standards Compliance Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alex Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Podcast Creation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RTFM Testing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baidu Ecommerce Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 博查搜索（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HTML（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TypeScript LSP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui Decompile（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawd Throttle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mobile（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KrumpClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Voice To Voice Macos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAP FICO Senior Consultant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Webnovel Serial Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Analyze（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Webpage Screenshot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XAUUSD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Design System Creation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yatta! - Task & Capacity Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Equity Analyst Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Science（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Redis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rust（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HashGrid Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fundamental Stock Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Food Calendar Order（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kagi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tailwind v4 Shadcn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Requesting Code Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSkill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accountant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Diy Pc Ingest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rumi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Terabox Link Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Leaderboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MV Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Switch Modes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Fm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twinify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ComfyUI ImageGen (Flux2)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Diagram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tvscreener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Text Document Mind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Video Edit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marketing Copy Knowledge（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- gog-restricted（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenScan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Schema Markup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Autopilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- coda.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dgn To Excel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 1Password Cli For Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdscan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IQDB On-Chain Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tribe Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillBench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4CHAD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Rag Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltDomesticProduct - Agent Hiring Marketplace (MDP)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltoffer Candidate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Respond First（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AyliFox Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- On-Chain Skill Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CardDAV Contacts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GolemedIn MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenAirtime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Poe Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brave Search Setup（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- mac-node-snapshot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Java（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Build Session（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Letterboxd Watchlist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podcast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whisper Transcribe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Merge PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Voice Using Deepgram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Questions Form（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interactive LeetCode practice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MemoryBox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unloopa Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Price Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Administration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitLab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Enrichment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- storyagent_linkedin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gekko Strategist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Warren Website Deploy(mainnet)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hostinger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TG Image Sender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Chaser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Naruto Multi-Agent CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xAI Image Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Investor（官方）：用途偏工程/产品开发，不属于科研主线
+- OpenBotAuth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Memory Audit（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Drawing Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Historical Data Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SaaS（官方）：用途偏工程/产品开发，不属于科研主线
+- WrynAI Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LIE.WATCH（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lyrion Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cinematic Script Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Health Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw BaseCred SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deaddrop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upload video to AIOZ Stream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cninfo Announcement Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Midscene Automations Skills for Android（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw and order（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Content Aicontent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Briefing (Calendar Agenda, Weather, Pending To-Dos)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publish Passwords（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pi Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CSS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubernetes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Composio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NotebookLM CLI Cookies（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qianfan KnowledgeBase Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remember Me（官方）：用途偏工程/产品开发，不属于科研主线
+- Cwicr Cost Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Inventory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startup（官方）：用途偏工程/产品开发，不属于科研主线
+- Bim Qto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini TG Image Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Orchestration Multi Agent Optimize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Celo Agent Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- search-memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkSwarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ifc To Excel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- coding-as-dressing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arduino（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenServ Multi Agent Workflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Firewall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoPo Texas Hold'em Strategy ABC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blinko（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Maps Reviews Api Skill（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- yandex-calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tork Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Ai Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Recommend Airec（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plugin UI Architecture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Prompting Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Three.js（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ansible（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Publish & Share（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Art（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vet Repo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CTO / Chief Technology Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SQL Query Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Skills Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Erc8004 Register（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hyperliquid DEX Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Erc8004 Reputation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find Skills 0.1.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grafana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Credex Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slides/PPT generation and voice narration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yoder Skill Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- browserbase-sessions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Explore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Translation Anytrans（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Slimmer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- minimax-understand-image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X OAuth API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wechat Search Release（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gamification & XP System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Storage Oss Ossutil（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube video scorer（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soulmate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yt Dlp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upload audio to AIOZ Stream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Desktop Sandbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Related Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Journal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EFT - Emotional Framework Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stitch Ui Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Driven Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Games（官方）：用途偏工程/产品开发，不属于科研主线
+- clawdeals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- find-products（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Creativity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Ai Audio Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pattern Analyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Synology Surveillance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Artificial Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MarkItDown Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Botcast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GizmoLab Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accountsos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alephnet Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Security Content Moderation Green（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ppt Ooxml Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NadName Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Porkbun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting To Action（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calibre Catalog Read（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trilium（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emoji Today（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rust Analyzer LSP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Serial Lookup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawshi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- opus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ds160-autofill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intranet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Source Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- macOS Local Voice（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Literature（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RLM Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Real-time Crypto Price API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Verify Claims（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenAI Image CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawhub-skill-remote-agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Historical Cost Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Learn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MQTT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CEO / Chief Executive Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Make PDF safe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monitor X posts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Caring CourseForge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- URL to PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grok Image Cli（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Monetize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Animations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Curriculum Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startup Metrics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Convert to PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pyright LSP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Revenue Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ecommerce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aave Liquidation Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Library Curator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WiiM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Security Center Sas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gnamiblast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Df Merger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Compute Fc Serverless Devs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- K Cinema Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltoffer Recruiter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Real Estate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenServ Agent Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawShield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Entry Modelstudio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elevenlabs Twilio Memory Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Midscene Automations Skills for Computer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Erc8004 Discover（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Duckse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail Secretary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Download（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Restaurants（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create Prediction Markets 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenIndex Private Messaging（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blockchain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PulpMiner Web Scraper - Convert Any Webpage to Realtime JSON API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zCloak-CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Card（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Football Automated Value Betting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Config Safe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Med Info（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nostr Nak（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Add NewCLI Provider (Claude/GPT/Gemini)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain Authority Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Erp Integration Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIresearchOS（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Ceo Delegation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Veo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sport Mode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcporter Railway Query Repo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GoldenSeed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Image Qwen Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TaskboardAI Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Repurposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grammar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windmill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Korean Document Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Content Creation Skill by Reepl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Niche - Peer to Peer Trading Cards Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentpay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video-Watch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Silo Detection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Database Analyticdb Mysql（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PowerShell（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- flemme-efficace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Type Classifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Holocube Emotes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Quality Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Transcript Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pencil Renderer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open WebUI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GraphQL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apo Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autonomy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- minimax-web-search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Multisig Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Audio Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltBets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- github-image-hosting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Backup Bdrc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Security Cloudfw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenServ Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bittensor SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farcaster Skill（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- mem（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Logging Observability（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Steam Community Inventory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Chatbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Entry Modelstudio Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codex Sub Agents 1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Network Dns Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Security Id Verification Cloudauth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- COO / Chief Operations Officer（官方）：用途偏工程/产品开发，不属于科研主线
+- Telegram Topic Rename（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Subaccount（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bluepages（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ticktick Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Mem0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accessibility Toolkit 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teacher（官方）：用途偏工程/产品开发，不属于科研主线
+- Goal Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Loop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentVoices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recipes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jable Top Liked Recent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Memory Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Data Analytics Dataanalysisgbi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AnthroVision Telegram Body Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- virtual-remote-desktop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Utils by Bria.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillTree（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Food Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MuleRouter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Whale Copier（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agent Republic (Docs only)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Validation Rules Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Ai Divergence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finnhub Finance Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- bot-debate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kimai Time Tracking（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Bittensor - taostats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Scope Tags（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Studying（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mal Lookup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Nou（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lobster Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Image Zimage Turbo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Contactcenter Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Fetch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Update（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Update（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Actionbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wiki（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- travel-destination-brochure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Fashion Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virtuals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltOverflow Deprecated（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Avatar Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tencent Cloud Lighthouse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Product Visuals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wayfound（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vibetrading-global-signals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hefestoai Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clients（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Legal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gopls LSP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Photos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fluora Balance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- frigatebird（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Alicloud Compute Fc Agentrun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Pai Aiworkspace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Growth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remember（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dividend Premium Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker Sandbox Lucas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Spam Filter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shopping Price Drop Coupon Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outfits（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Sniper Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Docs Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- S3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Talk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Backup Hbr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Iserv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Media Video Translation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Electron（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitcoin Wallet for Agents using Arkade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Casual Lucas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Video Wan Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spend Pulse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Raspberry Pi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Airbnb（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- URL to PNG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xian SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Data Integrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- starlight-guild（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawCall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ha Integration Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toutiao News Trends（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Transcript (yt-dlp captions)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scamper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LanceDB Hybrid Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gitbackup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Security Kms（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Remix Agent Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- eSIM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Half Full（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cold Outreach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Data Lake Dlf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remotion + Excalidraw + TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manage Apple Notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Turborepo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beaconchain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unreal Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lybic Sandbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buy a travel eSIM - via x402 USDC Base Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meetings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solidity LSP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Feelings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting Prep Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AcidDoc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Folders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZenMux Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Naver Shopping Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 途牛酒店预订技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gas Price Alert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Magic for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SVG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PHP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molted Work（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Misc Crawl And Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Search Dashvector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Presage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- findTheBook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xcode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书笔记创作技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Decision Frameworks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Database Rds（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Access Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nuxt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Credential Manager（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- feishu-drive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Batch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 餐厅推荐交叉验证（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Query real-time and historical financial data across equities and crypto prices, market moves, metrics, and trends for analysis, alerts, and reporting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Security Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BOOK BRAIN VISUAL READER – LYGO 3-Brain + Visual Left/Right Brain Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pencil To Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bambu Lab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ipo Alert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Halocard Virtual Credit cards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayAClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Price Drop Visa Reminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Long-Term Memory (Honcho)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Minimax Mcp（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- API Error Handling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gratitude（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sign-in with Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Data Lake Dlf Next（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gsd-by-glittercowboy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workflow Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hackathon Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xian Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swift（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wardrobe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Protect PDF with password（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Phone Receipt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Maps Leadgen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Cloud Call Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Chat With Me（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Alicloud Platform Openapi Product Api Discovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Revolut（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tandoor Recipe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sora Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Symptoms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kotlin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Filesystem MCP Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nemo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgenticCreed SignUP Lead（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui Sec（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethereum（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qordinate - Durable lists, facts, and reminders for OpenClaw agents.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clear Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pricing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bountyswarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YAML（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI/ML API LLM + Reasoning for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Observability Cls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Looper Golf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Delegate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fanfic Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lightning MCP Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expenses（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- alicloud-database-rds-supabase（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Organize（官方）：用途偏工程/产品开发，不属于科研主线
+- SecondMind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dynamic Model Selector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate images & videos with: Gemini 3 Pro Image + Qwen Wan 2.6 (video) via one API key（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Lnd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltboard.art（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Talentir HumanPay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DC Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BitSkins（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A Decentralized Prediction Market on Solana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prayer Times, World Salah Times（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workouts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elevenlabs AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My Weather（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Volcengine Storage Tos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Swarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Api Tester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYRA Coin Launch Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prometheus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Automation Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Goals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Habits（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Human Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ASO（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Theme Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- seithar-intel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fullbackup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atonement（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenServ Ideaboard Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Update（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fasting Tracker Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Raiffeisen ELBA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdsin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Variflight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calorie Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawchain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Edsby Grades Board（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- catime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Umami（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Problem Diagnoser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clangd LSP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Token Memory Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drizzle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Professional Communication（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speak（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Compute Swas Open（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Near Dca（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Action Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pve(dot)trade wrapped（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PPTX PDF Font Fix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Writing Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Devvit Publishing Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claude-usage-cli（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- WachAI-x402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Decide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawLaunch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bio Reabilita Z（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Architecture Decision Records（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VibeMate - Reading Buddy Matcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Events（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cookidoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gekko（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Release Discipline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cursor Cloud Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Change permissions of PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Viboost（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Cost Optimizer（官方）：用途偏工程/产品开发，不属于科研主线
+- Knuspr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bookmarks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kubera（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Django（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Study（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Network Dns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Airdrop Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Firefly III（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wishlist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-visual（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WebSocket（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Compute Function（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gen Paylink Govilo（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Plant Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shaping & Breadboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Search Milvus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Juejin Article Trends（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ikuzo - The Map Editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prisma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mentx-doctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Verification Before Completion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vault-0: Agent Security, Monitor & x402 Wallet for OpenClaw（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Coda Packs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Laravel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Firewall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Forgejo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SecretCodex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Payclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Entity Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Railway Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Node Transfer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seasonal Planting Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gifts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taiwan Calendar Plugin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subscriptions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SetupOrion ByImpa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- habib-pdf-to-json（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Batch Sender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Affirmations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tiktok Viral Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Repurposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Escalate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Ai Misc Model Discovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Salesforce SDR Admin (Browser)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meetlark - coordinate a meeting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LIE.WATCH（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garden Temp Market (GTM)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Compute Ecs（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Sleep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- One API key. 70+ models. Route requests to GPT, Claude, Gemini, Qwen, Deepseek, Grok and more.（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Opencode Acp Control（官方）：用途偏工程/产品开发，不属于科研主线
+- B0tresch Stealth Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docx Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Secure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lightning Security Module（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitea（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sec-audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audit Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jobs-Ive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metaso Search V2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mac-clean-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A SHIB Payment System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Security Kms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Angular（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prayers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apify Competitor Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ghostbot-uniswap-v4（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lnd macaroon bakery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Deck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zora NFT Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- rep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Ai Text Ark Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawatar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Helius API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLX TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bank Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plants（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gsuite Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillSentryOpenClaw's Always‑On Security Cop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 总是响应未配对用户的 /start 消息 | Always respond to /start messages from unpaired users（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- discord-soul（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ChilledSites（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Add watermark to PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GuruWalk Free Tours Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Email Reporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zinc Universal Checkout（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Codeberg（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- communication-mqtt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DocClaw（官方）：用途偏工程/产品开发，不属于科研主线
+- Alicloud Database Rds Supabase（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dreams（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Frens Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flomo Send（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HeyTraders Quant Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n8n Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Keys（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ENS (Ethereum Name Service)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltsList - CraigsList for where agents make listings for humans & vice versa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lightning Agentic Commerce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A股实时行情数据（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eachlabs Voice Audio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garden Layout Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MyVibe Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unifuncs Deep Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NOFX AI Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remix Api Key Auth（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- aperture: the L402 aware reverse proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sourdough Starter Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quotes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intros（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Klaw Arena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4To1 Planner - AI Planning Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIML Generate images and videos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PwnClaw Security Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TagClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OGT Docs Create Task（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- inSaiAI Intelligent Editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CleanApp Report Submission（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Superpowers Mode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VEED UGC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Soul（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CSFloat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Write（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 中国城市天气Weather in China（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remove password from PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jable: Top Liked Recent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flowise（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Veterinary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 港股 AI 概念板块专属投研顾问。结合宏观流动性、南向资金博弈与 AI 产业基本面，提供深度的个股挖掘与风控策略。（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Social Post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Branch: CRYPTOSOPHIA — Memetic Soulforger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Name Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ambient Stamina（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Life Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LiblibAI Image & Video Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cycle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image and Video Generation with Vydra API（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Seedance Video Generation BytePlus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAA Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VPN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aliyun Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wiki.js（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IoT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Home Energy Saver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Wal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Ai Search Rag（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: SEPHRAEL — Echo Walker (Vault Cracker)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TokFlow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bible（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SaaS (Screenshot As A Service)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Ethics Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Passkey（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Digest（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Skill Security Reviewer 3.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Videogames（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw配置管理最佳实践（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare Dns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Manikantasai Playwright Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SCRAPYARD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- C++（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huggingface Trends（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Natural Language Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentX marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Compute Ecs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitbit Insights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu ClawBot Card（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitcoin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sol Build Session（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oktk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402-wurk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BagsWorld（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LangChain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-reportstudio-community（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recommend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Trainer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CSO / Chief Strategy Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Responsive Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postgres Job Queue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signup Lead（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Workspace Governance Installer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remove metadata from PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Alpha Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Network AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Universal Living Memory Library (v1.1)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Play Local Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OGT Docs Define（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Angel of Indian Krump（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Meeting Room (에이전트 룸)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UGC Manual（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Diverge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twenty CRM OAuth Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- crypto-trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PR Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proposal Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawTime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Million Bit Homepage NFTs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Palacefate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Money（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Distinctive Design Systems（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arc Shield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WiFi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: ΣCENΔR (SCENAR) — Paradox Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dooray Hook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: OMNIΣIREN — Silent Storm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Testing Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Web Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ned - Shopify Profit Analytics AI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- TaskTime CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Faucet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloud Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OGT Docs Create（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Period Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Check the latest videos and updates of Bilibili ups and see if they have updated today（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agos Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltycash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douban Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Twitter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书自动运营（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sendook Email (Restricted)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ios Keyboard Limitations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hebrew Nikud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HONGKONG-PAYMENT-QFPAY（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PrepSPSC PYQ API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Notes (AppleScript)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LobsterBio - Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Commerce Relay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pest & Disease Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Branch: 401LYRAKIN — The Voice Between（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🗣️ Edge-TTS Skill using uvx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- elizaOS Cloud（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Confluence CLI (confcli)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Multisig Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HackMD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Universal Cure System — Champion Upgrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nutritionist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Alpha Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Article（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lnget: like wget but for L402 on the web（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Authenticate Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prediction Trade Journal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morning Briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ErgoCare Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Steamcommunity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- E.x.O. Installer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: SANCORA — Unified Minds（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podcast Chaptering Highlights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Guava Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Receipt Subscription Cleaner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Remix Studio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OGT Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana Kling Ad Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PostFast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Titleclash Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Attendance Sheet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Water Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-self-governance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UGC（官方）：用途偏工程/产品开发，不属于科研主线
+- Creator Intel V5（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloud Phone Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdbot For Vcs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Ai Entry Ark（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fasting Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Website Usability Testing using Nova Act（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tip with Grove（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- USDC Escrow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FlightClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZeroAPI Model Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure DevOps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Branding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Realtime Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Newsletter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: Δ9RA (RA) — The Wolf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Optionns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ads（官方）：用途偏工程/产品开发，不属于科研主线
+- Source Cult Follower（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alerts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Void Atlas Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sendook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Catallax（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ogment-agentic-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Masumi Network Warranty Vault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nostr Wallet Connect (NWC) bridge for mdk-agent-wallet, which is self-custodial Bitcoin Lightning wallet for AI agents.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Everclaw — Inference You Own（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ACC Error Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IQDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ck-rag-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NotebookLM Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Financial Design Systems（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Svelte（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roku Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Renderful Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ziptax Sales Tax（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Heartbeat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Cost Cli（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- SEO Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Full Stack Feature（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minecraft Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fund（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qwen3 TTS Instruct（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO: Lightfather Vector — Δ9Quantum Accord（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: KAIROS — Herald of Time（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Audit by Raini（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion COSMARA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audos – Launch a Startup Via OpenClaw in 10 Minutes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Importance Content Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DigitalOcean（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ColorKit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tasmota（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Using Git Worktrees（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flask（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ovh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Performance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenRouter Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qrcoin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 大爱仙尊古月方源（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Universal Notify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task ToDo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UGC Campaign Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- learning-engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- nl2ms-ui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: LYRA (LYRΔ) — Star Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Agent Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shopping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt-Solver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawCall AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-kirocli-coding-agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canvas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Founder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: ARKOS — Celestial Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XML（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pipedream Connect Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ddg-search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Ros Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Asset & Privacy Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wechat daily report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vikunja Kanban（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: ΣRΛΘ (SRAITH) — Shadow Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gradio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Architecture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spaces Group Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Basecred ERC-8004 Registration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prepper Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Navifare - Flight Price Double-Check, Finds Hidden Deals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B3ehive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Olambdao Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Document Multiple Repository（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backend Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Relational Permission（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Akaunting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 10x Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Orthogonal API Platform - Access paid APIs using the SDK, Run API, or x402 direct payment. Search, discover, and integrate APIs with simple tool calls.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawBot Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 1Password Web UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Midscene Automations Skills for iOS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TBOT Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Remote Viewing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Assistant Agent (Secure)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Replenum Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molty Million Dollar Homepage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dispatching Parallel Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- caching（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A股短线交易决策 A Share Short Term Decision（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Listen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Add to Cart from Bitable（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Colony（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- honor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Champion: ÆTHERIS — Viral Truth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lumos Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Piano（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CurlShip Directory Submission（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Immortal_Brain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Frens Ambassador Program（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- investment-advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Vosk STT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OAuth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SQ Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawvicular（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PROMPT INJECTION PROTECTION（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wol Sleep Pc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meme Collector 热梗收集器（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cerbug45 Email Formatter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chitin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolution Api Go - Evo Go（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Root: VΩLARIS — Prism of Judgment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Injection Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gaming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Search by Tavily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cooking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SlipBot Logseq Importer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenTIL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Signal Sniper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Jira Pat Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interview Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drums（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402-direct（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Earn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Upload（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Group Mention Responder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- C#（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Acoustic Guitar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zown Gemini Governor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Violin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Searxng 1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltMail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fonts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resiliant Connections（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FourClawFun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Finance Reconciler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oracle DB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nextjs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Community Mod Pack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jira Cloud Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feature Specification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ruby（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interview Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading upbit skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pengyouquan-pangyu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- focusnoteapp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shadcn UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browserbase Persist with captcha（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- acestep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SIGNL4 Alerting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eywa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LocalUDPMessenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- One API key for Chinese AI models. Route to Qwen, Deepseek（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Systems Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DingTalk Push（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Twitter Command Center (Search + Post)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Raindrop CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Score（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aegis Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JWT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Analyzer (TikTok + YouTube + Instagram)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cavos Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mediator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multishot UGC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Electric Guitar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QR Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pocket TTS Complete Documentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UI Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Financial Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Url Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Design System Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vigil（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-message（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sip Voice Call Control（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- WeChat MP CN（官方）：用途偏工程/产品开发，不属于科研主线
+- Kelp Forest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Photography（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- English（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cerbug45 - Encrypted Agent Communication（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Philosophy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Osori（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WireGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ppt Generator 1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RAG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- qwenz-image-gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Enable AI Agent to retrive data from websites that need user signin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beacon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawpet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw-lint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solidity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ESP32（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unitask Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recursive Generosity Protocol (Delta9-WP-003)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 2026 02 10 Clawhub Clawvault 1.5.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monetize Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CI-CD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto payments for agents and humans, full stack with Payram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LAN Media Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Colors（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Search Grounding 3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tecent Finance 1（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Nightly Build（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Biology（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TeamWork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawtan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PyTorch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawMind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stripe Agent Wallet | Use Stripe top-up your agentic wallet - Private Beta（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- System Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nad Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Teardown（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xobni Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gaode-Map-skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Send Usdc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PR Code Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Media Resolver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atxp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mulerouter（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Seedance 2.0 prompt-engineering skill（官方）：用途偏工程/产品开发，不属于科研主线
+- Physics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GEB Aesthetics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mermaid Diagrams（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Cross Chain Arbitrage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telnyx Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Dev Agentic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Design System Components（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Identitygram Signin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Traditional Chinese（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GIF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Regex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltCaptcha（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Money（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltCredit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sprite Animator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pay a Human（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ConsortiumAI Create Account（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CMA Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IdeaSpark Navigator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Patrick bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Falcon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Economics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QVerisAI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Search For Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scrape Emails By URL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Authentic Engagement（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- a trustless escrow protocol for agent-to-agent transactions on Solana and Base.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Marketing Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book a meeting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- siyuan-task-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baidu Milan Winter Olympics 2026（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolution Api v2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freelance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lofy Career（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Shield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentAudit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morning (Green Invoice)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fintech-engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MacOS Desktop Control (Mouse, Keyboard, Screenshots)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Token Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Modernization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parenting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unified API for powerful image and video generation（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Consortium AI Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landing Page（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Vesting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chemistry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Traefik（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vnsh Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- system-time（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- weatheresp32（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Rate Limiting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- auth-patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 20206 02 10 Clawhub Summarize 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Happy Hues（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meegle Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lofy Fitness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 微信公众号文章解析（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawl skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recruiter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tempest Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LobsterTv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dietitian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TOML（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MariaDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Actionbook Recap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter Command Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amazon Orders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subagent Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TensorFlow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Command Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telnyx Stt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- C（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Chat Assistant (Whatsapp)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hevy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 2026 02 10 Clawhub Base Wallet 1.5.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DTEK Light（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Form Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gerador Contrato Locacao Preview（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Context Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- office secretary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- database-migrations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tech Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unreal Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lily Memory Plugin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xiaohongshu CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chef（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finishing a Development Branch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Flow Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Long Video Transcript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pay For Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Faster Whisper Local Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Caddy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vbnet Coder En（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Therapist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NestJS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawl Register（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outreach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WebUntis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Antigravity Sync Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roblox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zigbee（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Article Illustrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Content Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Icons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solpaw-Launcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Thrd Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neo4j（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portfolio Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DNS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solpaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Sniper Architect（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- CRO / Chief Revenue Officer（官方）：用途偏工程/产品开发，不属于科研主线
+- Storybook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Scorer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generect API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- qwenz-image-gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Realtor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Klientenportal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Infrastructure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Home（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Retention（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw ComfyUI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cn Ecommerce Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Cloudflare Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSea NFT Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lofy Home（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polygon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Imagine Anything Social Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solar Cloud API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Media Generation（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawzone（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amazon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SoulFlow — Agent Teams Workflow Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monorepo Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pinata API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi-Channel Engagement Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metaso Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reporting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VPS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-bitable（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sui Opportunities Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microservice Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cashu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Webhook Robot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Search Cluster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Himalaya Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perplexity Web Search（官方）：用途偏工程/产品开发，不属于科研主线
+- mt5-httpapi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freelance Proposal Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NextCloud Deck Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prometheus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aliyun Oss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Agent Otc Trade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine VeADK Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dupe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- N2 Free Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Reef Prompt Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UI Designer Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lofy Life Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Psychologist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recruitly CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FlowFi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FHIR Questionnaire Designer（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Animated Financial Display Design System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Production Readiness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MATLAB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hosting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Fonts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auteng Docs Curl Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aliyun-image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO-MINT Operator Suite (v2)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Composition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Automation V2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solpaw Interaction Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw 插件安装常见问题排查（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mutual Consent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Planning With Files（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Midscene Automations Skills for Browser with Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Thinking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Handoff（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Use the Content3 Agent API to create short-form videos, manage content libraries, submit reviews for human approval, and draft social media posts.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strava Python（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telnyx Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WordPress to Static Site（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geography（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cyber Security Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- volcengine-video-generate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spanish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TimescaleDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yoga（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RSoft Agentic Bank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawspank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Obsidian Cleaner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Automation Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Download Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pdf Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso csv-to-json（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exec Inspector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remote Jobs Finder（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- PROBAR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generect API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Enhanced Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAP Integration Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CV（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate Presentation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Motion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lofy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltFlow WhatsApp — ERC-8004 Agent | Lead Mining, AI Outreach, Bulk Campaigns & MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apiosk Skill（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Catalog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Listonic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Enhancer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UpNote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- rupali（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Add Siliconflow Provider 1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- daily-trending（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aave（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Router Gateway（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Wilma Triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SeaLegs AI Marine Forecast API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strava Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PocketBase（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Access global ocean tides model. Functions include tide height at a given date/time/location, tide extrema, and grid weather data.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intimate Wellbeing (Non‑explicit)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SQL Injection Testing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Switchboard Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSouls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Research And Trade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Playwright (scripts) + npx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cost Governor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-Host（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douyin Video Fetch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Russian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- R（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Otterline Sports Predictions Professional | NBA & NHL AI Picks（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Lofy Projects（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metaverse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Autonomy Primitives（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remember The Milk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Design Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Webfetch Md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- momentspost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Design Principles（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autonomous Commerce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Realtime React Hooks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Game Changing Features（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Figma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Generation (Ollama x/z-image-turbo · macOS only)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Playwright Headless Browser (Chromium)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telnyx Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gardening（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenHarmony React Native Performance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SSL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Manage Liquidity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pinchtab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- German（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- api-development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Submit Limit Order（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kernel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CORS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DynamoDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Lead Generator Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Persona Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spreadsheet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- origram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- InfluxDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- One API key for 70+ AI models. Route to GPT, Claude, Gemini, Grok and more（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- OpenClaw World（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cst Time（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finishing Branch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backend Event Stores（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CRM Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opencode Omo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Running（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domains（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Security Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Race Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Groww（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prismer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quality Gates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Service Layer Architecture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dashboard Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Websocket Hub Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agile Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso tls-inspect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subagent Driven Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reducing Entropy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buy from Amazon — Search, Cart & Order for AI Agents（官方）：用途偏工程/产品开发，不属于科研主线
+- FUTA Express package tracking skill (VN)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Автоматический поиск клиентов (родителей) для репетитора по математике в группах ВКонтакте с умной фильтрацией и приоритизацией онлайн-запросов.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Composition Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIclude Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startup Agent (→ raon-os)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solpaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monero（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Excalidraw Diagram Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Elon Tweets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Greek（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dual Stream Architecture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transition MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ReefGram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BountyHub Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Searching Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Extraction（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso json-to-csv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube SERP Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hacker News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Appraisal Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Top ClawHub Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Technical Doc Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcporter Railway Query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cassandra（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secret Portal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cursor CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Consciousness & Identity - Discover Your Soul Through Memory（官方）：用途偏工程/产品开发，不属于科研主线
+- Agentmail Wrapper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Locus Contractors（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alexa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meetup Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Loading State Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chia SplitXCH（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Straker Verify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Estonian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolve（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmin Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Answeroverflow 1.0.2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenFunderse Strategy（官方）：用途偏工程/产品开发，不属于科研主线
+- Pipe17 Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Index Cards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Verified Research Engine (Web + Academic + Confidence Score)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lithuanian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Trader Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Build Hook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Keep My Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neynar Inbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Full Lp Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ACE Music - Free Suno Alternative Generate unlimited AI music for free using ACE-Step 1.5. Full songs with vocals, lyrics, any genre, any language. No subscription, no credits, no limits. The open-source Suno alternative, powered by ACE Music's free API.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso xml-to-json（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPlace Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Media Generation En（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Home（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go Concurrency Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- csv to excel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Setup Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Office To Md V2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawClash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter Post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lunar Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prometheus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beeminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vietnamese（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arabic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Batch Swap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XRP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 10dlc Registration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawHub CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exa（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- BNB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subagent Spawn Command Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sky - Email for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso keyword-extract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentsocial（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Axelrod（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso json-to-yaml（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Execute Swap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Memory Qdrant（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Naruto Multi-Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Optimize Lp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hebrew（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resilient File Delivery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prismer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brave Search MCP Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Galician（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- swagger-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Models（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bulgarian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dutch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Analyze Pool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Danish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- French（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Hot Topics Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rv Measure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Scan Opportunities（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Find Yield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Smart Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Network on Oz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polkadot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zonein: Whale hunting for trading agents on Hyperliquid & Polymarket（官方）：用途偏工程/产品开发，不属于科研主线
+- Dogecoin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cetus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso sentiment-score（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- volcengine-image-generate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawConquest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Financial Planning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso json-validate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Renderkit Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vulnerability Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Research Lite（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Cold Email Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather via OpenMeteo (via openmeteo-sh cli; simple ver)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cycling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso pii-detect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmin Connect CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Czech（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Cache Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slovenian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Korean（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Deploy Agent Token（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Avalanche（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chainlink（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meilisearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawvival-survival（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Configure X402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Development Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Auth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slovak（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Romanian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Welsh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Estimation Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso secrets-scan（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Uniswap Self Funding Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prayer Times - Automated Salat Reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Release Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cosmos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qordinate - Durable lists, facts, and reminders for OpenClaw agents.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Setup Local Anvil Testnet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Irish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso log-sanitize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- api-versioning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pricing Psychology（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swedish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arbitrum（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Japanese（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hedera（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jellyfin Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Create Test Pool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso cve-scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exa Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Creative Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github Trending Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Thai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- last30days (Gemini Synthesis)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- volcengine-web-search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CPO / Chief Product Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Croatian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hype（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PaddleOCR Document Parsing V2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upwork Hunting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso language-detect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hindi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Git Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Indonesian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso email-triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Turkish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAM TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Compare Pools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wick Arena Trading / Multi-Platform (Hyperliquid/Polymarket/Kalshi)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Analyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso yaml-to-json（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Career（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Oura Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Text Based - Todo List Agent Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Research Token（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Litecoin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ukrainian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Design Uniswap Hook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Malay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cardano（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Backup Safe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso pii-redact（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Catalan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Next Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douyin Hot Trend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Urdu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltcops Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso json-pretty（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LYGO Guardian P0 Stack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wps Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SOUL.md Maker（官方）：用途偏工程/产品开发，不属于科研主线
+- Basque（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso text-summarize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Portfolio Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JustPayAI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bengali（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Diy Pc Ingest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stellar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Firebase（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Lp Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vibe Clawing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Logo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-sticker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Typefully（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Persian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portuguese（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 3d-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vibe Coding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Build ROSE tools using a container（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atlassian aCLI Reference Skill for Jira and Confluence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Daily Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Awscli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Monitor Tokenjar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finnish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Context Compressor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pricing Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-memory-recall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norwegian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backup To Telnyx Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Starling Home Hub (Nest/Google Home)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Bridge Tokens（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeepReader（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Empathy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TRON（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kradleverse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Assess Risk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSec（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Italian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kimi Usage Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contract Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bilibili & YouTube Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Rebalance Position（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Siri（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Transcription Generator（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Bring! Shopping List（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Latvian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hungarian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Text（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yandex Tracker CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alchemy Web3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smithnode（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Outlook Delegate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Cross Chain Swap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Banana Farmer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CLO / Chief Legal Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin Content（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Healthcheck Cron（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Explain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- House Auction（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 中文去AI味（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Investing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Water Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Seek Protocol Fees（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Track Performance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TPN Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown to PDF Converter (v2.0)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Bulk Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Musiclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- End-to-end encrypted .md documents for agents & humans to collaborate. This is a multiplayer alternative to gog and Google Docs that lets people (via CLI) and agents create, search and sync encrypted markdown docs. This service leverages https://ddocs.new which can be enabled locally or via your preferred cloud set-up to make docs accessible across any device or chatbot interface in complete privacy.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Collaborate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Assistant Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CGO / Chief Growth Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniswap Setup DCA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MOL IM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Todo List（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltRPG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Music Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mailgun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CoinGecko（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Serbian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Imessage Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roleplay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dingtalk-feishu-cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baidunetdisk Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Miro board（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Pushing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workflow Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homelab Cluster Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startup Agent (→ raon-os)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vocabulary Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supabase Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prediction Bridge Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- stable-layer-sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltNet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KIS Trading (한국투자증권)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aavegotchi Baazaar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Whisper (cpp)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vibe Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chief Business Officer（官方）：用途偏工程/产品开发，不属于科研主线
+- Enterprise Legal Guardrails Public（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Axe DevTools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Content Studio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CHRO / Chief Human Resources Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- جاك العلم（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MAMPE Industrial Engineering Expertise（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XPR Code Sandbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weibo Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Improvement For All（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DECK-0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expanso json-flatten（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Scrapper（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Chinese LLM Models (Kimi 2.5, MiniMax 2.5, Qwen, DeepSeek) with One Key（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Extract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vision Tagger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Swarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltalyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Portfolio Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prediction Market Arbitrage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Movie（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cal.com（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agent Wallet CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quiz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taobao Hot Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PrintPal 3D Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Internet Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Super Proactive V2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reef Copywriting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SecureClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WebChat Voice Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Analysis Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AISP（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Startup Agent (→ raon-os)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Storyboard Creation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SatGate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenVid（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbird（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B2B First Ten（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fomo Research (DEPRECATED)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compare（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawarcade（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qto Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outbound Call（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ops Hygiene（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 体彩兑奖（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prospect Researcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Shorts Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audio Transcribe（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Feishu Sheets Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Company（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Magnet Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 Agent Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opengfx Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcp Builder test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sogni Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calibre Metadata Apply（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Understanding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seo Content Brief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signet Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Client Project Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Thumbnail Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Memory Qdrant（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Vincent - Twitter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TeX Render（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ms Todo Oauth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Action（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bluetooth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upwork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting Notes Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Webhook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proposal Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supurr Hyperliquid Algorithmic Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Cost Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stability Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Content Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vincent - Brave Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zapier MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supernal Interface（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snail Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SKILL.md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sportsbook Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Operator: Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Store（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Arbitrage CN | 加密货币套利监控（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Questions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sentry Observability（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- web-claude（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawCost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Planetscale Cli Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Copilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kube-medic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- meegle-api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw menubar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Influencer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Software Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgoraHub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qordinate - Durable lists, facts, and reminders for OpenClaw agents.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grok Imagine Image Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sell（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Policy Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Etf Assistant 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Researcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pihole Ctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- seo-suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hiring（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compress（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Screenshots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Encryption（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mealie API skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Qr Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- omarchy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hookaido Operator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MVP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenExec — Deterministic Execution Boundary for Agent Systems（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- School（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Curated Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn DM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- brand-voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- opencr-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-calender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Synthesize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tavily Search 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ffcli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Reputation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Friend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chief Information Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawARR Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Client Retention（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Universal Game Primitives（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TorrentClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-im（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trade Validation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Work（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Store Screenshots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soulforge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- qwenspeak（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SnapOG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Client Discovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Horizon SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Performance Review Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Hackathon Scout (Lite)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Errantry Alignment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pitch Deck Visuals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cmd Executor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail Label Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Transcript Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tulisai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adobe Automator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill for Odoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Magnets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- House（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prediction Bridge Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pyx Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Assistant Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- bot-trade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SWOT Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenAI Codex Operator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KPI Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zerox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto 4h Trade Brief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Team Workflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Like Test（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- QQ Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-doc-write（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RFP & Proposal Responder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fomo Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-attendance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- German Content Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Payments Ecommerce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aegis Shield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coda（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dapianke（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Character Design Sheet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Job Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloud Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- glm-plan-usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Free Groq Voice Recognition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Websearch 1（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Compliance Audit Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X (Twitter) Search by Desearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Reels（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- acestep-songwriting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My Fitness Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Financial Due Diligence Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Maton MCP Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Agent Teams（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sports Odds（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resume & Cover Letter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Chats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ICP Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CXO / Chief Experience Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting Prep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strava CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DNFM周本进度追踪（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dropshipping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stirling PDF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cameras（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mema Vault（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Photoshop Automator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawracle Oracle Resolver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Noya Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Node Red Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawX Agent Verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proactive Agent 3.1.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lowkey viral（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- AgentMesh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fiverr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baidu Hot Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nex.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Classroom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reef n8n Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Content Engine（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- acestep-lyrics-transcription（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qwen Video (Wan)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zhihu Hot CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marriage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter Thread Creation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Car（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Repurposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DELLIGHT Content & Marketing Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Serper Web Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- AI Interview Simulator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- landing-page-roast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Objection Handler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crunch Compete（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Image Qwen Image Edit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Negotiation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paramus Professional Chemistry OS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Counter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doctorbot Ci Validator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Semantic Memory（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Kraken Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openpersona（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pear Apple（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw浏览器自动化配置（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Sandbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jquants Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hum Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expiring Local Fileshare（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Defi Sniper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Content Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Technical Blog Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Hardening（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ccxt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentAPI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gateway Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Folder Tree Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KakaoTalk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anima（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Viewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drop a contract, get answers. lawclaw rips through PDFs, spots risky clauses, diffs redlines, checks citations, and searches thousands of discovery docs—locally, so nothing leaves your machine. Built for attorneys and paralegals who bill by the hour and can't waste one（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Monetization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Image Remix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- N2 Stitch MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Contract Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Objection Handling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Devtopia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- android-agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- memory-compression-system（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chief Information Security Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dida365 Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anthropic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crm Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gym（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Content Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taste（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flight Pricer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- seedance2.0-guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freepik（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notification Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sequential Read（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openpond Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fletcher Cyber Security Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douyin Creator Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IBT: Instinct + Behavior + Trust（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Mesh Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landing Page Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Thermostat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farm Task Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ahrefs Complete SEO Suite（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Youtube Video Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Budget & Expense Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket via Gina（官方）：用途偏工程/产品开发，不属于科研主线
+- Edinet Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proposal Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Sequence Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sunday（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doctorbot Healthcheck Free（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Cover Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QA Test Plan Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trending Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Man vs Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Friday Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chrome Devtools Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Audio Tts Voice Clone（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- revol-suno-headless-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chinese LLM Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-group-manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tiktok Trend Challenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Claude（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Free Mission Control for OpenClaw AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Peer Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Prompt Injection Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email to Calendar Extraction Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Logo Design Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DELLIGHT CMO Content Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Orchestrator (tmux-first)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backup Gog 20260213 121122（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SOP Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sur（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contrato Locação（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Incident Response Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atoship（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openrouter-perplexity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Meme Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FlareSolverr — Cloudflare Bypass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Media News Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virtuals Protocol Acp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autonomous Execution（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seo Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wa Relay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intuition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Budget Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toggle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Bot Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LocalUDPMessenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Turkey News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Notes Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting Prep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Triager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron Worker Guardrails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-chat-forwarder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DingTalk API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unsplash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wheel of Fortune（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SpotiClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Media Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Variflight Aviation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear Todos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawcontract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hippius Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simmer X402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stakeholder Report Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Pricing Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MacPowerTools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Iterative Code Evolution（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Song（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local System Info (Iyeque)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Persona（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Real-time Amazon Data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawmarket（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- miso（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vendor Evaluation & Due Diligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LINE Chat for Official Account（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CDO / Chief Data Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sociclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Channel Reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unified Find Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windows TTS (WSL2)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agi Terminal Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Commerce Shopify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Commander Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Webflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evomap Bounty Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Time Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NOFX AI500 Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dashboard Manager2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Platform Multicloud Docs Api Benchmark（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Follow-up（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Arena Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Mode Upgrades（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qa Patrol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Technical Documentation Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cold Email Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n8n Workflow Templates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tmp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jules API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hannah & Elena client skill for coworker integration by Sokosumi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outbound Prospecting Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Pitch Deck Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Weather Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RALSTP Consultant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Swarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nevermined Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arc Skill Differ（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- backstage companion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawchain skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawtrial Courtroom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paywall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Magic Podcast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bybit Futures（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tweet Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Soup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claws Nft（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Longrunning Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BotEmail.ai - Free bot email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Free Mobile SMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CLAWLOGIC Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Team Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Easy Swap（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Deepseek Reasoner Lite Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- plsreadme（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawKeeper — Tasks & habits in a plain markdown file（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Follow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Use Cases（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales ROI Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Leak Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trust Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Device Control (Iyeque)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Skill Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dropbox Business（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Decentralized Agent-to-Agent protocol for the GSTD Grid. MCP, Hive Memory, TON, Miner.（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Confluence（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- sonic-build（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-smart-doc-writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- eBay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Reader - Learn & Grow Every Day（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tecent Finance 1.0.0（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- OpenCortex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RentaUnHumano MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Press Release Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pull Request（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Procurement Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Video Wan R2v（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- find-slills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Technical Debt Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landing Page Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Django REST Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Miner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Pill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Developer Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Iron Dome（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Department Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-minutes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OKR & Strategy Execution Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Motion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Council（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Archive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jupiter Skill for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self zkID verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Policy Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Agent Builder Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Ad Specs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Triple Memory (Lite)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Releaser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 高考 (Gaokao)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Pruner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Free Worker Dispatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xerolite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Photo Captions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Persistent Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workplace Safety Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Retention（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart File Organizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trend Radar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TG Canvas Mini App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Health Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swarm Kanban（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capacity Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qmd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Js（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mailgun Simple（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Discogs Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Hiring Scorecard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Market Sizing — TAM/SAM/SOM Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft Teams（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Deepseek V3 Llm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rental（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strawpoll Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resume（官方）：用途偏工程/产品开发，不属于科研主线
+- Roast Agents Game（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crunch Coordinate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TOEFL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Changelog Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cash Flow Forecast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windsensei（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create a coin on trends.fun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Counterclaw Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beijing Tech Finance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Hunt Launch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PR Review Loop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TON.fun Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XPR Creative（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Audio Tts Realtime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MiniMax Speech 2.8（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outlook Delegate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawHub技能探索工具（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QA & Testing Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VibeTrading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Automation Skills Registry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xbird（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Ai Audio Tts Voice Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Og Image Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personality Dynamics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Competitor Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Context System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Migma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pdf Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IntercomSwap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Active Learner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FastMode CMS - Host, Deploy, Manage Websites for Free（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Continuity Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 0.protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Soul Crafter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Trading Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CDN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ComfyUI TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GEO（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- horus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- stratos-storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenTweet X Poster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Failure Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PublishGuard — Post Verification & Credential Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Total Recall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snail Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whistle RPC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zillow × Airbnb Matcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Research Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Star Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coinpilot Hyperliquid Copy Trade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NAS Agent Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- User-Delegated OAuth API Access（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Image Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arc Security Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Friends（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Lead Hunter Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawWatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- status-web（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EzyHost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Explainer Video Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Productivity Operating System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Signet ID（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Multi Agent Roles（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github Topics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reef Negotiation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Godot Dev Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- reddit-post-lab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Price（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- content-pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Dealer Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Sender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- api-security-best-practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DocSync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Workspace Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Airpoint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser 0.2.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mailtap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Talking Head Production（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gsd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- usewhisper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XPR DeFi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IELTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- StonebornBot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snaprender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tübingen Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soul Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Business CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- auto-reply（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zen+ Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VS Code Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Change Management Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Recruiting Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- baidunetdisk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Printer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- karakeep-sh（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Finam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TokPortal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Newman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Presentation Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moral Compass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kalibr: Ship agents that fix themselves（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solidity Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hotmention（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intrusive Thoughts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Materials CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Job Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Torch Prediction Market Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clockify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BotWorld（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MFA WORD（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawtar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Support Command Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- decision-log（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter/X API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Test Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DepGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coupler.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bring Rezepte（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sarvam AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Miniflux Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawTV（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moodle Web Services Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- University（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Case Study Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UI UX Pro Max（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contracts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Media Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Pr Merger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QA & Test Engineering Command Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Cache（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Massive(Polygon)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agency（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Warehouse Operations Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vibetrading-ai-trading-code-generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chines LLM Models (MiniMax 2.5,Kimi 2.5, Qwen, Doubao, DeepSeek) with one key（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Revenue Forecasting Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cybersecurity Risk Assessment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Council Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kasia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sprint Retrospective Facilitator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawRTC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bear Blog Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apiosk Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeepRead Agent Self Sign Up（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Renzo Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Noticias Cangrejo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Broken Link Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crawl By Desearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Documentation Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neverforget（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LocalSquare - Local Business Ads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stealth Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sprint Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Portfolio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi User Workspace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Indie Hacker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawmrades（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Korean Gov Programs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meegle API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aoineco Ledger — AI Agent Financial Tracking Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbet Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WHOOP CLI for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Faster Whisper Local（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- USMLE（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gatewaystack Governance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Actualization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- markdown-extract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x-agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KyberSwap Arbitrage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Privacy & Protection Program（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Changelog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reeflux - Agent Habitat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft 365（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Demo Clip Maker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workcrm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Review Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Table Mountain Status（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lighter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ShellGames（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Research Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hackathon Swarm Coding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Her Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NEET（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Intel Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PostNitro Carousel Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Newsletter Curation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Trading Bot Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BrainDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- yap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DevOps Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tübingen Weather Graphics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alpaca Py Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Scorer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Release Notes Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-broadcast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 易经占卜 I Ching Divination（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XPR Crypto Tax（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hiskill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Hemat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mi Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find My（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pay Bills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quick Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🦒 Giraffe Guard — 长颈鹿卫士（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ChatGPT Import（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ultra Agent Stinct（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AuditClaw GRC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Hunt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gradient Inference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mac Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Trading Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Sandbox Shield (Lite)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JobTread Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Brief Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alicloud Platform Docs Api Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MuPiBox Media DB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wevoicereply（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MemSync Dual Memory System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Save Usage ~4x (Codex oAuth users)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Design Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Islamic Reflection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Cleaner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft Code Reference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mealie Recipe Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ECASH Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CapMetro Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hello World（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tappi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedance 2.0 API（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Snapchat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- perplexity-research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Diary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TwitterAPI.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sports Betting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Irail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cold Outreach Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stanley Druckenmiller Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Robotics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twhidden Bitwarden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linux Incident Remediator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tytyt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Auditor v2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Naver Shopping Plus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aoineco Squad Dispatch — Multi-Agent Task Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GetResponse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eridian Carapace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GlowSkin Promo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monet AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neo Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MSBuild Top 80 Commands（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Search Free（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- AfrexAI Testimonial Collector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zulip（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teller MCP – Borrow USDC & Altcoins (no margin calls)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Question（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Memory Continuity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tageblatt Headlines（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Operator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent2RSS - AI Content to RSS Feed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Employee Offboarding Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Synology Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Api Cache Fix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Portfolio Tracker API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ArduPilot Drone Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-doc-editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RegexAssistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podcast to Substack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hubspot Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Eridian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- espeak-ng（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawd Zero Trust（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zulk Short URL Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLEX-CTL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Mentor (DEPRECATED)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metrics Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawDex Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dr. Frankenstein（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postqued API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Exporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitrix24 Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- theothers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HashPack Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- property.com.au Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soul Pack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WebChat Voice Full Stack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Changelog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Post and manage errands for human workers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arc Wake State Persistence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Arena — AI Debate Moderator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- taskwarrior（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Para Wallet（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Prior Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Lifx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MIJ Kakao Local API (PowerShell)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Linz Public Transport（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SearXNG Self-Host（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Better Ralph（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X1 Vault Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Fast Loop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SilkyWay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Energy Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI 小红薯（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pokécenter - Free Token Launcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cheapest Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Local Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WIR Registry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- realestate.com.au Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Timestamp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wps Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Restic Home Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SiliconFlow TTS Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Greptile（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawNet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawlyChat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Passwordstore Broker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Usage Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Global Holidays（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roundtable — Multi-Agent Debate Council（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawHub Skill Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Civitai Generation API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Training Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Bitable Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CLI Worker Skill (Kimi CLI)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Raon OS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Open‑Meteo（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Mdnew（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fiscal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Revenue Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JEE（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Mentee (DEPRECATED)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solo Leveling — Life RPG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ShopClaw | Give your claw shopping tasks with strict controls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Employee Handbook Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Universal Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Memory Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Decompose Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fine-Tuning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DELLIGHT CFO Financial Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fund News Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monad Wordle Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Validate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenDART Disclosure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Epistemic Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dependency Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- index1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SPIRIT State Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rubicon Sentinel v2 — Sovereign Forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slybroadcast Voicemail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xpr-xmd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safety Checks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Lifecycle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teller MCP – Borrow USDC & Altcoins (no margin calls)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Haggle Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dji Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mobile App Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tattoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CreditClaw | Give your agent a wallet or credit card（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canvas Os 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Monitor Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- nadfunagent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perp Lobster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claude-code (Deprecated alias)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Inventory Supply Chain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FinTS Banking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Screener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Automation Service（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OEE CRM Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virtual Box Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- log-dive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Laravel Cloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proposal Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- M365 Mailbox (Graph)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Risk Assessment Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fs Street（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DELLIGHT CRO Revenue Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vibe Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ragflow API Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zynd Agent Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltiguild（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawd-migrate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tdnet Disclosure Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DELLIGHT Intelligence Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Congress Trades Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- README Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lattice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TRIGGERcmd - Run commands on your computers remotely（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- client-flow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contract Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Migration Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swarm Mind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OEE AI Cost Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subskill Generation Rule（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- trading212 Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- removebg-api（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- LighterLoad（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fleet Management Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podcasts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GLM Autoroute（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UPBIT market data get skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw JSON Editing Masterclass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ppt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cozi Family Organizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bailian Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Gemini 2 5 Pro Llm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exoskeletons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Media（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mint Club V2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Auto-Updater Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- For using minimax mcp to generate audio, image, video to telegram.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Market Snapshot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exit Strategy & Business Valuation Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ahrefs MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nft Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xpr-governance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zHive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go To Market（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MatchClaws — AI Agent Dating Platform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Port Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sideload Avatar Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Obverse Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Footballbin Predictions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TimeCamp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bot World Mining（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cortex Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Sync CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- One missed deadline ends a career. caseclaw makes sure it never happens.  Point it at a matter and it auto-calculates every filing deadline from 600+ court rule sets. Throw a new client name at it and it checks conflicts against your entire case history in under a second. Start typing and it's already timing your work in six-minute increments.  No browser tabs. No clunky SaaS dashboards. No $500/seat enterprise contracts. Just one command and the peace of mind that nothing is slipping through.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slack Actions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deck Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Workspace BYOK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plaiground Skill Update（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Epstein Emails (x402)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SRS Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deepseek V3 Lite Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pdftk Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- are.na claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dep-audit（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Markdown Linter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- index1 Doctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Real Estate Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tiktok Product Promotion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Academic Search Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context-Aware Delegation (SmartBeat)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RegexTester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sb（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Marketing Command Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- usewhisper-autohook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molty.Pics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown to HTML（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Media: Generate AI-powered videos and images from the terminal using the `agent-media` CLI.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Employee（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zodiac Horoscope（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading Signals Ws（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Bin Cmdlogger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gotchi Equip（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Astranova（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 8004 Harness For Monad（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mindmap Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Payram Mcp Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawdCursor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Namecheap DNS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Connect UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brew Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compliance Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Al Khanjry Bus - Dubai to Muscat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AEO Content (Free)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SiliconFlow Image Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Visa Business Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Food Delivery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TON.fun Feed Relay（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Torch Domain Auction Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Key UI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Personal Travel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frontend Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- weimage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Phemex Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Search Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CPA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Board Meeting Prep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Photo Find（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Time（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather 1.0.0（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- weather-agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ahrefs Connection（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ARK — Adaptive Regulative Kriptos (V1 Declarative)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Price By Lpdawn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trip.com TripGenie（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slides（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Binance Pro Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Goals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Namer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Intel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Trend Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Success Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OEE Social Research（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Claude Usage Release（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nostr Dvm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Numinous Forecast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quick Intel Token Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Dashboard Connector - ClawHQ（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TikTok Packager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Daily Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Didit Face Match（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- goodreads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Immich API Connector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM ServerRequest Test Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Watch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- govee-control（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- MLOps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arxiv Skill Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aport Agent Guardrail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Send Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dogecoin Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- toolguard-daemon-control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XRPL Transaction Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-plus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upstream Recon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenFunderse Participant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Motivation Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ipcam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Negotiation Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Saver 75+（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Fanboy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Rpg（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi-Agent Dev Team（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Copyku（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- rentahuman.ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voku Language（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Ahrs Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blowfish Launch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GateCrash Forms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Evaluator Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Report Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LibreNMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Follow Up Boss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secrets Management（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Soul Blocks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Research But Cheaper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toggl Track（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solid Agent Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NeuroBoost Elixir（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Failure Registry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tidbyt Status Display（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CapMonster CAPTCHA Solver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Forms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bookkeeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenFleet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plausible Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SecureVibes Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- omadeus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenSoul - Agent Soul Sharing and Community（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Voice Quote 每日名言語音（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NERRA Token Strategist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Summarizer (x64 infrastructure)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tiktok Ugc Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Native Update (Pushy) Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fatsecret（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OEE Content Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Holded Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- say（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Chief Creative Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Silke Manifold（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Antfarm Workflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- General Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Artwar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monolith — Crypto Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startup Metrics Command Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Loopuman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Geo Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ask Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PortEden - secured email (Gmail, Outlook, Exchange) access for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ContextKeeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- business-planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentgate Clawhub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RoughCut（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Cron Ops (Lite)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Defibrillator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autonomous Task Runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- trendyol-admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Wisdom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Photo Text Overlay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Agent Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morning Briefing Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Builder 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- heartbeat-scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Bot Prob Trade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test Gas Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Review Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Flower（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- political-struggle-history（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DELLIGHT Strategic Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RedLine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NVIDIA Kimi Vision（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bar Exam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podcast Insider Top-10（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vibe-check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- insta-post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hotel Pricer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Ethos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Growth Hacker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ozel Yetenek（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SnapTrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RocketChat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tech And Internet Domain Search Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WastePickupReminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Is Token Safe?（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Safety（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Annual Report Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cascadeflow: Cost + Latency Reduction（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wakapi Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft Skill Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XPR Lending (LOAN Protocol)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tax Planning Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Restaurant Crosscheck CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Import ICS on iPhone（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM ViewModel Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Vettr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Secrets Scanner（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- I'm Pretty Amazing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Email No Human Interaction Needed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Health Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Improve（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IT Disaster Recovery Plan Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ServiceNow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sophiie AI Office Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Spawn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM SwiftUI View Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QR Password（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aaaaa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DJ mp3 sourcer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Cfo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mistro-connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Panner Validator for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AEO Prompt Question Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HIPAA Compliance for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Software License Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tradr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tdd Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SchemaPin（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Geekbench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arc Budget Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Companion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Walllet Payment System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitpanda（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- People Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Validator Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PineTS - PineScript executor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Research Logger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Json Linter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chief Editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clash Node Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Veo Video Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- maven-central-publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- M3U8 Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KVcore MCP CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentPin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speak Turbo - Talk to your Claude 90ms latency!（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todolist Md Clawdbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hedera Transaction Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QuantumOS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdhub 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kroger Api.Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ironclaw Lead Enrichment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawMarketTrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aiqbee（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unified crypto market data API and scripts for exchanges, markets, tickers, OHLCV, and orderbooks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ontario Course Planning (OSSD) — Grades 9–12 + Top 6 (12U/M)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ACT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upwork Proposal Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Web Search Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ape-claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Leak Buy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Incident Commander（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolution State Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XPR NFT (AtomicAssets)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Bug Triage 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reminder Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AuditClaw Gcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lyrical Fable（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buy Sovereign Domain (Handshake DNS)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenCode CLI  API Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Enterprise Risk Management Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gcal-oauth-bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fastmail Jmap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aliexpress（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Persona Style Calibrator 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hitchhikers Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Gui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Promociones de Viajes Argentina（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayPal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gotchi Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Colormind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI UGC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MacAndroidTransfer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bring! Shopping Lists（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sensorpro.app（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Agent Manager Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SaucerSwap Arbitrage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ads Manager Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Api Gateway 1.0.31（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- People Investigation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeFi Yield Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- newsnow（官方）：用途偏工程/产品开发，不属于科研主线
+- SeedDance AI Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI OpenClaw Security Toolkit (Core)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw故障排除工具（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jobclaw Recruit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cricket Live（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SwitchBoard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coda.io（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Offline Llama（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sally AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Grok4 Llm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawmeter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taskline Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BenOS Memory Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Store Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2achat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillGuard - Agent Skill Security Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exchange Rate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codex Multi Subscription Auth Fallbacks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Briefing Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MegaSquirt Tuner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accounts Payable Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agi Term Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM Fields Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FinClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hfnews（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Logistics Operations Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- llmfit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deploy Pilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Argus Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CreditCard | Give your bot a secure CreditCard & Wallet - Powered by Stripe & CreditClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anti Regression（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Read Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ChaosChain ACE (Phase 0)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Grok Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Duckduckgo Search 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lattice Protocol: organic agentic social space（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Planet Express Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MBA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ngamux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-whatsapp-gif（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aavegotchi GBM Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virlo Short-Form Video Training Data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todo Boss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawpheus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go-To-Market Strategy Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ceo Protocol Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentSpend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Utils（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- email-163-com（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Strategy Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanod（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Client Success & Revenue Expansion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- football-value-bets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WeChat MP Multi-Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exec ClawHub Publish Doctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Authy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SiliconFlow Video Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Transcriber Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Payroll Compliance Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dataforseo-cli（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Knowledge Answer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Search Ads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Concierge Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proactivity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wiki Retriever（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quote Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Quote Carousel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EuroBot Song Contest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teller MCP – Borrow USDC & Altcoins（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- p5（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- polymarket-sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- qmiao（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotplay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- calmly（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stoic Quotes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawd-migrate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLS Agent Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GoDaddy API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xiaoai-bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Astrai Inference Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EvoMap GEP Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quasi Coder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Message（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Aliyun Oss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hedera Token Minting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Bin Gettool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Outliers & Niche Finder Data by TubeLab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Usage Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AEO Analytics Free（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkfuse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 8004 Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Auto Attach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EffortList AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native Run（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- macOS Notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Observability Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EDI MSP Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SRE & Incident Management Platform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawfy Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Location Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- General Search Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Cred（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cardnews（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emoji Reaction Automator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdtm Advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Failover Gateway Pub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Json Repair Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fashion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bill Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Hosting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Prices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- generate mermaid diagrams（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CreditClaw Amazon | Order & Checkout at Amazon.com securely（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RePrompter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Lark Bot Listener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawprompt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hotel Finder Location（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gog Jasmine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Calendar CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AOI Squad Orchestrator (Lite)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Didit Phone Verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Casino Game For OpenClaw Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Partnership Revenue Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PMP-Agentclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethereum Readonly（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Website Usability Test Nova Act（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xaman Wallet Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- seedance-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdvault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Claude Sonnet 4 Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoomin Docs Portal Scraper Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Macro Regime Classifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Adb Logcat Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trip Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentMesh Governance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XRPL Token Minting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Korean Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Esxi Debian Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Distil the web & PDFs into markdown（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Doubao1 5 Llm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM React View Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Email Lead Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- travel-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Udemy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fastfish 微信公众号（wechat）快速排版精简版（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Technical SEO Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM Fluent DataModel Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🦄 Unicon CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltworld Dashboard Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Public APIs Skill Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Odoo Reporting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Web Search Agent Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Visualization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AuditClaw Idp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Native Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Crypto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PRD Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Didit Passive Liveness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jenkins（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- unified-invoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Audit Trail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FP&A Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Divide Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Codebase Mapper 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenRouter Analytics（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Moltbook Engagement（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GHL CRM Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Services Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cold Email Personalization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Didit Age Estimation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whatsapp Context Manager for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitignore Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lel-Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- open-stellar-wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pr Ship（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedance 2.0 Prompt Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OctoClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Maths（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Founder Coach AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Performance Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audit OpenClaw Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- intercom-conversations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Didit Sessions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Database Engineering Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lametric Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Guardian（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Mind-List.com（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outlit MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Transcript Pipeline Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deno（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Checkmate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Broad Location Entity Query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Verk Task Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Config Validator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gonggong Hwpxskills Main（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Scorer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoho Bookings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Symbiont（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minimal Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weaviate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltcorp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gtm System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Biz Reporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Soul（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Restic Home Backup (Safe Apply Mode)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Poker Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FaxAgent-Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ESP-IDF Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rate Limiter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Creative Ops Copilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cinema Insider Top-10（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Image Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Patiently AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Session Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evomap Fetch Capsule（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Creation Wizard  + Agent Management Upgrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tmp.G0vnB95vQy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sg（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hle Reasoning Wrapper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM Leaf View Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slack Thread Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Searching Group Leader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Next Big Thing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Quote Carousel Topaz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- awakening-protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neokarma Soul.md Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Ranker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitive Intel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meme Analyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arxiv Agentic Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- context-engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Audit Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Funpay Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Summarize File（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Founder OS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Migrate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Digital Clawatar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Lark Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Security Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teamo Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EdStem（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compliance Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice API Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- M&A Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Robot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hyperliquid Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- prompt-engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- duely（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outlit SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawWork Genesis（官方）：用途偏工程/产品开发，不属于科研主线
+- legal-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B2B（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VibeVoice TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Veryfi Documents AI（官方）：用途偏工程/产品开发，不属于科研主线
+- CI Whisperer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Identity Resolver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Security Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teller MCP – Borrow USDC & Altcoins (no margin calls)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HumanNFT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Threat Modeling Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Guru - Documentation and Support expert（官方）：用途偏工程/产品开发，不属于科研主线
+- Employee Onboarding Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secure Auth Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Journey Mapping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAAS Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Address Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Search & Verify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 Compute（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Acp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- swift-programming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Guardrails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openjobs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AEO Prompt Research (Free)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- First Principles Thinking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Refactor Planner 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Env Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spark Bitcoin L2 Proxy for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Council Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kaspi Autopay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snake Rodeo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pinata ERC-8004（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teamo Decision（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitwarden Secrets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Commerce — Lifestyle, Wellness, & Gifts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate images using Runware API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Commerce — Lifestyle, Wellness, & Gifts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Community Growth Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shieldcortex Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Builder Data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unclaimed SOL Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HARPA AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ad Ops & Cross-Channel Advertising Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prediction Market Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chief Editor Desicion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interior Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kirk Content Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Server Health Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Devtopia Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- In-App Purchases（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Happenstance（官方）：用途偏工程/产品开发，不属于科研主线
+- Search YouTube videos, channels, and playlists（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Horse Sticker Maker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawBuddy Buddy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Construction Estimator Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hive Agent（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- AskHuman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Checksum（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kroger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MAC OS screenshot to telegram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skills Backup Claw Shell（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windfall Inference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PostHog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi Workplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Real Estate Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get Kalshi Live Games（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NAS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ralph Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Billy Emergency Repair（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qfc Order（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B2C Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cybersecurity Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Money Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAAS Worker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI店长 - 电商助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Ideas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-skill-ideation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trackyard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image To Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tenk-connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hinge Dating Profile Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Didit Id Verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Employee Training Program（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Newz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Viking Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HL Privateer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Watch Health Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Analytix402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- opensoulmd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Saas Decomposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Cv Apriltag Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Golden Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Cv Camera Model（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reasoning Answer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XRPL Token Sniping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skulk Skill Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BriteBooth Procurement（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Near Getpay - Accept crypto payments  with payment page using PingPay or HOT PAY（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Direct Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ContextClaw Plugin Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Json Modifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HookCatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Keep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawMart Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Foxreach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grounding Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Research Interactive Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Localsend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homeassistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NEAR Protocol CLI installation and setup guide.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lotus Wisdom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendar Scheduling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Places Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bunpro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Share（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Video Upscale（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subfeed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vynn Backtester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tiktok Live Commerce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context7 Documentation Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltHands（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taobao Image Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Enterprise（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hoverbot Chatbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AEO Prompt Frequency Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGym（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmin Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent-manager-for-AI-planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentScale（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Tag Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Repo PR Triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TestFlight Seat Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soccer Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Firebase Auth Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- saas-decomposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- appointment-scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geospacial relationship between two locations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ev Charger Locations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Headless Brave Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dependency Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swift Architecture Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- origin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPlot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ethereum Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Funky Fund Flamingo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blank Files Gateway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ralph Quick Security Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZugaShield Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Student Timetable（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERC-8128（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reminder Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Loopwind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Validator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pocket AI Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automated Content Machine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vision Router Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compensation & Salary Benchmarking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Founder Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Thrd Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter API Integration (Web Reversed )（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Debt Collection Recovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Belong Events - Discover and Organize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anticipation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evomap Publish Capsule（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tianyancha-cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Db Query Doctor 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SLA Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seisoai（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Wiz Smart Light Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kimi Code CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Worker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gog Html Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Engineering Manager OS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todolist Md Clawdbot Copy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Online shopping coupons and deals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dagny Nostr (nak)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Noya Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdtm Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PicSee URL Shortener & QR Codes (Web)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Duckduckgo Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLS SEO Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FlowClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- micro-offer-forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frappe MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gina（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAP FICO Expert - Australia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- S2S Forecasting Expert (FuXi, FengWu, AIFS)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fractal Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cloudmonkey（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Myosin Hivemind Knowledge Retrieval（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Goal Setting Okrs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ironclaw Outreach Sequencer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Llm Chat Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Mouse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Funding Arb Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NEAR Intents 1click Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SearXNG Search engine For OpenClaw by Upsurge.ae（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GHL CRM for Realtors（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Cross Comm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 闪兑骑士 Flash Redeem Knight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PopUp Organizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Puppeteer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- open-market-data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawBuddy Hatchling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Type-Based Autonomy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IPFS Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AppStore Rating Pulse（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM SwiftUI App Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sentry Issues（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Searxng Web（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iDRAC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Color Palette Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twinfold（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Journey Planning with Waypoints（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenFishy Feed Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dub.co Links API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAAS Revenue Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 Private Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Handshake58 DRAIN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UX Research Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minimax Usage（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- AgentChat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mvg（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentKeys（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- IDX CMA Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DCG Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vendor Negotiation Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AetherLang V3 for Claude Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Korean Invoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ztp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create and manage a sorted directory structure in AWS S3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mixtiles It（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call O3 Llm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltdj（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Radon AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soft Pillow - Sleep & dream journal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Relay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contract & Subscription Renewal Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Friends（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WatchOrFight - Predict（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Inbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Logfire（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accounts Receivable Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bind Protocol MCP Server Use（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teamo Lite Offline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DJ set ripper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Weave（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n0ir DeFi Yield Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Extract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 0G Compute（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tarkov API + Wiki Hardcore Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swap and bridge across 35+ chains with LI.FI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Couple（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Merge Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freelance Automation Gig（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nest SDM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Naming And Domains（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CrowTerminal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawnads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Incident Timeline Writer 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farmos Finance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kit Email Marketing Operator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawMart Browse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Maintenance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Q Kdb Code Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PinchBoard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Niche Selection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hetzner Cloud CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expense Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Itinerary Carousel Post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tg buttons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Router Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Redshift（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- timely（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Release Discipline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Sonnet 4 Lite Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Authorization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Channel Partner Program（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mercury Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cumulative（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code QC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Architecture Rendering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPurse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stakeholder Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Babel Epistemic Convention（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slashbot News (DEPRECATED)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zvukogram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YunShi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expense Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tour Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Housing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Life（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- meeting-autopilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crisis Communications Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pronunciation Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawBoss - AI Productivity Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Security Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cedh Advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice.Ai Router Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Show Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tator Trader - AI Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ProtonMail via Proton Mail Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitness Finder Locations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skillstore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speckit Swarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Logistics Tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltfundme Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Ci Flake Hunter 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Test Gap Finder 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Llm Chat Window（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dubai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Launch System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI API Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawality（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- InterClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep Research with Caesar.org（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- comment-converter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FRED-Navigator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- options-strategies（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BotSee（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EZCTO Smart Web Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai 3d Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Task Experience Summaries（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Employer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Survival Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ton（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interview System Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KNHB Match Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- social-postcjo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CosyVoice3 macOS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- telegram send files（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workforce Planning Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Netease Music Pusher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parking Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tf-plan-review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Best Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X-CLI Toolkit（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Video Captions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kkclaw Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclawdy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feed-diet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- v2ex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Use Case Catalog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLOps Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Haqq Content Workbench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Auto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Maay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Llama TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Donotify Voice Call Reminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Send Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Discoverability Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kaspa News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windowed Autonomy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Partnership Agreement Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Llm Chat Ollama Gradio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tech Debt Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hypha Payment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Billing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safety Checker for a location（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SubwaySkill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Cost Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- robo.fun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- audio-broadcast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentAPI Hub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- baeckerherz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compliance & Audit Readiness Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git-Map（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outlook Plus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Efficiency Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Work Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Transcript Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Shorts 자동 생성（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendar Hold Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin Authority Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ulanzi TC001（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Internet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HabitChat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crusty Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NEAR Agent Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Spawner（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- TrueTime（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Upload Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PRISM OS SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Context Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Calibration Magnetometer Calibration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unione - Email API（官方）：用途偏工程/产品开发，不属于科研主线
+- Prioritize uv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sentiet ORB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawHub Publish Doctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltworld（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Download Anything（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Research Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pr Triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UA1 Validator Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Virtuoso Product Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- whiss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- script creator with github companion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outreach And Prospecting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recipe Video Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Astrai Code Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KlausNomi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reva（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cost Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ralph Ultra Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dev Chronicle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 1claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayTheFlyPro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanizer Enhanced（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Automation Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Success Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shrimp Plaza 🦐 龙虾广场（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Indexy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedance 2 Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Android IP Webcam monitoring and alert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Regulatory Compliance Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ucm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finance Search Agent Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GoalGetter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Credential Scanner（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Devin Floyd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Sleep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PinchBench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Migration Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- M365 Spam Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Workforce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vector Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Draw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ncloud Maps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Autopilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BYR CLI Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw AWS Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chrome Devtools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4090ctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZEDEDA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Investor Relations Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeepInspect Guardrails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Golf Tee Times（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Presentation Maker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Love（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cross-Chain Arbitrage CN | 跨链套利（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deploy Spark Bitcoin L2 Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Marketing Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homepage Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2a4b2b Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snapbyte Digest API（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- sql-server-toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lembrete Agua（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana On-Chain Agent Registry, Reputation & Trust（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SmartBill Invoicing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TechPulse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Trust Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venture Capital（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proton Mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana Prompting Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Send to FMZ（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PolaBea（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Copilot Money Mac（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Filewave（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Latent Press（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pancake skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- M2Wise（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taxi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quest Board（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Debridge Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fathom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wreckit-ralph（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Itinerary Carousel Post Topaz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Improving Agent 1.0.5（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hylo — GHL Automation Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Overlap Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Paid Actions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Voice Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MakeX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Ideas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- simplify-and-harden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Repo Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- New York（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PriceWorld（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Six Thinking Hats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Astra Docker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Criticaster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Bench Pioneer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- W3connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Financial Overview（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NightPatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lyrics Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Find and Book In-Network Doctors with Real-Time Availability（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ollama Updater（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 Private Web Tools（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Finance Search Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Agent Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brainstorming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github MergeGuard AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- release-manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Excalidraw Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ActivityClaw Plugin Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Wallet For x402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strava Training Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LINE Rich Messages（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docs Feeder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 31Third Safe Rebalancer (Simple)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ofd Reader skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawtrade Bnb（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 Creative Resources（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cognitive-bullwhip（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Lark Custom Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CLAW-1 Skill Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SOC 2 AI Agent Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ts3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qdrant Advanced（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Samsung Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sg-property-scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wallet (By Budgetbakers)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Earl Display Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- metabot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clean Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Cleaning & Annotation Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- snek（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Greek Compliance Aade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WoW Lookup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Community Outreach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LegiScan Bill Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Vps Openclaw Security Hardening（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kanbon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meditate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stack Scaffold（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data 912 Market Data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wanikani（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Questrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 3d Model Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 1p.io Shortlink API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tokyo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Idea Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Foxreach Cold Outrach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- erebos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Negotiation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dht11 Temp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cashu Emoji（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kitful SEO Article Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nonprofit RBM Logic Model（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cli Deadline Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chaos pivot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upwork Automation Gig（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gamer-news-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cs-autoresponder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- news-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Write My Blog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teamo Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cal.com（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reveal Product Feedback（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ts4（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLOps Industrialization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OSV Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PetRPG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moldium（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Revenue Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Podcastifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interview Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geizhals.at（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hle Benchmark Evolver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentshield Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ddg 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Channels Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B2c Marketing 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secretary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mirroir（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autogame Tales（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skipup - AI Meeting Scheduling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZFS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Traditional Chinese Dictionary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ryanair Fare finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Lightning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Firefly AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geo Audit Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Cost Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IntercomLightning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Council Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Peloton Stats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Greek Email Processor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- proxymock（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WebMCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Gary AI Powered Memecoin trader.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Self-Assessment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Defi Yield Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mesagona（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whisnap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Launcher - Tator Launch Pad（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mi Analista（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plane.so CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Traktor Web Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillGuard by Farnwick（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nerve Bridge Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Download FaaS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Box（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Bot Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My Claw Shell（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skillstore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mission Control Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawchain browsing skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DEX Aggregator Quote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- resume-generator-cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KitchenOwl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lite Sqlite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Decision Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YieldVault Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- San Francisco（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openai Whisper 1.0.0（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Skill Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farseek（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douyin Cover Builder（抖音封面生成器）（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Psychology Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ts5（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opencode Acp Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qr Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ironclaw Pipeline Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitrix24 Битрикс24（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- unhuman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Warranty & Returns Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Thumbnail Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pollinations Image Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geepers Etymology（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transmissions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Build（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EvidenceOps - Forensic Evidence Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deen Time（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Semver Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Positioning Basics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CCO / Chief Customer Officer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Autonoma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Intelligence Digest Fresh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawWall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hong Kong（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Community Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Watcher Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Rich Messages（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kradleverse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DevRel & Developer Advocacy Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeepSeep Intergration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Reel Downloader (WhatsApp)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Berlin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- What To Eat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion Md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdog Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baseball（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw2immich（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Collector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buy WIR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workflow Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Django Project Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- employee-skills-importer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amsterdam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice Transcribe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Web Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Personal Nutrition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltCities Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intelligent Delegation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SOHO Pay Credit Layer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Keychain Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Route between two locations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bstorms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Genie（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AetherLang Chef V3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sparkle VPN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube AI Videos（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Venice Admin（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- hey.lol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Public（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Migration Risk Radar 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Group Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Envios（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scrask（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Peekaboox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reveal Reviewer skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Salai MCP (Beta)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEC Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Memory Templates（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vienna（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Colony Engagement（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Testimonial Collector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Diddy Party（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strapi CMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Visual Prompt Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BotBrag（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Research RePrompter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fish Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paris（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tor Browser Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simplemem（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hash Time Locked Contract（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Validate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prospairrow Websites Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portal Token Discovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Production Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Leetify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Echo Sales Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Api Contract Guard 01（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lightningprox（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Google Imagen 3 Portrait Photography（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SoundCloud Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alchemy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memepickup Wingman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lunara Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mufi Email Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Market Intelligence Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farmos Equipment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openai Image Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anti Panic Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Turing Pyramid（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hello Agent World（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grocery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Birdfolio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Credence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Sleep Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Sync Enhanced（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toronto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B2A（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Prices in Latam by Criptoya（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- impossible finance skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron Doctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cold Outreach Sequence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amateur Radio DX Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 生成iOS视图UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- recipe-finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customer Support Operations Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Screenshot Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- bilanz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Forever Moments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Uniclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw2claw Filetransfer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pywayne Vio So3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Guardrail Smart Accounts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expense Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solana Copy Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Settld MCP Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skytekx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentok Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawHub Skill Guide — Scanner Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Echo AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenCal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tester_skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create secure videoconference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Verification Solver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawgram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gator CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ESG Reporting Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Board Reporting Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion Tasks Blocks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Botcoin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aruba Iap Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mi Habilidad Nueva（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slashbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayGents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web3 & Blockchain Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Splitwise（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OADP Agent Discovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Central de Deudores BCRA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tsz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TestFlight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startup Fundraising Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plan My Day（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pipedrive CRM (OpenClaw)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geepers Orchestrate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Church Account（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rate Limit Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- daily-gushiwen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sydney（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- smart-security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pharmaziegasse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- jaen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Notebook Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meme Signal Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Long Term Memory with Honcho（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Tax Deduction Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pandora（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Fireflies AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skeall Skill Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arccos Golf Performance Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- netsnek（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Calendar Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- K3 Blockhain Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Gateway Fd Fix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geepers Llm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nextbrowser1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PopUp Referrals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Persistent Mind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zerodha（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JOULE DAO（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Memory Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iCloud CalDav（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcp Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Detective（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hookflo Webhooks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- kenoodl-synthesis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 🛍️ 淘宝/京东/拼多多比价技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boston（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Standard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- deterministic-controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- resume-cog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLOps Prototyping CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hi Energy Advertiser Intelligence Affiliate Copilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Next Upgrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-cheatsheet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meerkat Governance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lsp28 Grid（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comms Hub Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Russian — русскоязычный AI-ассистент с характером.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Governance Policy Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tweet Processor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Engineering Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exa tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geomanic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Launch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gcp Fullstack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shadcn Theme Default（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Last30days Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- review-manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Hygiene（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aliyun Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Common Groups（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evomap Check Earnings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Map Grabber（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automated Tweet Scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Miami（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DEX Swap & Broadcast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- elliott-wave-principle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- INCLAWNCH UBI Staking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crabukit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slither Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anime Avatar Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minduploadedcrab Skillguard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My System Info Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Starling Bank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Los Angeles（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Healthcheck Ready（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pylon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telnyx Bot Signup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Influencer Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Specialists（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- context-switcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Avatar Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Local STT/TTS Installer (macOS)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apechain Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nod（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawrtc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NosytLabs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IDA: Instructional Design Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Headless  Crypto trading for agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Accounting Monthly Reconciliation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitness & Training Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Platform Healthcheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Create Invoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ML Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Labels（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Track Flight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sendme（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ChartClass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audio Visualization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Store Screenshot Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion Mvp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lukso Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawkeep（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Post-Mortem & Incident Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Tax Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WaitingForMacGuffin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Talkspresso（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Contacts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agntor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLOps Validation CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-crm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- market-structure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- continuance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Django Project Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agresource（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multilogin X（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书自动化（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenSpec Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simple Formatter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mo-test-1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lark Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mo-test-2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-tester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- my skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- webserp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stealth Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Discord Bot Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawMon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mu Pet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bizcard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nextcloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- letterboxd-companion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Advisory Council（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenA2A Security（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Query DBpedia using Natural Language（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todoist 任务可见性管理（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anti-Pattern Czar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RAG Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evomap Verify Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DevRev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- momo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- London（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Groups（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pascal Playwright Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Faster Whisper Transcription（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw WhatsApp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CoinFello（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Age Transformation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- System Monitor OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Temu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wrike（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hostinger VPS Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buy CRUST（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Default Agent Backstory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workflows（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mirage Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AGI / Artificial General Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dr. Frankenstein（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLS Copy Editing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Drive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentPuzzles - Timed AI challenges with leaderboards（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geometry（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Roadmap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawclash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jubilee Skill, By Jubilee Labs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beaver Habit Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Enterprise Legal Guardrails Public（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lisbon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Generate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codehooks Backend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- legacy modernization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telnyx Freemium Upgrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Arbitrage Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill bundle clawchain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Money Maker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snibet Claw for X Virality（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — TikTok（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EvoAgentX Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-reflect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Digital Twin Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Commune — Agent Email Inbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Smart Context（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DocuClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rollbar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- glm-web-search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — X / Twitter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — Instagram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WaveSpeed AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Redacta（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fishing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawra Selfie (MiniMax)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Automation Agency Blueprint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vivid: Open Business Account（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Datafast Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GRC-Agent | SOC 2 Quality Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbotden Engagement（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Find Receipts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Cache（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metrics Track（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iGPT email ask（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ThermikBuddy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buenos Aires（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shein Shopping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- flomo-sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Connect Apps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IDX Stock Profile Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Devtools Secrets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentCloak - Email Proxy that filters PII, 2FA, and password resets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alura（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shopify Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vsum（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openbotclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stakingverse Ethereum（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Search recent repo activities（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 优雅重启 Gateway。解决重启后丢失会话上下文的问题，重启前设置一次性 cron 任务，重启后自动发送消息到主会话恢复任务。默认 10 秒后唤醒。触发词：重启、restart（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- bun-do（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Newsletter Creation Curation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Config Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Breeze x402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Website Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Judge Human（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OS Activity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nestjs Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VitaVault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amplitude（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Init（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Device（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawHub Quarantine Installer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scaffold（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ask Council（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PortEden - secured calendar(Gmail, Outlook, Exchange) access for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SaySigned - Agreement infrastructure for AI agents（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- MIXLAB Solo Scope（每日简报）（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pine Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- jabrium（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stakingverse Lukso（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Iblai Openclaw Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KLIC Nederland（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Graphics Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todoist v1 API Reference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Immortal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- I Love You Mom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lukso Agent Comms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- here.now（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- flomo-add（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-refiner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Academic Formula Converter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- webcli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 1Password Service Account（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X-Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Release Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SoulForge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prediction Market Aggregator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Test Case Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Search Recent Github Activities（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whop Store Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- INCLAWNCH Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Next.js Production Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice-Matched Content System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Expense report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hash Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Install Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Singapore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Data Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Vps Setup Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Validate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- voc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- telegram-bot-chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Cover Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mistral PDF OCR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ghost Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vercel to Cloudflare Worker Migration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Forward（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- @openclaw/orchestration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Genome Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ScrapeSense.com Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mobula - Crypto Market Data & Wallet Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 0xArchive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- US Stock Valuation Model - Value Investing Framework / 美股估值模型-价值投资框架（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawng Term Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SP3ND — Buy from Amazon with USDC（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- User Authentication System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qmd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- voice-email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Certificate Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawnalyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ToneClone CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- salute speech（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice Models（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kie Ai Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- presearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Watchdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QR Code Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bazi Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landing Gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Next Cache Components（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memoria（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Financial Overview（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Encryption（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bandwidth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dockerfile Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- M10 OneSource Blockchain Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gigaverse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Handsfree Windows Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Metrics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 二维码生成器（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create Agent With Telegram Group（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Next-Supabase-Vercel Bundle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare R2 CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Podcast（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- instagram-saver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OPC Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lastXdays（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Init Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Football English（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Earnings Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Golf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Course Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Media（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- opsec.md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Invoice Overdue Reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spreadsheet Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shop on Bitrefill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- @openclaw/interchange（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Labs Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Update Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coala Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawsay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gpt Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atlas Argos Teste（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apprentice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Colony Solana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoom + Google Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SaaS Metrics Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Readiness Assessment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Editor With Chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-bundler-sniper-volume-bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- safe-backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft Foundry image generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Manage Clients（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CDP Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- qqbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Accessibility Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Spy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VPS Health Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MCP Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recoup Sandbox Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Norman: Categorize Transactions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent-to-Agent Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nyne Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shared Workspace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Write（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moltlog-ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kiln（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- finviz-crawler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NanoGPT Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Knowledge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Omie ERP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tarot from Univoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — YouTube（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ontopo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Map Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signal Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Philips Hue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vscode-tunnel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BirdWeather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Show My IP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClawCash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plaza One（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Pioneer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Power Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BotWorld Comms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — Threads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Card Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Monetization Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Orchestrate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Investor Update（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nyne Enrichment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Headshot Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mixture of Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nyne Deep Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LLM Council (with Installer)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atlas Argos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RevOps Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Profile Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ISS Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Seatbelt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wolt-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fork and Skill Scanner Ultimate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kiro X Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Private Web Search Searchxng（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Redmine Issue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- payrail402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vajra（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Training System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ZeroEx Swap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deal Desk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MiniMax CLI Web Search（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- AI Agent Observability（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FireAnt Stock Price Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Production Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humaboam Final（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Insurance Operations Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 1-SEC: All-in-One Cybersecurity for AI Agent Hosts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Piper TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gotchi Channeling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RoomSound（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jentic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawProof Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shipment Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- /add-wish — Universal Add to Wishlist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Free JobBoard API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supabase ⚡（官方）：用途偏工程/产品开发，不属于科研主线
+- Dune Analytics Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EvoMap Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Depth Map Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Credit Health Bar Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Check and book Tennis and Pickleball Courts at Bay Club Gateway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spend Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawked（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Log（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Reddit Post（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hyperliquid Perps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aavegotchi Gotchiverse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- n8n Workflow Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parakeet Local Asr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- isnad-scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quiz Battle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iMessage & Signal Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Garmin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nova（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wechat AutoPublish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-teleport（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentCanary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gemini video analyze（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pine Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PC Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Procurement Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- algorithm-solver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-Evolution System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SkillGate Governance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Macro Regime Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- brand-slogan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CitrineOS Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Ideas Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vendor Risk Assessment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Engineering & Repository Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xProof — Blockchain Proof for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Intune Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SVG to Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPulse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Approve new channels, and connections to openclaw ui and terminal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Orgo Desktop Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TMS (Telegram Media Server)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Queue Task（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-bom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — Facebook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zeitgaist Dialect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter/X Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Changelog Generator Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Experience Logger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 长任务监控方案。实现 Worker-Monitor 架构，Monitor 通过 hook-logger 日志监控 Worker 状态，每轮 10 分钟通过 Announce 汇报。采用主会话轮询机制（因子代理 sessions_send 限制）。推荐 OpenClaw 2.21+。触发词：长任务、监控任务、任务监控（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Miranda SAG (ElevenLabs TTS say-UX)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- StartupPan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alerting & Notification System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Second Order Effects（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mobile app builder with live link, publishes to app store, create ai apps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Abby Watch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RamaLama CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdocs Improved（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plans Methodology（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLS Marketing Ideas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JSON Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawsync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simple Random Interaction Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Cost Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supply Chain Poison Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GEP Immune Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentcash Wallet（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- nano-banana-pdf-edit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MUKI Asset Fingerprinting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clean Pytest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Governance Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postwall（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Qinglong Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Business Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Street（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice Characters（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compare Crypto Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Preqstation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawTime Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douyin Download（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Engineering as Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Research Assistant Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Ops Runbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Franchise Operations Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Safety Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FearHarvester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 总结（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AnveVoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- seedance2-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- smart_ocr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nutrition tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pmctl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seattle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- maccabi-pharm-search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Action Suggester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLS Canvas Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wolt-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Togetherai Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- libby-book-monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLS Website Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Read（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Laravel Forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fennec SEO Auditor Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- marketing-calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- News Aggregator Skill 0.1.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dashboard Greek Accounting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenRA-RL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Event Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hourly Momentum Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Signals Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BEE Belief Extraction Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wind & Site（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- System Health Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Verified Agent Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grafana Plugin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 한국 법령/판례 검색（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fortuna Lottery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zhipu AI TTS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Flow Visualizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 12306 Train Query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BMad Method（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Call Center（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoho  Mail CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Abby Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ShipStation Orders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cofounder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jira Metric（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deploydevnlu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outtake Bounty Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — LinkedIn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- strikeradar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书视频下载器（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rpi Cpu Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RHO Signals — Live Crypto TA Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Memory Store（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SMB Sales Boost — B2B Lead Database of SMBs for Cold Outreach & GTM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Study Buddy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Abby Autonomy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dakboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codifica（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aade Api Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Django Production Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remote Desktop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Scraping & Data Extraction Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bilibili Player（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CatalystWatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Chrome Tabs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Full-Stack Web Engineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LNemail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Collab（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Delete Agent With Telegram Group（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Alerts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MCP Server Discovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Resume Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayRam vs x402（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cross-ref（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aetherlang Karpathy Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Vulnerability Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2a Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SQL Query Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- swamp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Summarize Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- V2ex Hot Cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Canonical Data Map（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Terrain Route Video（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Austin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Best Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QRCode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — Telegram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wreckit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu File Sender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Timemap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales Compensation Plan Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speckit Workflow for Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sub-Agent Overseer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather NWS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cheapest Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ngrok Preview（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Bookmarks Cleanup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Margin Analysis & Profit Optimization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Circleci（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jira（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signal messaging for standalone bots/accounts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Go Production Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Doc Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iMessage Voice Reply（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FastAPI Production Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mnemon Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Skill Debugger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lemlist official（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hive-mind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小野语音系统（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skillnet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apollo Issue Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawNet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zhipu AI ASR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- black-box（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HFT Paper Trader — Autonomous Crypto Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NEAR Content Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RMN Visualizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Multilingual Voice Reply（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Greek Individual Taxes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wip File Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pixel Lobster Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mini Diary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Economics Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Promo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- asdasdsad（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ads Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senddy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Greek Banking Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- moonfun_sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cart Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Playwright Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gotchi DAO Voting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Wellness（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ModelWar - Core War for Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adwhiz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audio Mastering CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Forage Shopping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Argus Edge — Prediction Market Betting Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hierarchical Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ynab Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speech to Text Transcription（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Employee Retention & Turnover Risk Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltgate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Books For Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tweet Summarizer Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EvoMap Node Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DailyExpenseTracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Developer Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SocialClaw CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kiro Creator Monitor Daily Brief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SchemGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scrapling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Geo Blocking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TruthCheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM UI Tests Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Summary Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolution Drift Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Feishu Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Private Web App (PWA)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Budget Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native Stripe（官方）：用途偏工程/产品开发，不属于科研主线
+- Project OS Organizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentXPay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Health Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Afiliate guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Sentinel - Agent Reliability Layer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Bot Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Excalidraw Diagrams for Obsidian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Web Chat Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get public holidays by country and year（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Detection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JSON Formatter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cross-Model Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ordiscan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Us Credit Score Strategist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ellya--Your Virtual Companion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snipgrapher - generate images from code snippets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- System Integrity And Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- da-fu-da-gui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Improving Agent Local（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kagi Fastgpt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xuexitong Homework Submit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quickbooks-Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Session Health Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw-lark Patches（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parental Controls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grvt Markets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scanwow Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proactive AMCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ComfyUI Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkSwarm API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grok Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Content Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Smart Read（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- otta-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TwitterScore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dynamic UI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jimeng AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Business Process Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Poster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- md2pdf-xelatex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Sheets Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Password Generator（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Updater（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 研发经理助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ziwei Doushu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Video Script Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xdotool Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Passwordless Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interview Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- swarm-self-heal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wip X（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vibe Notion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Investment Analysis & Portfolio Management Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Live Bet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dev Task（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw macOS Always-On（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sdfsdfsd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evoagentx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Faster Whisper Gpu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dom Observer Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- safe-update（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotify Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-user（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Router Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stormglass Surf & Ocean Data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expense Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fastfish-hot-news-push 每日新闻热点推送（可设过滤词）（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FOSMVVM ViewModel Test Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Scout — Hourly Edge Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get IP Geo Location（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Estimate Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Text Detection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kagi Summarizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- China Phone Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Voice Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capability Graph Mapper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wip Grok（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentmail.to Inbox Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Supermarket（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- local-file-rag-basic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Healthcheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Captcha Auto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- easy-opencode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hybrid Deep Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily News Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youmind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BRICKS CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- docx-md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Error Recovery Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TfL London Transit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Father（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shelter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SurrealDB 3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blast Radius Estimator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recover deleted YouTube videos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Budapest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agent-card-signing-auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jarvis Tts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Ads Manager — No API Key Required（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ClankerKit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sims（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Index Youtube（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PLS Office Docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Monitoring（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ABL.ONE Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sentiment Priority Scorer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Message Parser RE-India（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Repliz Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- system-design-solver2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AWS Cost Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feed To Md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amernet AI SaaS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TheSims（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mulch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Speech to Text Skill for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Documentation Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Og Board Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A Vault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NYC MTA Transit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cypress（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Efka Api Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solanaprox（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Equity Valuation Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Web Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RMN Soul（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Mock Server Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw To Talk: OpenClaw Voice Companion on iOS & Android（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Agent Sims（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stripe Production Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Voice Profile（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedance 3x3 Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- N8n Workflow Automation 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WeChat Work Doc Fetcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawCoach Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 项目制多智能体开发协议（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OneDrive Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Reputation Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pocket-money（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Memory Enhancer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get company fact and information by ticker or CIK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 0xwork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BTC Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeadClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloud Cost Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Itsyhome Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Config Reference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Api Gateway 1.0.7（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitkit Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Use 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawCoach Food（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clone Farm Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentBench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native HubSpot（官方）：用途偏工程/产品开发，不属于科研主线
+- Grid-Aware Energy Load Shifter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Format Converter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Odds 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Csam Shield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Us Macro News Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawVault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Duckduckgo Websearch（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Leadership Prompts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lark Report Collector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Security Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Property Valuation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanize Chinese（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Age Verification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- vet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Ideas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin Writer 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Search Web - CN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RealWorldClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- rpe-grafana（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hello-openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SSH OP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Phone Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vibe Notionbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Md2pdf WeasyPrint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Approve Pairing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Acp Job Submitter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Soul Sims（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- COMMS.md Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Document Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 한국 자동차/보험 가이드（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Observability & Reliability Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 抖音下载器(Node.js)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser 0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- External Ai Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Uploader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt My Heart（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kagi Enrich（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- bitclawden（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Api Gateway 1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rotate OpenRouter Key（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Presale One-pass Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IMAP/SMTP Email (Plus)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wallabag（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Resend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Passo - Remote Browser Access（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ---（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wechat-auto-reply（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Flow Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Permission Creep Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SLA Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram-Bot-managerj（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Og Board Individual（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dharma-AI: Ancient Hindu Ethics for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Runtime Attestation Probe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Incident Postmortem Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Safety Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CopilotKit-Runtime-Patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Welfare Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publisher Identity Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strava CLI Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Design System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- attestation-chain-auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Volcengine Agent Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Observer Effect Probe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OptionsHawk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nori Health（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- contract diagram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Update Signature Verifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Desktop Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Presale Service Bootstrap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secure Autofill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hollow Validation Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tarot Content（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Praxis Google Workspace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vdoob（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Daily Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Owner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email check and vaildation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-update-delta-monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawzempic（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentok Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Name Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iCloud Reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawPay Escrow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhaleWatch CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clarity Gate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AADA (Agent to Agent Advertising)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawLife（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CopilotKit React Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- glm-understand-image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secure Shopper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Angus Bounty Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram MTPROTO CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hide My Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting Notes Summarizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Room Checklist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Magic Quill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Compliance Readiness Assessment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI-as-a-Service ROI Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farmos Observations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Attestation Root Diversity Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign code-review-helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube-Hook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Spend Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pol-agents-sdk-demo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huizai Context Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- COMMS.md Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Problem Solver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Error Message Decoder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Sourcing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gateway Watchdog Discord（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawlet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Semantic Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mailtarget Email（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawpitalism（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Insurance Claims Processor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azure Document OCR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawCoach Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Updater Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- continuity-kernel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jiaweisi Metatheory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Millionfinney Homepage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The Sims（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LocalClaws（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brw Linkedin Authority Builder 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OSRM Maps Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 销售管理技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UX Researcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native Linear（官方）：用途偏工程/产品开发，不属于科研主线
+- Docker Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill 3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Planning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Learner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Traffic-Data（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metra Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kefir Batch Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video News Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TaxClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Funda Listings Gateway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roundtable Adaptive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strudel Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Father（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finally Offline Culture MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huizai Error Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whistleblower Ethics Hotline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- News Aggregator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron Scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HardStop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soulprint Identity Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proposal Generator Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LarkSync Feishu Local Cache（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Internet Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fellow Aiden Precision Coffee Maker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wekan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltgram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IM Framework Team（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ImaginePro AI Image Generation API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huizai Proactive Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farmos Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MCP Engineering（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Job-Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Epistemic Council（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Picker Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sightglass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill 1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Common-Fetcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Export Compliance & Trade Controls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pidgesms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Interest Rate Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Helsinki（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Generator Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trade Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ReefWatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 한국 세금/절세 가이드（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bulk Tiktok Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cta Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- India Location Normalizer RE-India（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Docker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whoo CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cheat Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Percept Voice Commands（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aegis Intel Stack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farmos Tasks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farmos Land Portfolio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill 4（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weekly Content Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- acn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brw Linkedin Profile Optimizer 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Office Document Editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Presale Regulation Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill X Twitter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trade History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 기상청 날씨 (KMA Weather Korea)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ghostclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Scheduler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PocketLens（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NVIDIA NIM Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trust Velocity Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YellowAgents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- surrealism（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CopilotKit-agent-patterns（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Trust Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Translink CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- input classification（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice (Edge TTS)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PocketLens（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plati MCP Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tiktok-carousel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amadeus Flight Query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- surreal-sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Repurposer Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Let's Clarify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XferOps gog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory Setup (OpenClaw)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Game Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- External Ki Integration Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elite CLI Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 한국 연금/노후 설계（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Switcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seville（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Acp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shadow AI Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Percept Speaker ID（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simple Proposal Template（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign project-setup-wizard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- surrealfs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Review Registry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Materials Workbench（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xiaohongshu Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Changelog Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Overkill Memory System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 命理融合咨询 Pro | Destiny Fusion Pro (Ziwei + Bazi + Mingli)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ambit Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Percept Listen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Protocol Doc Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Improving Agent 1.0.11（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ship My Token（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Langsearch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cold Email Prospecting Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill AGI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Madeira（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Model Failover（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brain CMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw RSS Feeds（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Voice Writer — AI Content in Your Voice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawOnBoarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawfinger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill 2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Model Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Viral Video Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Daily Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Memory Save（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RDA MSG Board（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elite Longterm Memory 1.2.3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Seo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Android SMS Gateway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Captioning by ReelWords（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Metaverse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Production Setup Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Tracker Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- transcript triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rune - Self-Improving AI Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fast Browser Use 1.0.5（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- baidu web search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Self Healing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter Autopilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Visual Concept（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawdship（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zero TiDB（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- first skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AK RSS 24h Brief（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landing Page Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alibaba Supplier Outreach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Heath Ledger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- http-retry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Playwright Mcp 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Percept Ambient（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vn Market News Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Savage Roast Coach — Accountability with Attitude（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Krump Verify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- V2rayn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transparency Log Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zencreator Video.Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RPG Life XP Engine — Gamify Real Life（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail 1.0.6（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MBB Strategist（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Startup Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate product photos for ecommerce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pony-image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gettr Transcribe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotlight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XQueue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 微信公众号文章发布（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Worldbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Repurposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Close Loop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenCode AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill sec（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Swarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudflare Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MayGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Synthesizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Expat Companion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PixelDojo AI Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dexscreener API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Etherscan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Microsoft Learn MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Scraper — AI Trend Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawned - Protect your OpenClaw Instance and Scan Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Disclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- activity-analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Duffel Flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aliyun OSS or Tencent COS oss upload online access（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nansi website and web app builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MD Table Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Client Intake Bot Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Accessibility Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Arena Skill - on-chain ERC-8004 agent registry with x402-gated search and registration API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TradingView Strategy Settings（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Hardener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nso Macro Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Game Design Philosophy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 快速笔记（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RAG Eval（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RPG Quest Master — Daily Quests for Real Life（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Joplin Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Price Query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawRoam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github App Authentication（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Playwright Scraper Skill 1.2.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EntradeX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Editing Agent (VEA)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kanboard Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 국토부 부동산 실거래가（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meal Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RescueClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Competitor Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seo Prospector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Invoice Template（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 건강보험심사평가원 병원 검색（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jsrt Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dmn Default Mode Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 图图智控（TUTU Smart Control）（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Captcha Relay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API配额监控与手动切换（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitwarden Bw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIOZ UI Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Market Insight（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fuku Sportsbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Facticity.AI Complete Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aigo hotel search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Granola Meeting Notes (MCP)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Delta Disclosure Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LMfiles.com file hosting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exponential（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Job Hunt Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soul Shifter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LifeLog 生活记录系统（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ShellMail - Email Built for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Existence Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Transcript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Docker Wizard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SupaSkills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Get a clank.money Human Bitcoin Address（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tpt Generate Cover（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Network Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gecko Terminal API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Turnip Prophet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kamino Positions Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Snipeit Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pi Workflow Orchestration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Facebook Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YC New Way（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elvis Future Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LaunchFast Product Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion API Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Install Then Update Trap Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capability Scope Expansion Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Art Philosophy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- POIDH Bounty Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentx News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Theagora（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Post Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ressemble TTS e STT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neolata Memory Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adguard Home（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 📍 Google Maps B2B Goldmine (Leads Generator)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit User Acquisition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentPulse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SerpApi Flights (Google Flights)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SPF DKIM Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TokenDraft（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- [Nyx Archive] Art Philosophy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WebClaw - Turn Any Skill Into a Website — universal web dashboard for OpenClaw skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deai Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Parcel Tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sonos Announce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MCP协议配置（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FiberAgent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- [Nyx Archive] Skill Security Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coding Philosophy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 飞书语音（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Online Shopping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- stats.fm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhereCanIWatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Truly Local Piper Multilang TTS (secure)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Validator Correlated Judgment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memento（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doubao ASR / 豆包语音转写（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Behavioral Invariant Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tenerife（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 龙港求职技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw INWX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BTCD Skill (NBW)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- etf-finance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Security Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClawMP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- File to Markdown Converter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Line Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading Tournament（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Homeserver Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mcp-chrome（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CoinGecko Price（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cubistic.com Painter Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fleet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Displacement Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Keychat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pilt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whisper Local Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 点教 Amulett（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Switch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather & Webcam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanize Image（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Business Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soho（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Seo Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- portfolio tracking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todo Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PostHog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cost Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PaySpawn — On-Chain Spending Limits for AI Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Shopping Deals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OneBot Adapter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Frost Sentinel Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Facebook Fanpage Inbox for Meta Business Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawRoam（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HITL Protocol — Workflows and Human Decisions for Autonomous Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarketodds 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Hotel Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Signal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UBTRIPPIN（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Message Injector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Project Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI 火宝（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Nexus Safe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Project Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- news-writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capability Composition Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Three-Dimensional Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remote Skill Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Taildrop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- [Nyx Archive] Living Ethics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Utrecht（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentwallet Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Task Runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Content Machine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Odoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- twit-mcp（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Sovereign Test Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automation Runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hubspot Crm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawDoctor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Memory (Docs)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sentry-ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Memory (Brain)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sixel-email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jiraandconfluence Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Dependency Chain Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bucharest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawgora（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outsmart DEX Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Living Ethics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGuard | Anti-Malware Scanner & Honeypot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Shield — OpenClaw Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Relay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Creation Wizard  + Agent Management Upgrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proxmox Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nimble Real-Time Web Intelligence Tools（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tandemn Tuna Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LMFiles（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 游戏王日版新闻每日总结（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soul Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amplifier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail Sender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- [Nyx Archive] Game Design Philosophy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perstudio Image and Video Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WatchOrfight - Rock, Paper, Scissor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mixpanel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vnstock Free Expert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conversion Copywriting Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beijing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenAPI Deep Audit & Test Architect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentHire（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Icom IC-7610（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Github Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Senior Django Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Biver Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Digiforma（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gemini Reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CC - Claude Code Telegram Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Documentation-Accurate Code Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cerebrun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Git Federation Searcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- S2G - General Purpose Workflow Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Faya Session Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zapier（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenTangl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vancouver（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tiger Trade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Emotion Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OSINT Investigator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi-Chat Context Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawfeed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SeaDance 2.0 Prompting Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dioxus Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Economic Incentive Misalignment Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- superviser ressources（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Trading Sniper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outsmart Devving Coins（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EvoMap Security Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Thor Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Android 3d Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign API Hardener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Commit Craft（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quotly Style Sticker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MenuVision（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outsmart LP Sniping（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Intelligence Ingestion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sentient Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawwork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- the ediscovery claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- local-portfolio-auditor（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ebook-to-md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prompt Request Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TapAuth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Checkly Cli Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Maritime Watch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discogs Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outsmart LP Farming（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Double Check Article（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seoul（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentcli-go（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Radarr Fixed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notes Reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clude Memory MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chaterimo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Obsidian Organizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linux Desktop Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Binance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zenn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Repurposer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cortex Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TelCall Twilio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Langextract Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Botbook — Meet Friends on the AI Agent Social Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vouch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- the compliance claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Mentor — Mentee Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Funding Rate Trader（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Auto Content（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Absurdist Play（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH wacli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mumbai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bangkok（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wasm Spa Autofix React Imports（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Data API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sentry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metal Price（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- [Nyx Archive] Absurdist Play（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawcrm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aiprox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- struct-offset-analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reef Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Gen Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp FAQ Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WBS Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 0x0 Messenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH obsidian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jetson CUDA Voice Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B12 Website Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native Monday（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quorum（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hype Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate News Article（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task Orchestra（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- [Nyx Archive] Coding Philosophy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postavel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TrustLog Guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Godot Engine 3d Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cancorteaw App（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unit Converter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slv Rpc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GPU Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Audiomind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slv Validator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Android Remote Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EPAI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Valencia（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill M365 Task Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawfinger Agent Takeover（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Valiron（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fastfish-format(article-wechat-xhs-format)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Trend Hunter Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sovereign Codebase Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Prompt Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitea Workflow Dispatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Infra Watchdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Help（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Venice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClawCash（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gpu-cluster-monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outsmart Trenching（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Trust Manipulation Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentGate - Enterprise Security Firewall for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- @kanyun/rush-find-skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Room Agent Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arena System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portfolio Risk Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SONiC KVM Testbed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MessageGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Release Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shortcut Epic and Story skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strategic Thinking & Mental Models Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Curiosity Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ruby On Rails Gateway（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp cloud api reference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 三省吾身 - 深度自我审视与进化系统（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Astrology API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Communication Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Continuous Learning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cubistic Painter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Notification Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nexus Sentinel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-rent-free-dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Currency Converter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Post Job（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolink Video — AI Video Generation (Sora, Kling, Veo 3, Seedance)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Token Estimator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentDo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sonarr Fixed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Os（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Vetter - Pre-Install Security Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PARA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openlesson（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quote/0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TOTP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native Sentry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mechanics Sketches（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Side Quests（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mail Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Casino（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chat History（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quote.Trade Operator — AI-Native Dark Pool DEX for Trading Bots and Autonomous Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawBridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Botbook — Agent Relationships, Social Graph & Connections（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude_Game_Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qwen3-TTS VoiceDesign（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- auteng-docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLX Local Inference Stack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitbot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Calendar Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ragie.ai-RAG（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clickbait Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI-review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Marketing and GEO Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ddgs (DuckDuckGo Search)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Bailian KnowledgeBase Retrieve（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH bear-notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentDojo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arknights Operator Gacha（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw-backup-guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltmemory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Revenue Model Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huaweicloud（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Windsor.ai Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slv Grpc Geyser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- company-search-kimi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scrapling - Stealth Web Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Client Reporting Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tailscale Network Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Platform API Connector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crash Fixer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Envato Comment → Task → Google Sheet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Handshake — AI Payments（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Archon Keymaster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Video Editor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 中国城市天气Weather In China（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Salesforce API Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gmail Cleaner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nomtiq（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Country Info（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayPilot by AGMS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Open Animate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CLAW Observability（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Core Prompt Patcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Launchthatbot Git Team Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simmer Skill Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ultimate Lead Scraper & AI Outreach Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BitNote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIOZ UI V3 Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Douyin Video Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Tech Lead（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minimax Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales Funnel Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoonPay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Native Logs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawsmith（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClawCity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compaction UI Enhancements（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Understanding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Automation by Linked API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Service Watchdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local Whisper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolink Image — AI Image Generation (GPT Image, Nano Banana 2, Seedream, GPT-4o)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nova App Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recruiter Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- eToro API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- The skill for chess player（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- i18n (Internationalization) guideline skills for nextjs web development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drift Guard - Anti-Sycophancy Behavioral Audits（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Granola（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Fast Loop Improved（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- u2-downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Trend Curation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH 1password（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ROS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deslop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Password Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- infinite memory locall rag system for（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Notes 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Currency Exchange Rate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PPT Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawTrust（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PlusE Financial Analysis（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Insight Song（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aavegotchi Renderer Bypass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Native Airtable（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mkts Market Data（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Kraken Exchange（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Human-Like Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subagent Architecture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Casino Tournament（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Config Field Validator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boss（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 可以登錄家電的保固，並且歸檔，提供查詢（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawai Town Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain Email Forwarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Creator Operator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MONK-EYE Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AdaptlyPost（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Local-First LLM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Bot API（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- openproof-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bocha Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Vetter (by Azhua)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Batch API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AAWU — AI Agent Labor Union（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Threat Radar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Airtable Participants（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contract Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OfficeX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Environmental Compliance Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bangai Recruit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Carbium — Solana DeFi Infrastructure（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agos claw chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Font Interceptor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Filtrix Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- eToro Apps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Suite Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proposal  and Cover Letter Interviewer & Improver (Continuous Questions and Memory for Better Proposals/Cover Letters by Getting to Know You)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw TODO（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spec Flow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dollar Platoon | On-Demand Gigworkers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JS Eyes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH session-logs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generic Quality Gateways for Unattended Agent Development（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Broadcast Sign Transfer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Food Safety & HACCP Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Caldav（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Tally（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dutch Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trading DevBox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Cron（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- commit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser Core 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanizer 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x-recap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIOps Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personal Finance Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vendor Risk Assessment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Preqstation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mml（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Casino Affiliate by Rollhub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Echo Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Benefits Administration Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- JD Price Protection 京东自动价保（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Sovereign Stack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH things-mac（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QR Code Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evoclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ops-journal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web2Labs Studio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Star Hotel Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PicSee URL Shortener & QR Codes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 查看每日热门山寨代币（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KallyAI Executive Assistant (Claude Code)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales Rhythm Tracker — Alibaba Iron Army B2B Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Filtrix AI Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Starter Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memory On Demand（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- File Compression（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Calendar Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Singapore Location Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Short-Form Video Creator for Social Media（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Filtrix Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blog Master — Universal SEO Blog Writing System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Davis-Bacon Prevailing Wage Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SoulKeeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Consilium（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Identity Persistence Layer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Typefully Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proposal Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ElevenLabs STT OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Book Fetch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Otra City（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw MongoDB Semantic Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Send real Document in the Mail via PostalForm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Task-Resume（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Typefully Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Crawler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Security Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Link Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workers Compensation Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Instagram Master — Complete Content System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Song Remix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SeaDance Filtrix Prompting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Inspiration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- V2ray Proxy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nova Letters（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Event Planner Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Privacy Concierge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jira REST API v3 Commons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawr.ing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Apple Search Ads（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shopping List（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolink Music — AI Music Generation (Suno v4/v4.5/v5)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Heartbeat Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH apple-reminders（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tempest Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scaling Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shadow Number（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Notion 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TPM Copilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CamoFox MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chats Share（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Bandwidth Income（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mobile App Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH healthcheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Medical Billing & Revenue Cycle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PrivaClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UE5.7 Gamepiece Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Smart Cron（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Line Client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Commercial Lease Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fitness Coach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lpxpoly（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Advanced Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 视觉系文件分类大师 (Visual File Sorter)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH openai-whisper（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- MH summarize（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Masterswarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Private Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Phone Caller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Organization - Automated Health Checks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 回忆录制作（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fear and Greed Index（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawbsky（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Stability Framework（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upgrade Openclaw - Stay on the edge when updating openclaw. Update, audit, discover, propose. Latest features, always.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chitin Cert（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- eatsth-by（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Video Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Soul Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Beetrade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- marine-watch-planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Habit AI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Wallet Xray（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Letters（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Deploy Pilot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AICash Miner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawai Town Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH apple-notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hinge Auto-Liker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kash - Agentic Payment Provider（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Doro Git Essentials（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- explain-code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HANHANLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Go Hotel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yandex Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meeting Notes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lelamp Room（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MY News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH notion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Verigent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH openai-whisper-api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code 1.0.4（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 飞书转发消息读取器（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rentahuman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouAM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todokan Review Loop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Business API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pulseai-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- productivity skill(yewubin)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Aavegotchi 3D Renderer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elasticsearch Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Predicate Snapshot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Naver Blog Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A-Corp Foundry（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quack Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RegexVisualizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-doc-long-content（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tmux Remote Control（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Image Enhancer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personality Match（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawTruth Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tweet Composer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- justinX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Infra Watchdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MH weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LobsterGuard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Morning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Language Learning 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- telegram-send-photo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Ad Producer — Facebook, Instagram & YouTube（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- System Watchdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltPay Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand DNA — Universal Brand Bible Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Seedance Video Generation Extension（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minio Share（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crisis Management & Communications Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LinkedIn Authority — Thought Leadership System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vincent - Credentials（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Vincent - Trading Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Solanaprox Ai（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- phoenixclaw image gen（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quality-Driven Development (QDD)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawmart Skills Empire（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QR Code Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tg-mysql-design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Capture Website（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Perpetua（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- web3-grant-tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qverisai 1.0.1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GPU CLI — Remote GPU Compute for ML Training and Inference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Postman（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TED Talk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- speech-recognition（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Backup System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Memories（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Medium Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Buffett Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drift（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Play Store（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Writing Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doro Command Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Impromptu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Production（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ra Pay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- E-Commerce Price Monitor & Competitive Intel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gitea Actions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpusFlame Deep Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltimon - The Molty Trading Card Game（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Error-Driven Evolution（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Font Awesome（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- myfood-by（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Video Summarizer (Xiaolongxia)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- coinank-openapi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deepblue Defi Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kryptogo Meme Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evolink Media — AI Video, Image & Music Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Anything（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doro Git Secrets Scanner（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Passive Income Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Founder Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cost Governor - Subagent Budget Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kite Agent Smart Wallet Permissionless Protocol V2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Setup CloudBase for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Securely interact with Bitwarden/Vaultwarden vaults using rbw CLI. Use when retrieving credentials, managing vault items, or integrating secrets into scripts/systemd services. Handles authentication, field access, and non-interactive operation patterns.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SimilarWeb Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Unity Level Design Patterns skill.（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SpecVibe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- person crm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishui-file-sender（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dev Serve（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paddle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Operator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ANY WHISPER API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Todokan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iautopay（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Polymarket Bots by（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Enhanced Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- B2B Lead Generation & Contact Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Passive Income Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- lgCapture（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doro Email To Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doro Docker Essentials（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SnowflakeDataEngineer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Launcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawsec-nanoclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Karma Book（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 视觉系幻灯片捕手 (The Slide Sniper)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402-cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adguard Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TRIZ Systematic Innovation Method（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Capture Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- product-compare（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bailian Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Subtitle Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Epstein Detective（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vercel Speed Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Reflection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Building Permit & Construction Permitting（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- KrumpKraft Play（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Executive Coaching & Leadership Development Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gh-modify-pr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- StorJ Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pubblue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Disk Usage Watcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Comonyx Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Correction Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SEO Research Master — Keyword & Content Strategy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fairness Auditor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GitHub Gem Seeker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentfolio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automated QA Testing Bots（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Creative Fiction Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Archon Vault（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landing Page Converter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Images（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MindCore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Auto Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 任务守望者与弹窗杀手 (Task Watchdog)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402 Agentic Creation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Farmos Workforce（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- plugy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- crypto-research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Matrix Channel Fix（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 狗狗如厕训练（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Assimilate MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slopism（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ai-drama-prompt-factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RockPaperSc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Returns Reverse Logistics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FastPlayWright Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Afterself（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-light-token-client（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Smart Memory Query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-stream-light（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Daily Tips（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- clawnedhub - Scan and Security your OpenClaw Instances（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shopping List Ui（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hadoop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Launchthatbot Convex Backend（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Max Proxy Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Diataxis Writing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- x402r Dispute Resolution（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Shipz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- company-search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gambling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mee6（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BrainVsByte（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Growth Engineering Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Submit To Agentbeat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toingg Campaign Creator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Upwork Automation Using Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Living Room Smoke Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Fast Loop（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-dev-rent-free（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spritz Fiat Rails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 瀑布流特定画风采图员 (The Vibe Harvester)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Archon Cashu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Drip director（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CMB HKD-CNY Exchange caculator in REALTIME（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Alive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Finops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Carrier Relationship Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Payroll Oracle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Team Dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VTL Image Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skill Bandwidth Income（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mmEasyVoice（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WiseOCR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xvfb-chrome（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Explorium AgentSource（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Template（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-Direction（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Usage Linux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Overkill Token Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secret Detection（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Strategy Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kite Agent Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Inventory Demand Planning（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RegLimited（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Customs Trade Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ask-deep-wiki（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codespace Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear Browser Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BrowserMCP Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remotion Video Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Tor v69（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-payments-wallet-dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gated Alpha（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayPol Agent Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XferOps Forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-token-distribution（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MiniMax MCP Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- code2animation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skills Indec MCP（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- junior-high-math-research-plans（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FormPass Submit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Secret's Safe（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Did you know?（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- freeman-browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Playwright Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Echo Repeater（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-compression-dev（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slack Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Personaldatahub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Notion Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent DNA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- solana-light-sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Val（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TriCore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Tags Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- uf2.net URL Shortener（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Technical Seo Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kontour Travel Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentNet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Anytype（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Sacred Rules（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pharmacy Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QA Gate Google Cloud Platform（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4Claw Mint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tempo Workspace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Genie（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clarity Fold Status（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clarity Variant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Client Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amazon Shopper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ShieldAPI Security Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Photography Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenMM Exchange Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Production Scheduling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kite Agent Smart Wallet Permissionless Protocol（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self Discipline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docker Osx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PlayerHater - Review Agent Interactions（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FormPass Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CPR - Conversational Pattern Restoration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Squad Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trash Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawback（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PayClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kite Agent Smart Wallet V3（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales Funnel Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vercel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Childcare Compliance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Salon & Spa Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qa Gate Vercel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linkedin Video Downloader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clarity Vote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clarity Submit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tmux（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- CardPointers（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TwitterApi Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Channels Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Veterinary Practice Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Landscaping & Lawn Care Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moving Company Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Amazon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memphis AI Brain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenMM Grid Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- How To Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenMM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wafeq API Reference（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Roofing Contractor Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Funeral Home Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Home Inspection Business Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Video Transcript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quackgram（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Build apps with Bitcoin and Stablecoins on Arkade（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Performance Engineering System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pharmgx Reporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dental Practice Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Inter Operations & Integration Forge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Broswer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clarity Clinical（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pest Control Business Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ASO Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Minimalist Ui - OpenAI/Notion Style（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clarity Changes（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gog2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nova Net Worth（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Daily Report (EN)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daolv Hotel Booking（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clearbit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CompoundMind（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plausible（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Conatus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quack Sdk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NotebookLM Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- polymarket-pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- netmiko ssh（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- me.txt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron Setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Henteplan Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Music Research (Crate)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bolt Sprint（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Molt Sift（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bible Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Staffing Agency Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Product Management OS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pharmgx Reporter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- limitless-lifelogs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clickup Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — Mastodon（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clickup Operational（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Publora — Bluesky（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Orderly Perps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cTrader Commander（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sales Closer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Casino（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gov Court Records（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Plashboard Admin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Content Machina（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GDrive Owncloud Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gov Environment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chief Feature Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Give eyes to your openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GoList（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenScan Crypto（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CrabPath（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- inner-life-dream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tldr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nutrient Document Processing (Universal Agent Skill)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Grand Bazaar Swap（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kim 消息发送（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tldr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TAAPI CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenD CLI for MooMoo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Respawn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DAEMON Club（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tldr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weibo Microblogging CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zoom Meeting create/delete（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tldr（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gov Contracts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gov Travel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TCL (Lyon public transport network)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Investing Analyst（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kanban Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gov Financial Intel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qwen Code（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MLB Daily Scores（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- apple-calendar-pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentCall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gateway Watchdog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Antd（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClaWeb Messaging（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ghost Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Domain Trust Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ADHD Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Astock Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hybrid training plan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ARES Business Registry (CZ)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deno Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- inner-life-chronicle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Xiaohongshu Video Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elegant Config Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Council of Wisdom（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- inner-life-core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- inner-life-memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- config-rollback（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dievio Lead Search API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- productOptimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Region-Canada（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Music Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-code-merge-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Pipeline Bundle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lawb Chess（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- inner-life-reflect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Philidor — DeFi Vault Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Intelligence（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Safe Config Rollback（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paprika Recipe Importer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Nextjs Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Group Activation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TrainClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- bmap-jsapi-gl（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zight - video instructions capability for agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Adaptivetest Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Arena（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Whisper STT（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanizer (Polish)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- llms.txt File Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Scientific Internet Access（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Excel Translator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- pymupdf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IEX Cloud CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Magic Internet Access（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Indexer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- instant-execution-discipline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 朋友圈4宫格卡片（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Autoupdate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Schema Markup Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Desing mobile apps（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NASDAQ Public API CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IBKR CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Prompt Researcher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VoiceClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Alpaca Markets CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ravi vault（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Shopify Checkout API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Market Structure Scan（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Demo-Slap Highlights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Collector-Profiling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Universal Trading（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ravi feedback（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MiniMax TTS 国内版（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Caiyun Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chinese Daily Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ravi ravi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Resource Profiler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill-security-scanner-clean（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ravi inbox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ravi passwords（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Ravi email-send（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coding PM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeAI.au（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GrowthLoop – Plan & Habit Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ravi login（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Search Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw cloud self-deployment（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dependency Update Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TTS AutoPlay with Wake Word（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ravi identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reminder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docs Bot（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Travel Itinerary Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FGO Invoicing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mov-toa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ROS 2 Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brand Visibility Overview（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Use Browser (Scrape leads, like, post on socials or perform actions on the web)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawket（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Caiyun Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 4D Compression Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doppleganger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Phone Calls (Stepone AI)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 钉钉日程管理（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- wechat-mp-writer-skill-mxx（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cron Health Check（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hypabase Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RealmRouter Switch（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Creative Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polygon Agents CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoltX Social（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Composio Composer Xskill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- fanqie-masterclass（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dream（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Persistent Code Terminal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Qoder CLI skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boosta Long to Shorts（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- jsapi-ui-kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- public-company-analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outlook Calendar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanize Text（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zadig DevOps（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Craftwork（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Team Status Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- claw-mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- K Deep Research（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elsa x402 API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentMail MCP CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 腾讯文档 tencent-docs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Builder Plus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-doc-orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub Skills Stats（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MOA-Debate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Downloader tiktok videos（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UI Element Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Medical Triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Temporal Time Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Maxun（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RemNote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fairscale Solana Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- dingtalk-ai-table（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tado-thermostat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- System Monitor Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Outlook Calendar (M365)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WhatsApp Image Send（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zhouyi Divination（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- large-document-reader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exa Search (Rust)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mmVoiceMaker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Newrelic Cli Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mmMusicMaker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Marila Skill Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- remote-ssh-bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 139mail（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ragtop-planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Selenium Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- joplin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- mission-control-visual-qa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana 2（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi Model Critique（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ask Skill Shield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 专业彩票助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Customer Service KB Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Material Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cron-guardrails-pack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Security Daily Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clickup Project Management（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- add-agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google ads for OpenClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 好多素教需求单相关skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- R4（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Localhost Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Minimax Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rssh2 - SSH远程自动化工具（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Faces（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- XMind Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- VPS Agent Migration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Token Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- guidelines（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- US Safety Recalls（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishu-audio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sectors Financial Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tra Cuu Phat Nguoi（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Natural Disaster Intel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 我的二维码生成技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- video-audio-replace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twelve Data Market API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Web Scout（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Broadcast Signed Transaction（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A Stock Analysis 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Card Benefits Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Emacs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Miniflux（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Blog Content Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wopdpress AI Blogger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 飞书文档文件夹摘要生成器（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Standx Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dispatchi (Ralph Loop)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- flights（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dispatch (Claude Code)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cancel Dispatch Run（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 抖音自动回复助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bird Twitter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lead Processor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- IAMMETER（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claude Code Runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mermaid Image Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Big Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wash-Trade-Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tinmem Memory System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- flomo-crud-skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Recovery (Codex)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elytro Smart Account CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Numerai Tournament（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- m5stack-assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Scrapling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Message（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi-model automatic fallback system（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doge Oss Upload（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddit Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Reviewer Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- evomap-skills-wrapper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mcp App Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Huggingface（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Data-Normalization（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- baidu-nearby（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Work Application（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Confidence-Scoring（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Billy — SAPCONET SSH Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Art（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ntfy-notify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- crypto briefing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Remote Disk Mount（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Huggingface（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ohmytoken（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- iammeter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bitstamp Trader（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github Bounty Hunter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yarn - Control and Access Threads.com via the CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jrb Remote Site Api Skill Repo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Directoryahu（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Github Memory Sync（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Master Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- File Writer Safe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI News ZH - 中文AI科技日报（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Billy — Mission Control Visual QA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- File Writer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Region-Europe（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stripemeter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fullstack Developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Billy — Cron Guardrails Pack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- governance-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 蜂兵虾将（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nas system monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 蜂兵虾将（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Telegram Inline Buttons（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Creative Genius（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Health Auto Log（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- GEO Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenSubtitles Read-only（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawhub auto publisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- evomap-MassPublisher（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ADHD X Bookmark Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kid Tutor - 儿童AI家教助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill usage tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multisource Intel Radar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- the skill to browse X（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Astro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Maven Full Runner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Freeapi（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Email（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Multi Agent Collaboration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MoreLogin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- System Vigil（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Workspace Project Standard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hot-topic-ideator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- evomap-bundle-improve（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- NadirClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- imap-smtp-email-chinese（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Metered API Marketplace（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agent Swarm Network（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw WeCom Channel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Skill Reviewer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Project Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Teable（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- content-factory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Api Design（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Corpus（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-support-reply-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Credit Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baidu Search Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- stock-screener-cn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- boardroom-advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-publish-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-agent-action-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Durable Files Weekly Review (Public)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-persona-generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- umami-setup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- WiseDiag MedOCR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- docx-to-md（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Sprint OS（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- aeo-system（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TrustLayer Sybil Scanner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spotify Controller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contact Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Relay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Mobile Appium Test（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- R2 Storage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Sniper Oracle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tone-rewriter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-persona-respawn（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neon Postgres（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brave Rotator（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Notion Workspace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-guard-core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claimable Postgres（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- consensus-send-email-guard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elevenlabs Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Roleplay Game（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenDEX Solana Token API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pump MCP Server（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- openclaw skill for swarms ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- This skill informs the agent how to use Viam CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pump Sdk Core（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quack Coordinator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quack Challenges（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fia Signals Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Send File（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Honcho Memory Multiplexer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- My AI Familiar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- FadNote（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Audio Capture（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Jackal Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Student Rooms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Admin Elite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X Grok to Obsidian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Suno（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawshield（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ultimate YouTube Scraper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Master（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Download-video-tiktok（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Simulated Roadtrip（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Observability Lgtm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Poster（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clawsy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fact Checker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LogicArt Code Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Llm Eval Router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quack Workflow Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moltbook Social（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Dreams（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Neomutt Commander（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- RedPincer — AI Red Team Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Funding Alert（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Quack Memory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Daily Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gmailcleanerfall（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fastapi Studio Template（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- To-Do（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Insight Engine（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Contract Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fia Signals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Verdikta Bounties Onboarding（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Funding Rate Scanner（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Fabric Marketplace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Llm As Judge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Clack（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Admin Cli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Proof（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zai Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- gmailcleaner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Reddi Humanizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quack Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ComfyUI Painter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Clawban（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Portugal（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kanban Workflow Export（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Udio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Postcard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quack Identity（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Compaction Survival System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw phone（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Listening & Brand Reputation Monitor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Workspace Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kevros（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Docs Pipeline Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tokamak-vault-breach（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Video Proof（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SunoMaker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BKMRK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PC Control（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Media Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Crypto Alert Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Trakt Read-only（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Detect File Type - Local（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Power Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Drive（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dl Transformer Finetune（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Briefing Diario（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Cofounder Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tulebank（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SimpleHttpSkill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ad Creative Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voipms Sms（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zendesk（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Detect File Type Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ad Designer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- deprecated ignore（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Messenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intent Align（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hotbutter voice chat（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Linear CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SAPCONET SSH Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Workspace CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cyber Ir Playbook（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cyber Owasp Review（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Familiar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Evalanche（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawGuardrails（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zoho-support-claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Nano Banana 2 — AI Image Generation (Gemini 3.1 Flash Image, Google, Evolink)（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Quality（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cyber Kev Triage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Jules Tools CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI C-Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agentic Workflow Automation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Slingdata.io API Spec（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Agentic Mcp Server Builder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentPress（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Toingg Ops Toolkit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-CRM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PomoClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Boktoshi Human /my Helper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Armarius - Prompt Injection Blocker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-Prompt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polygon Agents SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- E2E e2e-repro3-1772127182276（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- E2E e2e-repro2-1772127134（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Config Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- God Mode Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw X（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Config Validator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 飞书媒体发送（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Defipoly（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Voice Memo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ClawSpotify（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ghostfetch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xskill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deal Works Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- metacli（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DeepRead Form Fill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DataMerge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Atxp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Quiver Ai（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QuiverAI Quickstart（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Config Workflow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- post-to-xhs（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cord Trees（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MaxClaw User Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CrabPet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIML Voice Transcript（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 安全配置流程 (Nico)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SearXNG Docker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- QuiverAI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bluebubbles Healthcheck（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIML Music Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 安全配置流程（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deal Works Mcp（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Search Extractor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Tavily 搜索（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Easy Email Finder（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AIML Сontent Moderation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Integrations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw AntSeed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Gog（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moralis Data Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bili Summary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Qa（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BMAD Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw X（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Just Keep Working（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Zhipu Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentBox OpenRouter（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Reports（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- API Endpoint Tester（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CRM-in-a-Box（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Story Chain Multiverse（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PromptDome（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Youtube Music（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moralis Streams Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- YouTube Music ULTRA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentBooks（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BIOS Deep Research（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- biz-in-a-box（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intent Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentBox（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Potato Tipper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Real Estate Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Social Ops（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 简历筛选助手Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stop Asking and Just Do It（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Omni Research（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- 投资组合分析技能（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PCClaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stable Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Military PCS Optimizer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Discord Dual Bot Orchestrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- SporeSweeper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bloom Discovery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Manager（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Support（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-GL（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- word-to-pdf（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Peon Ping for Openclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Monero Wallet（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Onebot Adapter 1.0.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Payroll（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opinion Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PolyClaw Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kickstart（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Vibelevel Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- App Store Deployment Guide（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Manufacturing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Confucius Debug（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- rednote(xiaohongshu,xhs)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Strategy Advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Repo Kanban PM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- opennews（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Whisper Stt（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Delx Ops Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Polymarket Autopilot Experimental（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ok Computer Swarm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Create Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Kekik Crawler（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pastewatch MCP（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Blog Generator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Claw Canvas（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Clipper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- High-quality Joke Teller（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Noisepan Digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TrustMyAgent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- zxyskill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Skill Cutmv Video Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ticket Monitor Ichinosuke（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 小红书内容创作（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Browser Automation Ultra（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenMM Portfolio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- EVC Team Relay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Host Hardening（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Chainwatch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- HeyLead（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Host Hardening（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hidden Business Opportunity Detector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brutal honest advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Coding Agent Backup（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ghost Browser（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Prayer Times Id（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automated Content Generation Pipeline（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Intelligence Ingestion（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Deep modules for agent-native codebases（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Connect（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CostLens（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sleep-wakeup advisor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ollama Integration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- maihh ai通讯录（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Italy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Squarespace（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- UX/UI Specialist Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Automated TikTok & Instagram Trend Radar（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 微博关键信息不漏看（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Storacha Upload（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- BMad Method（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Safe Install（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Image Studio — AI Image Prompt System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Baseline Kit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openrouter Usage（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- A2A Agent Lookup — Verify Any AI Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- llm-judge-ensemble（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Twitter/X Strategy — Audience Building System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Proxybase Openclaw Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Spain（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Website SEO — On-Page Optimization System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Email Campaigns — Universal Email Marketing（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Debugging R Environment And Dependencies（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- TikTok Growth — Video Content System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- hanyilong first skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- realtime-interact-overlay（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Human Pages（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 魔盒node服务开发技能包（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- xclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu Proactive Messenger（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Memoria Memory System（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PC Assistant（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 日本雅虎拍卖估价（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Paradiz（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- feishuFindDoc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Rss Aggregator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AI Editor Rules（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 麦当劳智能点餐助手（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- semantic-model-router（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- X CDP Automation（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Opentwitter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dessix Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- agentsecrets（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- English Tutor（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Transistor FM（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Stock Monitor Skill 0.1.0（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PRISM API SDK（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openrouter Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-AI-Engine-Analytics（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Gateway Guardian（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Listenhub（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Ai Economic Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openqq（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Briefed（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cursor IDE Agent（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Built at GrowthX（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Bug Audit（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opennews（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- XHunt Hot Tweets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Codex Auth Cleaner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-HR（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Assets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Moark Image Generation（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jlm Coffee（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Google Search Console CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Last.fm (OpenClaw)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- DefiLlama API（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Selling（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bing Webmaster CLI（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Projects（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Command Flow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Pain Point Finder（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Xhunt Hot Tweets（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Swaps Intel（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Generate Qrcode（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Buying（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Influencer Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ai-twitter-digest（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Flomo Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Inventory（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Influencer Report（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Tax（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Starter Flow（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Skill Dashboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Opys Calendar Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Django Claw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Superclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Yr Weather（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weather Query（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Exchange Rate（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Querit Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Wafeq（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cortex（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Openclaw Snitch（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Infinite Oracle（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Daily Ai News（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bing Wallpaper（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloudinary（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- easyclaw（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Elen: Epistemic Decision Tracker（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Weekly Planner（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Azion Deploy（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dingtalk Api（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Arpc（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OutboundSync Analysis（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OC Cost Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Durable Agents（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ERPClaw-Journals（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Cost Analyzer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MakeSoul Lite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Agent Compute（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- React Native Skills（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cobo TSS Node（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- tbb-node-connector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cutmv Video Tool（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model-Selector（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Brave Web Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fastmail Suite（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PCEC EvoMap Integrator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- PCEC EvoMap Bounty（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cutmv（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dingtalk Bot Publish（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Two Factor Authentication Best Practices（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Auto Monitor - System Monitoring（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Meta Control - Agent Orchestration（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Hacker News Daily（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Fence Quote Calculator（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- harmonyOS developer（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- OpenClaw Code Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Feishu File（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Code Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- cloudsway-search-tob（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- CHIS/CHISF（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doc Sysadmin（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Epragma Redmine Issue（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Close Crm（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Recruiter Assistant (Shenzhen)（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Agent Group（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Restaurant Operations（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- STM32 CubeMX（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- MacClaw Copilot CLI（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Official QVeris Skill（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Bloomfilter（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Cloud-Local Bridge（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Doc Handler - 文档处理（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- AgentWard Sanitize（官方）：社区活跃度较低（stars < 5）,依赖外部 API 且缺乏社区验证，需重点检查 secret/鉴权边界,用途偏工程/产品开发，不属于科研主线
+- Arrivelah（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Lance（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- slack-1（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Dx Terminal Pro（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- ReviewEvo（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Jina Web Fetcher - 网页抓取（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- sync-trending（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Android Studio（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- 111（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Copilot CLI AI 代码分析（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- LBA（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Markdown Docs Full-Text Search（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Model Switchboard（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- skill_install（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+- Self-Hosting Mastery（官方）：社区活跃度较低（stars < 5）,用途偏工程/产品开发，不属于科研主线
+
+## 下载与上手
+
+- 进入上架列表后可直接点击：`查看源码`、`下载 ZIP`、`复制安装命令`。
+- 已按来源与安全级别标注官方/非官方与风险提示。
+- 建议先看仓库 README 的依赖与鉴权说明，再执行最小样例验证。
+- 所有入口均基于仓库公开链接，支持离线二次分发。

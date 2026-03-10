@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-03-02",
+  "selected_skills": [
+    {
+      "name": "find-skills",
+      "source_url": "https://github.com/JimLiuxinghai/find-skills",
+      "official_stats": {
+        "displayName": "Find Skills",
+        "stars": 298,
+        "installs_all_time": 564,
+        "installs_current": 551,
+        "version": "0.1.0"
+      },
+      "no_key_claim": "SKILL.md describes no API keys required in usage and uses Skills CLI"
+    },
+    {
+      "name": "weather",
+      "source_url": "https://github.com/steipete/weather",
+      "official_stats": {
+        "displayName": "Weather",
+        "stars": 177,
+        "installs_all_time": 972,
+        "installs_current": 949,
+        "version": "1.0.0"
+      },
+      "no_key_claim": "No API key required in official skill page summary and local package metadata"
+    },
+    {
+      "name": "polymarketodds",
+      "source_url": "https://github.com/joelchance/polymarketodds",
+      "crawl_stats": {
+        "stars": 77,
+        "downloads": 36270
+      },
+      "no_key_claim": "SKILL.md shows CLI workflow, no env/API key section"
+    }
+  ]
+}

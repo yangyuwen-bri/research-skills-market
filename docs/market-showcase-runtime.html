@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>科研Skills市场展示（Runtime）</title>
+  <style>
+    :root { --bg: #0b1020; --card: #151d36; --txt: #e6ecff; --muted: #98a2b3; --good:#22c55e; --warn:#f59e0b; --bad:#ef4444; }
+    body { margin: 0; font-family: Arial, sans-serif; background: radial-gradient(1200px 600px at 10% 0%, #17213d 0%, var(--bg) 45%, #080b16 100%); color: var(--txt); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 20px 60px; }
+    h1,h2,h3 { margin: 0 0 12px; }
+    .subtitle { color: var(--muted); margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(1, minmax(0,1fr)); gap: 14px; }
+    @media (min-width: 800px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .card { background: var(--card); border: 1px solid #26335a; border-radius: 12px; padding: 16px; }
+    .meta { color: var(--muted); font-size: 14px; margin-bottom: 8px; }
+    .tag { display: inline-block; padding: 3px 9px; border-radius: 999px; margin-right: 8px; font-size: 12px; border: 1px solid #2e3b66; color: #c3d0ff; }
+    .high { color: #dcfce7; background: #14532d; }
+    .mid { color: #ffedd5; background: #7c2d12; }
+    .low { color: #fee2e2; background: #7f1d1d; }
+    .blocked { background: #b91c1c; color: #ffe4e6; padding: 10px; border-radius: 8px; margin-bottom: 20px; }
+    a { color: #93c5fd; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>科研Skills市场展示（Runtime）</h1>
+    <div class="subtitle">基于当前样例数据自动生成 · 当前仅作示例</div>
+
+    <h2>可发布项目</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>paper-trend-summarizer</h3>
+        <div class="meta">来源：GitHub</div>
+        <div class="meta">链接：<a href="https://github.com/example/paper-trend-summarizer">github.com/example/paper-trend-summarizer</a></div>
+        <div class="meta">评估：<span class="tag high">可直接用（高）</span></div>
+        <div class="meta">研究阶段：文献检索、论文写作</div>
+        <div class="meta">适用学科：生物医学、计算机</div>
+        <p>基于RAG与LLM生成文献综述提纲与研究空白识别</p>
+      </div>
+
+      <div class="card">
+        <h3>dataset-cleaning-pipeline</h3>
+        <div class="meta">来源：GitHub</div>
+        <div class="meta">链接：<a href="https://github.com/example/dataset-cleaning-pipeline">github.com/example/dataset-cleaning-pipeline</a></div>
+        <div class="meta">评估：<span class="tag warn">需小改（中）</span></div>
+        <div class="meta">研究阶段：数据分析、复现</div>
+        <div class="meta">适用学科：通用科研</div>
+        <p>面向科研实验数据的清洗、缺失值处理与可视化检查模板</p>
+      </div>
+    </div>
+
+    <h2>过滤项</h2>
+    <div class="blocked">fun-chatbot-skill：纯娱乐/社交语境，非科研场景</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "agent": "scout",
+  "created_at": "2026-02-27",
+  "window_days": 30,
+  "items": [
+    {
+      "id": "cand-001",
+      "name": "paper-trend-summarizer",
+      "source": "github",
+      "url": "https://github.com/example/paper-trend-summarizer",
+      "desc_raw": "基于RAG与LLM生成文献综述提纲与研究空白识别",
+      "stars": 312,
+      "forks": 48,
+      "watchers_7d": 12,
+      "last_commit": "2026-02-20",
+      "activity_hint": "issues_discussions",
+      "collected_by": "scout-bot-v1"
+    },
+    {
+      "id": "cand-002",
+      "name": "dataset-cleaning-pipeline",
+      "source": "github",
+      "url": "https://github.com/example/dataset-cleaning-pipeline",
+      "desc_raw": "面向科研实验数据的清洗、缺失值处理与可视化检查模板",
+      "stars": 97,
+      "forks": 9,
+      "watchers_7d": 3,
+      "last_commit": "2026-01-30",
+      "activity_hint": "low_update",
+      "collected_by": "scout-bot-v1"
+    },
+    {
+      "id": "cand-003",
+      "name": "fun-chatbot-skill",
+      "source": "x",
+      "url": "https://x.com/example/fun-chatbot",
+      "desc_raw": "用于娱乐对话的通用bot技能",
+      "stars": 0,
+      "forks": 0,
+      "watchers_7d": 2,
+      "last_commit": "2025-12-01",
+      "activity_hint": "social_activity_only",
+      "collected_by": "scout-bot-v1"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "P01",
+    "skill": "peekaboo",
+    "status": "PASS",
+    "timestamp": "2026-03-02T22:18:12",
+    "notes": [
+      {
+        "label": "peekaboo_skill_index",
+        "command": "npx --yes skills find \"peekaboo\" | head -n 40",
+        "exit_code": 0,
+        "duration": "19.8s",
+        "optional": false,
+        "notes": [],
+        "output": "███████╗██╗  ██╗██╗██╗     ██╗     ███████╗\n██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝\n███████╗█████╔╝ ██║██║     ██║     ███████╗\n╚════██║██╔═██╗ ██║██║     ██║     ╚════██║\n███████║██║  ██╗██║███████╗███████╗███████║\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝\n\nInstall with npx skills add <owner/repo@skill>\n\nsteipete/clawdis@peekaboo 401 installs\n└ https://skills.sh/steipete/clawdis/peekaboo\n\nelizaos/eliza@peekaboo 6 installs\n└ https://skills.sh/elizaos/eliza/peekaboo\n\ninsight68/skills@peekaboo 4 installs\n└ https://skills.sh/insight68/skills/peekaboo\n\ncowork-os/cowork-os@peekaboo 2 installs\n└ https://skills.sh/cowork-os/cowork-os/peekaboo\n\njiulingyun/openclaw-cn@peekaboo 2 installs\n└ https://skills.sh/jiulingyun/openclaw-cn/peekaboo\n\nthinkfleetai/thinkfleet-engine@peekaboo 2 installs\n└ https://skills.sh/thinkfleetai/thinkfleet-engine/peekaboo"
+      },
+      {
+        "label": "peekaboo_binary_check",
+        "command": "if command -v peekaboo >/dev/null; then echo \"peekaboo_binary_ok\"; else echo \"peekaboo_binary_missing\"; fi",
+        "exit_code": 0,
+        "duration": "0.0s",
+        "optional": true,
+        "notes": [],
+        "output": "peekaboo_binary_missing"
+      },
+      {
+        "label": "peekaboo_install_hint_probe",
+        "command": "echo \"peekaboo 安装建议：npx skills add steipete/clawdis@peekaboo -g -y 或 npx skills add openclaw/skills -g --skill peekaboo\"",
+        "exit_code": 0,
+        "duration": "0.0s",
+        "optional": false,
+        "notes": [],
+        "output": "peekaboo 安装建议：npx skills add steipete/clawdis@peekaboo -g -y 或 npx skills add openclaw/skills -g --skill peekaboo"
+      }
+    ]
+  }
+]

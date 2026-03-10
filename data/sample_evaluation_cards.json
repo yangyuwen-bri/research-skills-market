@@ -1,0 +1,48 @@
+{
+  "agent": "evaluator",
+  "assessed_at": "2026-02-27",
+  "items": [
+    {
+      "classified_id": "cand-001",
+      "scores": {
+        "code_quality": 4,
+        "docs": 4,
+        "maintainability": 4,
+        "maturity": 4,
+        "usability": 5,
+        "security": 4
+      },
+      "grade": "可直接用",
+      "security_checks": ["无可疑权限请求", "未见持久化敏感数据行为"],
+      "notes": "需补充中文入门示例会更好"
+    },
+    {
+      "classified_id": "cand-002",
+      "scores": {
+        "code_quality": 3,
+        "docs": 3,
+        "maintainability": 3,
+        "maturity": 3,
+        "usability": 3,
+        "security": 3
+      },
+      "grade": "需小改",
+      "security_checks": ["依赖中未固定版本，需加锁"],
+      "notes": "安装脚本缺少python版本约束，建议补齐"
+    },
+    {
+      "classified_id": "cand-003",
+      "scores": {
+        "code_quality": 2,
+        "docs": 1,
+        "maintainability": 1,
+        "maturity": 1,
+        "usability": 2,
+        "security": 2
+      },
+      "grade": "不推荐",
+      "security_checks": ["不可追溯来源，不含源码可复验信息"],
+      "notes": "不支持科研用途且缺少技术资料"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "agent_name": "OpenClaw Skill 体验官",
+  "report_prefix": "skill-experience",
+  "cases": [
+    {
+      "id": "S01",
+      "skill": "find-skills",
+      "capability": "按意图检索可安装技能并给出安装路径与可选方案",
+      "skill_group": "能力发现",
+      "priority": 1,
+      "user_prompt": "我想给 OpenClaw 增加测试相关能力，帮我先找 3 个可直接装的技能并给安装方式。",
+      "agent_reply_example": "我先按“测试能力”关键词做一次检索，先给你 3 个可用候选和安装命令。你要我直接装哪个我就继续执行。",
+      "critical": true,
+      "weight": 5,
+      "probes": [
+        {
+          "label": "skills_cli_find",
+          "command": "npx --yes skills ls -g | head -n 20",
+          "required_exit": 0,
+          "assert_contains": [
+            "Global Skills",
+            "Agents:"
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "skill": "weather",
+      "capability": "在对话中基于公开天气源给出即时天气结论并支持降级回退",
+      "skill_group": "信息查询",
+      "priority": 2,
+      "user_prompt": "我刚到伦敦，今天要不要带伞？直接给我一句天气结论。",
+      "agent_reply_example": "我先查伦敦实时天气，再给你一句结论：是否有降雨、体感温度和风速，方便你快速决策。",
+      "critical": true,
+      "weight": 5,
+      "probes": [
+        {
+          "label": "weather_probe",
+          "command": "python3 runtime_scripts/weather/weather_probe.py",
+          "required_exit": 0,
+          "assert_contains": [
+            "wttr_primary_ok|open_meteo_fallback_ok"
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "skill": "github",
+      "capability": "查 CI/Action 失败路径并给出最短故障排查链路",
+      "skill_group": "代码协作",
+      "priority": 3,
+      "user_prompt": "我想快速看下项目最近 CI 失败的上下文，先给我最短链路。",
+      "agent_reply_example": "我先确认 `gh` 是否就绪；可以直接用 `gh run list` 与 `gh run view --log-failed` 定位失败摘要，之后给你建议复测步骤。",
+      "critical": false,
+      "weight": 5,
+      "probes": [
+        {
+          "label": "github_binary",
+          "command": "command -v gh >/dev/null",
+          "required_exit": 0,
+          "assert_contains": [],
+          "optional": true
+        },
+        {
+          "label": "github_doc",
+          "command": "grep -n \"Interact with GitHub\" references/skill_pages/github.md | head -n 1",
+          "required_exit": 0,
+          "assert_contains": [
+            "Interact with GitHub"
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "skill": "ontology",
+      "capability": "用本地知识图谱维护实体与关系，支持创建和检索",
+      "skill_group": "知识结构化",
+      "priority": 4,
+      "user_prompt": "我想建立一个名为『Q1技能体验』的项目节点，并关联负责人『我』，然后列出该类型实体。",
+      "agent_reply_example": "我先建立项目和负责人节点，再把“负责人”关系写入图谱，最后给你回传创建结果。",
+      "critical": true,
+      "weight": 5,
+      "probes": [
+        {
+          "label": "ontology_create_node",
+          "command": "cd runtime_scripts/ontology && python3 ontology.py create --type Project --props '{\"name\":\"Q1技能体验\",\"status\":\"active\"}' | head -n 40",
+          "required_exit": 0,
+          "assert_contains": [
+            "\"id\"",
+            "\"type\": \"Project\"",
+            "\"status\": \"active\""
+          ],
+          "optional": false
+        },
+        {
+          "label": "ontology_query",
+          "command": "cd runtime_scripts/ontology && python3 ontology.py query --type Project --where '{\"status\":\"active\"}' | head -n 80",
+          "required_exit": 0,
+          "assert_contains": [
+            "\"id\"",
+            "\"type\": \"Project\"",
+            "\"status\": \"active\""
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "skill": "agent-browser",
+      "capability": "对网页执行器（按钮、内容抓取、流程动作）提供可落地指导",
+      "skill_group": "网页动作",
+      "priority": 5,
+      "user_prompt": "我想给页面按钮做一次自动化操作演练，先给我能力边界和安装前置。",
+      "agent_reply_example": "这类网页自动化能力可落地，先确认本地 `agent-browser` 与 `node/npm`，我会给你安装与回退步骤。",
+      "critical": false,
+      "weight": 4,
+      "probes": [
+        {
+          "label": "agent_browser_cmd",
+          "command": "command -v agent-browser >/dev/null",
+          "required_exit": 0,
+          "assert_contains": [],
+          "optional": true
+        },
+        {
+          "label": "agent_browser_docs",
+          "command": "grep -q \"agent-browser\" references/skill_pages/agent-browser.md && echo 'docs-ok'",
+          "required_exit": 0,
+          "assert_contains": [
+            "docs-ok"
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "skill": "vercel-react-best-practices",
+      "capability": "高安装量 React 实践建议能力，适合前端代码评审与规范落地",
+      "skill_group": "开发辅助",
+      "priority": 6,
+      "user_prompt": "我想对一个 React 页面做结构和实现评审，先给我一版最推荐的 skill 方案。",
+      "agent_reply_example": "我会优先推荐高流量的 React 实践类 skill，给你可直接执行的安装入口和使用场景示例。",
+      "critical": false,
+      "weight": 4,
+      "probes": [
+        {
+          "label": "popular_react_practices",
+          "command": "npx --yes skills find \"vercel-react-best-practices\" | head -n 30",
+          "required_exit": 0,
+          "assert_contains": [
+            "vercel-react-best-practices",
+            "Install with"
+          ],
+          "optional": false
+        },
+        {
+          "label": "related_design_guidelines",
+          "command": "npx --yes skills find \"web-design-guidelines\" | head -n 30",
+          "required_exit": 0,
+          "assert_contains": [
+            "web-design-guidelines"
+          ],
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "skill": "web-design-guidelines",
+      "capability": "把页面问题转成可执行设计指导，支持一次性落地建议",
+      "skill_group": "开发辅助",
+      "priority": 7,
+      "user_prompt": "我需要给 UI 改版出一版可执行建议，先帮我找到最接近主流流程的设计准则 skill。",
+      "agent_reply_example": "我会先确认高热度的 design-guideline 类 skill，直接返回安装方式和输出产物边界。",
+      "critical": false,
+      "weight": 4,
+      "probes": [
+        {
+          "label": "design_guideline_skill",
+          "command": "npx --yes skills find \"web design guidelines\" | head -n 30",
+          "required_exit": 0,
+          "assert_contains": [
+            "web-design-guidelines",
+            "Install with"
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "skill": "openai-whisper",
+      "capability": "离线转写短音频，减少人工记录与重复听写负担",
+      "skill_group": "音频转写",
+      "priority": 8,
+      "user_prompt": "我后面有 60 秒音频，临时处理下转写，能直接本地跑吗？",
+      "agent_reply_example": "有 `whisper` CLI 最稳；我先确认本地可执行性，再给你参数和输出目录建议，避免把转写文件散落。",
+      "critical": false,
+      "weight": 4,
+      "probes": [
+        {
+          "label": "whisper_binary",
+          "command": "command -v whisper >/dev/null",
+          "required_exit": 0,
+          "assert_contains": [],
+          "optional": true
+        },
+        {
+          "label": "whisper_no_key_doc",
+          "command": "grep -n \"no API key\" references/skill_pages/openai-whisper.md | head -n 1",
+          "required_exit": 0,
+          "assert_contains": [
+            "no API key"
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "skill": "summarize",
+      "capability": "长文本快速总结与信息压缩，适合会议纪要和日报降噪",
+      "skill_group": "文本处理",
+      "priority": 9,
+      "user_prompt": "我有一大段日志和会议记录，先帮我找最热门的 summarize 能力，直接告诉我可装路径。",
+      "agent_reply_example": "我先给你筛选高关注度 summarize 候选，再给安装命令和适配场景（会议纪要/PR/报告）。",
+      "critical": false,
+      "weight": 4,
+      "probes": [
+        {
+          "label": "summarize_candidates",
+          "command": "npx --yes skills find \"summarize\" | head -n 40",
+          "required_exit": 0,
+          "assert_contains": [
+            "clawdis@summarize",
+            "Install with"
+          ],
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "skill": "self-improving-agent",
+      "capability": "让 agent 具备自评估与持续改进机制，适合流程自动化场景",
+      "skill_group": "自我迭代",
+      "priority": 10,
+      "user_prompt": "我想用一套机制让 agent 自动总结不足并优化下次响应，先给我可落地思路。",
+      "agent_reply_example": "我会给你先落地一个可迭代的闭环设计：采集场景、反思规则、定时复盘与迭代动作。",
+      "critical": false,
+      "weight": 4,
+      "probes": [
+        {
+          "label": "self_improving_intro",
+          "command": "grep -n \"self-improving\" references/skill_pages/self-improving-agent.md | head -n 1",
+          "required_exit": 0,
+          "assert_contains": [
+            "self-improving"
+          ],
+          "optional": false
+        },
+        {
+          "label": "self_improving_agent_count",
+          "command": "npx --yes skills find \"self improving agent\" | head -n 20",
+          "required_exit": 0,
+          "assert_contains": [
+            "self-improving-agent"
+          ],
+          "optional": true
+        }
+      ]
+    }
+  ]
+}

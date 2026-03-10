@@ -1,0 +1,232 @@
+[
+  {
+    "case_id": "S01",
+    "skill": "find-skills",
+    "status": "PASS",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "skills_cli_find",
+        "command": "npx --yes skills ls -g | head -n 20",
+        "exit_code": 0,
+        "duration": "2.2s",
+        "optional": false,
+        "notes": [],
+        "output": "Global Skills\n\napify-twitter ~/.openclaw/skills/apify-twitter\n  Agents: OpenClaw\ngsdata ~/.openclaw/skills/gsdata\n  Agents: OpenClaw\nmoltbook ~/.openclaw/skills/moltbook\n  Agents: OpenClaw\npatent-disclosure-writer ~/.openclaw/skills/patent-disclosure-writer-community\n  Agents: OpenClaw\npatent-pro ~/.openclaw/skills/patent-pro\n  Agents: OpenClaw\nPatent Scanner ~/.openclaw/skills/patent-scanner-community\n  Agents: OpenClaw\nPatent Validator ~/.openclaw/skills/patent-validator-community\n  Agents: OpenClaw\nfigma ~/.codex/skills/figma\n  Agents: Codex\nfigma-implement-design ~/.codex/skills/figma-implement-design\n  Agents: Codex"
+      }
+    ]
+  },
+  {
+    "case_id": "S02",
+    "skill": "weather",
+    "status": "PASS",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "weather_probe",
+        "command": "python3 runtime_scripts/weather/weather_probe.py",
+        "exit_code": 0,
+        "duration": "15.0s",
+        "optional": false,
+        "notes": [],
+        "output": "wttr_primary_fail fallback_to_open_meteo\nopen_meteo_fallback_ok temperature=14.4 wind=14.8"
+      }
+    ]
+  },
+  {
+    "case_id": "S03",
+    "skill": "github",
+    "status": "DEGRADED",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "github_binary",
+        "command": "command -v gh >/dev/null",
+        "exit_code": 1,
+        "duration": "0.0s",
+        "optional": true,
+        "notes": [
+          "退出码不符: expect=0, actual=1"
+        ],
+        "output": ""
+      },
+      {
+        "label": "github_doc",
+        "command": "grep -n \"Interact with GitHub\" references/skill_pages/github.md | head -n 1",
+        "exit_code": 0,
+        "duration": "0.0s",
+        "optional": false,
+        "notes": [],
+        "output": "3:description: \"Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.\""
+      }
+    ]
+  },
+  {
+    "case_id": "S04",
+    "skill": "ontology",
+    "status": "PASS",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "ontology_create_node",
+        "command": "cd runtime_scripts/ontology && python3 ontology.py create --type Project --props '{\"name\":\"Q1技能体验\",\"status\":\"active\"}' | head -n 40",
+        "exit_code": 0,
+        "duration": "0.1s",
+        "optional": false,
+        "notes": [],
+        "output": "{\n  \"id\": \"proj_c2e203da\",\n  \"type\": \"Project\",\n  \"properties\": {\n    \"name\": \"Q1\\u6280\\u80fd\\u4f53\\u9a8c\",\n    \"status\": \"active\"\n  },\n  \"created\": \"2026-03-02T13:20:31.048479+00:00\",\n  \"updated\": \"2026-03-02T13:20:31.048479+00:00\"\n}"
+      },
+      {
+        "label": "ontology_query",
+        "command": "cd runtime_scripts/ontology && python3 ontology.py query --type Project --where '{\"status\":\"active\"}' | head -n 80",
+        "exit_code": 0,
+        "duration": "0.1s",
+        "optional": false,
+        "notes": [],
+        "output": "[\n  {\n    \"id\": \"proj_44f334fe\",\n    \"type\": \"Project\",\n    \"properties\": {\n      \"name\": \"Q1\\u6280\\u80fd\\u4f53\\u9a8c\",\n      \"status\": \"active\"\n    },\n    \"created\": \"2026-03-02T12:44:33.159728+00:00\",\n    \"updated\": \"2026-03-02T12:44:33.159728+00:00\"\n  },\n  {\n    \"id\": \"proj_3c200304\",\n    \"type\": \"Project\",\n    \"properties\": {\n      \"name\": \"Q1\\u6280\\u80fd\\u4f53\\u9a8c\",\n      \"status\": \"active\"\n    },\n    \"created\": \"2026-03-02T12:44:57.713387+00:00\",\n    \"updated\": \"2026-03-02T12:44:57.713387+00:00\"\n  },\n  {\n    \"id\": \"proj_b099ccb0\",\n    \"type\": \"Project\",\n    \"properties\": {\n      \"name\": \"Q1\\u6280\\u80fd\\u4f53\\u9a8c\",\n      \"status\": \"active\"\n    },\n    \"created\": \"2026-03-02T12:45:57.306709+00:00\",\n    \"updated\": \"2026-03-02T12:45:57.306709+00:00\"\n  },\n  {\n    \"id\": \"proj_f3dd5cc6\",\n    \"type\": \"Project\",\n    \"properties\": {\n      \"name\": \"Q1\\u6280\\u80fd\\u4f53\\u9a8c\",\n      \"status\": \"active\"\n    },\n    \"created\": \"2026-03-02T12:48:10.331791+00:00\",\n    \"updated\": \"2026-03-02T12:48:10.331791+00:00\"\n  },\n  {\n    \"id\": \"proj_c2e203da\",\n    \"type\": \"Project\",\n    \"properties\": {\n      \"name\": \"Q1\\u6280\\u80fd\\u4f53\\u9a8c\",\n      \"status\": \"active\"\n    },\n    \"created\": \"2026-03-02T13:20:31.048479+00:00\",\n    \"updated\": \"2026-03-02T13:20:31.048479+00:00\"\n  }\n]"
+      }
+    ]
+  },
+  {
+    "case_id": "S05",
+    "skill": "agent-browser",
+    "status": "DEGRADED",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "agent_browser_cmd",
+        "command": "command -v agent-browser >/dev/null",
+        "exit_code": 1,
+        "duration": "0.0s",
+        "optional": true,
+        "notes": [
+          "退出码不符: expect=0, actual=1"
+        ],
+        "output": ""
+      },
+      {
+        "label": "agent_browser_docs",
+        "command": "grep -q \"agent-browser\" references/skill_pages/agent-browser.md && echo 'docs-ok'",
+        "exit_code": 0,
+        "duration": "0.0s",
+        "optional": false,
+        "notes": [],
+        "output": "docs-ok"
+      }
+    ]
+  },
+  {
+    "case_id": "S06",
+    "skill": "vercel-react-best-practices",
+    "status": "PASS",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "popular_react_practices",
+        "command": "npx --yes skills find \"vercel-react-best-practices\" | head -n 30",
+        "exit_code": 0,
+        "duration": "5.4s",
+        "optional": false,
+        "notes": [],
+        "output": "███████╗██╗  ██╗██╗██╗     ██╗     ███████╗\n██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝\n███████╗█████╔╝ ██║██║     ██║     ███████╗\n╚════██║██╔═██╗ ██║██║     ██║     ╚════██║\n███████║██║  ██╗██║███████╗███████╗███████║\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝\n\nInstall with npx skills add <owner/repo@skill>\n\nvercel-labs/agent-skills@vercel-react-best-practices 182.3K installs\n└ https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices\n\nam-will/codex-skills@vercel-react-best-practices 3.6K installs\n└ https://skills.sh/am-will/codex-skills/vercel-react-best-practices\n\nsupercent-io/skills-template@vercel-react-best-practices 3K installs\n└ https://skills.sh/supercent-io/skills-template/vercel-react-best-practices\n\nlanggenius/dify@vercel-react-best-practices 612 installs\n└ https://skills.sh/langgenius/dify/vercel-react-best-practices\n\nlobehub/lobehub@vercel-react-best-practices 418 installs\n└ https://skills.sh/lobehub/lobehub/vercel-react-best-practices\n\nsickn33/antigravity-awesome-skills@vercel-react-best-practices 288 installs\n└ https://skills.sh/sickn33/antigravity-awesome-skills/vercel-react-best-practices"
+      },
+      {
+        "label": "related_design_guidelines",
+        "command": "npx --yes skills find \"web-design-guidelines\" | head -n 30",
+        "exit_code": 0,
+        "duration": "5.1s",
+        "optional": true,
+        "notes": [],
+        "output": "███████╗██╗  ██╗██╗██╗     ██╗     ███████╗\n██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝\n███████╗█████╔╝ ██║██║     ██║     ███████╗\n╚════██║██╔═██╗ ██║██║     ██║     ╚════██║\n███████║██║  ██╗██║███████╗███████╗███████║\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝\n\nInstall with npx skills add <owner/repo@skill>\n\nvercel-labs/agent-skills@web-design-guidelines 140.5K installs\n└ https://skills.sh/vercel-labs/agent-skills/web-design-guidelines\n\nantfu/skills@web-design-guidelines 4.6K installs\n└ https://skills.sh/antfu/skills/web-design-guidelines\n\nsupercent-io/skills-template@web-design-guidelines 2.9K installs\n└ https://skills.sh/supercent-io/skills-template/web-design-guidelines\n\nlanggenius/dify@web-design-guidelines 688 installs\n└ https://skills.sh/langgenius/dify/web-design-guidelines\n\ndavila7/claude-code-templates@web-design-guidelines 315 installs\n└ https://skills.sh/davila7/claude-code-templates/web-design-guidelines\n\nsickn33/antigravity-awesome-skills@web-design-guidelines 309 installs\n└ https://skills.sh/sickn33/antigravity-awesome-skills/web-design-guidelines"
+      }
+    ]
+  },
+  {
+    "case_id": "S07",
+    "skill": "web-design-guidelines",
+    "status": "PASS",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "design_guideline_skill",
+        "command": "npx --yes skills find \"web design guidelines\" | head -n 30",
+        "exit_code": 0,
+        "duration": "5.5s",
+        "optional": false,
+        "notes": [],
+        "output": "███████╗██╗  ██╗██╗██╗     ██╗     ███████╗\n██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝\n███████╗█████╔╝ ██║██║     ██║     ███████╗\n╚════██║██╔═██╗ ██║██║     ██║     ╚════██║\n███████║██║  ██╗██║███████╗███████╗███████║\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝\n\nInstall with npx skills add <owner/repo@skill>\n\nvercel-labs/agent-skills@web-design-guidelines 140.5K installs\n└ https://skills.sh/vercel-labs/agent-skills/web-design-guidelines\n\nantfu/skills@web-design-guidelines 4.6K installs\n└ https://skills.sh/antfu/skills/web-design-guidelines\n\nsupercent-io/skills-template@web-design-guidelines 2.9K installs\n└ https://skills.sh/supercent-io/skills-template/web-design-guidelines\n\nlanggenius/dify@web-design-guidelines 688 installs\n└ https://skills.sh/langgenius/dify/web-design-guidelines\n\ndavila7/claude-code-templates@web-design-guidelines 315 installs\n└ https://skills.sh/davila7/claude-code-templates/web-design-guidelines\n\nsickn33/antigravity-awesome-skills@web-design-guidelines 309 installs\n└ https://skills.sh/sickn33/antigravity-awesome-skills/web-design-guidelines"
+      }
+    ]
+  },
+  {
+    "case_id": "S08",
+    "skill": "openai-whisper",
+    "status": "DEGRADED",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "whisper_binary",
+        "command": "command -v whisper >/dev/null",
+        "exit_code": 1,
+        "duration": "0.0s",
+        "optional": true,
+        "notes": [
+          "退出码不符: expect=0, actual=1"
+        ],
+        "output": ""
+      },
+      {
+        "label": "whisper_no_key_doc",
+        "command": "grep -n \"no API key\" references/skill_pages/openai-whisper.md | head -n 1",
+        "exit_code": 0,
+        "duration": "0.0s",
+        "optional": false,
+        "notes": [],
+        "output": "3:description: Local speech-to-text with the Whisper CLI (no API key)."
+      }
+    ]
+  },
+  {
+    "case_id": "S09",
+    "skill": "summarize",
+    "status": "PASS",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "summarize_candidates",
+        "command": "npx --yes skills find \"summarize\" | head -n 40",
+        "exit_code": 0,
+        "duration": "5.4s",
+        "optional": false,
+        "notes": [],
+        "output": "███████╗██╗  ██╗██╗██╗     ██╗     ███████╗\n██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝\n███████╗█████╔╝ ██║██║     ██║     ███████╗\n╚════██║██╔═██╗ ██║██║     ██║     ╚════██║\n███████║██║  ██╗██║███████╗███████╗███████║\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝\n\nInstall with npx skills add <owner/repo@skill>\n\nsteipete/clawdis@summarize 446 installs\n└ https://skills.sh/steipete/clawdis/summarize\n\ncoffeefuelbump/csv-data-summarizer-claude-skill@csv-data-summarizer 283 installs\n└ https://skills.sh/coffeefuelbump/csv-data-summarizer-claude-skill/csv-data-summarizer\n\nsickn33/antigravity-awesome-skills@youtube-summarizer 212 installs\n└ https://skills.sh/sickn33/antigravity-awesome-skills/youtube-summarizer\n\npatricio0312rev/skills@codebase-summarizer 62 installs\n└ https://skills.sh/patricio0312rev/skills/codebase-summarizer\n\ndkyazzentwatwa/chatgpt-skills@text-summarizer 48 installs\n└ https://skills.sh/dkyazzentwatwa/chatgpt-skills/text-summarizer\n\nyulong-me/skills@daily-news-summarizer 43 installs\n└ https://skills.sh/yulong-me/skills/daily-news-summarizer"
+      }
+    ]
+  },
+  {
+    "case_id": "S10",
+    "skill": "self-improving-agent",
+    "status": "PASS",
+    "timestamp": "2026-03-02T21:20:58",
+    "notes": [
+      {
+        "label": "self_improving_intro",
+        "command": "grep -n \"self-improving\" references/skill_pages/self-improving-agent.md | head -n 1",
+        "exit_code": 0,
+        "duration": "0.1s",
+        "optional": false,
+        "notes": [],
+        "output": "36:clawdhub install self-improving-agent"
+      },
+      {
+        "label": "self_improving_agent_count",
+        "command": "npx --yes skills find \"self improving agent\" | head -n 20",
+        "exit_code": 0,
+        "duration": "5.8s",
+        "optional": true,
+        "notes": [],
+        "output": "███████╗██╗  ██╗██╗██╗     ██╗     ███████╗\n██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝\n███████╗█████╔╝ ██║██║     ██║     ███████╗\n╚════██║██╔═██╗ ██║██║     ██║     ╚════██║\n███████║██║  ██╗██║███████╗███████╗███████║\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝\n\nInstall with npx skills add <owner/repo@skill>\n\nhalthelobster/proactive-agent@proactive-agent 3K installs\n└ https://skills.sh/halthelobster/proactive-agent/proactive-agent\n\ncharon-fan/agent-playbook@self-improving-agent 1.2K installs\n└ https://skills.sh/charon-fan/agent-playbook/self-improving-agent\n\npskoett/self-improving-agent@self-improvement 348 installs\n└ https://skills.sh/pskoett/self-improving-agent/self-improvement\n\nsundial-org/awesome-openclaw-skills@proactive-agent 44 installs"
+      }
+    ]
+  }
+]
