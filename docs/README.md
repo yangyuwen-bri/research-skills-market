@@ -80,6 +80,19 @@
    - 重新生成 `docs/index.html`（同时保持 `docs/market-showcase-v2.html` 兼容副本）
    - 发布 `docs/` 目录到 Pages
 
+第一次推送到新仓库时，如果 Pages 尚未启用，可能会遇到：
+
+`Error: There was an error while trying to update your GitHub Pages site. Please ensure your repository is configured to use GitHub Pages, with the source set to GitHub Actions.`
+
+这个错误说明仓库还没完成 Pages 一次性初始化。可按下面任意方式处理：
+
+- 手动初始化（推荐）：
+  - 再次打开 `Settings -> Pages`，确认 `Source = GitHub Actions` 已保存。
+  - 重新触发一次 workflow（`workflow_dispatch`）或等待下一次 push。
+- 自动化初始化（可选）：
+  - 在仓库 Secrets 配置 `PAGES_ADMIN_TOKEN`，值为有仓库管理员权限的 PAT。
+  - Workflow 会使用该 token 自动开启 Pages，后续无需手工点配置页。
+
 部署成功后，访问地址使用仓库根路径：
 
 ```text
