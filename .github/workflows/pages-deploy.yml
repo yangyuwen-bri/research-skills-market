@@ -27,9 +27,18 @@ jobs:
         run: |
           python3 scripts/publish_market_showcase.py --curated data/curated_market_v2.json --output docs/index.html
 
+      - name: Check optional pages admin token
+        id: check_pages_token
+        run: |
+          if [ -n "${{ secrets.PAGES_ADMIN_TOKEN }}" ]; then
+            echo "has_token=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_token=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Configure GitHub Pages (auto enable)
         id: configure_pages_with_pat
-        if: ${{ secrets.PAGES_ADMIN_TOKEN != '' }}
+        if: ${{ steps.check_pages_token.outputs.has_token == 'true' }}
         uses: actions/configure-pages@v5
         with:
           token: ${{ secrets.PAGES_ADMIN_TOKEN }}
@@ -37,7 +46,7 @@ jobs:
 
       - name: Configure GitHub Pages
         id: configure_pages
-        if: ${{ secrets.PAGES_ADMIN_TOKEN == '' || steps.configure_pages_with_pat.outcome != 'success' }}
+        if: ${{ steps.check_pages_token.outputs.has_token == 'false' || steps.configure_pages_with_pat.outcome != 'success' }}
         uses: actions/configure-pages@v5
 
       - name: Upload site
